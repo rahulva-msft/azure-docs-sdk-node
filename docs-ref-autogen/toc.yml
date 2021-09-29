@@ -76613,18 +76613,6 @@
     - uid: '@azure/core-auth.SASCredential'
       name: SASCredential
       items: []
-    - uid: '@azure/core-auth.SpanAttributes'
-      name: SpanAttributes
-      items: []
-    - uid: '@azure/core-auth.SpanAttributeValue'
-      name: SpanAttributeValue
-      items: []
-    - uid: '@azure/core-auth.SpanContext'
-      name: SpanContext
-      items: []
-    - uid: '@azure/core-auth.SpanOptions'
-      name: SpanOptions
-      items: []
     - uid: '@azure/core-auth.TokenCredential'
       name: TokenCredential
       items: []
@@ -76749,6 +76737,8 @@
     - uid: '@azure/core-client.XmlOptions'
       name: XmlOptions
       items: []
+- name: '@azure/core-crypto'
+  items: null
 - name: '@azure/core-http'
   items:
     - name: Overview
