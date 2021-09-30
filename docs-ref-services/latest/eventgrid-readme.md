@@ -11,7 +11,7 @@ ms.devlang: javascript
 ms.service: eventgrid
 ---
 
-# Azure Event Grid client library for JavaScript - Version 4.5.0-alpha.20210910.2 
+# Azure Event Grid client library for JavaScript - Version 4.5.0-alpha.20210930.1 
 
 
 [Azure Event Grid](https://azure.microsoft.com/services/event-grid/) is a cloud-based service that provides reliable event delivery at massive scale.

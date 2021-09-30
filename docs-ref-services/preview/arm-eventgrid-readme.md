@@ -11,7 +11,7 @@ ms.devlang: javascript
 ms.service: eventgrid
 ---
 
-# Azure EventGridManagement client library for JavaScript - Version 30.0.0-alpha.20210929.1 
+# Azure EventGridManagement client library for JavaScript - Version 30.0.0-alpha.20210930.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure EventGridManagement client.

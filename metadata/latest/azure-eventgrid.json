@@ -1,7 +1,7 @@
 {
   "Name": "@azure/eventgrid",
-  "Version": "4.5.0-alpha.20210910.2",
-  "DevVersion": "4.5.0-alpha.20210928.3",
+  "Version": "4.5.0-alpha.20210930.1",
+  "DevVersion": "4.5.0-alpha.20210930.1",
   "DirectoryPath": "sdk/eventgrid/eventgrid",
   "ServiceDirectory": "eventgrid",
   "ReadMePath": "sdk/eventgrid/eventgrid/README.md",

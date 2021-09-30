@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-eventgrid",
-  "Version": "30.0.0-alpha.20210929.1",
-  "DevVersion": "30.0.0-alpha.20210928.3",
+  "Version": "30.0.0-alpha.20210930.1",
+  "DevVersion": "30.0.0-alpha.20210930.1",
   "DirectoryPath": "sdk/eventgrid/arm-eventgrid",
   "ServiceDirectory": "eventgrid",
   "ReadMePath": "sdk/eventgrid/arm-eventgrid/README.md",
