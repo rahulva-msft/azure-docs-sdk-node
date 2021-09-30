@@ -101,9 +101,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'timespan: TimeInterval'
+      content: 'timespan: QueryTimeInterval'
       return:
-        type: <xref uid="@azure/monitor-query.TimeInterval" />
+        type: <xref uid="@azure/monitor-query.QueryTimeInterval" />
         description: ''
   - name: workspaceId
     uid: '@azure/monitor-query.QueryBatch.workspaceId'
