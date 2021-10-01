@@ -18,9 +18,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'error?: ErrorInfo'
+      content: 'error?: LogsErrorInfo'
       return:
-        type: <xref uid="@azure/monitor-query.ErrorInfo" />
+        type: <xref uid="@azure/monitor-query.LogsErrorInfo" />
         description: ''
   - name: statistics
     uid: '@azure/monitor-query.LogsQueryResult.statistics'
