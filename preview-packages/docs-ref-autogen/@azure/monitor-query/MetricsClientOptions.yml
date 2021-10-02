@@ -22,6 +22,25 @@ properties:
       return:
         type: boolean
         description: ''
+  - name: audience
+    uid: '@azure/monitor-query.MetricsClientOptions.audience'
+    package: '@azure/monitor-query'
+    summary: >-
+      Gets or sets the audience to use for authentication with Azure Active
+      Directory.
+
+      The authentication scope will be set from this audience.
+
+      Defaults to "https://management.azure.com/.default"
+    fullName: audience
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'audience?: string'
+      return:
+        type: string
+        description: ''
   - name: endpoint
     uid: '@azure/monitor-query.MetricsClientOptions.endpoint'
     package: '@azure/monitor-query'

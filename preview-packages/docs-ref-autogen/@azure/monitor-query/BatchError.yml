@@ -1,0 +1,93 @@
+### YamlMime:TSType
+name: BatchError
+uid: '@azure/monitor-query.BatchError'
+package: '@azure/monitor-query'
+summary: >-
+  Batch Error class for type of each error item in the
+  <xref:AggregateBatchError> list returned in logs query batch API
+fullName: BatchError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: BatchError(LogsErrorInfo)
+    uid: '@azure/monitor-query.BatchError.constructor'
+    package: '@azure/monitor-query'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new BatchError(errorInfo: LogsErrorInfo)'
+      parameters:
+        - id: errorInfo
+          type: <xref uid="@azure/monitor-query.LogsErrorInfo" />
+          description: ''
+properties:
+  - name: code
+    uid: '@azure/monitor-query.BatchError.code'
+    package: '@azure/monitor-query'
+    summary: A machine readable error code.
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code: string'
+      return:
+        type: string
+        description: ''
+  - name: Error
+    uid: '@azure/monitor-query.BatchError.Error'
+    package: '@azure/monitor-query'
+    summary: ''
+    fullName: Error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type: ErrorConstructor
+        description: ''
+  - name: message
+    uid: '@azure/monitor-query.BatchError.message'
+    package: '@azure/monitor-query'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/monitor-query.BatchError.name'
+    package: '@azure/monitor-query'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: stack
+    uid: '@azure/monitor-query.BatchError.stack'
+    package: '@azure/monitor-query'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack?: string'
+      return:
+        type: string
+        description: ''
+extends: Error
