@@ -22,20 +22,24 @@ properties:
       return:
         type: boolean
         description: ''
-  - name: credentialOptions
-    uid: '@azure/monitor-query.LogsQueryClientOptions.credentialOptions'
+  - name: audience
+    uid: '@azure/monitor-query.LogsQueryClientOptions.audience'
     package: '@azure/monitor-query'
-    summary: |
-      The authentication scopes to use when getting authentication tokens.
+    summary: >-
+      Gets or sets the audience to use for authentication with Azure Active
+      Directory.
+
+      The authentication scope will be set from this audience.
+
       Defaults to 'https://api.loganalytics.io/.default'
-    fullName: credentialOptions
+    fullName: audience
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'credentialOptions?: Object'
+      content: 'audience?: string'
       return:
-        type: Object
+        type: string
         description: ''
   - name: endpoint
     uid: '@azure/monitor-query.LogsQueryClientOptions.endpoint'

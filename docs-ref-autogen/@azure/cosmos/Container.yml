@@ -166,7 +166,7 @@ methods:
           type: string | <xref uid="@azure/cosmos.SqlQuerySpec" />
           description: ''
       return:
-        type: Promise&lt;Response&lt;PartitionedQueryExecutionInfo&gt;&gt;
+        type: Promise&lt;Response_2&lt;PartitionedQueryExecutionInfo&gt;&gt;
         description: ''
   - name: 'item(string, PartitionKey)'
     uid: '@azure/cosmos.Container.item'

@@ -196,7 +196,7 @@ typeAliases:
   - '@azure/arm-eventhub.Eventhub'
   - '@azure/arm-eventhub.IPAction'
   - '@azure/arm-eventhub.IpFilterRule'
-  - '@azure/arm-eventhub.KeyType'
+  - '@azure/arm-eventhub.KeyType_2'
   - '@azure/arm-eventhub.MessagingRegions'
   - '@azure/arm-eventhub.NamespacesCheckNameAvailabilityResponse'
   - '@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleResponse'
