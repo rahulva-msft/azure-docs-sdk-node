@@ -1,6 +1,6 @@
 ---
-title: Azure Purview Account REST client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure-rest/purview-account, purview
+title: Azure Purview Administration REST client library for JavaScript
+keywords: Azure, javascript, SDK, API, @azure-rest/purview-administration, purview
 author: maggiepint
 ms.author: magpint
 ms.date: 10/05/2021
@@ -11,18 +11,17 @@ ms.devlang: javascript
 ms.service: purview
 ---
 
-# Azure Purview Account REST client library for JavaScript - Version 1.0.0-alpha.20211001.1 
+# Azure Purview Administration REST client library for JavaScript - Version 1.0.0-alpha.20211001.1 
 
 
-Azure Purview Account is a fully managed cloud service whose users can discover the data sources they need and understand the data sources they find. At the same time, Data Account helps organizations get more value from their existing investments.
+Azure Purview data plane administration. It supports data plane operations. It can manage account, collections, keys, resource set rule, metadata policy, metadata roles.
 
-- Search for data using technical or business terms
-- Browse associated technical, business, semantic, and operational metadata
-- Identify the sensitivity level of data.
+## Azure Purview Metadata Policies
 
 **Please rely heavily on the [service's documentation][account_product_documentation] and our [REST client docs][rest_client] to use this library**
 
 Key links:
+
 - [Source code][source_code]
 - [Package (NPM)][account_npm]
 - [API reference documentation][account_ref_docs]
@@ -69,9 +68,17 @@ AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_CLIENT_SECRET
 Use the returned token credential to authenticate the client:
 
 ```typescript
-import PurviewAccount from "@azure-rest/purview-account";
+import {
+  PurviewAccountClient,
+  PurviewMetadataPoliciesClient,
+} from "@azure-rest/purview-administration";
 import { DefaultAzureCredential } from "@azure/identity";
-const client = PurviewAccount(
+const accountClient = PurviewAccountClient(
+  "https://<my-account-name>.purview.azure.com",
+  new DefaultAzureCredential()
+);
+
+const metadataClient = PurviewAccountClient(
   "https://<my-account-name>.purview.azure.com",
   new DefaultAzureCredential()
 );
@@ -90,7 +97,7 @@ The following section shows you how to initialize and authenticate your client, 
 - [Get A List of Collections](#get-a-list-of-collections "Get A List of Collections")
 
 ```typescript
-import PurviewAccount from "@azure-rest/purview-account";
+import { PurviewAccountClient } from "@azure-rest/purview-administration";
 import { DefaultAzureCredential } from "@azure/identity";
 import dotenv from "dotenv";
 
@@ -100,7 +107,7 @@ const endpoint = process.env["ENDPOINT"] || "";
 
 async function main() {
   console.log("== List collections sample ==");
-  const client = PurviewAccount(endpoint, new DefaultAzureCredential());
+  const client = PurviewAccountClient(endpoint, new DefaultAzureCredential());
 
   const response = await client.path("/collections").get();
 
@@ -112,7 +119,6 @@ async function main() {
 }
 
 main().catch(console.error);
-
 ```
 
 ## Troubleshooting
@@ -148,7 +154,7 @@ If you'd like to contribute to this library, please read the [contributing guide
 [account_ref_docs]: https://azure.github.io/azure-sdk-for-js
 [azure_subscription]: https://azure.microsoft.com/free/
 [purview_resource]: https://docs.microsoft.com/azure/purview/create-catalog-portal
-[authenticate_with_token]: https://docs.microsoft.com/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-an-authentication-token
+[authenticate_with_token]: https://docs.microsoft.com/azure/purview/tutorial-using-rest-apis#create-a-service-principal-application
 [azure_identity_credentials]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#credentials
 [azure_identity_npm]: https://www.npmjs.com/package/@azure/identity
 [enable_aad]: https://docs.microsoft.com/azure/purview/create-catalog-portal#add-a-security-principal-to-a-data-plane-role
