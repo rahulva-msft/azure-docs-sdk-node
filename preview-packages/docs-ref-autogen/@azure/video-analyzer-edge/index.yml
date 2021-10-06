@@ -42,7 +42,7 @@ interfaces:
   - '@azure/video-analyzer-edge.PipelineTopologyCollection'
   - '@azure/video-analyzer-edge.PipelineTopologyProperties'
   - '@azure/video-analyzer-edge.ProcessorNodeBase'
-  - '@azure/video-analyzer-edge.Request'
+  - '@azure/video-analyzer-edge.Request_2'
   - '@azure/video-analyzer-edge.SamplingOptions'
   - '@azure/video-analyzer-edge.SinkNodeBase'
   - '@azure/video-analyzer-edge.SourceNodeBase'
@@ -142,7 +142,7 @@ functions:
             require a pipeline topology.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.PipelineTopology" />&gt;
         description: ''
   - name: 'createRequest("pipelineTopologyGet", string)'
@@ -167,7 +167,7 @@ functions:
             require the name of a pipeline topology.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''
   - name: createRequest("pipelineTopologyList")
@@ -186,7 +186,7 @@ functions:
             The string which determines the type of request. In this case a
             PipelineTopologyList request.
       return:
-        type: <xref uid="@azure/video-analyzer-edge.Request" />
+        type: <xref uid="@azure/video-analyzer-edge.Request_2" />
         description: ''
   - name: 'createRequest("pipelineTopologyDelete", string)'
     uid: '@azure/video-analyzer-edge.createRequest_3'
@@ -212,7 +212,7 @@ functions:
             require the name of a pipeline topology.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''
   - name: 'createRequest("livePipelineSet", LivePipeline)'
@@ -239,7 +239,7 @@ functions:
             live pipeline.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.LivePipeline" />&gt;
         description: ''
   - name: 'createRequest("livePipelineGet", string)'
@@ -264,7 +264,7 @@ functions:
             live pipeline name.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''
   - name: createRequest("livePipelineList")
@@ -283,7 +283,7 @@ functions:
             The string which determines the type of request. In this case a
             LivePipelineList request.
       return:
-        type: <xref uid="@azure/video-analyzer-edge.Request" />
+        type: <xref uid="@azure/video-analyzer-edge.Request_2" />
         description: ''
   - name: 'createRequest("livePipelineDelete", string)'
     uid: '@azure/video-analyzer-edge.createRequest_7'
@@ -307,7 +307,7 @@ functions:
             a live pipeline name.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''
   - name: 'createRequest("livePipelineActivate", string)'
@@ -332,7 +332,7 @@ functions:
             require a live pipeline name.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''
   - name: 'createRequest("livePipelineDeactivate", string)'
@@ -359,6 +359,6 @@ functions:
             require a live pipeline name.
       return:
         type: >-
-          <xref uid="@azure/video-analyzer-edge.Request" />&lt;<xref
+          <xref uid="@azure/video-analyzer-edge.Request_2" />&lt;<xref
           uid="@azure/video-analyzer-edge.NameObject" />&gt;
         description: ''

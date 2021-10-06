@@ -53,6 +53,12 @@
     uid: azure.nodejs.sdk.landingpage.services.communication.pre
     landingPageType: Service
     items:
+    - name: Identity
+      uid: azure.nodejs.sdk.landingpage.services.communication.Identity.pre
+      href: ~/docs-ref-services/preview/communication-identity-readme.md
+      landingPageType: Service
+      children:
+      - '@azure/communication-identity'
     - name: Chat
       uid: azure.nodejs.sdk.landingpage.services.communication.Chat.pre
       href: ~/docs-ref-services/preview/communication-chat-readme.md
@@ -242,6 +248,13 @@
     uid: azure.nodejs.sdk.landingpage.services.servicebus.pre
     href: ~/docs-ref-services/preview/service-bus.md
     items:
+    - name: Client
+      uid: azure.nodejs.sdk.landingPage.services.servicebus.Client.pre
+      href: ~/docs-ref-services/preview/service-bus-readme.md
+      landingPageType: Service
+      children:
+      - azure-sb
+      - '@azure/service-bus'
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.servicebus.Management.pre
       landingPageType: Service
