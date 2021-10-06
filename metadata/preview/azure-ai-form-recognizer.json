@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/ai-form-recognizer",
+  "Version": "4.0.0-alpha.20211005.5",
+  "DevVersion": "4.0.0-alpha.20211005.5",
+  "DirectoryPath": "sdk/formrecognizer/ai-form-recognizer",
+  "ServiceDirectory": "formrecognizer",
+  "ReadMePath": "sdk/formrecognizer/ai-form-recognizer/README.md",
+  "ChangeLogPath": "sdk/formrecognizer/ai-form-recognizer/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-form-recognizer",
+  "ReleaseStatus": null
+}
