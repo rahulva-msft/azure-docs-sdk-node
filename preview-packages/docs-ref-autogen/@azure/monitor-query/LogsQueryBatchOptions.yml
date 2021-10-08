@@ -2,9 +2,7 @@
 name: LogsQueryBatchOptions
 uid: '@azure/monitor-query.LogsQueryBatchOptions'
 package: '@azure/monitor-query'
-summary: >-
-  Configurable HTTP request settings and `throwOnAnyFailure` setting for the
-  Logs query batch operation.
+summary: Configurable HTTP request settings for the Logs query batch operation.
 fullName: LogsQueryBatchOptions
 remarks: ''
 isPreview: false
@@ -65,21 +63,6 @@ properties:
       content: 'serializerOptions?: SerializerOptions'
       return:
         type: SerializerOptions
-        description: ''
-  - name: throwOnAnyFailure
-    uid: '@azure/monitor-query.LogsQueryBatchOptions.throwOnAnyFailure'
-    package: '@azure/monitor-query'
-    summary: >-
-      If true, will cause the batch operation to throw if any query operations
-      in the batch did not succeed.
-    fullName: throwOnAnyFailure
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'throwOnAnyFailure?: boolean'
-      return:
-        type: boolean
         description: ''
   - name: tracingOptions
     uid: '@azure/monitor-query.LogsQueryBatchOptions.tracingOptions'

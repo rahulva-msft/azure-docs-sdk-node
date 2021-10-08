@@ -22,21 +22,6 @@ properties:
       return:
         type: boolean
         description: ''
-  - name: credentialOptions
-    uid: '@azure/monitor-query.LogsQueryClientOptions.credentialOptions'
-    package: '@azure/monitor-query'
-    summary: |
-      The authentication scopes to use when getting authentication tokens.
-      Defaults to 'https://api.loganalytics.io/.default'
-    fullName: credentialOptions
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'credentialOptions?: Object'
-      return:
-        type: Object
-        description: ''
   - name: endpoint
     uid: '@azure/monitor-query.LogsQueryClientOptions.endpoint'
     package: '@azure/monitor-query'

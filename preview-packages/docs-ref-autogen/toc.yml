@@ -842,6 +842,9 @@
     - uid: '@azure-rest/agrifood-farming.GeoJsonObjectType'
       name: GeoJsonObjectType
       items: []
+    - uid: '@azure-rest/agrifood-farming.GetArrayType'
+      name: GetArrayType
+      items: []
     - uid: '@azure-rest/agrifood-farming.HarvestData'
       name: HarvestData
       items: []
@@ -1126,6 +1129,9 @@
       items: []
     - uid: '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties'
       name: OAuthTokensListQueryParamProperties
+      items: []
+    - uid: '@azure-rest/agrifood-farming.PaginateReturn'
+      name: PaginateReturn
       items: []
     - uid: >-
         @azure-rest/agrifood-farming.Paths1LxjoxzFarmersFarmeridAttachmentsAttachmentidPatchRequestbodyContentMultipartFormDataSchema
@@ -2616,6 +2622,530 @@
       name: ScopedRule
       items: []
     - uid: '@azure-rest/purview-account.SystemData'
+      name: SystemData
+      items: []
+- name: '@azure-rest/purview-administration'
+  items:
+    - name: Overview
+      uid: '@azure-rest/purview-administration'
+    - uid: '@azure-rest/purview-administration.AccessKeyOptions'
+      name: AccessKeyOptions
+      items: []
+    - uid: '@azure-rest/purview-administration.AccessKeys'
+      name: AccessKeys
+      items: []
+    - uid: '@azure-rest/purview-administration.Account'
+      name: Account
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountEndpoints'
+      name: AccountEndpoints
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountProperties'
+      name: AccountProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountPropertiesEndpoints'
+      name: AccountPropertiesEndpoints
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountPropertiesManagedResources'
+      name: AccountPropertiesManagedResources
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsGetAccessKeys'
+      name: AccountsGetAccessKeys
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsGetAccessKeys200Response'
+      name: AccountsGetAccessKeys200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsGetAccessKeysdefaultResponse'
+      name: AccountsGetAccessKeysdefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsGetAccessKeysParameters'
+      name: AccountsGetAccessKeysParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsGetAccountProperties'
+      name: AccountsGetAccountProperties
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsGetAccountProperties200Response
+      name: AccountsGetAccountProperties200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsGetAccountPropertiesdefaultResponse
+      name: AccountsGetAccountPropertiesdefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsGetAccountPropertiesParameters
+      name: AccountsGetAccountPropertiesParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountSku'
+      name: AccountSku
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsRegenerateAccessKey'
+      name: AccountsRegenerateAccessKey
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsRegenerateAccessKey200Response
+      name: AccountsRegenerateAccessKey200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsRegenerateAccessKeyBodyParam'
+      name: AccountsRegenerateAccessKeyBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsRegenerateAccessKeydefaultResponse
+      name: AccountsRegenerateAccessKeydefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountsRegenerateAccessKeyParameters'
+      name: AccountsRegenerateAccessKeyParameters
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsUpdateAccountProperties200Response
+      name: AccountsUpdateAccountProperties200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsUpdateAccountPropertiesBodyParam
+      name: AccountsUpdateAccountPropertiesBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsUpdateAccountPropertiesdefaultResponse
+      name: AccountsUpdateAccountPropertiesdefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.AccountsUpdateAccountPropertiesParameters
+      name: AccountsUpdateAccountPropertiesParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.AccountSystemData'
+      name: AccountSystemData
+      items: []
+    - uid: '@azure-rest/purview-administration.AdvancedResourceSet'
+      name: AdvancedResourceSet
+      items: []
+    - uid: '@azure-rest/purview-administration.AttributeMatcher'
+      name: AttributeMatcher
+      items: []
+    - uid: '@azure-rest/purview-administration.AttributeRule'
+      name: AttributeRule
+      items: []
+    - uid: '@azure-rest/purview-administration.Client_2'
+      name: Client_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Client_3'
+      name: Client_3
+      items: []
+    - uid: '@azure-rest/purview-administration.CloudConnectors'
+      name: CloudConnectors
+      items: []
+    - uid: '@azure-rest/purview-administration.Collection'
+      name: Collection
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionList'
+      name: CollectionList
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionNameResponse'
+      name: CollectionNameResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionNameResponseList'
+      name: CollectionNameResponseList
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionPathResponse'
+      name: CollectionPathResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionReference'
+      name: CollectionReference
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionReference_2'
+      name: CollectionReference_2
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsCreateOrUpdateCollection200Response
+      name: CollectionsCreateOrUpdateCollection200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsCreateOrUpdateCollectionBodyParam
+      name: CollectionsCreateOrUpdateCollectionBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsCreateOrUpdateCollectiondefaultResponse
+      name: CollectionsCreateOrUpdateCollectiondefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsCreateOrUpdateCollectionParameters
+      name: CollectionsCreateOrUpdateCollectionParameters
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsDeleteCollection204Response
+      name: CollectionsDeleteCollection204Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsDeleteCollectiondefaultResponse
+      name: CollectionsDeleteCollectiondefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsDeleteCollectionParameters'
+      name: CollectionsDeleteCollectionParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsGetCollection'
+      name: CollectionsGetCollection
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsGetCollection200Response'
+      name: CollectionsGetCollection200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsGetCollectiondefaultResponse
+      name: CollectionsGetCollectiondefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsGetCollectionParameters'
+      name: CollectionsGetCollectionParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsGetCollectionPath'
+      name: CollectionsGetCollectionPath
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsGetCollectionPath200Response
+      name: CollectionsGetCollectionPath200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsGetCollectionPathdefaultResponse
+      name: CollectionsGetCollectionPathdefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsGetCollectionPathParameters
+      name: CollectionsGetCollectionPathParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsListChildCollectionNames'
+      name: CollectionsListChildCollectionNames
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListChildCollectionNames200Response
+      name: CollectionsListChildCollectionNames200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListChildCollectionNamesdefaultResponse
+      name: CollectionsListChildCollectionNamesdefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListChildCollectionNamesParameters
+      name: CollectionsListChildCollectionNamesParameters
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListChildCollectionNamesQueryParam
+      name: CollectionsListChildCollectionNamesQueryParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListChildCollectionNamesQueryParamProperties
+      name: CollectionsListChildCollectionNamesQueryParamProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsListCollections'
+      name: CollectionsListCollections
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsListCollections200Response'
+      name: CollectionsListCollections200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListCollectionsdefaultResponse
+      name: CollectionsListCollectionsdefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsListCollectionsParameters'
+      name: CollectionsListCollectionsParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionsListCollectionsQueryParam'
+      name: CollectionsListCollectionsQueryParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.CollectionsListCollectionsQueryParamProperties
+      name: CollectionsListCollectionsQueryParamProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.CollectionSystemData'
+      name: CollectionSystemData
+      items: []
+    - uid: '@azure-rest/purview-administration.ComplexReplacerConfig'
+      name: ComplexReplacerConfig
+      items: []
+    - uid: '@azure-rest/purview-administration.DataPlaneAccountUpdateParameters'
+      name: DataPlaneAccountUpdateParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.DecisionRule'
+      name: DecisionRule
+      items: []
+    - uid: '@azure-rest/purview-administration.ErrorModel'
+      name: ErrorModel
+      items: []
+    - uid: '@azure-rest/purview-administration.ErrorModel_2'
+      name: ErrorModel_2
+      items: []
+    - uid: '@azure-rest/purview-administration.ErrorResponseModel'
+      name: ErrorResponseModel
+      items: []
+    - uid: '@azure-rest/purview-administration.ErrorResponseModelError'
+      name: ErrorResponseModelError
+      items: []
+    - uid: '@azure-rest/purview-administration.ErrorResponseModel_2'
+      name: ErrorResponseModel_2
+      items: []
+    - uid: '@azure-rest/purview-administration.FastRegex'
+      name: FastRegex
+      items: []
+    - uid: '@azure-rest/purview-administration.Filter'
+      name: Filter
+      items: []
+    - uid: '@azure-rest/purview-administration.GetArrayType'
+      name: GetArrayType
+      items: []
+    - uid: '@azure-rest/purview-administration.GetArrayType_2'
+      name: GetArrayType_2
+      items: []
+    - uid: '@azure-rest/purview-administration.GetPage'
+      name: GetPage
+      items: []
+    - uid: '@azure-rest/purview-administration.GetPage_2'
+      name: GetPage_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Identity'
+      name: Identity
+      items: []
+    - uid: '@azure-rest/purview-administration.ManagedResources'
+      name: ManagedResources
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicy'
+      name: MetadataPolicy
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyGet200Response'
+      name: MetadataPolicyGet200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyGetdefaultHeaders'
+      name: MetadataPolicyGetdefaultHeaders
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyGetdefaultResponse'
+      name: MetadataPolicyGetdefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyGetParameters'
+      name: MetadataPolicyGetParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyList'
+      name: MetadataPolicyList
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAll'
+      name: MetadataPolicyListAll
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAll200Response'
+      name: MetadataPolicyListAll200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAlldefaultHeaders'
+      name: MetadataPolicyListAlldefaultHeaders
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAlldefaultResponse'
+      name: MetadataPolicyListAlldefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAllParameters'
+      name: MetadataPolicyListAllParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyListAllQueryParam'
+      name: MetadataPolicyListAllQueryParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.MetadataPolicyListAllQueryParamProperties
+      name: MetadataPolicyListAllQueryParamProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyProperties'
+      name: MetadataPolicyProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdate'
+      name: MetadataPolicyUpdate
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdate200Response'
+      name: MetadataPolicyUpdate200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdateBodyParam'
+      name: MetadataPolicyUpdateBodyParam
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdatedefaultHeaders'
+      name: MetadataPolicyUpdatedefaultHeaders
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdatedefaultResponse'
+      name: MetadataPolicyUpdatedefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataPolicyUpdateParameters'
+      name: MetadataPolicyUpdateParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRole'
+      name: MetadataRole
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRoleList'
+      name: MetadataRoleList
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRoleProperties'
+      name: MetadataRoleProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRolesList'
+      name: MetadataRolesList
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRolesList200Response'
+      name: MetadataRolesList200Response
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRolesListdefaultHeaders'
+      name: MetadataRolesListdefaultHeaders
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRolesListdefaultResponse'
+      name: MetadataRolesListdefaultResponse
+      items: []
+    - uid: '@azure-rest/purview-administration.MetadataRolesListParameters'
+      name: MetadataRolesListParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.Models'
+      name: Models
+      items: []
+    - uid: '@azure-rest/purview-administration.Models_2'
+      name: Models_2
+      items: []
+    - uid: '@azure-rest/purview-administration.NormalizationRule'
+      name: NormalizationRule
+      items: []
+    - uid: '@azure-rest/purview-administration.PaginateReturn'
+      name: PaginateReturn
+      items: []
+    - uid: '@azure-rest/purview-administration.PaginateReturn_2'
+      name: PaginateReturn_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Pagination'
+      name: Pagination
+      items: []
+    - uid: '@azure-rest/purview-administration.Pagination_2'
+      name: Pagination_2
+      items: []
+    - uid: '@azure-rest/purview-administration.PagingOptions'
+      name: PagingOptions
+      items: []
+    - uid: '@azure-rest/purview-administration.PagingOptions_2'
+      name: PagingOptions_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Parameters_2'
+      name: Parameters_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Parameters_3'
+      name: Parameters_3
+      items: []
+    - uid: '@azure-rest/purview-administration.PathPatternExtractorConfig'
+      name: PathPatternExtractorConfig
+      items: []
+    - uid: '@azure-rest/purview-administration.PrivateEndpoint'
+      name: PrivateEndpoint
+      items: []
+    - uid: '@azure-rest/purview-administration.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure-rest/purview-administration.PrivateEndpointConnectionProperties'
+      name: PrivateEndpointConnectionProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.PrivateLinkServiceConnectionState'
+      name: PrivateLinkServiceConnectionState
+      items: []
+    - uid: '@azure-rest/purview-administration.PurviewAccount'
+      name: PurviewAccount
+      items: []
+    - uid: '@azure-rest/purview-administration.PurviewAccountRestClient'
+      name: PurviewAccountRestClient
+      items: []
+    - uid: '@azure-rest/purview-administration.PurviewMetadataPolicies'
+      name: PurviewMetadataPolicies
+      items: []
+    - uid: '@azure-rest/purview-administration.PurviewMetadataPoliciesRestClient'
+      name: PurviewMetadataPoliciesRestClient
+      items: []
+    - uid: '@azure-rest/purview-administration.RegexReplacer'
+      name: RegexReplacer
+      items: []
+    - uid: '@azure-rest/purview-administration.ResourceSetRuleConfig'
+      name: ResourceSetRuleConfig
+      items: []
+    - uid: '@azure-rest/purview-administration.ResourceSetRuleConfigList'
+      name: ResourceSetRuleConfigList
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesCreateOrUpdateResourceSetRule200Response
+      name: ResourceSetRulesCreateOrUpdateResourceSetRule200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesCreateOrUpdateResourceSetRuleBodyParam
+      name: ResourceSetRulesCreateOrUpdateResourceSetRuleBodyParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesCreateOrUpdateResourceSetRuledefaultResponse
+      name: ResourceSetRulesCreateOrUpdateResourceSetRuledefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesCreateOrUpdateResourceSetRuleParameters
+      name: ResourceSetRulesCreateOrUpdateResourceSetRuleParameters
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesDeleteResourceSetRule200Response
+      name: ResourceSetRulesDeleteResourceSetRule200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesDeleteResourceSetRule204Response
+      name: ResourceSetRulesDeleteResourceSetRule204Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesDeleteResourceSetRuledefaultResponse
+      name: ResourceSetRulesDeleteResourceSetRuledefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesDeleteResourceSetRuleParameters
+      name: ResourceSetRulesDeleteResourceSetRuleParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.ResourceSetRulesGetResourceSetRule'
+      name: ResourceSetRulesGetResourceSetRule
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesGetResourceSetRule200Response
+      name: ResourceSetRulesGetResourceSetRule200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesGetResourceSetRuledefaultResponse
+      name: ResourceSetRulesGetResourceSetRuledefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesGetResourceSetRuleParameters
+      name: ResourceSetRulesGetResourceSetRuleParameters
+      items: []
+    - uid: '@azure-rest/purview-administration.ResourceSetRulesListResourceSetRules'
+      name: ResourceSetRulesListResourceSetRules
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesListResourceSetRules200Response
+      name: ResourceSetRulesListResourceSetRules200Response
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesListResourceSetRulesdefaultResponse
+      name: ResourceSetRulesListResourceSetRulesdefaultResponse
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesListResourceSetRulesParameters
+      name: ResourceSetRulesListResourceSetRulesParameters
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesListResourceSetRulesQueryParam
+      name: ResourceSetRulesListResourceSetRulesQueryParam
+      items: []
+    - uid: >-
+        @azure-rest/purview-administration.ResourceSetRulesListResourceSetRulesQueryParamProperties
+      name: ResourceSetRulesListResourceSetRulesQueryParamProperties
+      items: []
+    - uid: '@azure-rest/purview-administration.Responses'
+      name: Responses
+      items: []
+    - uid: '@azure-rest/purview-administration.Responses_2'
+      name: Responses_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Routes'
+      name: Routes
+      items: []
+    - uid: '@azure-rest/purview-administration.Routes_2'
+      name: Routes_2
+      items: []
+    - uid: '@azure-rest/purview-administration.Rule'
+      name: Rule
+      items: []
+    - uid: '@azure-rest/purview-administration.ScopedRule'
+      name: ScopedRule
+      items: []
+    - uid: '@azure-rest/purview-administration.SystemData'
       name: SystemData
       items: []
 - name: '@azure-rest/purview-catalog'
@@ -7508,6 +8038,241 @@
     - uid: '@azure/ai-anomaly-detector.TimeSeriesPoint'
       name: TimeSeriesPoint
       items: []
+- name: '@azure/ai-form-recognizer'
+  items:
+    - name: Overview
+      uid: '@azure/ai-form-recognizer'
+    - uid: '@azure/ai-form-recognizer.AnalysisPoller'
+      name: AnalysisPoller
+      items: []
+    - uid: '@azure/ai-form-recognizer.AnalyzedDocument'
+      name: AnalyzedDocument
+      items: []
+    - uid: '@azure/ai-form-recognizer.AnalyzeDocumentsOptions'
+      name: AnalyzeDocumentsOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.AnalyzeResult'
+      name: AnalyzeResult
+      items: []
+    - uid: '@azure/ai-form-recognizer.AnalyzeResultOperationStatus'
+      name: AnalyzeResultOperationStatus
+      items: []
+    - uid: '@azure/ai-form-recognizer.BoundingRegion'
+      name: BoundingRegion
+      items: []
+    - uid: '@azure/ai-form-recognizer.BuildModelOptions'
+      name: BuildModelOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.BusinessCard'
+      name: BusinessCard
+      items: []
+    - uid: '@azure/ai-form-recognizer.ContentType'
+      name: ContentType
+      items: []
+    - uid: '@azure/ai-form-recognizer.CopyAuthorization'
+      name: CopyAuthorization
+      items: []
+    - uid: '@azure/ai-form-recognizer.CopyModelOptions'
+      name: CopyModelOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.CustomDocumentModelsInfo'
+      name: CustomDocumentModelsInfo
+      items: []
+    - uid: '@azure/ai-form-recognizer.DeleteModelOptions'
+      name: DeleteModelOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocTypeInfo'
+      name: DocTypeInfo
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentAnalysisClient'
+      name: DocumentAnalysisClient
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentAnalysisClientOptions'
+      name: DocumentAnalysisClientOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentAnalysisPollOperationState'
+      name: DocumentAnalysisPollOperationState
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentArrayField'
+      name: DocumentArrayField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentCountryRegionField'
+      name: DocumentCountryRegionField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentDateField'
+      name: DocumentDateField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentEntity'
+      name: DocumentEntity
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentField'
+      name: DocumentField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentFieldCommon'
+      name: DocumentFieldCommon
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentFieldSchema'
+      name: DocumentFieldSchema
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentFieldType'
+      name: DocumentFieldType
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentIntegerField'
+      name: DocumentIntegerField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentKeyValueElement'
+      name: DocumentKeyValueElement
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentKeyValuePair'
+      name: DocumentKeyValuePair
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentLine'
+      name: DocumentLine
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentModel'
+      name: DocumentModel
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentModelAdministrationClient'
+      name: DocumentModelAdministrationClient
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentModelAdministrationClientOptions'
+      name: DocumentModelAdministrationClientOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentNumberField'
+      name: DocumentNumberField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentObjectField'
+      name: DocumentObjectField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentPage'
+      name: DocumentPage
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentPhoneNumberField'
+      name: DocumentPhoneNumberField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentSelectionMark'
+      name: DocumentSelectionMark
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentSelectionMarkField'
+      name: DocumentSelectionMarkField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentSignatureField'
+      name: DocumentSignatureField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentSignatureType'
+      name: DocumentSignatureType
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentSpan'
+      name: DocumentSpan
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentStringField'
+      name: DocumentStringField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentStyle'
+      name: DocumentStyle
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentTable'
+      name: DocumentTable
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentTableCell'
+      name: DocumentTableCell
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentTableCellKind'
+      name: DocumentTableCellKind
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentTimeField'
+      name: DocumentTimeField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentValueField'
+      name: DocumentValueField
+      items: []
+    - uid: '@azure/ai-form-recognizer.DocumentWord'
+      name: DocumentWord
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormRecognizerApiVersion'
+      name: FormRecognizerApiVersion
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormRecognizerCommonClientOptions'
+      name: FormRecognizerCommonClientOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormRecognizerRequestBody'
+      name: FormRecognizerRequestBody
+      items: []
+    - uid: '@azure/ai-form-recognizer.GeneratedDocument'
+      name: GeneratedDocument
+      items: []
+    - uid: '@azure/ai-form-recognizer.GeneratedDocumentField'
+      name: GeneratedDocumentField
+      items: []
+    - uid: '@azure/ai-form-recognizer.GenericDocumentResult'
+      name: GenericDocumentResult
+      items: []
+    - uid: '@azure/ai-form-recognizer.GetCopyAuthorizationOptions'
+      name: GetCopyAuthorizationOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.GetInfoOptions'
+      name: GetInfoOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.GetInfoResponse'
+      name: GetInfoResponse
+      items: []
+    - uid: '@azure/ai-form-recognizer.GetModelOptions'
+      name: GetModelOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.GetOperationOptions'
+      name: GetOperationOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.IdentityDocument'
+      name: IdentityDocument
+      items: []
+    - uid: '@azure/ai-form-recognizer.Invoice'
+      name: Invoice
+      items: []
+    - uid: '@azure/ai-form-recognizer.LayoutResult'
+      name: LayoutResult
+      items: []
+    - uid: '@azure/ai-form-recognizer.LengthUnit'
+      name: LengthUnit
+      items: []
+    - uid: '@azure/ai-form-recognizer.ListModelsOptions'
+      name: ListModelsOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.ListOperationsOptions'
+      name: ListOperationsOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.ModelInfo'
+      name: ModelInfo
+      items: []
+    - uid: '@azure/ai-form-recognizer.ModelSummary'
+      name: ModelSummary
+      items: []
+    - uid: '@azure/ai-form-recognizer.OperationInfo'
+      name: OperationInfo
+      items: []
+    - uid: '@azure/ai-form-recognizer.OperationKind'
+      name: OperationKind
+      items: []
+    - uid: '@azure/ai-form-recognizer.OperationStatus'
+      name: OperationStatus
+      items: []
+    - uid: '@azure/ai-form-recognizer.PollerOptions'
+      name: PollerOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.Receipt'
+      name: Receipt
+      items: []
+    - uid: '@azure/ai-form-recognizer.SelectionMarkState'
+      name: SelectionMarkState
+      items: []
+    - uid: '@azure/ai-form-recognizer.StringIndexType'
+      name: StringIndexType
+      items: []
+    - uid: '@azure/ai-form-recognizer.TrainingPoller'
+      name: TrainingPoller
+      items: []
+    - uid: '@azure/ai-form-recognizer.TrainingPollOperationState'
+      name: TrainingPollOperationState
+      items: []
 - name: '@azure/ai-text-analytics'
   items:
     - name: Overview
@@ -7710,8 +8475,8 @@
     - uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
       name: KnownInnerErrorCodeValue
       items: []
-    - uid: '@azure/ai-text-analytics.KnownSummarySentencesSortBy'
-      name: KnownSummarySentencesSortBy
+    - uid: '@azure/ai-text-analytics.KnownSummarySentencesOrderBy'
+      name: KnownSummarySentencesOrderBy
       items: []
     - uid: '@azure/ai-text-analytics.KnownWarningCode'
       name: KnownWarningCode
@@ -9223,9 +9988,6 @@
     - uid: '@azure/arm-apimanagement.BodyDiagnosticSettings'
       name: BodyDiagnosticSettings
       items: []
-    - uid: '@azure/arm-apimanagement.Cache'
-      name: Cache
-      items: []
     - uid: '@azure/arm-apimanagement.CacheCollection'
       name: CacheCollection
       items: []
@@ -9285,6 +10047,9 @@
       items: []
     - uid: '@azure/arm-apimanagement.CacheUpdateResponse'
       name: CacheUpdateResponse
+      items: []
+    - uid: '@azure/arm-apimanagement.Cache_2'
+      name: Cache_2
       items: []
     - uid: '@azure/arm-apimanagement.Certificate'
       name: Certificate
@@ -10251,8 +11016,8 @@
     - uid: '@azure/arm-apimanagement.IssueUpdateContractProperties'
       name: IssueUpdateContractProperties
       items: []
-    - uid: '@azure/arm-apimanagement.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-apimanagement.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-apimanagement.KeyVaultContractCreateProperties'
       name: KeyVaultContractCreateProperties
@@ -10627,9 +11392,6 @@
     - uid: '@azure/arm-apimanagement.NetworkStatusListByServiceResponse'
       name: NetworkStatusListByServiceResponse
       items: []
-    - uid: '@azure/arm-apimanagement.Notification'
-      name: Notification
-      items: []
     - uid: '@azure/arm-apimanagement.NotificationCollection'
       name: NotificationCollection
       items: []
@@ -10721,6 +11483,9 @@
     - uid: >-
         @azure/arm-apimanagement.NotificationRecipientUserListByNotificationResponse
       name: NotificationRecipientUserListByNotificationResponse
+      items: []
+    - uid: '@azure/arm-apimanagement.Notification_2'
+      name: Notification_2
       items: []
     - uid: '@azure/arm-apimanagement.OAuth2AuthenticationSettingsContract'
       name: OAuth2AuthenticationSettingsContract
@@ -20715,9 +21480,6 @@
     - uid: '@azure/arm-compute.HyperVGenerationTypes'
       name: HyperVGenerationTypes
       items: []
-    - uid: '@azure/arm-compute.Image'
-      name: Image
-      items: []
     - uid: '@azure/arm-compute.ImageDataDisk'
       name: ImageDataDisk
       items: []
@@ -20792,6 +21554,9 @@
       items: []
     - uid: '@azure/arm-compute.ImageUpdate'
       name: ImageUpdate
+      items: []
+    - uid: '@azure/arm-compute.Image_2'
+      name: Image_2
       items: []
     - uid: '@azure/arm-compute.InnerError'
       name: InnerError
@@ -24685,8 +25450,8 @@
     - uid: '@azure/arm-eventhub.IpFilterRuleListResult'
       name: IpFilterRuleListResult
       items: []
-    - uid: '@azure/arm-eventhub.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-eventhub.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-eventhub.KeyVaultProperties'
       name: KeyVaultProperties
@@ -39029,8 +39794,8 @@
     - uid: '@azure/arm-servicebus.IpFilterRuleListResult'
       name: IpFilterRuleListResult
       items: []
-    - uid: '@azure/arm-servicebus.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-servicebus.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-servicebus.KeyVaultProperties'
       name: KeyVaultProperties
@@ -46255,8 +47020,8 @@
     - uid: '@azure/arm-storage.KeyType'
       name: KeyType
       items: []
-    - uid: '@azure/arm-storage.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-storage.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-storage.KeyVaultProperties'
       name: KeyVaultProperties
@@ -46993,8 +47758,8 @@
     - uid: '@azure/arm-storage.Permissions'
       name: Permissions
       items: []
-    - uid: '@azure/arm-storage.Permissions'
-      name: Permissions
+    - uid: '@azure/arm-storage.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/arm-storage.PollerConfig'
       name: PollerConfig
@@ -48170,8 +48935,8 @@
     - uid: '@azure/arm-webpubsub.KeyType'
       name: KeyType
       items: []
-    - uid: '@azure/arm-webpubsub.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-webpubsub.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-webpubsub.KnownACLAction'
       name: KnownACLAction
@@ -49308,6 +50073,25 @@
     - uid: '@azure/communication-chat.UpdateTopicOptions'
       name: UpdateTopicOptions
       items: []
+- name: '@azure/communication-identity'
+  items:
+    - name: Overview
+      uid: '@azure/communication-identity'
+    - uid: '@azure/communication-identity.CommunicationAccessToken'
+      name: CommunicationAccessToken
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClient'
+      name: CommunicationIdentityClient
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClientOptions'
+      name: CommunicationIdentityClientOptions
+      items: []
+    - uid: '@azure/communication-identity.CommunicationUserToken'
+      name: CommunicationUserToken
+      items: []
+    - uid: '@azure/communication-identity.TokenScope'
+      name: TokenScope
+      items: []
 - name: '@azure/communication-network-traversal'
   items:
     - name: Overview
@@ -49815,6 +50599,13 @@
       items: []
     - uid: '@azure/digital-twins.RelationshipCollection'
       name: RelationshipCollection
+      items: []
+- name: '@azure/eventhubs-checkpointstore-table'
+  items:
+    - name: Overview
+      uid: '@azure/eventhubs-checkpointstore-table'
+    - uid: '@azure/eventhubs-checkpointstore-table.TableCheckpointStore'
+      name: TableCheckpointStore
       items: []
 - name: '@azure/identity'
   items:
@@ -51148,12 +51939,6 @@
     - uid: '@azure/monitor-query.AggregationType'
       name: AggregationType
       items: []
-    - uid: '@azure/monitor-query.ErrorDetail'
-      name: ErrorDetail
-      items: []
-    - uid: '@azure/monitor-query.ErrorInfo'
-      name: ErrorInfo
-      items: []
     - uid: '@azure/monitor-query.ListMetricDefinitionsOptions'
       name: ListMetricDefinitionsOptions
       items: []
@@ -51165,6 +51950,9 @@
       items: []
     - uid: '@azure/monitor-query.LogsColumnType'
       name: LogsColumnType
+      items: []
+    - uid: '@azure/monitor-query.LogsErrorInfo'
+      name: LogsErrorInfo
       items: []
     - uid: '@azure/monitor-query.LogsQueryBatchOptions'
       name: LogsQueryBatchOptions
@@ -51178,14 +51966,23 @@
     - uid: '@azure/monitor-query.LogsQueryClientOptions'
       name: LogsQueryClientOptions
       items: []
+    - uid: '@azure/monitor-query.LogsQueryError'
+      name: LogsQueryError
+      items: []
     - uid: '@azure/monitor-query.LogsQueryOptions'
       name: LogsQueryOptions
+      items: []
+    - uid: '@azure/monitor-query.LogsQueryPartialResult'
+      name: LogsQueryPartialResult
       items: []
     - uid: '@azure/monitor-query.LogsQueryResult'
       name: LogsQueryResult
       items: []
     - uid: '@azure/monitor-query.LogsQueryResultStatus'
       name: LogsQueryResultStatus
+      items: []
+    - uid: '@azure/monitor-query.LogsQuerySuccessfulResult'
+      name: LogsQuerySuccessfulResult
       items: []
     - uid: '@azure/monitor-query.LogsTable'
       name: LogsTable
@@ -51207,12 +52004,6 @@
       items: []
     - uid: '@azure/monitor-query.MetricNamespace'
       name: MetricNamespace
-      items: []
-    - uid: '@azure/monitor-query.MetricNamespaceName'
-      name: MetricNamespaceName
-      items: []
-    - uid: '@azure/monitor-query.MetricNamespace_2'
-      name: MetricNamespace_2
       items: []
     - uid: '@azure/monitor-query.MetricsClientOptions'
       name: MetricsClientOptions
@@ -51238,11 +52029,11 @@
     - uid: '@azure/monitor-query.QueryBatch'
       name: QueryBatch
       items: []
+    - uid: '@azure/monitor-query.QueryTimeInterval'
+      name: QueryTimeInterval
+      items: []
     - uid: '@azure/monitor-query.ResultType'
       name: ResultType
-      items: []
-    - uid: '@azure/monitor-query.TimeInterval'
-      name: TimeInterval
       items: []
     - uid: '@azure/monitor-query.TimeSeriesElement'
       name: TimeSeriesElement
@@ -51360,11 +52151,11 @@
     - uid: '@azure/quantum-jobs.SasUriResponse'
       name: SasUriResponse
       items: []
-    - uid: '@azure/quantum-jobs.Storage'
-      name: Storage
-      items: []
     - uid: '@azure/quantum-jobs.StorageSasUriResponse'
       name: StorageSasUriResponse
+      items: []
+    - uid: '@azure/quantum-jobs.Storage_2'
+      name: Storage_2
       items: []
     - uid: '@azure/quantum-jobs.TargetAvailability'
       name: TargetAvailability
@@ -58848,11 +59639,11 @@
     - uid: '@azure/video-analyzer-edge.ProcessorNodeBaseUnion'
       name: ProcessorNodeBaseUnion
       items: []
-    - uid: '@azure/video-analyzer-edge.Request'
-      name: Request
-      items: []
     - uid: '@azure/video-analyzer-edge.RequestType'
       name: RequestType
+      items: []
+    - uid: '@azure/video-analyzer-edge.Request_2'
+      name: Request_2
       items: []
     - uid: '@azure/video-analyzer-edge.RtspSource'
       name: RtspSource

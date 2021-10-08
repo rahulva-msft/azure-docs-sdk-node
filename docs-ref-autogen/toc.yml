@@ -76741,8 +76741,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -76804,8 +76804,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -77512,6 +77512,64 @@
       items: []
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
+      items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
       items: []
 - name: '@azure/eventgrid'
   items:
@@ -84478,14 +84536,14 @@
     - uid: '@azure/storage-blob.CpkInfo'
       name: CpkInfo
       items: []
-    - uid: '@azure/storage-blob.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-blob.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-blob.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-blob.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-blob.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -84700,8 +84758,8 @@
     - uid: '@azure/storage-blob.PublicAccessType'
       name: PublicAccessType
       items: []
-    - uid: '@azure/storage-blob.Range'
-      name: Range
+    - uid: '@azure/storage-blob.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-blob.RehydratePriority'
       name: RehydratePriority
@@ -84929,14 +84987,14 @@
     - uid: '@azure/storage-file-datalake.CopyStatusType'
       name: CopyStatusType
       items: []
-    - uid: '@azure/storage-file-datalake.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError'
       name: DataLakeAclChangeFailedError
@@ -85497,14 +85555,14 @@
     - uid: '@azure/storage-file-share.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-file-share.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-share.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-share.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -85861,11 +85919,11 @@
     - uid: '@azure/storage-file-share.PipelineOptions'
       name: PipelineOptions
       items: []
-    - uid: '@azure/storage-file-share.Range'
-      name: Range
-      items: []
     - uid: '@azure/storage-file-share.RangeModel'
       name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-file-share.RetentionPolicy'
       name: RetentionPolicy
@@ -86180,14 +86238,14 @@
     - uid: '@azure/storage-queue.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-queue.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-queue.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-queue.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-queue.DequeuedMessageItem'
       name: DequeuedMessageItem

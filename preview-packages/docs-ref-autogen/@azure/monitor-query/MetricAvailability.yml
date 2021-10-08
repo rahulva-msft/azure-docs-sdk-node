@@ -11,33 +11,33 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: granularity
+    uid: '@azure/monitor-query.MetricAvailability.granularity'
+    package: '@azure/monitor-query'
+    summary: >-
+      the time grain specifies the aggregation interval for the metric.
+      Expressed as a duration 'PT1M', 'P1D', etc.
+    fullName: granularity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'granularity?: string'
+      return:
+        type: string
+        description: ''
   - name: retention
     uid: '@azure/monitor-query.MetricAvailability.retention'
     package: '@azure/monitor-query'
     summary: >-
-      the retention period for the metric at the specified timegrain.  Expressed
-      as a duration 'PT1M', 'P1D', etc.
+      the retention period for the metric at the specified granularity. 
+      Expressed as a duration 'PT1M', 'P1D', etc.
     fullName: retention
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: 'retention?: string'
-      return:
-        type: string
-        description: ''
-  - name: timeGrain
-    uid: '@azure/monitor-query.MetricAvailability.timeGrain'
-    package: '@azure/monitor-query'
-    summary: >-
-      the time grain specifies the aggregation interval for the metric.
-      Expressed as a duration 'PT1M', 'P1D', etc.
-    fullName: timeGrain
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'timeGrain?: string'
       return:
         type: string
         description: ''
