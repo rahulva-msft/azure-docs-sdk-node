@@ -102,10 +102,10 @@
       "name": "@azure/search-documents@11.3.0-beta.4"
     },
     {
-      "name": "@azure/keyvault-admin@4.2.0-beta.1"
+      "name": "@azure/keyvault-admin@4.2.0-alpha.20210930.1"
     },
     {
-      "name": "@azure/keyvault-keys@4.4.0-beta.2"
+      "name": "@azure/keyvault-keys@4.4.0-alpha.20211008.4"
     },
     {
       "name": "@azure/arm-links@30.0.0-beta.2"
@@ -174,10 +174,10 @@
       "name": "@azure-rest/purview-account@1.0.0-beta.1"
     },
     {
-      "name": "@azure/keyvault-certificates@4.4.0-beta.1"
+      "name": "@azure/keyvault-certificates@4.4.0-alpha.20210930.1"
     },
     {
-      "name": "@azure/keyvault-secrets@4.4.0-beta.1"
+      "name": "@azure/keyvault-secrets@4.4.0-alpha.20210930.1"
     },
     {
       "name": "@azure/arm-eventhub@30.0.0-beta.2"
@@ -195,7 +195,7 @@
       "name": "@azure/mixed-reality-authentication@1.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-keyvault@30.0.0-beta.3"
+      "name": "@azure/arm-keyvault@2.0.0-alpha.20211011.3"
     },
     {
       "name": "@azure/arm-sql@30.0.0-beta.4"
