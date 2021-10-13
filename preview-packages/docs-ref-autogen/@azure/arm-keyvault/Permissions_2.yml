@@ -1,16 +1,16 @@
 ### YamlMime:TSType
-name: Permissions
-uid: '@azure/arm-keyvault.Permissions'
+name: Permissions_2
+uid: '@azure/arm-keyvault.Permissions_2'
 package: '@azure/arm-keyvault'
 summary: 'Permissions the identity has for keys, secrets, certificates and storage.'
-fullName: Permissions
+fullName: Permissions_2
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: certificates
-    uid: '@azure/arm-keyvault.Permissions.certificates'
+    uid: '@azure/arm-keyvault.Permissions_2.certificates'
     package: '@azure/arm-keyvault'
     summary: Permissions to certificates
     fullName: certificates
@@ -23,7 +23,7 @@ properties:
         type: '<xref uid="@azure/arm-keyvault.CertificatePermissions" />[]'
         description: ''
   - name: keys
-    uid: '@azure/arm-keyvault.Permissions.keys'
+    uid: '@azure/arm-keyvault.Permissions_2.keys'
     package: '@azure/arm-keyvault'
     summary: Permissions to keys
     fullName: keys
@@ -36,7 +36,7 @@ properties:
         type: '<xref uid="@azure/arm-keyvault.KeyPermissions" />[]'
         description: ''
   - name: secrets
-    uid: '@azure/arm-keyvault.Permissions.secrets'
+    uid: '@azure/arm-keyvault.Permissions_2.secrets'
     package: '@azure/arm-keyvault'
     summary: Permissions to secrets
     fullName: secrets
@@ -49,7 +49,7 @@ properties:
         type: '<xref uid="@azure/arm-keyvault.SecretPermissions" />[]'
         description: ''
   - name: storage
-    uid: '@azure/arm-keyvault.Permissions.storage'
+    uid: '@azure/arm-keyvault.Permissions_2.storage'
     package: '@azure/arm-keyvault'
     summary: Permissions to storage accounts
     fullName: storage
