@@ -1,18 +1,18 @@
 ### YamlMime:TSType
-name: Location
-uid: '@azure/cosmos.Location'
+name: Location_2
+uid: '@azure/cosmos.Location_2'
 package: '@azure/cosmos'
 summary: >-
   Used to specify the locations that are available, read is index 1 and write is
   index 0.
-fullName: Location
+fullName: Location_2
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: databaseAccountEndpoint
-    uid: '@azure/cosmos.Location.databaseAccountEndpoint'
+    uid: '@azure/cosmos.Location_2.databaseAccountEndpoint'
     package: '@azure/cosmos'
     summary: ''
     fullName: databaseAccountEndpoint
@@ -25,7 +25,7 @@ properties:
         type: string
         description: ''
   - name: name
-    uid: '@azure/cosmos.Location.name'
+    uid: '@azure/cosmos.Location_2.name'
     package: '@azure/cosmos'
     summary: ''
     fullName: name
@@ -38,7 +38,7 @@ properties:
         type: string
         description: ''
   - name: unavailable
-    uid: '@azure/cosmos.Location.unavailable'
+    uid: '@azure/cosmos.Location_2.unavailable'
     package: '@azure/cosmos'
     summary: ''
     fullName: unavailable

@@ -1,23 +1,23 @@
 ### YamlMime:TSType
-name: Storage
-uid: '@azure/quantum-jobs.Storage'
+name: Storage_2
+uid: '@azure/quantum-jobs.Storage_2'
 package: '@azure/quantum-jobs'
 summary: Class representing a Storage.
-fullName: Storage
+fullName: Storage_2
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: Storage(QuantumJobClient)
-    uid: '@azure/quantum-jobs.Storage.constructor'
+  - name: Storage_2(QuantumJobClient)
+    uid: '@azure/quantum-jobs.Storage_2.constructor'
     package: '@azure/quantum-jobs'
     summary: Initialize a new instance of the class Storage class.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'new Storage(client: QuantumJobClient)'
+      content: 'new Storage_2(client: QuantumJobClient)'
       parameters:
         - id: client
           type: <xref uid="@azure/quantum-jobs.QuantumJobClient" />
@@ -25,7 +25,7 @@ constructors:
             Reference to the service client
 methods:
   - name: 'sasUri(BlobDetails, OperationOptions)'
-    uid: '@azure/quantum-jobs.Storage.sasUri'
+    uid: '@azure/quantum-jobs.Storage_2.sasUri'
     package: '@azure/quantum-jobs'
     summary: >-
       Gets a URL with SAS token for a container/blob in the storage account

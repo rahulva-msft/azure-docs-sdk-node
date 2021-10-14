@@ -78,7 +78,7 @@ methods:
           description: |
             Used for modifying the request
       return:
-        type: Promise&lt;Response&lt;any&gt;&gt;
+        type: Promise&lt;Response_2&lt;any&gt;&gt;
         description: ''
   - name: 'bulk(OperationInput[], BulkOptions, RequestOptions)'
     uid: '@azure/cosmos.Items.bulk'

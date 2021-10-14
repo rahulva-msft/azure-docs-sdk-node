@@ -1656,6 +1656,9 @@
     - uid: '@azure/arm-analysisservices.ConnectionMode'
       name: ConnectionMode
       items: []
+    - uid: '@azure/arm-analysisservices.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      items: []
     - uid: '@azure/arm-analysisservices.ErrorResponse'
       name: ErrorResponse
       items: []
@@ -1677,6 +1680,15 @@
     - uid: '@azure/arm-analysisservices.IPv4FirewallSettings'
       name: IPv4FirewallSettings
       items: []
+    - uid: '@azure/arm-analysisservices.LogSpecifications'
+      name: LogSpecifications
+      items: []
+    - uid: '@azure/arm-analysisservices.MetricDimensions'
+      name: MetricDimensions
+      items: []
+    - uid: '@azure/arm-analysisservices.MetricSpecifications'
+      name: MetricSpecifications
+      items: []
     - uid: '@azure/arm-analysisservices.Operation'
       name: Operation
       items: []
@@ -1685,6 +1697,12 @@
       items: []
     - uid: '@azure/arm-analysisservices.OperationListResult'
       name: OperationListResult
+      items: []
+    - uid: '@azure/arm-analysisservices.OperationProperties'
+      name: OperationProperties
+      items: []
+    - uid: '@azure/arm-analysisservices.OperationPropertiesServiceSpecification'
+      name: OperationPropertiesServiceSpecification
       items: []
     - uid: '@azure/arm-analysisservices.Operations'
       name: Operations
@@ -1763,9 +1781,6 @@
       items: []
     - uid: '@azure/arm-analysisservices.State'
       name: State
-      items: []
-    - uid: '@azure/arm-analysisservices.Status'
-      name: Status
       items: []
 - name: '@azure/arm-apimanagement'
   items:
@@ -15287,6 +15302,9 @@
       items: []
     - uid: '@azure/arm-commerce.UsageAggregates'
       name: UsageAggregates
+      items: []
+    - uid: '@azure/arm-commerce.UsageAggregatesListNextOptionalParams'
+      name: UsageAggregatesListNextOptionalParams
       items: []
     - uid: '@azure/arm-commerce.UsageAggregatesListNextResponse'
       name: UsageAggregatesListNextResponse
@@ -45780,6 +45798,9 @@
     - uid: '@azure/arm-policy.Identity'
       name: Identity
       items: []
+    - uid: '@azure/arm-policy.IdentityUserAssignedIdentitiesValue'
+      name: IdentityUserAssignedIdentitiesValue
+      items: []
     - uid: '@azure/arm-policy.NonComplianceMessage'
       name: NonComplianceMessage
       items: []
@@ -45871,6 +45892,15 @@
       items: []
     - uid: '@azure/arm-policy.PolicyAssignmentsListResponse'
       name: PolicyAssignmentsListResponse
+      items: []
+    - uid: '@azure/arm-policy.PolicyAssignmentsUpdateByIdResponse'
+      name: PolicyAssignmentsUpdateByIdResponse
+      items: []
+    - uid: '@azure/arm-policy.PolicyAssignmentsUpdateResponse'
+      name: PolicyAssignmentsUpdateResponse
+      items: []
+    - uid: '@azure/arm-policy.PolicyAssignmentUpdate'
+      name: PolicyAssignmentUpdate
       items: []
     - uid: '@azure/arm-policy.PolicyClient'
       name: PolicyClient
@@ -78133,18 +78163,6 @@
     - uid: '@azure/core-auth.SASCredential'
       name: SASCredential
       items: []
-    - uid: '@azure/core-auth.SpanAttributes'
-      name: SpanAttributes
-      items: []
-    - uid: '@azure/core-auth.SpanAttributeValue'
-      name: SpanAttributeValue
-      items: []
-    - uid: '@azure/core-auth.SpanContext'
-      name: SpanContext
-      items: []
-    - uid: '@azure/core-auth.SpanOptions'
-      name: SpanOptions
-      items: []
     - uid: '@azure/core-auth.TokenCredential'
       name: TokenCredential
       items: []
@@ -78269,6 +78287,8 @@
     - uid: '@azure/core-client.XmlOptions'
       name: XmlOptions
       items: []
+- name: '@azure/core-crypto'
+  items: null
 - name: '@azure/core-http'
   items:
     - name: Overview
@@ -78968,8 +78988,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -79031,8 +79051,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -79739,6 +79759,64 @@
       items: []
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
+      items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
       items: []
 - name: '@azure/eventgrid'
   items:

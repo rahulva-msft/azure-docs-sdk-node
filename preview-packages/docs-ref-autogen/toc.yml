@@ -2274,6 +2274,13 @@
     - uid: '@azure-rest/core-client.RouteParams'
       name: RouteParams
       items: []
+- name: '@azure-rest/core-client-lro'
+  items:
+    - name: Overview
+      uid: '@azure-rest/core-client-lro'
+    - uid: '@azure-rest/core-client-lro.PollerOptions'
+      name: PollerOptions
+      items: []
 - name: '@azure-rest/purview-account'
   items:
     - name: Overview
@@ -7945,8 +7952,8 @@
     - uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
       name: KnownInnerErrorCodeValue
       items: []
-    - uid: '@azure/ai-text-analytics.KnownSummarySentencesSortBy'
-      name: KnownSummarySentencesSortBy
+    - uid: '@azure/ai-text-analytics.KnownSummarySentencesOrderBy'
+      name: KnownSummarySentencesOrderBy
       items: []
     - uid: '@azure/ai-text-analytics.KnownWarningCode'
       name: KnownWarningCode
@@ -26150,8 +26157,8 @@
     - uid: '@azure/arm-keyvault.OperationsListResponse'
       name: OperationsListResponse
       items: []
-    - uid: '@azure/arm-keyvault.Permissions'
-      name: Permissions
+    - uid: '@azure/arm-keyvault.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/arm-keyvault.PrivateEndpoint'
       name: PrivateEndpoint
@@ -50386,6 +50393,13 @@
     - uid: '@azure/digital-twins.RelationshipCollection'
       name: RelationshipCollection
       items: []
+- name: '@azure/eventhubs-checkpointstore-table'
+  items:
+    - name: Overview
+      uid: '@azure/eventhubs-checkpointstore-table'
+    - uid: '@azure/eventhubs-checkpointstore-table.TableCheckpointStore'
+      name: TableCheckpointStore
+      items: []
 - name: '@azure/identity'
   items:
     - name: Overview
@@ -51395,6 +51409,9 @@
     - uid: '@azure/keyvault-keys.KnownKeyCurveNames'
       name: KnownKeyCurveNames
       items: []
+    - uid: '@azure/keyvault-keys.KnownKeyExportEncryptionAlgorithm'
+      name: KnownKeyExportEncryptionAlgorithm
+      items: []
     - uid: '@azure/keyvault-keys.KnownKeyOperations'
       name: KnownKeyOperations
       items: []
@@ -51930,11 +51947,11 @@
     - uid: '@azure/quantum-jobs.SasUriResponse'
       name: SasUriResponse
       items: []
-    - uid: '@azure/quantum-jobs.Storage'
-      name: Storage
-      items: []
     - uid: '@azure/quantum-jobs.StorageSasUriResponse'
       name: StorageSasUriResponse
+      items: []
+    - uid: '@azure/quantum-jobs.Storage_2'
+      name: Storage_2
       items: []
     - uid: '@azure/quantum-jobs.TargetAvailability'
       name: TargetAvailability

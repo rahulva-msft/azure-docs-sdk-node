@@ -7,6 +7,7 @@ enums:
   - '@azure/keyvault-keys.KnownDeletionRecoveryLevel'
   - '@azure/keyvault-keys.KnownEncryptionAlgorithms'
   - '@azure/keyvault-keys.KnownKeyCurveNames'
+  - '@azure/keyvault-keys.KnownKeyExportEncryptionAlgorithm'
   - '@azure/keyvault-keys.KnownKeyOperations'
   - '@azure/keyvault-keys.KnownKeyTypes'
   - '@azure/keyvault-keys.KnownSignatureAlgorithms'
