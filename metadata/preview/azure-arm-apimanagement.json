@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-apimanagement",
-  "Version": "8.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "8.0.0-alpha.20211011.1",
+  "DevVersion": "8.0.0-alpha.20211013.1",
   "DirectoryPath": "sdk/apimanagement/arm-apimanagement",
   "ServiceDirectory": "apimanagement",
   "ReadMePath": "sdk/apimanagement/arm-apimanagement/README.md",
