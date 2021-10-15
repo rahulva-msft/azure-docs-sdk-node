@@ -30994,6 +30994,9 @@
     - uid: '@azure/arm-hdinsight.AutoscaleTimeAndCapacity'
       name: AutoscaleTimeAndCapacity
       items: []
+    - uid: '@azure/arm-hdinsight.AzureEntityResource'
+      name: AzureEntityResource
+      items: []
     - uid: '@azure/arm-hdinsight.AzureMonitorRequest'
       name: AzureMonitorRequest
       items: []
@@ -31051,17 +31054,11 @@
     - uid: '@azure/arm-hdinsight.ClusterIdentity'
       name: ClusterIdentity
       items: []
-    - uid: '@azure/arm-hdinsight.ClusterIdentityUserAssignedIdentitiesValue'
-      name: ClusterIdentityUserAssignedIdentitiesValue
-      items: []
     - uid: '@azure/arm-hdinsight.ClusterListPersistedScriptActionsResult'
       name: ClusterListPersistedScriptActionsResult
       items: []
     - uid: '@azure/arm-hdinsight.ClusterListResult'
       name: ClusterListResult
-      items: []
-    - uid: '@azure/arm-hdinsight.ClusterListRuntimeScriptActionDetailResult'
-      name: ClusterListRuntimeScriptActionDetailResult
       items: []
     - uid: '@azure/arm-hdinsight.ClusterMonitoringRequest'
       name: ClusterMonitoringRequest
@@ -31125,6 +31122,9 @@
       items: []
     - uid: '@azure/arm-hdinsight.ConnectivityEndpoint'
       name: ConnectivityEndpoint
+      items: []
+    - uid: '@azure/arm-hdinsight.CreatedByType'
+      name: CreatedByType
       items: []
     - uid: '@azure/arm-hdinsight.DataDisksGroups'
       name: DataDisksGroups
@@ -31201,6 +31201,9 @@
     - uid: '@azure/arm-hdinsight.HostInfo'
       name: HostInfo
       items: []
+    - uid: '@azure/arm-hdinsight.IPConfiguration'
+      name: IPConfiguration
+      items: []
     - uid: '@azure/arm-hdinsight.JsonWebKeyEncryptionAlgorithm'
       name: JsonWebKeyEncryptionAlgorithm
       items: []
@@ -31273,8 +31276,69 @@
     - uid: '@azure/arm-hdinsight.OSType'
       name: OSType
       items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpoint'
+      name: PrivateEndpoint
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionProvisioningState'
+      name: PrivateEndpointConnectionProvisioningState
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnections'
+      name: PrivateEndpointConnections
+      items: []
+    - uid: >-
+        @azure/arm-hdinsight.PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+      name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionsCreateOrUpdateResponse'
+      name: PrivateEndpointConnectionsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionsGetResponse'
+      name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionsListByClusterNextResponse'
+      name: PrivateEndpointConnectionsListByClusterNextResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateEndpointConnectionsListByClusterResponse'
+      name: PrivateEndpointConnectionsListByClusterResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateIPAllocationMethod'
+      name: PrivateIPAllocationMethod
+      items: []
     - uid: '@azure/arm-hdinsight.PrivateLink'
       name: PrivateLink
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkConfiguration'
+      name: PrivateLinkConfiguration
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkConfigurationProvisioningState'
+      name: PrivateLinkConfigurationProvisioningState
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkResource'
+      name: PrivateLinkResource
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkResourceListResult'
+      name: PrivateLinkResourceListResult
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkResources'
+      name: PrivateLinkResources
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkResourcesGetResponse'
+      name: PrivateLinkResourcesGetResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkResourcesListByClusterResponse'
+      name: PrivateLinkResourcesListByClusterResponse
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkServiceConnectionState'
+      name: PrivateLinkServiceConnectionState
+      items: []
+    - uid: '@azure/arm-hdinsight.PrivateLinkServiceConnectionStatus'
+      name: PrivateLinkServiceConnectionStatus
       items: []
     - uid: '@azure/arm-hdinsight.ProxyResource'
       name: ProxyResource
@@ -31293,6 +31357,9 @@
       items: []
     - uid: '@azure/arm-hdinsight.Resource'
       name: Resource
+      items: []
+    - uid: '@azure/arm-hdinsight.ResourceId'
+      name: ResourceId
       items: []
     - uid: '@azure/arm-hdinsight.ResourceIdentityType'
       name: ResourceIdentityType
@@ -31367,6 +31434,9 @@
     - uid: '@azure/arm-hdinsight.StorageProfile'
       name: StorageProfile
       items: []
+    - uid: '@azure/arm-hdinsight.SystemData'
+      name: SystemData
+      items: []
     - uid: '@azure/arm-hdinsight.Tier'
       name: Tier
       items: []
@@ -31384,6 +31454,9 @@
       items: []
     - uid: '@azure/arm-hdinsight.UsagesListResult'
       name: UsagesListResult
+      items: []
+    - uid: '@azure/arm-hdinsight.UserAssignedIdentity'
+      name: UserAssignedIdentity
       items: []
     - uid: '@azure/arm-hdinsight.ValidationErrorInfo'
       name: ValidationErrorInfo
@@ -31406,17 +31479,11 @@
     - uid: '@azure/arm-hdinsight.VirtualNetworkProfile'
       name: VirtualNetworkProfile
       items: []
-    - uid: '@azure/arm-hdinsight.VmSizeCompatibilityFilter'
-      name: VmSizeCompatibilityFilter
-      items: []
     - uid: '@azure/arm-hdinsight.VmSizeCompatibilityFilterV2'
       name: VmSizeCompatibilityFilterV2
       items: []
     - uid: '@azure/arm-hdinsight.VmSizeProperty'
       name: VmSizeProperty
-      items: []
-    - uid: '@azure/arm-hdinsight.VmSizesCapability'
-      name: VmSizesCapability
       items: []
 - name: '@azure/arm-hybridcompute'
   items:
@@ -63065,6 +63132,9 @@
     - uid: '@azure/arm-storagecache.NfsAccessRuleScope'
       name: NfsAccessRuleScope
       items: []
+    - uid: '@azure/arm-storagecache.OperationalStateType'
+      name: OperationalStateType
+      items: []
     - uid: '@azure/arm-storagecache.Operations'
       name: Operations
       items: []
@@ -76769,6 +76839,9 @@
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
       items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
+      items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
       items: []
@@ -77196,6 +77269,9 @@
       items: []
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
+      items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
       items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
@@ -78163,18 +78239,6 @@
     - uid: '@azure/core-auth.SASCredential'
       name: SASCredential
       items: []
-    - uid: '@azure/core-auth.SpanAttributes'
-      name: SpanAttributes
-      items: []
-    - uid: '@azure/core-auth.SpanAttributeValue'
-      name: SpanAttributeValue
-      items: []
-    - uid: '@azure/core-auth.SpanContext'
-      name: SpanContext
-      items: []
-    - uid: '@azure/core-auth.SpanOptions'
-      name: SpanOptions
-      items: []
     - uid: '@azure/core-auth.TokenCredential'
       name: TokenCredential
       items: []
@@ -78299,6 +78363,8 @@
     - uid: '@azure/core-client.XmlOptions'
       name: XmlOptions
       items: []
+- name: '@azure/core-crypto'
+  items: null
 - name: '@azure/core-http'
   items:
     - name: Overview
@@ -78998,8 +79064,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -79061,8 +79127,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -79769,6 +79835,64 @@
       items: []
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
+      items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
       items: []
 - name: '@azure/eventgrid'
   items:
@@ -86841,14 +86965,14 @@
     - uid: '@azure/storage-blob.CpkInfo'
       name: CpkInfo
       items: []
-    - uid: '@azure/storage-blob.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-blob.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-blob.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-blob.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-blob.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -87063,8 +87187,8 @@
     - uid: '@azure/storage-blob.PublicAccessType'
       name: PublicAccessType
       items: []
-    - uid: '@azure/storage-blob.Range'
-      name: Range
+    - uid: '@azure/storage-blob.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-blob.RehydratePriority'
       name: RehydratePriority
@@ -87292,14 +87416,14 @@
     - uid: '@azure/storage-file-datalake.CopyStatusType'
       name: CopyStatusType
       items: []
-    - uid: '@azure/storage-file-datalake.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError'
       name: DataLakeAclChangeFailedError
@@ -87860,14 +87984,14 @@
     - uid: '@azure/storage-file-share.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-file-share.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-share.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-share.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -88224,11 +88348,11 @@
     - uid: '@azure/storage-file-share.PipelineOptions'
       name: PipelineOptions
       items: []
-    - uid: '@azure/storage-file-share.Range'
-      name: Range
-      items: []
     - uid: '@azure/storage-file-share.RangeModel'
       name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-file-share.RetentionPolicy'
       name: RetentionPolicy
@@ -88543,14 +88667,14 @@
     - uid: '@azure/storage-queue.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-queue.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-queue.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-queue.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-queue.DequeuedMessageItem'
       name: DequeuedMessageItem
