@@ -54010,6 +54010,12 @@
     - uid: '@azure/arm-search.AdminKeysRegenerateResponse'
       name: AdminKeysRegenerateResponse
       items: []
+    - uid: '@azure/arm-search.AsyncOperationResult'
+      name: AsyncOperationResult
+      items: []
+    - uid: '@azure/arm-search.AzureEntityResource'
+      name: AzureEntityResource
+      items: []
     - uid: '@azure/arm-search.CheckNameAvailabilityInput'
       name: CheckNameAvailabilityInput
       items: []
@@ -54022,8 +54028,17 @@
     - uid: '@azure/arm-search.Identity'
       name: Identity
       items: []
+    - uid: '@azure/arm-search.IdentityType'
+      name: IdentityType
+      items: []
+    - uid: '@azure/arm-search.IpRule'
+      name: IpRule
+      items: []
     - uid: '@azure/arm-search.ListQueryKeysResult'
       name: ListQueryKeysResult
+      items: []
+    - uid: '@azure/arm-search.NetworkRuleSet'
+      name: NetworkRuleSet
       items: []
     - uid: '@azure/arm-search.Operation'
       name: Operation
@@ -54040,8 +54055,85 @@
     - uid: '@azure/arm-search.OperationsListResponse'
       name: OperationsListResponse
       items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionProperties'
+      name: PrivateEndpointConnectionProperties
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionPropertiesPrivateEndpoint'
+      name: PrivateEndpointConnectionPropertiesPrivateEndpoint
+      items: []
+    - uid: >-
+        @azure/arm-search.PrivateEndpointConnectionPropertiesPrivateLinkServiceConnectionState
+      name: PrivateEndpointConnectionPropertiesPrivateLinkServiceConnectionState
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnections'
+      name: PrivateEndpointConnections
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsDeleteMethodOptionalParams'
+      name: PrivateEndpointConnectionsDeleteMethodOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsDeleteMethodResponse'
+      name: PrivateEndpointConnectionsDeleteMethodResponse
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsGetOptionalParams'
+      name: PrivateEndpointConnectionsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsGetResponse'
+      name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-search.PrivateEndpointConnectionsListByServiceNextOptionalParams
+      name: PrivateEndpointConnectionsListByServiceNextOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsListByServiceNextResponse'
+      name: PrivateEndpointConnectionsListByServiceNextResponse
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsListByServiceOptionalParams'
+      name: PrivateEndpointConnectionsListByServiceOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsListByServiceResponse'
+      name: PrivateEndpointConnectionsListByServiceResponse
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsUpdateOptionalParams'
+      name: PrivateEndpointConnectionsUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateEndpointConnectionsUpdateResponse'
+      name: PrivateEndpointConnectionsUpdateResponse
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResource'
+      name: PrivateLinkResource
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResourceProperties'
+      name: PrivateLinkResourceProperties
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResources'
+      name: PrivateLinkResources
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResourcesListSupportedOptionalParams'
+      name: PrivateLinkResourcesListSupportedOptionalParams
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResourcesListSupportedResponse'
+      name: PrivateLinkResourcesListSupportedResponse
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkResourcesResult'
+      name: PrivateLinkResourcesResult
+      items: []
+    - uid: '@azure/arm-search.PrivateLinkServiceConnectionStatus'
+      name: PrivateLinkServiceConnectionStatus
+      items: []
     - uid: '@azure/arm-search.ProvisioningState'
       name: ProvisioningState
+      items: []
+    - uid: '@azure/arm-search.ProxyResource'
+      name: ProxyResource
+      items: []
+    - uid: '@azure/arm-search.PublicNetworkAccess'
+      name: PublicNetworkAccess
       items: []
     - uid: '@azure/arm-search.QueryKey'
       name: QueryKey
@@ -54057,6 +54149,12 @@
       items: []
     - uid: '@azure/arm-search.QueryKeysDeleteMethodOptionalParams'
       name: QueryKeysDeleteMethodOptionalParams
+      items: []
+    - uid: '@azure/arm-search.QueryKeysListBySearchServiceNextOptionalParams'
+      name: QueryKeysListBySearchServiceNextOptionalParams
+      items: []
+    - uid: '@azure/arm-search.QueryKeysListBySearchServiceNextResponse'
+      name: QueryKeysListBySearchServiceNextResponse
       items: []
     - uid: '@azure/arm-search.QueryKeysListBySearchServiceOptionalParams'
       name: QueryKeysListBySearchServiceOptionalParams
@@ -54088,6 +54186,9 @@
     - uid: '@azure/arm-search.SearchServiceStatus'
       name: SearchServiceStatus
       items: []
+    - uid: '@azure/arm-search.SearchServiceUpdate'
+      name: SearchServiceUpdate
+      items: []
     - uid: '@azure/arm-search.Services'
       name: Services
       items: []
@@ -54118,11 +54219,29 @@
     - uid: '@azure/arm-search.ServicesGetResponse'
       name: ServicesGetResponse
       items: []
+    - uid: '@azure/arm-search.ServicesListByResourceGroupNextOptionalParams'
+      name: ServicesListByResourceGroupNextOptionalParams
+      items: []
+    - uid: '@azure/arm-search.ServicesListByResourceGroupNextResponse'
+      name: ServicesListByResourceGroupNextResponse
+      items: []
     - uid: '@azure/arm-search.ServicesListByResourceGroupOptionalParams'
       name: ServicesListByResourceGroupOptionalParams
       items: []
     - uid: '@azure/arm-search.ServicesListByResourceGroupResponse'
       name: ServicesListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-search.ServicesListBySubscriptionNextOptionalParams'
+      name: ServicesListBySubscriptionNextOptionalParams
+      items: []
+    - uid: '@azure/arm-search.ServicesListBySubscriptionNextResponse'
+      name: ServicesListBySubscriptionNextResponse
+      items: []
+    - uid: '@azure/arm-search.ServicesListBySubscriptionOptionalParams'
+      name: ServicesListBySubscriptionOptionalParams
+      items: []
+    - uid: '@azure/arm-search.ServicesListBySubscriptionResponse'
+      name: ServicesListBySubscriptionResponse
       items: []
     - uid: '@azure/arm-search.ServicesUpdateOptionalParams'
       name: ServicesUpdateOptionalParams
@@ -54130,11 +54249,80 @@
     - uid: '@azure/arm-search.ServicesUpdateResponse'
       name: ServicesUpdateResponse
       items: []
+    - uid: '@azure/arm-search.ShareablePrivateLinkResourceProperties'
+      name: ShareablePrivateLinkResourceProperties
+      items: []
+    - uid: '@azure/arm-search.ShareablePrivateLinkResourceType'
+      name: ShareablePrivateLinkResourceType
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResource'
+      name: SharedPrivateLinkResource
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourceAsyncOperationResult'
+      name: SharedPrivateLinkResourceAsyncOperationResult
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourceListResult'
+      name: SharedPrivateLinkResourceListResult
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourceProperties'
+      name: SharedPrivateLinkResourceProperties
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourceProvisioningState'
+      name: SharedPrivateLinkResourceProvisioningState
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResources'
+      name: SharedPrivateLinkResources
+      items: []
+    - uid: >-
+        @azure/arm-search.SharedPrivateLinkResourcesBeginCreateOrUpdateOptionalParams
+      name: SharedPrivateLinkResourcesBeginCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesBeginCreateOrUpdateResponse'
+      name: SharedPrivateLinkResourcesBeginCreateOrUpdateResponse
+      items: []
+    - uid: >-
+        @azure/arm-search.SharedPrivateLinkResourcesBeginDeleteMethodOptionalParams
+      name: SharedPrivateLinkResourcesBeginDeleteMethodOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesCreateOrUpdateOptionalParams'
+      name: SharedPrivateLinkResourcesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesCreateOrUpdateResponse'
+      name: SharedPrivateLinkResourcesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesDeleteMethodOptionalParams'
+      name: SharedPrivateLinkResourcesDeleteMethodOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesGetOptionalParams'
+      name: SharedPrivateLinkResourcesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesGetResponse'
+      name: SharedPrivateLinkResourcesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-search.SharedPrivateLinkResourcesListByServiceNextOptionalParams
+      name: SharedPrivateLinkResourcesListByServiceNextOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesListByServiceNextResponse'
+      name: SharedPrivateLinkResourcesListByServiceNextResponse
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesListByServiceOptionalParams'
+      name: SharedPrivateLinkResourcesListByServiceOptionalParams
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourcesListByServiceResponse'
+      name: SharedPrivateLinkResourcesListByServiceResponse
+      items: []
+    - uid: '@azure/arm-search.SharedPrivateLinkResourceStatus'
+      name: SharedPrivateLinkResourceStatus
+      items: []
     - uid: '@azure/arm-search.Sku'
       name: Sku
       items: []
     - uid: '@azure/arm-search.SkuName'
       name: SkuName
+      items: []
+    - uid: '@azure/arm-search.TrackedResource'
+      name: TrackedResource
       items: []
     - uid: '@azure/arm-search.UnavailableNameReason'
       name: UnavailableNameReason
@@ -76839,6 +77027,9 @@
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
       items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
+      items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
       items: []
@@ -77266,6 +77457,9 @@
       items: []
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
+      items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
       items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
@@ -78233,18 +78427,6 @@
     - uid: '@azure/core-auth.SASCredential'
       name: SASCredential
       items: []
-    - uid: '@azure/core-auth.SpanAttributes'
-      name: SpanAttributes
-      items: []
-    - uid: '@azure/core-auth.SpanAttributeValue'
-      name: SpanAttributeValue
-      items: []
-    - uid: '@azure/core-auth.SpanContext'
-      name: SpanContext
-      items: []
-    - uid: '@azure/core-auth.SpanOptions'
-      name: SpanOptions
-      items: []
     - uid: '@azure/core-auth.TokenCredential'
       name: TokenCredential
       items: []
@@ -78369,6 +78551,8 @@
     - uid: '@azure/core-client.XmlOptions'
       name: XmlOptions
       items: []
+- name: '@azure/core-crypto'
+  items: null
 - name: '@azure/core-http'
   items:
     - name: Overview
@@ -79068,8 +79252,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -79131,8 +79315,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -79839,6 +80023,64 @@
       items: []
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
+      items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
       items: []
 - name: '@azure/eventgrid'
   items:
@@ -86911,14 +87153,14 @@
     - uid: '@azure/storage-blob.CpkInfo'
       name: CpkInfo
       items: []
-    - uid: '@azure/storage-blob.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-blob.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-blob.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-blob.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-blob.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -87133,8 +87375,8 @@
     - uid: '@azure/storage-blob.PublicAccessType'
       name: PublicAccessType
       items: []
-    - uid: '@azure/storage-blob.Range'
-      name: Range
+    - uid: '@azure/storage-blob.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-blob.RehydratePriority'
       name: RehydratePriority
@@ -87362,14 +87604,14 @@
     - uid: '@azure/storage-file-datalake.CopyStatusType'
       name: CopyStatusType
       items: []
-    - uid: '@azure/storage-file-datalake.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError'
       name: DataLakeAclChangeFailedError
@@ -87930,14 +88172,14 @@
     - uid: '@azure/storage-file-share.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-file-share.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-share.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-share.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -88294,11 +88536,11 @@
     - uid: '@azure/storage-file-share.PipelineOptions'
       name: PipelineOptions
       items: []
-    - uid: '@azure/storage-file-share.Range'
-      name: Range
-      items: []
     - uid: '@azure/storage-file-share.RangeModel'
       name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-file-share.RetentionPolicy'
       name: RetentionPolicy
@@ -88613,14 +88855,14 @@
     - uid: '@azure/storage-queue.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-queue.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-queue.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-queue.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-queue.DequeuedMessageItem'
       name: DequeuedMessageItem
