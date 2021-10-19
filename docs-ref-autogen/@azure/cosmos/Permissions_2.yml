@@ -1,16 +1,16 @@
 ### YamlMime:TSType
-name: Permissions
-uid: '@azure/cosmos.Permissions'
+name: Permissions_2
+uid: '@azure/cosmos.Permissions_2'
 package: '@azure/cosmos'
 summary: 'Use to create, replace, query, and read all Permissions.'
-fullName: Permissions
+fullName: Permissions_2
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: class
 properties:
   - name: user
-    uid: '@azure/cosmos.Permissions.user'
+    uid: '@azure/cosmos.Permissions_2.user'
     package: '@azure/cosmos'
     summary: ''
     fullName: user
@@ -24,7 +24,7 @@ properties:
         description: ''
 methods:
   - name: 'create(PermissionDefinition, RequestOptions)'
-    uid: '@azure/cosmos.Permissions.create'
+    uid: '@azure/cosmos.Permissions_2.create'
     package: '@azure/cosmos'
     summary: >-
       Create a permission.
@@ -50,7 +50,7 @@ methods:
         type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
         description: ''
   - name: 'query(SqlQuerySpec, FeedOptions)'
-    uid: '@azure/cosmos.Permissions.query'
+    uid: '@azure/cosmos.Permissions_2.query'
     package: '@azure/cosmos'
     summary: Query all permissions.
     remarks: ''
@@ -71,7 +71,7 @@ methods:
         type: <xref uid="@azure/cosmos.QueryIterator" />&lt;any&gt;
         description: ''
   - name: 'query<T>(SqlQuerySpec, FeedOptions)'
-    uid: '@azure/cosmos.Permissions.query_1'
+    uid: '@azure/cosmos.Permissions_2.query_1'
     package: '@azure/cosmos'
     summary: Query all permissions.
     remarks: ''
@@ -92,7 +92,7 @@ methods:
         type: <xref uid="@azure/cosmos.QueryIterator" />&lt;T&gt;
         description: ''
   - name: readAll(FeedOptions)
-    uid: '@azure/cosmos.Permissions.readAll'
+    uid: '@azure/cosmos.Permissions_2.readAll'
     package: '@azure/cosmos'
     summary: Read all permissions.
     remarks: ''
@@ -111,7 +111,7 @@ methods:
           uid="@azure/cosmos.Resource" />&gt;
         description: ''
   - name: 'upsert(PermissionDefinition, RequestOptions)'
-    uid: '@azure/cosmos.Permissions.upsert'
+    uid: '@azure/cosmos.Permissions_2.upsert'
     package: '@azure/cosmos'
     summary: |
       Upsert a permission.

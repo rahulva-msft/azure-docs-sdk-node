@@ -77027,6 +77027,9 @@
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
       items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
+      items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
       items: []
@@ -77454,6 +77457,9 @@
       items: []
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
+      items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
       items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
@@ -78421,18 +78427,6 @@
     - uid: '@azure/core-auth.SASCredential'
       name: SASCredential
       items: []
-    - uid: '@azure/core-auth.SpanAttributes'
-      name: SpanAttributes
-      items: []
-    - uid: '@azure/core-auth.SpanAttributeValue'
-      name: SpanAttributeValue
-      items: []
-    - uid: '@azure/core-auth.SpanContext'
-      name: SpanContext
-      items: []
-    - uid: '@azure/core-auth.SpanOptions'
-      name: SpanOptions
-      items: []
     - uid: '@azure/core-auth.TokenCredential'
       name: TokenCredential
       items: []
@@ -78557,6 +78551,8 @@
     - uid: '@azure/core-client.XmlOptions'
       name: XmlOptions
       items: []
+- name: '@azure/core-crypto'
+  items: null
 - name: '@azure/core-http'
   items:
     - name: Overview
@@ -79256,8 +79252,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -79319,8 +79315,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -79580,6 +79576,9 @@
       items: []
     - uid: '@azure/data-tables.TableEntityResult'
       name: TableEntityResult
+      items: []
+    - uid: '@azure/data-tables.TableEntityResultPage'
+      name: TableEntityResultPage
       items: []
     - uid: '@azure/data-tables.TableGetAccessPolicyHeaders'
       name: TableGetAccessPolicyHeaders
@@ -80027,6 +80026,64 @@
       items: []
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
+      items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
       items: []
 - name: '@azure/eventgrid'
   items:
@@ -81003,6 +81060,12 @@
     - uid: '@azure/identity.AuthenticationRecord'
       name: AuthenticationRecord
       items: []
+    - uid: '@azure/identity.AuthenticationRequiredError'
+      name: AuthenticationRequiredError
+      items: []
+    - uid: '@azure/identity.AuthenticationRequiredErrorOptions'
+      name: AuthenticationRequiredErrorOptions
+      items: []
     - uid: '@azure/identity.AuthorizationCodeCredential'
       name: AuthorizationCodeCredential
       items: []
@@ -81011,6 +81074,15 @@
       items: []
     - uid: '@azure/identity.AzureCliCredential'
       name: AzureCliCredential
+      items: []
+    - uid: '@azure/identity.AzureCliCredentialOptions'
+      name: AzureCliCredentialOptions
+      items: []
+    - uid: '@azure/identity.AzurePowerShellCredential'
+      name: AzurePowerShellCredential
+      items: []
+    - uid: '@azure/identity.AzurePowerShellCredentialOptions'
+      name: AzurePowerShellCredentialOptions
       items: []
     - uid: '@azure/identity.BrowserLoginStyle'
       name: BrowserLoginStyle
@@ -81024,11 +81096,20 @@
     - uid: '@azure/identity.ClientCertificateCredentialOptions'
       name: ClientCertificateCredentialOptions
       items: []
+    - uid: '@azure/identity.ClientCertificateCredentialPEMConfiguration'
+      name: ClientCertificateCredentialPEMConfiguration
+      items: []
     - uid: '@azure/identity.ClientSecretCredential'
       name: ClientSecretCredential
       items: []
-    - uid: '@azure/identity.CredentialUnavailable'
-      name: CredentialUnavailable
+    - uid: '@azure/identity.ClientSecretCredentialOptions'
+      name: ClientSecretCredentialOptions
+      items: []
+    - uid: '@azure/identity.CredentialPersistenceOptions'
+      name: CredentialPersistenceOptions
+      items: []
+    - uid: '@azure/identity.CredentialUnavailableError'
+      name: CredentialUnavailableError
       items: []
     - uid: '@azure/identity.DefaultAzureCredential'
       name: DefaultAzureCredential
@@ -81039,6 +81120,9 @@
     - uid: '@azure/identity.DeviceCodeCredential'
       name: DeviceCodeCredential
       items: []
+    - uid: '@azure/identity.DeviceCodeCredentialOptions'
+      name: DeviceCodeCredentialOptions
+      items: []
     - uid: '@azure/identity.DeviceCodeInfo'
       name: DeviceCodeInfo
       items: []
@@ -81048,23 +81132,53 @@
     - uid: '@azure/identity.EnvironmentCredential'
       name: EnvironmentCredential
       items: []
+    - uid: '@azure/identity.EnvironmentCredentialOptions'
+      name: EnvironmentCredentialOptions
+      items: []
     - uid: '@azure/identity.ErrorResponse'
       name: ErrorResponse
+      items: []
+    - uid: '@azure/identity.IdentityPlugin'
+      name: IdentityPlugin
       items: []
     - uid: '@azure/identity.InteractiveBrowserCredential'
       name: InteractiveBrowserCredential
       items: []
-    - uid: '@azure/identity.InteractiveBrowserCredentialOptions'
-      name: InteractiveBrowserCredentialOptions
+    - uid: '@azure/identity.InteractiveBrowserCredentialInBrowserOptions'
+      name: InteractiveBrowserCredentialInBrowserOptions
+      items: []
+    - uid: '@azure/identity.InteractiveBrowserCredentialNodeOptions'
+      name: InteractiveBrowserCredentialNodeOptions
+      items: []
+    - uid: '@azure/identity.InteractiveCredentialOptions'
+      name: InteractiveCredentialOptions
       items: []
     - uid: '@azure/identity.ManagedIdentityCredential'
       name: ManagedIdentityCredential
+      items: []
+    - uid: '@azure/identity.OnBehalfOfCredential'
+      name: OnBehalfOfCredential
+      items: []
+    - uid: '@azure/identity.OnBehalfOfCredentialCertificateOptions'
+      name: OnBehalfOfCredentialCertificateOptions
+      items: []
+    - uid: '@azure/identity.OnBehalfOfCredentialOptions'
+      name: OnBehalfOfCredentialOptions
+      items: []
+    - uid: '@azure/identity.OnBehalfOfCredentialSecretOptions'
+      name: OnBehalfOfCredentialSecretOptions
+      items: []
+    - uid: '@azure/identity.TokenCachePersistenceOptions'
+      name: TokenCachePersistenceOptions
       items: []
     - uid: '@azure/identity.TokenCredentialOptions'
       name: TokenCredentialOptions
       items: []
     - uid: '@azure/identity.UsernamePasswordCredential'
       name: UsernamePasswordCredential
+      items: []
+    - uid: '@azure/identity.UsernamePasswordCredentialOptions'
+      name: UsernamePasswordCredentialOptions
       items: []
     - uid: '@azure/identity.VisualStudioCodeCredential'
       name: VisualStudioCodeCredential

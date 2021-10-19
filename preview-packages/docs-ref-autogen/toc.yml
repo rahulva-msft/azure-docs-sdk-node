@@ -842,6 +842,9 @@
     - uid: '@azure-rest/agrifood-farming.GeoJsonObjectType'
       name: GeoJsonObjectType
       items: []
+    - uid: '@azure-rest/agrifood-farming.GetArrayType'
+      name: GetArrayType
+      items: []
     - uid: '@azure-rest/agrifood-farming.HarvestData'
       name: HarvestData
       items: []
@@ -1126,6 +1129,9 @@
       items: []
     - uid: '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties'
       name: OAuthTokensListQueryParamProperties
+      items: []
+    - uid: '@azure-rest/agrifood-farming.PaginateReturn'
+      name: PaginateReturn
       items: []
     - uid: >-
         @azure-rest/agrifood-farming.Paths1LxjoxzFarmersFarmeridAttachmentsAttachmentidPatchRequestbodyContentMultipartFormDataSchema
@@ -2273,6 +2279,13 @@
       items: []
     - uid: '@azure-rest/core-client.RouteParams'
       name: RouteParams
+      items: []
+- name: '@azure-rest/core-client-lro'
+  items:
+    - name: Overview
+      uid: '@azure-rest/core-client-lro'
+    - uid: '@azure-rest/core-client-lro.PollerOptions'
+      name: PollerOptions
       items: []
 - name: '@azure-rest/purview-account'
   items:
@@ -7377,8 +7390,8 @@
     - uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
       name: KnownInnerErrorCodeValue
       items: []
-    - uid: '@azure/ai-text-analytics.KnownSummarySentencesSortBy'
-      name: KnownSummarySentencesSortBy
+    - uid: '@azure/ai-text-analytics.KnownSummarySentencesOrderBy'
+      name: KnownSummarySentencesOrderBy
       items: []
     - uid: '@azure/ai-text-analytics.KnownWarningCode'
       name: KnownWarningCode
@@ -39420,9 +39433,6 @@
     - uid: '@azure/arm-resources-subscriptions.KnownResourceNameStatus'
       name: KnownResourceNameStatus
       items: []
-    - uid: '@azure/arm-resources-subscriptions.Location'
-      name: Location
-      items: []
     - uid: '@azure/arm-resources-subscriptions.LocationListResult'
       name: LocationListResult
       items: []
@@ -39431,6 +39441,9 @@
       items: []
     - uid: '@azure/arm-resources-subscriptions.LocationType'
       name: LocationType
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/arm-resources-subscriptions.ManagedByTenant'
       name: ManagedByTenant
@@ -50154,6 +50167,25 @@
     - uid: '@azure/communication-chat.UpdateTopicOptions'
       name: UpdateTopicOptions
       items: []
+- name: '@azure/communication-identity'
+  items:
+    - name: Overview
+      uid: '@azure/communication-identity'
+    - uid: '@azure/communication-identity.CommunicationAccessToken'
+      name: CommunicationAccessToken
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClient'
+      name: CommunicationIdentityClient
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClientOptions'
+      name: CommunicationIdentityClientOptions
+      items: []
+    - uid: '@azure/communication-identity.CommunicationUserToken'
+      name: CommunicationUserToken
+      items: []
+    - uid: '@azure/communication-identity.TokenScope'
+      name: TokenScope
+      items: []
 - name: '@azure/communication-network-traversal'
   items:
     - name: Overview
@@ -50661,6 +50693,13 @@
       items: []
     - uid: '@azure/digital-twins.RelationshipCollection'
       name: RelationshipCollection
+      items: []
+- name: '@azure/eventhubs-checkpointstore-table'
+  items:
+    - name: Overview
+      uid: '@azure/eventhubs-checkpointstore-table'
+    - uid: '@azure/eventhubs-checkpointstore-table.TableCheckpointStore'
+      name: TableCheckpointStore
       items: []
 - name: '@azure/identity'
   items:
@@ -52206,11 +52245,11 @@
     - uid: '@azure/quantum-jobs.SasUriResponse'
       name: SasUriResponse
       items: []
-    - uid: '@azure/quantum-jobs.Storage'
-      name: Storage
-      items: []
     - uid: '@azure/quantum-jobs.StorageSasUriResponse'
       name: StorageSasUriResponse
+      items: []
+    - uid: '@azure/quantum-jobs.Storage_2'
+      name: Storage_2
       items: []
     - uid: '@azure/quantum-jobs.TargetAvailability'
       name: TargetAvailability
