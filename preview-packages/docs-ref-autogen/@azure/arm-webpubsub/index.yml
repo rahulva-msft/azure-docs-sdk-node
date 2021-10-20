@@ -105,7 +105,7 @@ interfaces:
 typeAliases:
   - '@azure/arm-webpubsub.ACLAction'
   - '@azure/arm-webpubsub.CreatedByType'
-  - '@azure/arm-webpubsub.KeyType'
+  - '@azure/arm-webpubsub.KeyType_2'
   - '@azure/arm-webpubsub.ManagedIdentityType'
   - '@azure/arm-webpubsub.OperationsListNextResponse'
   - '@azure/arm-webpubsub.OperationsListResponse'
@@ -145,3 +145,4 @@ typeAliases:
   - '@azure/arm-webpubsub.WebPubSubSharedPrivateLinkResourcesListResponse'
   - '@azure/arm-webpubsub.WebPubSubSkuTier'
   - '@azure/arm-webpubsub.WebPubSubUpdateResponse'
+  - '@azure/arm-webpubsub.KeyType'
