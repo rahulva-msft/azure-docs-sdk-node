@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/arm-postgresql",
+  "Version": "6.0.0-alpha.20211020.1",
+  "DevVersion": "6.0.0-alpha.20211020.1",
+  "DirectoryPath": "sdk/postgresql/arm-postgresql",
+  "ServiceDirectory": "postgresql",
+  "ReadMePath": "sdk/postgresql/arm-postgresql/README.md",
+  "ChangeLogPath": "sdk/postgresql/arm-postgresql/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-arm-postgresql",
+  "ReleaseStatus": "Unreleased"
+}
