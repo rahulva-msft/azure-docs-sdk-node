@@ -1,7 +1,7 @@
 {
   "Name": "@azure/communication-common",
   "Version": "1.1.1-alpha.20211001.1",
-  "DevVersion": "1.1.1-alpha.20211020.2",
+  "DevVersion": "1.1.1-alpha.20211020.3",
   "DirectoryPath": "sdk/communication/communication-common",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/communication-common/README.md",
