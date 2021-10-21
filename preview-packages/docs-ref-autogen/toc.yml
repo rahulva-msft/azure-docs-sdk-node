@@ -842,6 +842,9 @@
     - uid: '@azure-rest/agrifood-farming.GeoJsonObjectType'
       name: GeoJsonObjectType
       items: []
+    - uid: '@azure-rest/agrifood-farming.GetArrayType'
+      name: GetArrayType
+      items: []
     - uid: '@azure-rest/agrifood-farming.HarvestData'
       name: HarvestData
       items: []
@@ -1126,6 +1129,9 @@
       items: []
     - uid: '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties'
       name: OAuthTokensListQueryParamProperties
+      items: []
+    - uid: '@azure-rest/agrifood-farming.PaginateReturn'
+      name: PaginateReturn
       items: []
     - uid: >-
         @azure-rest/agrifood-farming.Paths1LxjoxzFarmersFarmeridAttachmentsAttachmentidPatchRequestbodyContentMultipartFormDataSchema
@@ -2273,6 +2279,13 @@
       items: []
     - uid: '@azure-rest/core-client.RouteParams'
       name: RouteParams
+      items: []
+- name: '@azure-rest/core-client-lro'
+  items:
+    - name: Overview
+      uid: '@azure-rest/core-client-lro'
+    - uid: '@azure-rest/core-client-lro.PollerOptions'
+      name: PollerOptions
       items: []
 - name: '@azure-rest/purview-account'
   items:
@@ -7377,8 +7390,8 @@
     - uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
       name: KnownInnerErrorCodeValue
       items: []
-    - uid: '@azure/ai-text-analytics.KnownSummarySentencesSortBy'
-      name: KnownSummarySentencesSortBy
+    - uid: '@azure/ai-text-analytics.KnownSummarySentencesOrderBy'
+      name: KnownSummarySentencesOrderBy
       items: []
     - uid: '@azure/ai-text-analytics.KnownWarningCode'
       name: KnownWarningCode
@@ -35446,6 +35459,649 @@
     - uid: '@azure/arm-policy.UserAssignedIdentitiesValue'
       name: UserAssignedIdentitiesValue
       items: []
+- name: '@azure/arm-postgresql'
+  items:
+    - name: Overview
+      uid: '@azure/arm-postgresql'
+    - uid: '@azure/arm-postgresql.CheckNameAvailability'
+      name: CheckNameAvailability
+      items: []
+    - uid: '@azure/arm-postgresql.CheckNameAvailabilityExecuteOptionalParams'
+      name: CheckNameAvailabilityExecuteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.CheckNameAvailabilityExecuteResponse'
+      name: CheckNameAvailabilityExecuteResponse
+      items: []
+    - uid: '@azure/arm-postgresql.CloudError'
+      name: CloudError
+      items: []
+    - uid: '@azure/arm-postgresql.Configuration'
+      name: Configuration
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationListResult'
+      name: ConfigurationListResult
+      items: []
+    - uid: '@azure/arm-postgresql.Configurations'
+      name: Configurations
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsCreateOrUpdateOptionalParams'
+      name: ConfigurationsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsCreateOrUpdateResponse'
+      name: ConfigurationsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsGetOptionalParams'
+      name: ConfigurationsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsGetResponse'
+      name: ConfigurationsGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsListByServerOptionalParams'
+      name: ConfigurationsListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ConfigurationsListByServerResponse'
+      name: ConfigurationsListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.CreateMode'
+      name: CreateMode
+      items: []
+    - uid: '@azure/arm-postgresql.Database'
+      name: Database
+      items: []
+    - uid: '@azure/arm-postgresql.DatabaseListResult'
+      name: DatabaseListResult
+      items: []
+    - uid: '@azure/arm-postgresql.Databases'
+      name: Databases
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesCreateOrUpdateOptionalParams'
+      name: DatabasesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesCreateOrUpdateResponse'
+      name: DatabasesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesDeleteOptionalParams'
+      name: DatabasesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesGetOptionalParams'
+      name: DatabasesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesGetResponse'
+      name: DatabasesGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesListByServerOptionalParams'
+      name: DatabasesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.DatabasesListByServerResponse'
+      name: DatabasesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-postgresql.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRule'
+      name: FirewallRule
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRuleListResult'
+      name: FirewallRuleListResult
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRules'
+      name: FirewallRules
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesCreateOrUpdateOptionalParams'
+      name: FirewallRulesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesCreateOrUpdateResponse'
+      name: FirewallRulesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesDeleteOptionalParams'
+      name: FirewallRulesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesGetOptionalParams'
+      name: FirewallRulesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesGetResponse'
+      name: FirewallRulesGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesListByServerOptionalParams'
+      name: FirewallRulesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.FirewallRulesListByServerResponse'
+      name: FirewallRulesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.GeoRedundantBackup'
+      name: GeoRedundantBackup
+      items: []
+    - uid: '@azure/arm-postgresql.IdentityType'
+      name: IdentityType
+      items: []
+    - uid: '@azure/arm-postgresql.InfrastructureEncryption'
+      name: InfrastructureEncryption
+      items: []
+    - uid: '@azure/arm-postgresql.KnownCreateMode'
+      name: KnownCreateMode
+      items: []
+    - uid: '@azure/arm-postgresql.KnownGeoRedundantBackup'
+      name: KnownGeoRedundantBackup
+      items: []
+    - uid: '@azure/arm-postgresql.KnownIdentityType'
+      name: KnownIdentityType
+      items: []
+    - uid: '@azure/arm-postgresql.KnownInfrastructureEncryption'
+      name: KnownInfrastructureEncryption
+      items: []
+    - uid: '@azure/arm-postgresql.KnownMinimalTlsVersionEnum'
+      name: KnownMinimalTlsVersionEnum
+      items: []
+    - uid: '@azure/arm-postgresql.KnownOperationOrigin'
+      name: KnownOperationOrigin
+      items: []
+    - uid: '@azure/arm-postgresql.KnownPrivateEndpointProvisioningState'
+      name: KnownPrivateEndpointProvisioningState
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.KnownPrivateLinkServiceConnectionStateActionsRequire
+      name: KnownPrivateLinkServiceConnectionStateActionsRequire
+      items: []
+    - uid: '@azure/arm-postgresql.KnownPrivateLinkServiceConnectionStateStatus'
+      name: KnownPrivateLinkServiceConnectionStateStatus
+      items: []
+    - uid: '@azure/arm-postgresql.KnownPublicNetworkAccessEnum'
+      name: KnownPublicNetworkAccessEnum
+      items: []
+    - uid: '@azure/arm-postgresql.KnownSecurityAlertPolicyName'
+      name: KnownSecurityAlertPolicyName
+      items: []
+    - uid: '@azure/arm-postgresql.KnownServerKeyType'
+      name: KnownServerKeyType
+      items: []
+    - uid: '@azure/arm-postgresql.KnownServerState'
+      name: KnownServerState
+      items: []
+    - uid: '@azure/arm-postgresql.KnownServerVersion'
+      name: KnownServerVersion
+      items: []
+    - uid: '@azure/arm-postgresql.KnownSkuTier'
+      name: KnownSkuTier
+      items: []
+    - uid: '@azure/arm-postgresql.KnownStorageAutogrow'
+      name: KnownStorageAutogrow
+      items: []
+    - uid: '@azure/arm-postgresql.KnownVirtualNetworkRuleState'
+      name: KnownVirtualNetworkRuleState
+      items: []
+    - uid: '@azure/arm-postgresql.LocationBasedPerformanceTier'
+      name: LocationBasedPerformanceTier
+      items: []
+    - uid: '@azure/arm-postgresql.LocationBasedPerformanceTierListOptionalParams'
+      name: LocationBasedPerformanceTierListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.LocationBasedPerformanceTierListResponse'
+      name: LocationBasedPerformanceTierListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.LogFile'
+      name: LogFile
+      items: []
+    - uid: '@azure/arm-postgresql.LogFileListResult'
+      name: LogFileListResult
+      items: []
+    - uid: '@azure/arm-postgresql.LogFiles'
+      name: LogFiles
+      items: []
+    - uid: '@azure/arm-postgresql.LogFilesListByServerOptionalParams'
+      name: LogFilesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.LogFilesListByServerResponse'
+      name: LogFilesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.MinimalTlsVersionEnum'
+      name: MinimalTlsVersionEnum
+      items: []
+    - uid: '@azure/arm-postgresql.NameAvailability'
+      name: NameAvailability
+      items: []
+    - uid: '@azure/arm-postgresql.NameAvailabilityRequest'
+      name: NameAvailabilityRequest
+      items: []
+    - uid: '@azure/arm-postgresql.Operation'
+      name: Operation
+      items: []
+    - uid: '@azure/arm-postgresql.OperationDisplay'
+      name: OperationDisplay
+      items: []
+    - uid: '@azure/arm-postgresql.OperationListResult'
+      name: OperationListResult
+      items: []
+    - uid: '@azure/arm-postgresql.OperationOrigin'
+      name: OperationOrigin
+      items: []
+    - uid: '@azure/arm-postgresql.Operations'
+      name: Operations
+      items: []
+    - uid: '@azure/arm-postgresql.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.OperationsListResponse'
+      name: OperationsListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PerformanceTierListResult'
+      name: PerformanceTierListResult
+      items: []
+    - uid: '@azure/arm-postgresql.PerformanceTierProperties'
+      name: PerformanceTierProperties
+      items: []
+    - uid: '@azure/arm-postgresql.PerformanceTierServiceLevelObjectives'
+      name: PerformanceTierServiceLevelObjectives
+      items: []
+    - uid: '@azure/arm-postgresql.PostgreSQLManagementClient'
+      name: PostgreSQLManagementClient
+      items: []
+    - uid: '@azure/arm-postgresql.PostgreSQLManagementClientContext'
+      name: PostgreSQLManagementClientContext
+      items: []
+    - uid: '@azure/arm-postgresql.PostgreSQLManagementClientOptionalParams'
+      name: PostgreSQLManagementClientOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnections'
+      name: PrivateEndpointConnections
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.PrivateEndpointConnectionsCreateOrUpdateOptionalParams
+      name: PrivateEndpointConnectionsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsCreateOrUpdateResponse'
+      name: PrivateEndpointConnectionsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsDeleteOptionalParams'
+      name: PrivateEndpointConnectionsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsGetOptionalParams'
+      name: PrivateEndpointConnectionsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsGetResponse'
+      name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.PrivateEndpointConnectionsListByServerNextOptionalParams
+      name: PrivateEndpointConnectionsListByServerNextOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsListByServerNextResponse'
+      name: PrivateEndpointConnectionsListByServerNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.PrivateEndpointConnectionsListByServerOptionalParams
+      name: PrivateEndpointConnectionsListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsListByServerResponse'
+      name: PrivateEndpointConnectionsListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsUpdateTagsOptionalParams'
+      name: PrivateEndpointConnectionsUpdateTagsOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointConnectionsUpdateTagsResponse'
+      name: PrivateEndpointConnectionsUpdateTagsResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointProperty'
+      name: PrivateEndpointProperty
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateEndpointProvisioningState'
+      name: PrivateEndpointProvisioningState
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResource'
+      name: PrivateLinkResource
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourceListResult'
+      name: PrivateLinkResourceListResult
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourceProperties'
+      name: PrivateLinkResourceProperties
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResources'
+      name: PrivateLinkResources
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesGetOptionalParams'
+      name: PrivateLinkResourcesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesGetResponse'
+      name: PrivateLinkResourcesGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesListByServerNextOptionalParams'
+      name: PrivateLinkResourcesListByServerNextOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesListByServerNextResponse'
+      name: PrivateLinkResourcesListByServerNextResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesListByServerOptionalParams'
+      name: PrivateLinkResourcesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkResourcesListByServerResponse'
+      name: PrivateLinkResourcesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkServiceConnectionStateActionsRequire'
+      name: PrivateLinkServiceConnectionStateActionsRequire
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkServiceConnectionStateProperty'
+      name: PrivateLinkServiceConnectionStateProperty
+      items: []
+    - uid: '@azure/arm-postgresql.PrivateLinkServiceConnectionStateStatus'
+      name: PrivateLinkServiceConnectionStateStatus
+      items: []
+    - uid: '@azure/arm-postgresql.ProxyResource'
+      name: ProxyResource
+      items: []
+    - uid: '@azure/arm-postgresql.PublicNetworkAccessEnum'
+      name: PublicNetworkAccessEnum
+      items: []
+    - uid: '@azure/arm-postgresql.RecoverableServerResource'
+      name: RecoverableServerResource
+      items: []
+    - uid: '@azure/arm-postgresql.RecoverableServers'
+      name: RecoverableServers
+      items: []
+    - uid: '@azure/arm-postgresql.RecoverableServersGetOptionalParams'
+      name: RecoverableServersGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.RecoverableServersGetResponse'
+      name: RecoverableServersGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.Replicas'
+      name: Replicas
+      items: []
+    - uid: '@azure/arm-postgresql.ReplicasListByServerOptionalParams'
+      name: ReplicasListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ReplicasListByServerResponse'
+      name: ReplicasListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.Resource'
+      name: Resource
+      items: []
+    - uid: '@azure/arm-postgresql.ResourceIdentity'
+      name: ResourceIdentity
+      items: []
+    - uid: '@azure/arm-postgresql.SecurityAlertPolicyName'
+      name: SecurityAlertPolicyName
+      items: []
+    - uid: '@azure/arm-postgresql.Server'
+      name: Server
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorResource'
+      name: ServerAdministratorResource
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorResourceListResult'
+      name: ServerAdministratorResourceListResult
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministrators'
+      name: ServerAdministrators
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsCreateOrUpdateOptionalParams'
+      name: ServerAdministratorsCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsCreateOrUpdateResponse'
+      name: ServerAdministratorsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsDeleteOptionalParams'
+      name: ServerAdministratorsDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsGetOptionalParams'
+      name: ServerAdministratorsGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsGetResponse'
+      name: ServerAdministratorsGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsListOptionalParams'
+      name: ServerAdministratorsListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerAdministratorsListResponse'
+      name: ServerAdministratorsListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerBasedPerformanceTier'
+      name: ServerBasedPerformanceTier
+      items: []
+    - uid: '@azure/arm-postgresql.ServerBasedPerformanceTierListOptionalParams'
+      name: ServerBasedPerformanceTierListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerBasedPerformanceTierListResponse'
+      name: ServerBasedPerformanceTierListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerForCreate'
+      name: ServerForCreate
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKey'
+      name: ServerKey
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeyListResult'
+      name: ServerKeyListResult
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeys'
+      name: ServerKeys
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysCreateOrUpdateOptionalParams'
+      name: ServerKeysCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysCreateOrUpdateResponse'
+      name: ServerKeysCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysDeleteOptionalParams'
+      name: ServerKeysDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysGetOptionalParams'
+      name: ServerKeysGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysGetResponse'
+      name: ServerKeysGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysListNextOptionalParams'
+      name: ServerKeysListNextOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysListNextResponse'
+      name: ServerKeysListNextResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysListOptionalParams'
+      name: ServerKeysListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeysListResponse'
+      name: ServerKeysListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerKeyType'
+      name: ServerKeyType
+      items: []
+    - uid: '@azure/arm-postgresql.ServerListResult'
+      name: ServerListResult
+      items: []
+    - uid: '@azure/arm-postgresql.ServerParameters'
+      name: ServerParameters
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.ServerParametersListUpdateConfigurationsOptionalParams
+      name: ServerParametersListUpdateConfigurationsOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerParametersListUpdateConfigurationsResponse'
+      name: ServerParametersListUpdateConfigurationsResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPrivateEndpointConnection'
+      name: ServerPrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPrivateEndpointConnectionProperties'
+      name: ServerPrivateEndpointConnectionProperties
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPrivateLinkServiceConnectionStateProperty'
+      name: ServerPrivateLinkServiceConnectionStateProperty
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForCreate'
+      name: ServerPropertiesForCreate
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForCreateUnion'
+      name: ServerPropertiesForCreateUnion
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForDefaultCreate'
+      name: ServerPropertiesForDefaultCreate
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForGeoRestore'
+      name: ServerPropertiesForGeoRestore
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForReplica'
+      name: ServerPropertiesForReplica
+      items: []
+    - uid: '@azure/arm-postgresql.ServerPropertiesForRestore'
+      name: ServerPropertiesForRestore
+      items: []
+    - uid: '@azure/arm-postgresql.Servers'
+      name: Servers
+      items: []
+    - uid: '@azure/arm-postgresql.ServersCreateOptionalParams'
+      name: ServersCreateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServersCreateResponse'
+      name: ServersCreateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServersDeleteOptionalParams'
+      name: ServersDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPolicies'
+      name: ServerSecurityAlertPolicies
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.ServerSecurityAlertPoliciesCreateOrUpdateOptionalParams
+      name: ServerSecurityAlertPoliciesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPoliciesCreateOrUpdateResponse'
+      name: ServerSecurityAlertPoliciesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPoliciesGetOptionalParams'
+      name: ServerSecurityAlertPoliciesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPoliciesGetResponse'
+      name: ServerSecurityAlertPoliciesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.ServerSecurityAlertPoliciesListByServerNextOptionalParams
+      name: ServerSecurityAlertPoliciesListByServerNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.ServerSecurityAlertPoliciesListByServerNextResponse
+      name: ServerSecurityAlertPoliciesListByServerNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-postgresql.ServerSecurityAlertPoliciesListByServerOptionalParams
+      name: ServerSecurityAlertPoliciesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPoliciesListByServerResponse'
+      name: ServerSecurityAlertPoliciesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPolicy'
+      name: ServerSecurityAlertPolicy
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPolicyListResult'
+      name: ServerSecurityAlertPolicyListResult
+      items: []
+    - uid: '@azure/arm-postgresql.ServerSecurityAlertPolicyState'
+      name: ServerSecurityAlertPolicyState
+      items: []
+    - uid: '@azure/arm-postgresql.ServersGetOptionalParams'
+      name: ServersGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServersGetResponse'
+      name: ServersGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServersListByResourceGroupOptionalParams'
+      name: ServersListByResourceGroupOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServersListByResourceGroupResponse'
+      name: ServersListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServersListOptionalParams'
+      name: ServersListOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServersListResponse'
+      name: ServersListResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServersRestartOptionalParams'
+      name: ServersRestartOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServerState'
+      name: ServerState
+      items: []
+    - uid: '@azure/arm-postgresql.ServersUpdateOptionalParams'
+      name: ServersUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.ServersUpdateResponse'
+      name: ServersUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.ServerUpdateParameters'
+      name: ServerUpdateParameters
+      items: []
+    - uid: '@azure/arm-postgresql.ServerVersion'
+      name: ServerVersion
+      items: []
+    - uid: '@azure/arm-postgresql.Sku'
+      name: Sku
+      items: []
+    - uid: '@azure/arm-postgresql.SkuTier'
+      name: SkuTier
+      items: []
+    - uid: '@azure/arm-postgresql.SslEnforcementEnum'
+      name: SslEnforcementEnum
+      items: []
+    - uid: '@azure/arm-postgresql.StorageAutogrow'
+      name: StorageAutogrow
+      items: []
+    - uid: '@azure/arm-postgresql.StorageProfile'
+      name: StorageProfile
+      items: []
+    - uid: '@azure/arm-postgresql.TagsObject'
+      name: TagsObject
+      items: []
+    - uid: '@azure/arm-postgresql.TrackedResource'
+      name: TrackedResource
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRule'
+      name: VirtualNetworkRule
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRuleListResult'
+      name: VirtualNetworkRuleListResult
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRules'
+      name: VirtualNetworkRules
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesCreateOrUpdateOptionalParams'
+      name: VirtualNetworkRulesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesCreateOrUpdateResponse'
+      name: VirtualNetworkRulesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesDeleteOptionalParams'
+      name: VirtualNetworkRulesDeleteOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesGetOptionalParams'
+      name: VirtualNetworkRulesGetOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesGetResponse'
+      name: VirtualNetworkRulesGetResponse
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesListByServerNextOptionalParams'
+      name: VirtualNetworkRulesListByServerNextOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesListByServerNextResponse'
+      name: VirtualNetworkRulesListByServerNextResponse
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesListByServerOptionalParams'
+      name: VirtualNetworkRulesListByServerOptionalParams
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRulesListByServerResponse'
+      name: VirtualNetworkRulesListByServerResponse
+      items: []
+    - uid: '@azure/arm-postgresql.VirtualNetworkRuleState'
+      name: VirtualNetworkRuleState
+      items: []
 - name: '@azure/arm-purview'
   items:
     - name: Overview
@@ -38793,9 +39449,6 @@
     - uid: '@azure/arm-resources-subscriptions.KnownResourceNameStatus'
       name: KnownResourceNameStatus
       items: []
-    - uid: '@azure/arm-resources-subscriptions.Location'
-      name: Location
-      items: []
     - uid: '@azure/arm-resources-subscriptions.LocationListResult'
       name: LocationListResult
       items: []
@@ -38804,6 +39457,9 @@
       items: []
     - uid: '@azure/arm-resources-subscriptions.LocationType'
       name: LocationType
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/arm-resources-subscriptions.ManagedByTenant'
       name: ManagedByTenant
@@ -48389,8 +49045,8 @@
     - uid: '@azure/arm-webpubsub.KeyType'
       name: KeyType
       items: []
-    - uid: '@azure/arm-webpubsub.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-webpubsub.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-webpubsub.KnownACLAction'
       name: KnownACLAction
@@ -49527,6 +50183,25 @@
     - uid: '@azure/communication-chat.UpdateTopicOptions'
       name: UpdateTopicOptions
       items: []
+- name: '@azure/communication-identity'
+  items:
+    - name: Overview
+      uid: '@azure/communication-identity'
+    - uid: '@azure/communication-identity.CommunicationAccessToken'
+      name: CommunicationAccessToken
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClient'
+      name: CommunicationIdentityClient
+      items: []
+    - uid: '@azure/communication-identity.CommunicationIdentityClientOptions'
+      name: CommunicationIdentityClientOptions
+      items: []
+    - uid: '@azure/communication-identity.CommunicationUserToken'
+      name: CommunicationUserToken
+      items: []
+    - uid: '@azure/communication-identity.TokenScope'
+      name: TokenScope
+      items: []
 - name: '@azure/communication-network-traversal'
   items:
     - name: Overview
@@ -50034,6 +50709,13 @@
       items: []
     - uid: '@azure/digital-twins.RelationshipCollection'
       name: RelationshipCollection
+      items: []
+- name: '@azure/eventhubs-checkpointstore-table'
+  items:
+    - name: Overview
+      uid: '@azure/eventhubs-checkpointstore-table'
+    - uid: '@azure/eventhubs-checkpointstore-table.TableCheckpointStore'
+      name: TableCheckpointStore
       items: []
 - name: '@azure/identity'
   items:
@@ -51579,11 +52261,11 @@
     - uid: '@azure/quantum-jobs.SasUriResponse'
       name: SasUriResponse
       items: []
-    - uid: '@azure/quantum-jobs.Storage'
-      name: Storage
-      items: []
     - uid: '@azure/quantum-jobs.StorageSasUriResponse'
       name: StorageSasUriResponse
+      items: []
+    - uid: '@azure/quantum-jobs.Storage_2'
+      name: Storage_2
       items: []
     - uid: '@azure/quantum-jobs.TargetAvailability'
       name: TargetAvailability
@@ -59067,11 +59749,11 @@
     - uid: '@azure/video-analyzer-edge.ProcessorNodeBaseUnion'
       name: ProcessorNodeBaseUnion
       items: []
-    - uid: '@azure/video-analyzer-edge.Request'
-      name: Request
-      items: []
     - uid: '@azure/video-analyzer-edge.RequestType'
       name: RequestType
+      items: []
+    - uid: '@azure/video-analyzer-edge.Request_2'
+      name: Request_2
       items: []
     - uid: '@azure/video-analyzer-edge.RtspSource'
       name: RtspSource

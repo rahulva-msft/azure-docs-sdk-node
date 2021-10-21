@@ -53,6 +53,12 @@
     uid: azure.nodejs.sdk.landingpage.services.communication.pre
     landingPageType: Service
     items:
+    - name: Identity
+      uid: azure.nodejs.sdk.landingpage.services.communication.Identity.pre
+      href: ~/docs-ref-services/preview/communication-identity-readme.md
+      landingPageType: Service
+      children:
+      - '@azure/communication-identity'
     - name: Chat
       uid: azure.nodejs.sdk.landingpage.services.communication.Chat.pre
       href: ~/docs-ref-services/preview/communication-chat-readme.md
@@ -199,6 +205,16 @@
       landingPageType: Service
       children:
       - '@azure/arm-policy'
+  - name: PostgreSQL
+    uid: azure.nodejs.sdk.landingpage.services.postgresql.pre
+    href: ~/docs-ref-services/preview/postgresql.md
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.postgresql.Management.pre
+      landingPageType: Service
+      children:
+      - azure-arm-postgresql
+      - '@azure/arm-postgresql'
   - name: Purview
     uid: azure.nodejs.sdk.landingpage.services.purview.pre
     landingPageType: Service
