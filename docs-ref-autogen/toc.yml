@@ -79677,6 +79677,9 @@
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
       items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
+      items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
       items: []
@@ -80104,6 +80107,9 @@
       items: []
     - uid: '@azure/communication-chat.SendTypingNotificationRequest'
       name: SendTypingNotificationRequest
+      items: []
+    - uid: '@azure/communication-chat.SignalingClientOptions'
+      name: SignalingClientOptions
       items: []
     - uid: '@azure/communication-chat.UpdateChatMessageRequest'
       name: UpdateChatMessageRequest
@@ -82230,6 +82236,9 @@
       items: []
     - uid: '@azure/data-tables.TableEntityResult'
       name: TableEntityResult
+      items: []
+    - uid: '@azure/data-tables.TableEntityResultPage'
+      name: TableEntityResultPage
       items: []
     - uid: '@azure/data-tables.TableGetAccessPolicyHeaders'
       name: TableGetAccessPolicyHeaders
@@ -89806,14 +89815,14 @@
     - uid: '@azure/storage-blob.CpkInfo'
       name: CpkInfo
       items: []
-    - uid: '@azure/storage-blob.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-blob.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-blob.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-blob.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-blob.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -90028,8 +90037,8 @@
     - uid: '@azure/storage-blob.PublicAccessType'
       name: PublicAccessType
       items: []
-    - uid: '@azure/storage-blob.Range'
-      name: Range
+    - uid: '@azure/storage-blob.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-blob.RehydratePriority'
       name: RehydratePriority
@@ -90257,14 +90266,14 @@
     - uid: '@azure/storage-file-datalake.CopyStatusType'
       name: CopyStatusType
       items: []
-    - uid: '@azure/storage-file-datalake.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError'
       name: DataLakeAclChangeFailedError
@@ -90825,14 +90834,14 @@
     - uid: '@azure/storage-file-share.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-file-share.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-share.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-share.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -91189,11 +91198,11 @@
     - uid: '@azure/storage-file-share.PipelineOptions'
       name: PipelineOptions
       items: []
-    - uid: '@azure/storage-file-share.Range'
-      name: Range
-      items: []
     - uid: '@azure/storage-file-share.RangeModel'
       name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-file-share.RetentionPolicy'
       name: RetentionPolicy
@@ -91508,14 +91517,14 @@
     - uid: '@azure/storage-queue.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-queue.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-queue.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-queue.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-queue.DequeuedMessageItem'
       name: DequeuedMessageItem
