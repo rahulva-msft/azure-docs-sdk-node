@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-containerregistry",
-  "Version": "9.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "9.0.0-alpha.20211021.2",
+  "DevVersion": "9.0.0-alpha.20211021.2",
   "DirectoryPath": "sdk/containerregistry/arm-containerregistry",
   "ServiceDirectory": "containerregistry",
   "ReadMePath": "sdk/containerregistry/arm-containerregistry/README.md",
