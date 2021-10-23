@@ -63,6 +63,7 @@ typeAliases:
   - '@azure/data-tables.SetPropertiesResponse'
   - '@azure/data-tables.TableEntity'
   - '@azure/data-tables.TableEntityResult'
+  - '@azure/data-tables.TableEntityResultPage'
   - '@azure/data-tables.TableServiceClientOptions'
   - '@azure/data-tables.TransactionAction'
   - '@azure/data-tables.UpdateEntityAction'
