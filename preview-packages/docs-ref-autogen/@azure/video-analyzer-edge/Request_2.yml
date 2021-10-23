@@ -1,18 +1,18 @@
 ### YamlMime:TSType
-name: Request
-uid: '@azure/video-analyzer-edge.Request'
+name: Request_2
+uid: '@azure/video-analyzer-edge.Request_2'
 package: '@azure/video-analyzer-edge'
 summary: >-
   Method name and payload to send with a pipeline request. Method name
   determinds request type.
-fullName: Request<T>
+fullName: Request_2<T>
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: methodName
-    uid: '@azure/video-analyzer-edge.Request.methodName'
+    uid: '@azure/video-analyzer-edge.Request_2.methodName'
     package: '@azure/video-analyzer-edge'
     summary: Method name which determines type of request
     fullName: methodName
@@ -25,7 +25,7 @@ properties:
         type: string
         description: ''
   - name: payload
-    uid: '@azure/video-analyzer-edge.Request.payload'
+    uid: '@azure/video-analyzer-edge.Request_2.payload'
     package: '@azure/video-analyzer-edge'
     summary: Payload  data to send with request
     fullName: payload

@@ -54506,6 +54506,126 @@
     - uid: '@azure/arm-resources.WhatIfResultFormat'
       name: WhatIfResultFormat
       items: []
+- name: '@azure/arm-resources-subscriptions'
+  items:
+    - name: Overview
+      uid: '@azure/arm-resources-subscriptions'
+    - uid: '@azure/arm-resources-subscriptions.CheckResourceNameResponse'
+      name: CheckResourceNameResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.CheckResourceNameResult'
+      name: CheckResourceNameResult
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Location'
+      name: Location
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.LocationListResult'
+      name: LocationListResult
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.LocationMetadata'
+      name: LocationMetadata
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.LocationType'
+      name: LocationType
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.ManagedByTenant'
+      name: ManagedByTenant
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Operation'
+      name: Operation
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.OperationDisplay'
+      name: OperationDisplay
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.OperationListResult'
+      name: OperationListResult
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.PairedRegion'
+      name: PairedRegion
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.RegionCategory'
+      name: RegionCategory
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.RegionType'
+      name: RegionType
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.ResourceName'
+      name: ResourceName
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.ResourceNameStatus'
+      name: ResourceNameStatus
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SpendingLimit'
+      name: SpendingLimit
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Subscription'
+      name: Subscription
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionClient'
+      name: SubscriptionClient
+      items: []
+    - uid: >-
+        @azure/arm-resources-subscriptions.SubscriptionClientCheckResourceNameOptionalParams
+      name: SubscriptionClientCheckResourceNameOptionalParams
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionClientContext'
+      name: SubscriptionClientContext
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionClientOptions'
+      name: SubscriptionClientOptions
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionListResult'
+      name: SubscriptionListResult
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionPolicies'
+      name: SubscriptionPolicies
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Subscriptions'
+      name: Subscriptions
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionsGetResponse'
+      name: SubscriptionsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-resources-subscriptions.SubscriptionsListLocationsOptionalParams
+      name: SubscriptionsListLocationsOptionalParams
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionsListLocationsResponse'
+      name: SubscriptionsListLocationsResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionsListNextResponse'
+      name: SubscriptionsListNextResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionsListResponse'
+      name: SubscriptionsListResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.SubscriptionState'
+      name: SubscriptionState
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.TenantCategory'
+      name: TenantCategory
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.TenantIdDescription'
+      name: TenantIdDescription
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.TenantListResult'
+      name: TenantListResult
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.Tenants'
+      name: Tenants
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.TenantsListNextResponse'
+      name: TenantsListNextResponse
+      items: []
+    - uid: '@azure/arm-resources-subscriptions.TenantsListResponse'
+      name: TenantsListResponse
+      items: []
 - name: '@azure/arm-search'
   items:
     - name: Overview
@@ -89815,14 +89935,14 @@
     - uid: '@azure/storage-blob.CpkInfo'
       name: CpkInfo
       items: []
-    - uid: '@azure/storage-blob.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-blob.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-blob.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-blob.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-blob.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -90037,8 +90157,8 @@
     - uid: '@azure/storage-blob.PublicAccessType'
       name: PublicAccessType
       items: []
-    - uid: '@azure/storage-blob.Range'
-      name: Range
+    - uid: '@azure/storage-blob.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-blob.RehydratePriority'
       name: RehydratePriority
@@ -90266,14 +90386,14 @@
     - uid: '@azure/storage-file-datalake.CopyStatusType'
       name: CopyStatusType
       items: []
-    - uid: '@azure/storage-file-datalake.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-datalake.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-datalake.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError'
       name: DataLakeAclChangeFailedError
@@ -90834,14 +90954,14 @@
     - uid: '@azure/storage-file-share.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-file-share.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-file-share.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-file-share.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-file-share.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-file-share.DeleteSnapshotsOptionType'
       name: DeleteSnapshotsOptionType
@@ -91198,11 +91318,11 @@
     - uid: '@azure/storage-file-share.PipelineOptions'
       name: PipelineOptions
       items: []
-    - uid: '@azure/storage-file-share.Range'
-      name: Range
-      items: []
     - uid: '@azure/storage-file-share.RangeModel'
       name: RangeModel
+      items: []
+    - uid: '@azure/storage-file-share.Range_2'
+      name: Range_2
       items: []
     - uid: '@azure/storage-file-share.RetentionPolicy'
       name: RetentionPolicy
@@ -91517,14 +91637,14 @@
     - uid: '@azure/storage-queue.CorsRule'
       name: CorsRule
       items: []
-    - uid: '@azure/storage-queue.Credential'
-      name: Credential
-      items: []
     - uid: '@azure/storage-queue.CredentialPolicy'
       name: CredentialPolicy
       items: []
     - uid: '@azure/storage-queue.CredentialPolicyCreator'
       name: CredentialPolicyCreator
+      items: []
+    - uid: '@azure/storage-queue.Credential_2'
+      name: Credential_2
       items: []
     - uid: '@azure/storage-queue.DequeuedMessageItem'
       name: DequeuedMessageItem
