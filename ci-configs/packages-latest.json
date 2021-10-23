@@ -6,7 +6,7 @@
   },
   "npm_package_sources": [
     {
-      "name": "@azure/app-configuration@1.3.0"
+      "name": "@azure/app-configuration@1.3.1-alpha.20210930.2"
     },
     {
       "name": "@azure/search-documents@11.2.1"
@@ -76,16 +76,16 @@
       "name": "@azure/service-bus@7.3.0"
     },
     {
-      "name": "@azure/storage-blob@12.8.0"
+      "name": "@azure/storage-blob@12.8.1-alpha.20211015.4"
     },
     {
-      "name": "@azure/storage-file-datalake@12.7.0"
+      "name": "@azure/storage-file-datalake@12.7.1-alpha.20210930.1"
     },
     {
-      "name": "@azure/storage-file-share@12.8.0"
+      "name": "@azure/storage-file-share@12.8.1-alpha.20210930.1"
     },
     {
-      "name": "@azure/storage-queue@12.7.0"
+      "name": "@azure/storage-queue@12.7.1-alpha.20210930.1"
     },
     {
       "name": "@azure/ms-rest-js"
