@@ -114,7 +114,7 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function getRelayConfiguration(user: CommunicationUserIdentifier,
+        function getRelayConfiguration(user?: CommunicationUserIdentifier,
         options?: OperationOptions)
       parameters:
         - id: user

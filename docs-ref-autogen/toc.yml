@@ -82035,8 +82035,8 @@
     - uid: '@azure/cosmos.JSONValue'
       name: JSONValue
       items: []
-    - uid: '@azure/cosmos.Location'
-      name: Location
+    - uid: '@azure/cosmos.Location_2'
+      name: Location_2
       items: []
     - uid: '@azure/cosmos.Offer'
       name: Offer
@@ -82098,8 +82098,8 @@
     - uid: '@azure/cosmos.PermissionResponse'
       name: PermissionResponse
       items: []
-    - uid: '@azure/cosmos.Permissions'
-      name: Permissions
+    - uid: '@azure/cosmos.Permissions_2'
+      name: Permissions_2
       items: []
     - uid: '@azure/cosmos.QueryIterator'
       name: QueryIterator
@@ -82359,6 +82359,9 @@
       items: []
     - uid: '@azure/data-tables.TableEntityResult'
       name: TableEntityResult
+      items: []
+    - uid: '@azure/data-tables.TableEntityResultPage'
+      name: TableEntityResultPage
       items: []
     - uid: '@azure/data-tables.TableGetAccessPolicyHeaders'
       name: TableGetAccessPolicyHeaders

@@ -53,6 +53,12 @@
     uid: azure.nodejs.sdk.landingpage.services.communication.pre
     landingPageType: Service
     items:
+    - name: Identity
+      uid: azure.nodejs.sdk.landingpage.services.communication.Identity.pre
+      href: ~/docs-ref-services/preview/communication-identity-readme.md
+      landingPageType: Service
+      children:
+      - '@azure/communication-identity'
     - name: Chat
       uid: azure.nodejs.sdk.landingpage.services.communication.Chat.pre
       href: ~/docs-ref-services/preview/communication-chat-readme.md
@@ -173,6 +179,16 @@
     landingPageType: Service
     children:
     - '@azure/arm-locks'
+  - name: Logic Apps
+    uid: azure.nodejs.sdk.landingpage.services.logicapps.pre
+    href: ~/docs-ref-services/preview/logic-apps.md
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.logicapps.Management.pre
+      landingPageType: Service
+      children:
+      - '@azure/arm-logic'
+      - azure-arm-logic
   - name: Managed Applications
     uid: azure.nodejs.sdk.landingpage.services.managedapplications.pre
     landingPageType: Service
