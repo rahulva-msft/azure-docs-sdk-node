@@ -50,6 +50,19 @@ properties:
       return:
         type: <xref uid="@azure/web-pubsub-express.ConnectionContext" />
         description: ''
+  - name: headers
+    uid: '@azure/web-pubsub-express.ConnectRequest.headers'
+    package: '@azure/web-pubsub-express'
+    summary: The headers that the client WebSocket connection has when it connects.
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headers?: Record<string, string[]>'
+      return:
+        type: 'Record&lt;string, string[]&gt;'
+        description: ''
   - name: queries
     uid: '@azure/web-pubsub-express.ConnectRequest.queries'
     package: '@azure/web-pubsub-express'

@@ -29,6 +29,11 @@
     href: ~/docs-ref-services/preview/ai-anomaly-detector-readme.md
     children:
     - '@azure/ai-anomaly-detector'
+  - name: App Platform
+    uid: azure.nodejs.sdk.landingPage.services.appplatform.pre
+    landingPageType: Service
+    children:
+    - '@azure/arm-appplatform'
   - name: Authorization
     uid: azure.nodejs.sdk.landingpage.services.authorization.pre
     href: ~/docs-ref-services/preview/authorization.md
@@ -39,20 +44,16 @@
       children:
       - azure-arm-authorization
       - '@azure/arm-authorization*'
-  - name: Cognitive Services
-    uid: azure.nodejs.sdk.landingpage.services.cognitiveservices.pre
-    href: ~/docs-ref-services/preview/cognitive-services.md
-    items:
-    - name: Speech Service
-      uid: microsoft-cognitiveservices-speech-sdk.pre
-      href: ~/docs-ref-services/preview/speech-service.md
-      children:
-      - microsoft-cognitiveservices-speech-sdk
-      - microsoft-speech-browser-sdk
   - name: Communication
     uid: azure.nodejs.sdk.landingpage.services.communication.pre
     landingPageType: Service
     items:
+    - name: Identity
+      uid: azure.nodejs.sdk.landingpage.services.communication.Identity.pre
+      href: ~/docs-ref-services/preview/communication-identity-readme.md
+      landingPageType: Service
+      children:
+      - '@azure/communication-identity'
     - name: Chat
       uid: azure.nodejs.sdk.landingpage.services.communication.Chat.pre
       href: ~/docs-ref-services/preview/communication-chat-readme.md
@@ -74,6 +75,16 @@
       children:
       - azure-arm-containerregistry
       - '@azure/arm-containerregistry*'
+  - name: Container Service
+    uid: azure.nodejs.sdk.landingpage.services.containerservice.pre
+    href: ~/docs-ref-services/preview/container-service.md
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.containerservice.Management.pre
+      landingPageType: Service
+      children:
+      - azure-arm-containerservice
+      - '@azure/arm-containerservice*'
   - name: Digital Twins
     uid: azure.nodejs.sdk.landingpage.services.digitaltwins.pre
     landingPageType: Service
@@ -234,6 +245,18 @@
       href: ~/docs-ref-services/preview/purview-account-rest-readme.md
       children:
       - '@azure-rest/purview-account'
+  - name: Recovery Services
+    uid: azure.nodejs.sdk.landingpage.services.rescoveryservices.pre
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.rescoveryservices.Management.pre
+      landingPageType: Service
+      children:
+      - azure-arm-recoveryservices
+      - '@azure/arm-recoveryservices'
+      - '@azure/arm-recoveryservices-siterecovery'
+      - '@azure/arm-recoveryservicesbackup'
   - name: Redis Cache
     uid: azure.nodejs.sdk.landingpage.services.rediscache.pre
     href: ~/docs-ref-services/preview/redis-cache.md
