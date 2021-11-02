@@ -66,9 +66,6 @@
       "name": "@azure/web-pubsub-express@1.0.0-beta.3"
     },
     {
-      "name": "microsoft-speech-browser-sdk"
-    },
-    {
       "name": "@azure/amqp-common@next"
     },
     {
@@ -108,13 +105,13 @@
       "name": "@azure/keyvault-keys@4.4.0-beta.2"
     },
     {
-      "name": "@azure/arm-links@2.0.0-beta.1"
+      "name": "@azure/arm-links@2.0.0-alpha.20211015.3"
     },
     {
       "name": "@azure/arm-features@3.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-locks@2.0.0-beta.1"
+      "name": "@azure/arm-locks@2.0.0-alpha.20211015.3"
     },
     {
       "name": "@azure/arm-storage@17.0.0-beta.1"
@@ -123,10 +120,10 @@
       "name": "@azure/template@1.0.12-beta.1160910"
     },
     {
-      "name": "@azure/arm-policy@5.0.0-beta.2"
+      "name": "@azure/arm-policy@5.0.0-alpha.20211018.2"
     },
     {
-      "name": "@azure/arm-managedapplications@2.0.0-beta.1"
+      "name": "@azure/arm-managedapplications@2.0.0-alpha.20211015.3"
     },
     {
       "name": "@azure/arm-resources@5.0.0-beta.1"
@@ -144,7 +141,7 @@
       "name": "@azure/storage-file-share@12.8.0-beta.1"
     },
     {
-      "name": "@azure/arm-compute@17.0.0-beta.2"
+      "name": "@azure/arm-compute@17.0.0-alpha.20211018.4"
     },
     {
       "name": "@azure/arm-network@26.0.0-beta.1"
@@ -261,7 +258,7 @@
       "name": "@azure/arm-databricks@3.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-notificationhubs@2.0.0-beta.1"
+      "name": "@azure/arm-notificationhubs@2.0.0-alpha.20211101.4"
     },
     {
       "name": "@azure/arm-videoanalyzer@1.0.0-beta.1"
