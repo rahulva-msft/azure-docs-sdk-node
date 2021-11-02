@@ -12,19 +12,19 @@
       "name": "@azure/search-documents@11.2.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-common@1.1.0"
+      "name": "@azure/communication-common@1.1.1-alpha.20211001.1"
     },
     {
       "name": "@azure/communication-identity@1.0.0"
     },
     {
-      "name": "@azure/communication-phone-numbers@1.0.0"
+      "name": "@azure/communication-phone-numbers@1.1.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-sms@1.0.0"
+      "name": "@azure/communication-sms@1.1.0-alpha.20211102.1"
     },
     {
       "name": "@azure/abort-controller@1.0.4"
@@ -584,10 +584,10 @@
       "name": "@azure/core-xml@1.0.0"
     },
     {
-      "name": "@azure/attestation@1.0.0"
+      "name": "@azure/attestation@1.0.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211102.1"
     },
     {
       "name": "@azure/monitor-query@1.0.0"

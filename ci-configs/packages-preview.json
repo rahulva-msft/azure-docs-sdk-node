@@ -6,10 +6,10 @@
   },
   "npm_package_sources": [
     {
-      "name": "@azure/ai-anomaly-detector@3.0.0-beta.3"
+      "name": "@azure/ai-anomaly-detector@3.0.0-alpha.20211102.1"
     },
     {
-      "name": "@azure-rest/confidential-ledger@1.0.0-beta.2"
+      "name": "@azure-rest/confidential-ledger@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure-rest/purview-catalog@1.0.0-beta.3"
@@ -36,7 +36,7 @@
       "name": "@azure/identity@2.0.0-beta.6"
     },
     {
-      "name": "@azure/iot-device-update@1.0.0-beta.1"
+      "name": "@azure/iot-device-update@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/monitor-opentelemetry-exporter@1.0.0-beta.5"
@@ -90,7 +90,7 @@
       "name": "@azure-rest/core-client@1.0.0-beta.7"
     },
     {
-      "name": "@azure-rest/agrifood-farming@1.0.0-beta.1"
+      "name": "@azure-rest/agrifood-farming@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure-rest/ai-document-translator@1.0.0-beta.1"
@@ -111,7 +111,7 @@
       "name": "@azure/arm-links@2.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-features@3.0.0-beta.1"
+      "name": "@azure/arm-features@3.0.0-alpha.20211015.3"
     },
     {
       "name": "@azure/arm-locks@2.0.0-beta.1"
@@ -132,7 +132,7 @@
       "name": "@azure/arm-resources@5.0.0-beta.1"
     },
     {
-      "name": "@azure/communication-network-traversal@1.0.0-beta.2"
+      "name": "@azure/communication-network-traversal@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/storage-blob@12.8.0-beta.1"
@@ -159,16 +159,16 @@
       "name": "@azure/communication-chat@1.1.0-beta.2"
     },
     {
-      "name": "@azure/arm-appservice@10.0.0-beta.1"
+      "name": "@azure/arm-appservice@10.0.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/arm-resources-subscriptions@2.0.0-beta.1"
+      "name": "@azure/arm-resources-subscriptions@2.0.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/arm-templatespecs@1.0.0-beta.1"
+      "name": "@azure/arm-templatespecs@1.0.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/arm-authorization@9.0.0-beta.1"
+      "name": "@azure/arm-authorization@9.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure-rest/purview-account@1.0.0-beta.1"
@@ -189,7 +189,7 @@
       "name": "@azure/arm-purview@1.0.0-beta.1"
     },
     {
-      "name": "@azure/mixed-reality-remote-rendering@1.0.0-beta.1"
+      "name": "@azure/mixed-reality-remote-rendering@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/mixed-reality-authentication@1.0.0-beta.1"
@@ -198,13 +198,13 @@
       "name": "@azure/arm-keyvault@2.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-sql@9.0.0-beta.1"
+      "name": "@azure/arm-sql@9.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/arm-apimanagement@8.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-rediscache@6.0.0-beta.1"
+      "name": "@azure/arm-rediscache@6.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/service-bus@7.4.0-beta.1"
@@ -213,10 +213,10 @@
       "name": "@azure/ai-form-recognizer@4.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-extendedlocation@1.0.0-beta.1"
+      "name": "@azure/arm-extendedlocation@1.0.0-alpha.20211014.1"
     },
     {
-      "name": "@azure/arm-quota@1.0.0-beta.1"
+      "name": "@azure/arm-quota@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure/arm-security@4.0.0-beta.1"
@@ -228,7 +228,7 @@
       "name": "@azure/arm-operationalinsights@8.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-postgresql@6.0.0-beta.1"
+      "name": "@azure/arm-postgresql@6.0.0-alpha.20211020.1"
     },
     {
       "name": "@azure/arm-containerregistry@9.0.0-beta.1"
@@ -252,7 +252,7 @@
       "name": "@azure/arm-operations@4.0.0-beta.1"
     },
     {
-      "name": "@azure/communication-identity@1.1.0-beta.1"
+      "name": "@azure/communication-identity@1.1.0-alpha.20211102.1"
     },
     {
       "name": "@azure/arm-mediaservices@10.0.0-beta.1"
