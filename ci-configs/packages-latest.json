@@ -6,25 +6,25 @@
   },
   "npm_package_sources": [
     {
-      "name": "@azure/app-configuration@1.3.0"
+      "name": "@azure/app-configuration@1.3.1-alpha.20211102.1"
     },
     {
       "name": "@azure/search-documents@11.2.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-common@1.1.0"
+      "name": "@azure/communication-common@1.1.1-alpha.20211001.1"
     },
     {
       "name": "@azure/communication-identity@1.0.0"
     },
     {
-      "name": "@azure/communication-phone-numbers@1.0.0"
+      "name": "@azure/communication-phone-numbers@1.1.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-sms@1.0.0"
+      "name": "@azure/communication-sms@1.1.0-alpha.20211102.1"
     },
     {
       "name": "@azure/abort-controller@1.0.4"
@@ -70,22 +70,22 @@
       "name": "@azure/ai-form-recognizer@3.2.0"
     },
     {
-      "name": "@azure/identity@2.0.1"
+      "name": "@azure/identity@2.0.2-alpha.20211028.2"
     },
     {
       "name": "@azure/service-bus@7.3.0"
     },
     {
-      "name": "@azure/storage-blob@12.8.0"
+      "name": "@azure/storage-blob@12.8.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/storage-file-datalake@12.7.0"
+      "name": "@azure/storage-file-datalake@12.7.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/storage-file-share@12.8.0"
+      "name": "@azure/storage-file-share@12.8.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/storage-queue@12.7.0"
+      "name": "@azure/storage-queue@12.7.1-alpha.20211102.1"
     },
     {
       "name": "@azure/ms-rest-js"
@@ -508,9 +508,6 @@
       "name": "azure-iot-digitaltwins-service"
     },
     {
-      "name": "@azure/cognitiveservices-qnamaker-runtime"
-    },
-    {
       "name": "@azure/arm-appconfiguration"
     },
     {
@@ -584,13 +581,13 @@
       "name": "@azure/core-xml@1.0.0"
     },
     {
-      "name": "@azure/attestation@1.0.0"
+      "name": "@azure/attestation@1.0.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211102.1"
     },
     {
-      "name": "@azure/monitor-query@1.0.0"
+      "name": "@azure/monitor-query@1.0.1-alpha.20211103.1"
     },
     {
       "name": "@azure/arm-operationalinsights@7.1.1"
