@@ -339,11 +339,6 @@
       landingPageType: Service
       children:
       - '@azure/cognitiveservices-qnamaker'
-    - name: QnA Maker RunTime
-      uid: microsoft-cognitiveservices-qna-maker-runtime
-      landingPageType: Service
-      children:
-      - '@azure/cognitiveservices-qnamaker-runtime'
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.cognitiveservices.Management
       landingPageType: Service
