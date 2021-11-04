@@ -11,7 +11,7 @@ ms.devlang: javascript
 ms.service: synapse
 ---
 
-## Azure Synapse Access Control REST client library for JavaScript - Version 1.0.0-beta.1 
+## Azure Synapse Access Control REST client library for JavaScript - Version 1.0.0-alpha.20211104.3 
 
 
 This package contains an isomorphic REST Client SDK for Azure Synapse Access Control.
