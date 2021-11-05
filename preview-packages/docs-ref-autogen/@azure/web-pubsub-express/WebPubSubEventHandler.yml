@@ -9,7 +9,7 @@ isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: 'WebPubSubEventHandler(string, string[], WebPubSubEventHandlerOptions)'
+  - name: 'WebPubSubEventHandler(string, WebPubSubEventHandlerOptions)'
     uid: '@azure/web-pubsub-express.WebPubSubEventHandler.constructor'
     package: '@azure/web-pubsub-express'
     summary: >
@@ -26,7 +26,7 @@ constructors:
 
       const endpoint = "https://xxxx.webpubsubdev.azure.com"
 
-      const handler = new WebPubSubEventHandler('chat', [ endpoint ] {
+      const handler = new WebPubSubEventHandler('chat', {
         handleConnect: (req, res) => {
           console.log(JSON.stringify(req));
           return {};
@@ -38,6 +38,7 @@ constructors:
           console.log(JSON.stringify(req));
           res.success("Hey " + req.data, req.dataType);
          };
+        allowedEndpoints: [ endpoint ]
        },
       });
 
@@ -47,15 +48,12 @@ constructors:
     isDeprecated: false
     syntax:
       content: >-
-        new WebPubSubEventHandler(hub: string, allowedEndpoints: string[],
-        options?: WebPubSubEventHandlerOptions)
+        new WebPubSubEventHandler(hub: string, options?:
+        WebPubSubEventHandlerOptions)
       parameters:
         - id: hub
           type: string
           description: The name of the hub to listen to
-        - id: allowedEndpoints
-          type: 'string[]'
-          description: The allowed endpoints for the incoming CloudEvents request
         - id: options
           type: >-
             <xref uid="@azure/web-pubsub-express.WebPubSubEventHandlerOptions"

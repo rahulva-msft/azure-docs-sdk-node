@@ -1,16 +1,16 @@
 ### YamlMime:TSType
-name: GetAuthenticationTokenResponse
-uid: '@azure/web-pubsub.GetAuthenticationTokenResponse'
+name: ClientTokenResponse
+uid: '@azure/web-pubsub.ClientTokenResponse'
 package: '@azure/web-pubsub'
-summary: 'Response for the authed client, including the url and the jwt token'
-fullName: GetAuthenticationTokenResponse
+summary: A response containing the client token.
+fullName: ClientTokenResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: baseUrl
-    uid: '@azure/web-pubsub.GetAuthenticationTokenResponse.baseUrl'
+    uid: '@azure/web-pubsub.ClientTokenResponse.baseUrl'
     package: '@azure/web-pubsub'
     summary: The URL client connects to
     fullName: baseUrl
@@ -23,9 +23,9 @@ properties:
         type: string
         description: ''
   - name: token
-    uid: '@azure/web-pubsub.GetAuthenticationTokenResponse.token'
+    uid: '@azure/web-pubsub.ClientTokenResponse.token'
     package: '@azure/web-pubsub'
-    summary: The JWT token the client uses to connect
+    summary: The client token.
     fullName: token
     remarks: ''
     isPreview: false
@@ -36,7 +36,7 @@ properties:
         type: string
         description: ''
   - name: url
-    uid: '@azure/web-pubsub.GetAuthenticationTokenResponse.url'
+    uid: '@azure/web-pubsub.ClientTokenResponse.url'
     package: '@azure/web-pubsub'
     summary: The URL client connects to with access_token query string
     fullName: url

@@ -9,18 +9,20 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
-  - name: dumpRequest
-    uid: '@azure/web-pubsub-express.WebPubSubEventHandlerOptions.dumpRequest'
+  - name: allowedEndpoints
+    uid: '@azure/web-pubsub-express.WebPubSubEventHandlerOptions.allowedEndpoints'
     package: '@azure/web-pubsub-express'
-    summary: Configures if you'd like to dump the incoming HTTP request.
-    fullName: dumpRequest
+    summary: >-
+      If not specified, by default allow all the endpoints, otherwise only allow
+      specified endpoints
+    fullName: allowedEndpoints
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'dumpRequest?: boolean'
+      content: 'allowedEndpoints?: string[]'
       return:
-        type: boolean
+        type: 'string[]'
         description: ''
   - name: handleConnect
     uid: '@azure/web-pubsub-express.WebPubSubEventHandlerOptions.handleConnect'

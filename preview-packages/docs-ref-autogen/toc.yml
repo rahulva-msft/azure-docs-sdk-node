@@ -2265,14 +2265,20 @@
     - uid: '@azure-rest/core-client.HttpResponse'
       name: HttpResponse
       items: []
+    - uid: '@azure-rest/core-client.PathParameters'
+      name: PathParameters
+      items: []
+    - uid: '@azure-rest/core-client.PathUnchecked'
+      name: PathUnchecked
+      items: []
     - uid: '@azure-rest/core-client.PathUncheckedResponse'
       name: PathUncheckedResponse
       items: []
     - uid: '@azure-rest/core-client.RequestParameters'
       name: RequestParameters
       items: []
-    - uid: '@azure-rest/core-client.RouteParams'
-      name: RouteParams
+    - uid: '@azure-rest/core-client.ResourceMethods'
+      name: ResourceMethods
       items: []
 - name: '@azure-rest/purview-account'
   items:
@@ -58734,8 +58740,8 @@
     - uid: '@azure/arm-webpubsub.KeyType'
       name: KeyType
       items: []
-    - uid: '@azure/arm-webpubsub.KeyType'
-      name: KeyType
+    - uid: '@azure/arm-webpubsub.KeyType_2'
+      name: KeyType_2
       items: []
     - uid: '@azure/arm-webpubsub.KnownACLAction'
       name: KnownACLAction
@@ -60901,6 +60907,25 @@
     - uid: '@azure/iot-device-update.UpdatesImportUpdateResponse'
       name: UpdatesImportUpdateResponse
       items: []
+- name: '@azure/iot-modelsrepository'
+  items:
+    - name: Overview
+      uid: '@azure/iot-modelsrepository'
+    - uid: '@azure/iot-modelsrepository.dependencyResolutionType'
+      name: dependencyResolutionType
+      items: []
+    - uid: '@azure/iot-modelsrepository.GetModelsOptions'
+      name: GetModelsOptions
+      items: []
+    - uid: '@azure/iot-modelsrepository.ModelError'
+      name: ModelError
+      items: []
+    - uid: '@azure/iot-modelsrepository.ModelsRepositoryClient'
+      name: ModelsRepositoryClient
+      items: []
+    - uid: '@azure/iot-modelsrepository.ModelsRepositoryClientOptions'
+      name: ModelsRepositoryClientOptions
+      items: []
 - name: '@azure/keyvault-admin'
   items:
     - name: Overview
@@ -62327,9 +62352,6 @@
     - uid: '@azure/search-documents.IndexDocumentsResult'
       name: IndexDocumentsResult
       items: []
-    - uid: '@azure/search-documents.IndexerCurrentState'
-      name: IndexerCurrentState
-      items: []
     - uid: '@azure/search-documents.IndexerExecutionEnvironment'
       name: IndexerExecutionEnvironment
       items: []
@@ -62341,6 +62363,9 @@
       items: []
     - uid: '@azure/search-documents.IndexerExecutionStatusDetail'
       name: IndexerExecutionStatusDetail
+      items: []
+    - uid: '@azure/search-documents.IndexerState'
+      name: IndexerState
       items: []
     - uid: '@azure/search-documents.IndexerStatus'
       name: IndexerStatus
@@ -62636,8 +62661,8 @@
     - uid: '@azure/search-documents.RegexFlags'
       name: RegexFlags
       items: []
-    - uid: '@azure/search-documents.ResetDocsOptions'
-      name: ResetDocsOptions
+    - uid: '@azure/search-documents.ResetDocumentsOptions'
+      name: ResetDocumentsOptions
       items: []
     - uid: '@azure/search-documents.ResetIndexerOptions'
       name: ResetIndexerOptions
@@ -63026,6 +63051,9 @@
       items: []
     - uid: '@azure/service-bus.ServiceBusAdministrationClient'
       name: ServiceBusAdministrationClient
+      items: []
+    - uid: '@azure/service-bus.ServiceBusAdministrationClientOptions'
+      name: ServiceBusAdministrationClientOptions
       items: []
     - uid: '@azure/service-bus.ServiceBusClient'
       name: ServiceBusClient
@@ -69636,14 +69664,11 @@
   items:
     - name: Overview
       uid: '@azure/web-pubsub'
-    - uid: '@azure/web-pubsub.CloseConnectionOptions'
-      name: CloseConnectionOptions
+    - uid: '@azure/web-pubsub.ClientTokenResponse'
+      name: ClientTokenResponse
       items: []
-    - uid: '@azure/web-pubsub.GetAuthenticationTokenOptions'
-      name: GetAuthenticationTokenOptions
-      items: []
-    - uid: '@azure/web-pubsub.GetAuthenticationTokenResponse'
-      name: GetAuthenticationTokenResponse
+    - uid: '@azure/web-pubsub.GenerateClientTokenOptions'
+      name: GenerateClientTokenOptions
       items: []
     - uid: '@azure/web-pubsub.GroupAddConnectionOptions'
       name: GroupAddConnectionOptions
@@ -69653,6 +69678,9 @@
       items: []
     - uid: '@azure/web-pubsub.GroupAdminClientOptions'
       name: GroupAdminClientOptions
+      items: []
+    - uid: '@azure/web-pubsub.GroupCloseAllConnectionsOptions'
+      name: GroupCloseAllConnectionsOptions
       items: []
     - uid: '@azure/web-pubsub.GroupHasUserOptions'
       name: GroupHasUserOptions
@@ -69672,8 +69700,14 @@
     - uid: '@azure/web-pubsub.HasConnectionOptions'
       name: HasConnectionOptions
       items: []
-    - uid: '@azure/web-pubsub.HubAdminClientOptions'
-      name: HubAdminClientOptions
+    - uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions'
+      name: HubCloseAllConnectionsOptions
+      items: []
+    - uid: '@azure/web-pubsub.HubCloseConnectionOptions'
+      name: HubCloseConnectionOptions
+      items: []
+    - uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions'
+      name: HubCloseUserConnectionsOptions
       items: []
     - uid: '@azure/web-pubsub.HubGrantPermissionOptions'
       name: HubGrantPermissionOptions
@@ -69722,6 +69756,9 @@
       items: []
     - uid: '@azure/web-pubsub.WebPubSubServiceClient'
       name: WebPubSubServiceClient
+      items: []
+    - uid: '@azure/web-pubsub.WebPubSubServiceClientOptions'
+      name: WebPubSubServiceClientOptions
       items: []
 - name: '@azure/web-pubsub-express'
   items:

@@ -1,16 +1,16 @@
 ### YamlMime:TSType
-name: HubRemoveUserFromAllGroupsOptions
-uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions'
+name: HubCloseAllConnectionsOptions
+uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions'
 package: '@azure/web-pubsub'
-summary: Options for removing a user from all groups.
-fullName: HubRemoveUserFromAllGroupsOptions
+summary: Options for closing all connections to a hub.
+fullName: HubCloseAllConnectionsOptions
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: abortSignal
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.abortSignal'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.abortSignal'
     package: '@azure/web-pubsub'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
@@ -23,7 +23,7 @@ properties:
         type: AbortSignalLike
         description: ''
   - name: onResponse
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.onResponse'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.onResponse'
     package: '@azure/web-pubsub'
     summary: |-
       A function to be called each time a response is received from the server
@@ -39,7 +39,7 @@ properties:
         type: RawResponseCallback
         description: ''
   - name: reason
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.reason'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.reason'
     package: '@azure/web-pubsub'
     summary: Reason the connection is being closed.
     fullName: reason
@@ -52,7 +52,7 @@ properties:
         type: string
         description: ''
   - name: requestOptions
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.requestOptions'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.requestOptions'
     package: '@azure/web-pubsub'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
@@ -65,7 +65,7 @@ properties:
         type: OperationRequestOptions
         description: ''
   - name: serializerOptions
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.serializerOptions'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.serializerOptions'
     package: '@azure/web-pubsub'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
@@ -78,7 +78,7 @@ properties:
         type: SerializerOptions
         description: ''
   - name: tracingOptions
-    uid: '@azure/web-pubsub.HubRemoveUserFromAllGroupsOptions.tracingOptions'
+    uid: '@azure/web-pubsub.HubCloseAllConnectionsOptions.tracingOptions'
     package: '@azure/web-pubsub'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
@@ -90,4 +90,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/web-pubsub.HubCloseConnectionOptions" />
+extends: OperationOptions

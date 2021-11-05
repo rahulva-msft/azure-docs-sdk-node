@@ -1,17 +1,17 @@
 ### YamlMime:TSType
-name: ResetDocsOptions
-uid: '@azure/search-documents.ResetDocsOptions'
-package: '@azure/search-documents'
-summary: Options for reset docs operation.
-fullName: ResetDocsOptions
+name: HubCloseUserConnectionsOptions
+uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions'
+package: '@azure/web-pubsub'
+summary: Options for closing all of a user's connections to a hub.
+fullName: HubCloseUserConnectionsOptions
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: abortSignal
-    uid: '@azure/search-documents.ResetDocsOptions.abortSignal'
-    package: '@azure/search-documents'
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.abortSignal'
+    package: '@azure/web-pubsub'
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
@@ -22,35 +22,9 @@ properties:
       return:
         type: AbortSignalLike
         description: ''
-  - name: datasourceDocumentIds
-    uid: '@azure/search-documents.ResetDocsOptions.datasourceDocumentIds'
-    package: '@azure/search-documents'
-    summary: datasource document identifiers to be reset
-    fullName: datasourceDocumentIds
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'datasourceDocumentIds?: string[]'
-      return:
-        type: 'string[]'
-        description: ''
-  - name: documentKeys
-    uid: '@azure/search-documents.ResetDocsOptions.documentKeys'
-    package: '@azure/search-documents'
-    summary: document keys to be reset
-    fullName: documentKeys
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'documentKeys?: string[]'
-      return:
-        type: 'string[]'
-        description: ''
   - name: onResponse
-    uid: '@azure/search-documents.ResetDocsOptions.onResponse'
-    package: '@azure/search-documents'
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.onResponse'
+    package: '@azure/web-pubsub'
     summary: |-
       A function to be called each time a response is received from the server
       while performing the requested operation.
@@ -64,24 +38,22 @@ properties:
       return:
         type: RawResponseCallback
         description: ''
-  - name: overwrite
-    uid: '@azure/search-documents.ResetDocsOptions.overwrite'
-    package: '@azure/search-documents'
-    summary: >-
-      If false, keys or ids will be appended to existing ones. If true, only the
-      keys or ids in this payload will be queued to be re-ingested.
-    fullName: overwrite
+  - name: reason
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.reason'
+    package: '@azure/web-pubsub'
+    summary: Reason the connection is being closed.
+    fullName: reason
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'overwrite?: boolean'
+      content: 'reason?: string'
       return:
-        type: boolean
+        type: string
         description: ''
   - name: requestOptions
-    uid: '@azure/search-documents.ResetDocsOptions.requestOptions'
-    package: '@azure/search-documents'
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.requestOptions'
+    package: '@azure/web-pubsub'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
@@ -93,8 +65,8 @@ properties:
         type: OperationRequestOptions
         description: ''
   - name: serializerOptions
-    uid: '@azure/search-documents.ResetDocsOptions.serializerOptions'
-    package: '@azure/search-documents'
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.serializerOptions'
+    package: '@azure/web-pubsub'
     summary: Options to override serialization/de-serialization behavior.
     fullName: serializerOptions
     remarks: ''
@@ -106,8 +78,8 @@ properties:
         type: SerializerOptions
         description: ''
   - name: tracingOptions
-    uid: '@azure/search-documents.ResetDocsOptions.tracingOptions'
-    package: '@azure/search-documents'
+    uid: '@azure/web-pubsub.HubCloseUserConnectionsOptions.tracingOptions'
+    package: '@azure/web-pubsub'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''

@@ -1,19 +1,18 @@
 ### YamlMime:TSType
-name: IndexerCurrentState
-uid: '@azure/search-documents.IndexerCurrentState'
+name: IndexerState
+uid: '@azure/search-documents.IndexerState'
 package: '@azure/search-documents'
 summary: >-
   Represents all of the state that defines and dictates the indexer's current
   execution.
-fullName: IndexerCurrentState
+fullName: IndexerState
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
-  - name: allDocsFinalChangeTrackingState
-    uid: >-
-      @azure/search-documents.IndexerCurrentState.allDocsFinalChangeTrackingState
+  - name: allDocumentsFinalChangeTrackingState
+    uid: '@azure/search-documents.IndexerState.allDocumentsFinalChangeTrackingState'
     package: '@azure/search-documents'
     summary: >-
       Change tracking state value when indexing finishes on all documents in the
@@ -21,18 +20,18 @@ properties:
 
       NOTE: This property will not be serialized. It can only be populated by
       the server.
-    fullName: allDocsFinalChangeTrackingState
+    fullName: allDocumentsFinalChangeTrackingState
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'allDocsFinalChangeTrackingState?: string'
+      content: 'allDocumentsFinalChangeTrackingState?: string'
       return:
         type: string
         description: ''
-  - name: allDocsInitialChangeTrackingState
+  - name: allDocumentsInitialChangeTrackingState
     uid: >-
-      @azure/search-documents.IndexerCurrentState.allDocsInitialChangeTrackingState
+      @azure/search-documents.IndexerState.allDocumentsInitialChangeTrackingState
     package: '@azure/search-documents'
     summary: >-
       Change tracking state used when indexing starts on all documents in the
@@ -40,17 +39,17 @@ properties:
 
       NOTE: This property will not be serialized. It can only be populated by
       the server.
-    fullName: allDocsInitialChangeTrackingState
+    fullName: allDocumentsInitialChangeTrackingState
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'allDocsInitialChangeTrackingState?: string'
+      content: 'allDocumentsInitialChangeTrackingState?: string'
       return:
         type: string
         description: ''
   - name: mode
-    uid: '@azure/search-documents.IndexerCurrentState.mode'
+    uid: '@azure/search-documents.IndexerState.mode'
     package: '@azure/search-documents'
     summary: >-
       The mode the indexer is running in.
@@ -67,7 +66,7 @@ properties:
         type: <xref uid="@azure/search-documents.IndexingMode" />
         description: ''
   - name: resetDatasourceDocumentIds
-    uid: '@azure/search-documents.IndexerCurrentState.resetDatasourceDocumentIds'
+    uid: '@azure/search-documents.IndexerState.resetDatasourceDocumentIds'
     package: '@azure/search-documents'
     summary: >-
       The list of datasource document ids that have been reset. The datasource
@@ -85,46 +84,8 @@ properties:
       return:
         type: 'string[]'
         description: ''
-  - name: resetDocsFinalChangeTrackingState
-    uid: >-
-      @azure/search-documents.IndexerCurrentState.resetDocsFinalChangeTrackingState
-    package: '@azure/search-documents'
-    summary: >-
-      Change tracking state value when indexing finishes on select, reset
-      documents in the datasource.
-
-      NOTE: This property will not be serialized. It can only be populated by
-      the server.
-    fullName: resetDocsFinalChangeTrackingState
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'resetDocsFinalChangeTrackingState?: string'
-      return:
-        type: string
-        description: ''
-  - name: resetDocsInitialChangeTrackingState
-    uid: >-
-      @azure/search-documents.IndexerCurrentState.resetDocsInitialChangeTrackingState
-    package: '@azure/search-documents'
-    summary: >-
-      Change tracking state used when indexing starts on select, reset documents
-      in the datasource.
-
-      NOTE: This property will not be serialized. It can only be populated by
-      the server.
-    fullName: resetDocsInitialChangeTrackingState
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'resetDocsInitialChangeTrackingState?: string'
-      return:
-        type: string
-        description: ''
   - name: resetDocumentKeys
-    uid: '@azure/search-documents.IndexerCurrentState.resetDocumentKeys'
+    uid: '@azure/search-documents.IndexerState.resetDocumentKeys'
     package: '@azure/search-documents'
     summary: >-
       The list of document keys that have been reset. The document key is the
@@ -141,4 +102,42 @@ properties:
       content: 'resetDocumentKeys?: string[]'
       return:
         type: 'string[]'
+        description: ''
+  - name: resetDocumentsFinalChangeTrackingState
+    uid: >-
+      @azure/search-documents.IndexerState.resetDocumentsFinalChangeTrackingState
+    package: '@azure/search-documents'
+    summary: >-
+      Change tracking state value when indexing finishes on select, reset
+      documents in the datasource.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: resetDocumentsFinalChangeTrackingState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resetDocumentsFinalChangeTrackingState?: string'
+      return:
+        type: string
+        description: ''
+  - name: resetDocumentsInitialChangeTrackingState
+    uid: >-
+      @azure/search-documents.IndexerState.resetDocumentsInitialChangeTrackingState
+    package: '@azure/search-documents'
+    summary: >-
+      Change tracking state used when indexing starts on select, reset documents
+      in the datasource.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: resetDocumentsInitialChangeTrackingState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resetDocumentsInitialChangeTrackingState?: string'
+      return:
+        type: string
         description: ''
