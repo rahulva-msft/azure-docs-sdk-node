@@ -1,6 +1,6 @@
 ---
-title: Azure Synapse Monitoring client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure/synapse-monitoring, synapseanalytics
+title: Azure Synapse Access Control REST client library for JavaScript
+keywords: Azure, javascript, SDK, API, @azure-rest/synapse-access-control, synapse
 author: maggiepint
 ms.author: magpint
 ms.date: 11/11/2021
@@ -8,20 +8,22 @@ ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
-ms.service: synapseanalytics
+ms.service: synapse
 ---
 
-## Azure Synapse Monitoring client library for JavaScript - Version 1.0.0-alpha.20211026.1 
+## Azure Synapse Access Control REST client library for JavaScript - Version 1.0.0-alpha.20211105.1 
 
 
-This package contains an isomorphic SDK for Monitoring.
+This package contains an isomorphic REST Client SDK for Azure Synapse Access Control.
+
+**Please rely heavily on the [service's documentation][synapse_product_documentation] and our [REST client docs][rest_client] to use this library**
 
 ## Getting started
 
 ### Install the package
 
 ```bash
-npm install @azure/synapse-monitoring
+npm install @azure-rest/synapse-access-control
 ```
 
 ### Currently supported environments
@@ -36,23 +38,28 @@ See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUP
 ## Examples
 
 ```ts
-import { MonitoringClient } from "@azure/synapse-monitoring";
+import AccessControl, { paginate } from "@azure-rest/synapse-access-control";
 import { DefaultAzureCredential } from "@azure/identity";
 
 export async function main(): Promise<void> {
-  const credential = new DefaultAzureCredential();
+  const client = AccessControl("<endpoint>", new DefaultAzureCredential());
+  const initialResponse = await client.path("/roleAssignments").get();
 
-  let client = new MonitoringClient(credential, "https://mysynapse.dev.azuresynapse.net");
-  let output = await client.monitoring.getSparkJobList();
-  console.log("output:", output);
+  if (initialResponse.status !== "200") {
+    throw initialResponse.body.error;
+  }
+
+  const assignments = paginate(client, initialResponse);
+
+  for await (const assignment of assignments) {
+    console.log(assignment.id);
+  }
 }
 ```
 
 ## Related projects
 
 - [Microsoft Azure SDK for Javascript](https://github.com/Azure/azure-sdk-for-js)
-
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fcdn%2Farm-cdn%2FREADME.png)
 
 ## Troubleshooting
 
@@ -72,5 +79,8 @@ In the future, you'll find additional code samples here.
 
 If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fkeyvault%2Fkeyvault-keys%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fsynapse%2Faccess-control-rest%2FREADME.png)
+
+[synapse_product_documentation]: https://docs.microsoft.com/rest/api/synapse/data-plane/role-assignments/create-role-assignment
+[rest_client]: https://github.com/Azure/azure-sdk-for-js/blob/main/documentation/rest-clients.md
 
