@@ -1,0 +1,15 @@
+Removed @azure/arm-webservices because of docs package validation failure on 2021-11-11 02:12 +00:00
+	Hi from ReferenceAutomation for JavaScript
+	{
+	    "npm_package_sources": [
+	        {
+	            "name": "@azure/arm-webservices"
+	        }
+	    ]
+	}
+	{ npm_package_sources: [ { name: '@azure/arm-webservices' } ] }
+	=== Install npm packages ===
+	
+	Start to install npm package @azure/arm-webservices.
+	[User Error]: Failed to install npm package @azure/arm-webservices with command: 
+		npm install @azure/arm-webservices --prefix . 2>&1
