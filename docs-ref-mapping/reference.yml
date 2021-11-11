@@ -1047,6 +1047,15 @@
     landingPageType: Service
     children:
     - '@azure/arm-security'
+  - name: Schema Registry
+    uid: azure.nodejs.sdk.landingpage.services.schemaregistry
+    landingPageType: Service
+    items:
+    - name: Client
+      uid: azure.nodejs.sdk.landingPage.services.schemaregistry.Client
+      href: ~/docs-ref-services/latest/schema-registry-readme.md
+      children:
+      - '@azure/schema-registry'
   - name: Search
     uid: azure.nodejs.sdk.landingpage.services.search
     href: ~/docs-ref-services/latest/search.md
@@ -1250,11 +1259,6 @@
       children:
       - azure-arm-visualstudio
       - '@azure/arm-visualstudio'
-  - name: Web Services
-    uid: azure.nodejs.sdk.landingPage.services.webservices
-    landingPageType: Service
-    children:
-    - '@azure/arm-webservices'
   - name: Workspaces
     uid: azure.nodejs.sdk.landingPage.services.workspaces
     landingPageType: Service

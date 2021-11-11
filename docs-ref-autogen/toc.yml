@@ -73223,196 +73223,6 @@
     - uid: '@azure/arm-visualstudio.VisualStudioResourceProviderClientOptions'
       name: VisualStudioResourceProviderClientOptions
       items: []
-- name: '@azure/arm-webservices'
-  items:
-    - name: Overview
-      uid: '@azure/arm-webservices'
-    - uid: '@azure/arm-webservices.AssetItem'
-      name: AssetItem
-      items: []
-    - uid: '@azure/arm-webservices.AssetType'
-      name: AssetType
-      items: []
-    - uid: '@azure/arm-webservices.AsyncOperationErrorInfo'
-      name: AsyncOperationErrorInfo
-      items: []
-    - uid: '@azure/arm-webservices.AsyncOperationStatus'
-      name: AsyncOperationStatus
-      items: []
-    - uid: '@azure/arm-webservices.AzureMLWebServicesManagementClient'
-      name: AzureMLWebServicesManagementClient
-      items: []
-    - uid: '@azure/arm-webservices.AzureMLWebServicesManagementClientContext'
-      name: AzureMLWebServicesManagementClientContext
-      items: []
-    - uid: '@azure/arm-webservices.AzureMLWebServicesManagementClientOptions'
-      name: AzureMLWebServicesManagementClientOptions
-      items: []
-    - uid: '@azure/arm-webservices.BlobLocation'
-      name: BlobLocation
-      items: []
-    - uid: '@azure/arm-webservices.ColumnFormat'
-      name: ColumnFormat
-      items: []
-    - uid: '@azure/arm-webservices.ColumnSpecification'
-      name: ColumnSpecification
-      items: []
-    - uid: '@azure/arm-webservices.ColumnType'
-      name: ColumnType
-      items: []
-    - uid: '@azure/arm-webservices.CommitmentPlan'
-      name: CommitmentPlan
-      items: []
-    - uid: '@azure/arm-webservices.DiagnosticsConfiguration'
-      name: DiagnosticsConfiguration
-      items: []
-    - uid: '@azure/arm-webservices.DiagnosticsLevel'
-      name: DiagnosticsLevel
-      items: []
-    - uid: '@azure/arm-webservices.ExampleRequest'
-      name: ExampleRequest
-      items: []
-    - uid: '@azure/arm-webservices.GraphEdge'
-      name: GraphEdge
-      items: []
-    - uid: '@azure/arm-webservices.GraphNode'
-      name: GraphNode
-      items: []
-    - uid: '@azure/arm-webservices.GraphPackage'
-      name: GraphPackage
-      items: []
-    - uid: '@azure/arm-webservices.GraphParameter'
-      name: GraphParameter
-      items: []
-    - uid: '@azure/arm-webservices.GraphParameterLink'
-      name: GraphParameterLink
-      items: []
-    - uid: '@azure/arm-webservices.InputPort'
-      name: InputPort
-      items: []
-    - uid: '@azure/arm-webservices.InputPortType'
-      name: InputPortType
-      items: []
-    - uid: '@azure/arm-webservices.MachineLearningWorkspace'
-      name: MachineLearningWorkspace
-      items: []
-    - uid: '@azure/arm-webservices.ModeValueInfo'
-      name: ModeValueInfo
-      items: []
-    - uid: '@azure/arm-webservices.ModuleAssetParameter'
-      name: ModuleAssetParameter
-      items: []
-    - uid: '@azure/arm-webservices.OperationDisplayInfo'
-      name: OperationDisplayInfo
-      items: []
-    - uid: '@azure/arm-webservices.OperationEntity'
-      name: OperationEntity
-      items: []
-    - uid: '@azure/arm-webservices.OperationEntityListResult'
-      name: OperationEntityListResult
-      items: []
-    - uid: '@azure/arm-webservices.Operations'
-      name: Operations
-      items: []
-    - uid: '@azure/arm-webservices.OperationsListResponse'
-      name: OperationsListResponse
-      items: []
-    - uid: '@azure/arm-webservices.OutputPort'
-      name: OutputPort
-      items: []
-    - uid: '@azure/arm-webservices.OutputPortType'
-      name: OutputPortType
-      items: []
-    - uid: '@azure/arm-webservices.PaginatedWebServicesList'
-      name: PaginatedWebServicesList
-      items: []
-    - uid: '@azure/arm-webservices.ParameterType'
-      name: ParameterType
-      items: []
-    - uid: '@azure/arm-webservices.ProvisioningState'
-      name: ProvisioningState
-      items: []
-    - uid: '@azure/arm-webservices.RealtimeConfiguration'
-      name: RealtimeConfiguration
-      items: []
-    - uid: '@azure/arm-webservices.Resource'
-      name: Resource
-      items: []
-    - uid: '@azure/arm-webservices.ServiceInputOutputSpecification'
-      name: ServiceInputOutputSpecification
-      items: []
-    - uid: '@azure/arm-webservices.StorageAccount'
-      name: StorageAccount
-      items: []
-    - uid: '@azure/arm-webservices.TableSpecification'
-      name: TableSpecification
-      items: []
-    - uid: '@azure/arm-webservices.WebService'
-      name: WebService
-      items: []
-    - uid: '@azure/arm-webservices.WebServiceKeys'
-      name: WebServiceKeys
-      items: []
-    - uid: '@azure/arm-webservices.WebServiceParameter'
-      name: WebServiceParameter
-      items: []
-    - uid: '@azure/arm-webservices.WebServiceProperties'
-      name: WebServiceProperties
-      items: []
-    - uid: '@azure/arm-webservices.WebServicePropertiesForGraph'
-      name: WebServicePropertiesForGraph
-      items: []
-    - uid: '@azure/arm-webservices.WebServicePropertiesUnion'
-      name: WebServicePropertiesUnion
-      items: []
-    - uid: '@azure/arm-webservices.WebServices'
-      name: WebServices
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesBeginCreateOrUpdateResponse'
-      name: WebServicesBeginCreateOrUpdateResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesBeginCreateRegionalPropertiesResponse'
-      name: WebServicesBeginCreateRegionalPropertiesResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesBeginPatchResponse'
-      name: WebServicesBeginPatchResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesCreateOrUpdateResponse'
-      name: WebServicesCreateOrUpdateResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesCreateRegionalPropertiesResponse'
-      name: WebServicesCreateRegionalPropertiesResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesGetOptionalParams'
-      name: WebServicesGetOptionalParams
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesGetResponse'
-      name: WebServicesGetResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListByResourceGroupNextResponse'
-      name: WebServicesListByResourceGroupNextResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListByResourceGroupOptionalParams'
-      name: WebServicesListByResourceGroupOptionalParams
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListByResourceGroupResponse'
-      name: WebServicesListByResourceGroupResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListBySubscriptionIdNextResponse'
-      name: WebServicesListBySubscriptionIdNextResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListBySubscriptionIdOptionalParams'
-      name: WebServicesListBySubscriptionIdOptionalParams
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListBySubscriptionIdResponse'
-      name: WebServicesListBySubscriptionIdResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesListKeysResponse'
-      name: WebServicesListKeysResponse
-      items: []
-    - uid: '@azure/arm-webservices.WebServicesPatchResponse'
-      name: WebServicesPatchResponse
-      items: []
 - name: '@azure/arm-workspaces'
   items:
     - name: Overview
@@ -83996,6 +83806,64 @@
     - uid: '@azure/event-hubs.TryAddOptions'
       name: TryAddOptions
       items: []
+- name: '@azure/event-processor-host'
+  items:
+    - name: Overview
+      uid: '@azure/event-processor-host'
+    - uid: '@azure/event-processor-host.BaseLease'
+      name: BaseLease
+      items: []
+    - uid: '@azure/event-processor-host.BaseLeaseInfo'
+      name: BaseLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointInfo'
+      name: CheckpointInfo
+      items: []
+    - uid: '@azure/event-processor-host.CheckpointManager'
+      name: CheckpointManager
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLease'
+      name: CompleteLease
+      items: []
+    - uid: '@azure/event-processor-host.CompleteLeaseInfo'
+      name: CompleteLeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.EPHDiagnosticInfo'
+      name: EPHDiagnosticInfo
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHost'
+      name: EventProcessorHost
+      items: []
+    - uid: '@azure/event-processor-host.EventProcessorHostOptions'
+      name: EventProcessorHostOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromConnectionStringOptions'
+      name: FromConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromIotHubConnectionStringOptions'
+      name: FromIotHubConnectionStringOptions
+      items: []
+    - uid: '@azure/event-processor-host.FromTokenProviderOptions'
+      name: FromTokenProviderOptions
+      items: []
+    - uid: '@azure/event-processor-host.LeaseInfo'
+      name: LeaseInfo
+      items: []
+    - uid: '@azure/event-processor-host.LeaseManager'
+      name: LeaseManager
+      items: []
+    - uid: '@azure/event-processor-host.OnEphError'
+      name: OnEphError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedError'
+      name: OnReceivedError
+      items: []
+    - uid: '@azure/event-processor-host.OnReceivedMessage'
+      name: OnReceivedMessage
+      items: []
+    - uid: '@azure/event-processor-host.PartitionContext'
+      name: PartitionContext
+      items: []
 - name: '@azure/eventgrid'
   items:
     - name: Overview
@@ -86313,6 +86181,37 @@
       items: []
     - uid: '@azure/ms-rest-nodeauth.UserType'
       name: UserType
+      items: []
+- name: '@azure/schema-registry'
+  items:
+    - name: Overview
+      uid: '@azure/schema-registry'
+    - uid: '@azure/schema-registry.GetSchemaOptions'
+      name: GetSchemaOptions
+      items: []
+    - uid: '@azure/schema-registry.GetSchemaPropertiesOptions'
+      name: GetSchemaPropertiesOptions
+      items: []
+    - uid: '@azure/schema-registry.RegisterSchemaOptions'
+      name: RegisterSchemaOptions
+      items: []
+    - uid: '@azure/schema-registry.Schema'
+      name: Schema
+      items: []
+    - uid: '@azure/schema-registry.SchemaDescription'
+      name: SchemaDescription
+      items: []
+    - uid: '@azure/schema-registry.SchemaProperties'
+      name: SchemaProperties
+      items: []
+    - uid: '@azure/schema-registry.SchemaRegistry'
+      name: SchemaRegistry
+      items: []
+    - uid: '@azure/schema-registry.SchemaRegistryClient'
+      name: SchemaRegistryClient
+      items: []
+    - uid: '@azure/schema-registry.SchemaRegistryClientOptions'
+      name: SchemaRegistryClientOptions
       items: []
 - name: '@azure/search-documents'
   items:
