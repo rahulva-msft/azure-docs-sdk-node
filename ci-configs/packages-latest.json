@@ -621,6 +621,12 @@
     },
     {
       "name": "@azure/arm-datafactory@8.1.0"
+    },
+    {
+      "name": "@azure/arm-consumption@8.0.1"
+    },
+    {
+      "name": "@azure/arm-cosmosdb@14.2.0"
     }
   ],
   "source_repos": []
