@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-servicefabric",
-  "Version": "2.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.0.0-alpha.20211117.1",
+  "DevVersion": "2.0.0-alpha.20211118.1",
   "DirectoryPath": "sdk/servicefabric/arm-servicefabric",
   "ServiceDirectory": "servicefabric",
   "ReadMePath": "sdk/servicefabric/arm-servicefabric/README.md",
