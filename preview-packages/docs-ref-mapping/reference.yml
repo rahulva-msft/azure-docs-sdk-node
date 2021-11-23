@@ -44,6 +44,16 @@
       children:
       - azure-arm-authorization
       - '@azure/arm-authorization*'
+  - name: Batch
+    uid: azure.nodejs.sdk.landingpage.services.batch.pre
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.Batch.Management.pre
+      landingPageType: Service
+      children:
+      - azure-arm-batch
+      - '@azure/arm-batch*'
   - name: CDN
     uid: azure.nodejs.sdk.landingpage.services.cdn.pre
     href: ~/docs-ref-services/preview/cdn.md
