@@ -288,6 +288,11 @@
     landingPageType: Service
     children:
     - '@azure/arm-managedapplications'
+  - name: Managed Groups
+    uid: azure.nodejs.sdk.landingpage.services.managedapplications.pre
+    landingPageType: Service
+    children:
+    - '@azure/arm-managementgroups'
   - name: Media Services
     uid: azure.nodejs.sdk.landingpage.services.mediaservices.pre
     href: ~/docs-ref-services/preview/media-services.md
@@ -418,6 +423,16 @@
       - azure-arm-resource
       - '@azure/arm-resource'
       - '@azure/arm-resources'
+  - name: Resource Health
+    uid: azure.nodejs.sdk.landingpage.services.resourcehealth.pre
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.resourcehealth.Management.pre
+      landingPageType: Service
+      children:
+      - azure-arm-resourcehealth
+      - '@azure/arm-resourcehealth'
   - name: Resources Subscriptions
     uid: azure.nodejs.sdk.landingpage.services.resourcessubscriptions.pre
     landingPageType: service
