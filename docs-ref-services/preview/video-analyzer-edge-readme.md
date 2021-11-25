@@ -1,9 +1,9 @@
 ---
 title: Azure Video Analyzer Edge client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/video-analyzer-edge, videoanalyzer
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/30/2021
+author: hivyas
+ms.author: hivyas
+ms.date: 11/25/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -11,7 +11,7 @@ ms.devlang: javascript
 ms.service: videoanalyzer
 ---
 
-# Azure Video Analyzer Edge client library for JavaScript - Version 1.0.0-beta.3 
+# Azure Video Analyzer Edge client library for JavaScript - Version 1.0.0-alpha.20211102.1 
 
 
 Azure Video Analyzer is an [Azure Applied AI Service][applied-ai-service] that provides a platform for you to build intelligent video applications that can span both edge and cloud infrastructures. The platform offers the capability to capture, record, and analyze live video along with publishing the results, video and video analytics, to Azure services at the edge or in the cloud. It is designed to be an extensible platform, enabling you to connect different video inferencing edge modules such as Cognitive services modules, or custom inferencing modules that have been trained with your own data using either open-source machine learning or [Azure Machine Learning][machine-learning].
