@@ -119,9 +119,9 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'storage: Storage'
+      content: 'storage: Storage_2'
       return:
-        type: <xref uid="@azure/quantum-jobs.Storage" />
+        type: <xref uid="@azure/quantum-jobs.Storage_2" />
         description: ''
   - name: subscriptionId
     uid: '@azure/quantum-jobs.QuantumJobClient.subscriptionId'
