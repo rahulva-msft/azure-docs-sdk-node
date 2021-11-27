@@ -18,7 +18,7 @@
       "name": "@azure-rest/purview-scanning@1.0.0-beta.2"
     },
     {
-      "name": "@azure/container-registry@1.0.0-beta.6"
+      "name": "@azure/container-registry@1.0.0-alpha.20211122.2"
     },
     {
       "name": "@azure/core-tracing@1.0.0-preview.13"
@@ -42,7 +42,7 @@
       "name": "@azure/monitor-opentelemetry-exporter@1.0.0-beta.5"
     },
     {
-      "name": "@azure/storage-blob-changefeed@12.0.0-preview.2"
+      "name": "@azure/storage-blob-changefeed@12.0.0-alpha.20210930.1"
     },
     {
       "name": "@azure/synapse-access-control@1.0.0-beta.3"
@@ -81,7 +81,7 @@
       "name": "@azure/quantum-jobs@next"
     },
     {
-      "name": "@azure/video-analyzer-edge@1.0.0-beta.3"
+      "name": "@azure/video-analyzer-edge@1.0.0-alpha.20211102.1"
     },
     {
       "name": "@azure-rest/core-client@1.0.0-beta.8"
@@ -96,13 +96,13 @@
       "name": "@azure/monitor-query@1.0.0-beta.5"
     },
     {
-      "name": "@azure/search-documents@11.3.0-beta.5"
+      "name": "@azure/search-documents@11.3.0-alpha.20211119.2"
     },
     {
-      "name": "@azure/keyvault-admin@4.2.0-beta.2"
+      "name": "@azure/keyvault-admin@4.2.0-alpha.20211105.1"
     },
     {
-      "name": "@azure/keyvault-keys@4.4.0-beta.3"
+      "name": "@azure/keyvault-keys@4.4.0-alpha.20211105.1"
     },
     {
       "name": "@azure/arm-links@2.0.0-beta.1"
@@ -111,10 +111,10 @@
       "name": "@azure/arm-features@3.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-locks@2.0.0-beta.1"
+      "name": "@azure/arm-locks@2.0.0-alpha.20211111.1"
     },
     {
-      "name": "@azure/arm-storage@17.0.0-beta.1"
+      "name": "@azure/arm-storage@17.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/template@1.0.12-beta.1211539"
@@ -126,19 +126,19 @@
       "name": "@azure/arm-managedapplications@2.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-resources@5.0.0-beta.1"
+      "name": "@azure/arm-resources@5.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/communication-network-traversal@1.0.0-beta.3"
     },
     {
-      "name": "@azure/storage-blob@12.9.0-beta.1"
+      "name": "@azure/storage-blob@12.9.0-alpha.20211110.1"
     },
     {
-      "name": "@azure/storage-file-datalake@12.8.0-beta.1"
+      "name": "@azure/storage-file-datalake@12.8.0-alpha.20211110.1"
     },
     {
-      "name": "@azure/storage-file-share@12.9.0-beta.1"
+      "name": "@azure/storage-file-share@12.9.0-alpha.20211110.1"
     },
     {
       "name": "@azure/arm-compute@17.0.0-beta.2"
@@ -171,16 +171,16 @@
       "name": "@azure-rest/purview-account@1.0.0-beta.1"
     },
     {
-      "name": "@azure/keyvault-certificates@4.4.0-beta.2"
+      "name": "@azure/keyvault-certificates@4.4.0-alpha.20211105.1"
     },
     {
-      "name": "@azure/keyvault-secrets@4.4.0-beta.2"
+      "name": "@azure/keyvault-secrets@4.4.0-alpha.20211105.1"
     },
     {
       "name": "@azure/arm-eventhub@5.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-servicebus@5.0.0-beta.1"
+      "name": "@azure/arm-servicebus@5.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/arm-purview@1.0.0-beta.1"
@@ -189,10 +189,10 @@
       "name": "@azure/mixed-reality-remote-rendering@1.0.0-beta.1"
     },
     {
-      "name": "@azure/mixed-reality-authentication@1.0.0-beta.1"
+      "name": "@azure/mixed-reality-authentication@1.0.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/arm-keyvault@2.0.0-beta.1"
+      "name": "@azure/arm-keyvault@2.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/arm-sql@9.0.0-beta.1"
@@ -228,10 +228,10 @@
       "name": "@azure/arm-postgresql@6.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-containerregistry@10.0.0-beta.1"
+      "name": "@azure/arm-containerregistry@10.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-eventgrid@13.0.0-beta.1"
+      "name": "@azure/arm-eventgrid@13.0.0-alpha.20211117.1"
     },
     {
       "name": "@azure/arm-logic@8.0.0-beta.1"
@@ -240,28 +240,28 @@
       "name": "@azure/arm-recoveryservices@5.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-appplatform@2.0.0-beta.1"
+      "name": "@azure/arm-appplatform@2.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-containerservice@15.0.0-beta.1"
+      "name": "@azure/arm-containerservice@15.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-operations@4.0.0-beta.1"
+      "name": "@azure/arm-operations@4.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/communication-identity@1.1.0-beta.1"
     },
     {
-      "name": "@azure/arm-mediaservices@10.0.0-beta.1"
+      "name": "@azure/arm-mediaservices@10.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-databricks@3.0.0-beta.1"
+      "name": "@azure/arm-databricks@3.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-notificationhubs@2.0.0-beta.1"
+      "name": "@azure/arm-notificationhubs@2.0.0-alpha.20211117.1"
     },
     {
-      "name": "@azure/arm-videoanalyzer@1.0.0-beta.1"
+      "name": "@azure/arm-videoanalyzer@1.0.0-alpha.20211111.1"
     },
     {
       "name": "@azure/arm-streamanalytics@3.0.0-beta.1"
@@ -273,7 +273,7 @@
       "name": "@azure-tools/communication-short-codes@1.0.0-beta.1"
     },
     {
-      "name": "@azure/storage-queue@12.8.0-beta.1"
+      "name": "@azure/storage-queue@12.8.0-alpha.20211110.1"
     },
     {
       "name": "@azure/arm-mysql@5.0.0-beta.1"
@@ -300,10 +300,10 @@
       "name": "@azure/arm-datalake-analytics@2.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-batch@7.0.0-beta.1"
+      "name": "@azure/arm-batch@7.0.0-alpha.20211122.1"
     },
     {
-      "name": "@azure/arm-managementgroups@2.0.0-beta.1"
+      "name": "@azure/arm-managementgroups@2.0.0-alpha.20211122.3"
     },
     {
       "name": "@azure/arm-orbital@1.0.0-beta.1"
@@ -312,7 +312,10 @@
       "name": "@azure/arm-resourcehealth@3.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-botservice@4.0.0-beta.1"
+      "name": "@azure/arm-botservice@4.0.0-alpha.20211125.1"
+    },
+    {
+      "name": "@azure/iot-modelsrepository@1.0.0-alpha.20211102.2"
     }
   ],
   "source_repos": []
