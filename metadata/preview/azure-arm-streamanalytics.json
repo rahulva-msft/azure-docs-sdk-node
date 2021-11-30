@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-streamanalytics",
-  "Version": "3.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "3.0.0-alpha.20211111.1",
+  "DevVersion": "3.0.0-alpha.20211129.1",
   "DirectoryPath": "sdk/streamanalytics/arm-streamanalytics",
   "ServiceDirectory": "streamanalytics",
   "ReadMePath": "sdk/streamanalytics/arm-streamanalytics/README.md",
