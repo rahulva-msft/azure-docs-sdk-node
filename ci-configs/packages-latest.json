@@ -12,19 +12,19 @@
       "name": "@azure/search-documents@11.2.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211119.1"
     },
     {
-      "name": "@azure/communication-common@1.1.0"
+      "name": "@azure/communication-common@1.1.1-alpha.20211119.1"
     },
     {
       "name": "@azure/communication-identity@1.0.0"
     },
     {
-      "name": "@azure/communication-phone-numbers@1.0.0"
+      "name": "@azure/communication-phone-numbers@1.1.0-alpha.20211102.1"
     },
     {
-      "name": "@azure/communication-sms@1.0.0"
+      "name": "@azure/communication-sms@1.1.0-alpha.20211102.1"
     },
     {
       "name": "@azure/abort-controller@1.0.4"
@@ -55,7 +55,7 @@
       "name": "@azure/cosmos@3.14.1"
     },
     {
-      "name": "@azure/digital-twins-core@1.0.3"
+      "name": "@azure/digital-twins-core@1.1.0-alpha.20211103.1"
     },
     {
       "name": "@azure/eventgrid@4.5.0"
@@ -160,7 +160,7 @@
       "name": "@azure/arm-containerregistry@9.0.0"
     },
     {
-      "name": "@azure/arm-containerservice@14.2.0"
+      "name": "@azure/arm-containerservice@14.3.0"
     },
     {
       "name": "@azure/arm-cosmosdb@"
@@ -316,7 +316,7 @@
       "name": "@azure/arm-resourcehealth@2.0.0"
     },
     {
-      "name": "@azure/arm-search"
+      "name": "@azure/arm-search@2.0.0"
     },
     {
       "name": "@azure/arm-security@"
@@ -529,7 +529,7 @@
       "name": "@azure/arm-redisenterprisecache"
     },
     {
-      "name": "@azure/data-tables@13.0.0"
+      "name": "@azure/data-tables@13.0.1-alpha.20211112.1"
     },
     {
       "name": "@azure/keyvault-certificates@4.3.0"
@@ -551,7 +551,7 @@
       "folder": "./dist/dist-esm"
     },
     {
-      "name": "@azure/ai-metrics-advisor@1.0.0"
+      "name": "@azure/ai-metrics-advisor@1.0.1-alpha.20211116.1"
     },
     {
       "name": "@azure/arm-compute@16.5.0"
@@ -584,13 +584,13 @@
       "name": "@azure/core-xml@1.0.0"
     },
     {
-      "name": "@azure/attestation@1.0.0"
+      "name": "@azure/attestation@1.0.1-alpha.20211112.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.1"
+      "name": "@azure/communication-chat@1.1.1-alpha.20211119.1"
     },
     {
-      "name": "@azure/monitor-query@1.0.0"
+      "name": "@azure/monitor-query@1.0.1-alpha.20211123.1"
     },
     {
       "name": "@azure/arm-operationalinsights@7.1.1"
@@ -608,7 +608,7 @@
       "name": "@azure/arm-servicefabric@1.1.1"
     },
     {
-      "name": "@azure/schema-registry@1.0.1"
+      "name": "@azure/schema-registry@1.0.2-alpha.20211118.1"
     },
     {
       "name": "@azure/web-pubsub@1.0.0"
@@ -630,6 +630,9 @@
     },
     {
       "name": "@azure/arm-datalake-analytics@1.1.1"
+    },
+    {
+      "name": "@azure/arm-botservice@3.1.0"
     }
   ],
   "source_repos": []
