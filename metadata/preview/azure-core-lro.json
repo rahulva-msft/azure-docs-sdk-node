@@ -1,7 +1,7 @@
 {
   "Name": "@azure/core-lro",
   "Version": "2.2.3-alpha.20211206.10",
-  "DevVersion": "2.2.3-alpha.20211206.10",
+  "DevVersion": "2.2.3-alpha.20211207.5",
   "DirectoryPath": "sdk/core/core-lro",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/core-lro/README.md",

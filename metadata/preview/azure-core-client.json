@@ -1,7 +1,7 @@
 {
   "Name": "@azure/core-client",
   "Version": "1.4.0-alpha.20211206.10",
-  "DevVersion": "1.4.0-alpha.20211206.10",
+  "DevVersion": "1.4.0-alpha.20211207.5",
   "DirectoryPath": "sdk/core/core-client",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/core-client/README.md",
