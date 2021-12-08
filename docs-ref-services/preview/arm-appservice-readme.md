@@ -1,17 +1,16 @@
 ---
 title: Azure WebSiteManagement client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/arm-appservice, appservice
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/15/2021
+author: qiaozha
+ms.author: qiaozha
+ms.date: 12/08/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: appservice
 ---
-
-# Azure WebSiteManagement client library for JavaScript - Version 10.0.0-beta.1 
+# Azure WebSiteManagement client library for JavaScript - Version 10.0.0-alpha.20211112.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure WebSiteManagement client.
@@ -20,7 +19,7 @@ You can also follow this [link](https://github.com/Azure/azure-sdk-for-js/tree/f
 
 WebSite Management Client
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-appservice_10.0.0-beta.1/sdk/appservice/arm-appservice) |
+[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/appservice/arm-appservice) |
 [Package (NPM)](https://www.npmjs.com/package/@azure/arm-appservice) |
 [API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-appservice) |
 [Samples](https://github.com/Azure-Samples/azure-samples-js-management)
@@ -86,7 +85,7 @@ import { setLogLevel } from "@azure/logger";
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-appservice_10.0.0-beta.1/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/core/logger).
 
 ## Next steps
 
@@ -94,7 +93,7 @@ Please take a look at the [samples](https://github.com/Azure-Samples/azure-sampl
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/arm-appservice_10.0.0-beta.1/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ## Related projects
 
@@ -106,6 +105,6 @@ If you'd like to contribute to this library, please read the [contributing guide
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-appservice_10.0.0-beta.1/sdk/identity/identity
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-appservice_10.0.0-beta.1/sdk/identity/identity#defaultazurecredential
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 
