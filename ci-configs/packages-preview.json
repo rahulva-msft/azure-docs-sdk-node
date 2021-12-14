@@ -6,12 +6,6 @@
   },
   "npm_package_sources": [
     {
-      "name": "@azure/ai-anomaly-detector@3.0.0-beta.3"
-    },
-    {
-      "name": "@azure-rest/confidential-ledger@1.0.0-beta.2"
-    },
-    {
       "name": "@azure-rest/purview-catalog@1.0.0-beta.3"
     },
     {
@@ -21,43 +15,10 @@
       "name": "@azure/container-registry@1.0.0-beta.6"
     },
     {
-      "name": "@azure/core-tracing@1.0.0-preview.13"
-    },
-    {
-      "name": "@azure/core-util@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/schema-registry@1.0.0-beta.3"
-    },
-    {
-      "name": "@azure/schema-registry-avro@1.0.0-beta.5"
-    },
-    {
       "name": "@azure/identity@2.0.0-beta.6"
     },
     {
-      "name": "@azure/iot-device-update@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/monitor-opentelemetry-exporter@1.0.0-beta.5"
-    },
-    {
       "name": "@azure/storage-blob-changefeed@12.0.0-preview.2"
-    },
-    {
-      "name": "@azure/synapse-access-control@1.0.0-beta.3"
-    },
-    {
-      "name": "@azure/synapse-artifacts@1.0.0-beta.7"
-    },
-    {
-      "name": "@azure/synapse-managed-private-endpoints@1.0.0-beta.4"
-    },
-    {
-      "name": "@azure/synapse-monitoring@1.0.0-beta.2"
-    },
-    {
-      "name": "@azure/synapse-spark@1.0.0-beta.4"
     },
     {
       "name": "@azure/web-pubsub@1.0.0-beta.4"
@@ -78,22 +39,7 @@
       "name": "@azure/core-https"
     },
     {
-      "name": "@azure/quantum-jobs@next"
-    },
-    {
       "name": "@azure/video-analyzer-edge@1.0.0-beta.3"
-    },
-    {
-      "name": "@azure-rest/core-client@1.0.0-beta.8"
-    },
-    {
-      "name": "@azure-rest/agrifood-farming@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure-rest/ai-document-translator@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/monitor-query@1.0.0-beta.5"
     },
     {
       "name": "@azure/search-documents@11.3.0-beta.5"
@@ -129,9 +75,6 @@
       "name": "@azure/arm-resources@5.0.0-beta.1"
     },
     {
-      "name": "@azure/communication-network-traversal@1.0.0-beta.3"
-    },
-    {
       "name": "@azure/storage-blob@12.9.0-beta.2"
     },
     {
@@ -147,25 +90,10 @@
       "name": "@azure/arm-network@26.0.0-beta.2"
     },
     {
-      "name": "@azure/ai-text-analytics@5.2.0-beta.2"
-    },
-    {
       "name": "@azure/arm-webpubsub@1.0.0-beta.1"
     },
     {
-      "name": "@azure/communication-chat@1.1.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-appservice@10.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-resources-subscriptions@2.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-templatespecs@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-authorization@9.0.0-beta.1"
+      "name": "@azure/arm-appservice@10.0.0-alpha.20211213.3"
     },
     {
       "name": "@azure-rest/purview-account@1.0.0-beta.1"
@@ -186,34 +114,22 @@
       "name": "@azure/arm-purview@1.0.0-beta.1"
     },
     {
-      "name": "@azure/mixed-reality-remote-rendering@1.0.0-beta.1"
-    },
-    {
       "name": "@azure/mixed-reality-authentication@1.0.0-beta.1"
     },
     {
       "name": "@azure/arm-keyvault@2.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-sql@9.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-apimanagement@8.0.0-beta.2"
     },
     {
-      "name": "@azure/arm-rediscache@6.0.0-beta.1"
+      "name": "@azure/arm-rediscache@6.0.1-alpha.20211213.1"
     },
     {
       "name": "@azure/service-bus@7.4.0-beta.1"
     },
     {
       "name": "@azure/ai-form-recognizer@4.0.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-extendedlocation@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-quota@1.0.0-beta.2"
     },
     {
       "name": "@azure/arm-security@4.0.0-beta.1"
@@ -225,31 +141,22 @@
       "name": "@azure/arm-operationalinsights@8.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-postgresql@6.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-containerregistry@10.0.0-beta.1"
     },
     {
       "name": "@azure/arm-eventgrid@13.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-logic@8.0.0-beta.1"
+      "name": "@azure/arm-recoveryservices@5.0.0-alpha.20211213.1"
     },
     {
-      "name": "@azure/arm-recoveryservices@5.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-appplatform@2.0.0-beta.1"
+      "name": "@azure/arm-appplatform@2.0.0-beta.2"
     },
     {
       "name": "@azure/arm-containerservice@15.0.0-beta.1"
     },
     {
       "name": "@azure/arm-operations@4.0.0-beta.1"
-    },
-    {
-      "name": "@azure/communication-identity@1.1.0-beta.1"
     },
     {
       "name": "@azure/arm-mediaservices@10.0.0-beta.1"
@@ -270,31 +177,13 @@
       "name": "@azure/arm-servicefabric@2.0.0-beta.1"
     },
     {
-      "name": "@azure-tools/communication-short-codes@1.0.0-beta.1"
-    },
-    {
       "name": "@azure/storage-queue@12.8.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-mysql@5.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-desktopvirtualization@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-datafactory@10.0.0-beta.1"
     },
     {
       "name": "@azure/arm-cdn@6.0.0-beta.1"
     },
     {
       "name": "@azure/event-hubs@5.7.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-cosmosdb@15.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-consumption@9.0.0-beta.1"
     },
     {
       "name": "@azure/arm-datalake-analytics@2.0.0-beta.1"
@@ -309,19 +198,7 @@
       "name": "@azure/arm-orbital@1.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-resourcehealth@3.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-botservice@4.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-search@3.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-analysisservices@4.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-portal@1.0.0-beta.1"
     },
     {
       "name": "@azure/arm-sqlvirtualmachine@5.0.0-beta.1"
@@ -331,6 +208,12 @@
     },
     {
       "name": "@azure/arm-loadtestservice@1.0.0-beta.1"
+    },
+    {
+      "name": "@azure/abort-controller@1.1.0-alpha.20211213.3"
+    },
+    {
+      "name": "@azure/logger@1.0.4-alpha.20211213.3"
     }
   ],
   "source_repos": []
