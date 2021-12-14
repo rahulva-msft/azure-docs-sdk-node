@@ -18,7 +18,6 @@ enums:
   - '@azure/arm-recoveryservices.KnownVaultUpgradeState'
 classes:
   - '@azure/arm-recoveryservices.RecoveryServicesClient'
-  - '@azure/arm-recoveryservices.RecoveryServicesClientContext'
 interfaces:
   - '@azure/arm-recoveryservices.CertificateRequest'
   - '@azure/arm-recoveryservices.CheckNameAvailabilityParameters'
@@ -34,6 +33,8 @@ interfaces:
   - '@azure/arm-recoveryservices.CmkKeyVaultProperties'
   - '@azure/arm-recoveryservices.ErrorAdditionalInfo'
   - '@azure/arm-recoveryservices.ErrorModel'
+  - '@azure/arm-recoveryservices.GetOperationResultOptionalParams'
+  - '@azure/arm-recoveryservices.GetOperationStatusOptionalParams'
   - '@azure/arm-recoveryservices.IdentityData'
   - '@azure/arm-recoveryservices.JobsSummary'
   - '@azure/arm-recoveryservices.MonitoringSummary'
@@ -56,10 +57,6 @@ interfaces:
   - '@azure/arm-recoveryservices.RecoveryServices'
   - >-
     @azure/arm-recoveryservices.RecoveryServicesCheckNameAvailabilityOptionalParams
-  - >-
-    @azure/arm-recoveryservices.RecoveryServicesClientGetOperationResultOptionalParams
-  - >-
-    @azure/arm-recoveryservices.RecoveryServicesClientGetOperationStatusOptionalParams
   - '@azure/arm-recoveryservices.RecoveryServicesClientOptionalParams'
   - '@azure/arm-recoveryservices.RegisteredIdentities'
   - '@azure/arm-recoveryservices.RegisteredIdentitiesDeleteOptionalParams'
@@ -100,6 +97,8 @@ interfaces:
 typeAliases:
   - '@azure/arm-recoveryservices.AuthType'
   - '@azure/arm-recoveryservices.CreatedByType'
+  - '@azure/arm-recoveryservices.GetOperationResultResponse'
+  - '@azure/arm-recoveryservices.GetOperationStatusResponse'
   - '@azure/arm-recoveryservices.InfrastructureEncryptionState'
   - '@azure/arm-recoveryservices.OperationsListNextResponse'
   - '@azure/arm-recoveryservices.OperationsListResponse'
@@ -111,8 +110,6 @@ typeAliases:
   - '@azure/arm-recoveryservices.PrivateLinkResourcesListResponse'
   - '@azure/arm-recoveryservices.ProvisioningState'
   - '@azure/arm-recoveryservices.RecoveryServicesCheckNameAvailabilityResponse'
-  - '@azure/arm-recoveryservices.RecoveryServicesClientGetOperationResultResponse'
-  - '@azure/arm-recoveryservices.RecoveryServicesClientGetOperationStatusResponse'
   - '@azure/arm-recoveryservices.ReplicationUsagesListResponse'
   - '@azure/arm-recoveryservices.ResourceCertificateAndAadDetails'
   - '@azure/arm-recoveryservices.ResourceCertificateAndAcsDetails'

@@ -9,9 +9,7 @@ isPreview: false
 isDeprecated: false
 type: interface
 methods:
-  - name: >-
-      getBySite(string, string,
-      ResourceHealthMetadataOperationsGetBySiteOptionalParams)
+  - name: 'getBySite(string, string, ResourceHealthMetadataGetBySiteOptionalParams)'
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.getBySite'
     package: '@azure/arm-appservice'
     summary: >-
@@ -23,8 +21,8 @@ methods:
     syntax:
       content: >-
         function getBySite(resourceGroupName: string, name: string, options?:
-        ResourceHealthMetadataOperationsGetBySiteOptionalParams):
-        Promise<ResourceHealthMetadataOperationsGetBySiteResponse>
+        ResourceHealthMetadataGetBySiteOptionalParams):
+        Promise<ResourceHealthMetadataGetBySiteResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -35,7 +33,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataGetBySiteOptionalParams"
             />
           description: |
             The options parameters.
@@ -43,11 +41,11 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteResponse"
+          uid="@azure/arm-appservice.ResourceHealthMetadataGetBySiteResponse"
           />&gt;
   - name: >-
       getBySiteSlot(string, string, string,
-      ResourceHealthMetadataOperationsGetBySiteSlotOptionalParams)
+      ResourceHealthMetadataGetBySiteSlotOptionalParams)
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.getBySiteSlot'
     package: '@azure/arm-appservice'
     summary: >-
@@ -59,9 +57,8 @@ methods:
     syntax:
       content: >-
         function getBySiteSlot(resourceGroupName: string, name: string, slot:
-        string, options?:
-        ResourceHealthMetadataOperationsGetBySiteSlotOptionalParams):
-        Promise<ResourceHealthMetadataOperationsGetBySiteSlotResponse>
+        string, options?: ResourceHealthMetadataGetBySiteSlotOptionalParams):
+        Promise<ResourceHealthMetadataGetBySiteSlotResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -77,7 +74,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteSlotOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataGetBySiteSlotOptionalParams"
             />
           description: |
             The options parameters.
@@ -85,9 +82,9 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteSlotResponse"
+          uid="@azure/arm-appservice.ResourceHealthMetadataGetBySiteSlotResponse"
           />&gt;
-  - name: list(ResourceHealthMetadataOperationsListOptionalParams)
+  - name: list(ResourceHealthMetadataListOptionalParams)
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.list'
     package: '@azure/arm-appservice'
     summary: >-
@@ -98,14 +95,13 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function list(options?:
-        ResourceHealthMetadataOperationsListOptionalParams):
+        function list(options?: ResourceHealthMetadataListOptionalParams):
         PagedAsyncIterableIterator<ResourceHealthMetadata>
       parameters:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsListOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataListOptionalParams"
             />
           description: |
             The options parameters.
@@ -116,7 +112,7 @@ methods:
           uid="@azure/arm-appservice.ResourceHealthMetadata" />&gt;
   - name: >-
       listByResourceGroup(string,
-      ResourceHealthMetadataOperationsListByResourceGroupOptionalParams)
+      ResourceHealthMetadataListByResourceGroupOptionalParams)
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.listByResourceGroup'
     package: '@azure/arm-appservice'
     summary: >-
@@ -130,7 +126,7 @@ methods:
     syntax:
       content: >-
         function listByResourceGroup(resourceGroupName: string, options?:
-        ResourceHealthMetadataOperationsListByResourceGroupOptionalParams):
+        ResourceHealthMetadataListByResourceGroupOptionalParams):
         PagedAsyncIterableIterator<ResourceHealthMetadata>
       parameters:
         - id: resourceGroupName
@@ -139,7 +135,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsListByResourceGroupOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataListByResourceGroupOptionalParams"
             />
           description: |
             The options parameters.
@@ -148,9 +144,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-appservice.ResourceHealthMetadata" />&gt;
-  - name: >-
-      listBySite(string, string,
-      ResourceHealthMetadataOperationsListBySiteOptionalParams)
+  - name: 'listBySite(string, string, ResourceHealthMetadataListBySiteOptionalParams)'
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.listBySite'
     package: '@azure/arm-appservice'
     summary: >-
@@ -164,7 +158,7 @@ methods:
     syntax:
       content: >-
         function listBySite(resourceGroupName: string, name: string, options?:
-        ResourceHealthMetadataOperationsListBySiteOptionalParams):
+        ResourceHealthMetadataListBySiteOptionalParams):
         PagedAsyncIterableIterator<ResourceHealthMetadata>
       parameters:
         - id: resourceGroupName
@@ -176,7 +170,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataListBySiteOptionalParams"
             />
           description: |
             The options parameters.
@@ -187,7 +181,7 @@ methods:
           uid="@azure/arm-appservice.ResourceHealthMetadata" />&gt;
   - name: >-
       listBySiteSlot(string, string, string,
-      ResourceHealthMetadataOperationsListBySiteSlotOptionalParams)
+      ResourceHealthMetadataListBySiteSlotOptionalParams)
     uid: '@azure/arm-appservice.ResourceHealthMetadataOperations.listBySiteSlot'
     package: '@azure/arm-appservice'
     summary: >-
@@ -201,8 +195,7 @@ methods:
     syntax:
       content: >-
         function listBySiteSlot(resourceGroupName: string, name: string, slot:
-        string, options?:
-        ResourceHealthMetadataOperationsListBySiteSlotOptionalParams):
+        string, options?: ResourceHealthMetadataListBySiteSlotOptionalParams):
         PagedAsyncIterableIterator<ResourceHealthMetadata>
       parameters:
         - id: resourceGroupName
@@ -219,7 +212,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteSlotOptionalParams"
+            uid="@azure/arm-appservice.ResourceHealthMetadataListBySiteSlotOptionalParams"
             />
           description: |
             The options parameters.

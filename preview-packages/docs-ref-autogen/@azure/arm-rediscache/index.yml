@@ -15,7 +15,6 @@ enums:
   - '@azure/arm-rediscache.KnownTlsVersion'
 classes:
   - '@azure/arm-rediscache.RedisManagementClient'
-  - '@azure/arm-rediscache.RedisManagementClientContext'
 interfaces:
   - '@azure/arm-rediscache.CheckNameAvailabilityParameters'
   - '@azure/arm-rediscache.ErrorAdditionalInfo'

@@ -156,8 +156,8 @@ properties:
     uid: '@azure/arm-rediscache.RedisCreateParameters.staticIP'
     package: '@azure/arm-rediscache'
     summary: >-
-      Static IP address. Required when deploying a Redis cache inside an
-      existing Azure Virtual Network.
+      Static IP address. Optionally, may be specified when deploying a Redis
+      cache inside an existing Azure Virtual Network; auto assigned by default.
     fullName: staticIP
     remarks: ''
     isPreview: false
