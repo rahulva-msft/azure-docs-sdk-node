@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: cosmosdb
 ---
-# Azure Cosmos DB client library for JavaScript - Version 3.15.1-alpha.20211214.2 
+# Azure Cosmos DB client library for JavaScript - Version 3.15.1-alpha.20211215.1 
 /TypeScript
 
 [![latest npm badge](https://img.shields.io/npm/v/%40azure%2Fcosmos/latest.svg)][npm]
