@@ -1,17 +1,16 @@
 ---
 title: Azure Schema Registry client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/schema-registry, schemaregistry
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/05/2021
+author: deyaaeldeen
+ms.author: deyaaeldeen
+ms.date: 12/16/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: schemaregistry
 ---
-
-# Azure Schema Registry client library for JavaScript - Version 1.0.0-beta.3 
+# Azure Schema Registry client library for JavaScript - Version 1.0.2-alpha.20211216.1 
 
 
 Azure Schema Registry is a schema repository service hosted by Azure Event Hubs,
@@ -21,10 +20,10 @@ schema identifiers rather than full schemas.
 
 Key links:
 
-- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry_1.0.0-beta.3/sdk/schemaregistry/schema-registry)
+- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry)
 - [Package (npm)](https://www.npmjs.com/package/@azure/schema-registry)
 - [API Reference Documentation](https://docs.microsoft.com/javascript/api/@azure/schema-registry)
-- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry_1.0.0-beta.3/sdk/schemaregistry/schema-registry/samples)
+- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry/samples)
 
 ## Getting started
 
@@ -77,12 +76,6 @@ const client = new SchemaRegistryClient("<fullyQualifiedNamespace>", new Default
 `SchemaRegistryClient` provides the API for storing and retrieving schemas in
 schema registry.
 
-### SchemaRegistry serializers
-
-- [@azure/schema-registry-avro](https://www.npmjs.com/package/@azure/schema-registry-avro)
-  is a separate package that uses `SchemaRegistryClient` to pair schema ID along
-  with Avro Binary Encoding.
-
 ## Examples
 
 ### Register a schema
@@ -97,7 +90,7 @@ const description = {
   name: "<name>",
   groupName: "<group name>",
   format: "<schema format>",
-  schemaDefinition: "<schema definition>"
+  definition: "<schema definition>"
 }
 
 const registered = await client.registerSchema(description);
@@ -115,8 +108,8 @@ const client = new SchemaRegistryClient("<fullyQualifiedNamespace>", new Default
 const description = {
   name: "<name>",
   groupName: "<group name>",
-  format: "<schema format>"
-  schemaDefinition: "<schema definition>"
+  format: "<schema format>",
+  definition: "<schema definition>"
 }
 
 const found = await client.getSchemaProperties(description);
@@ -134,7 +127,7 @@ const { SchemaRegistryClient } = require("@azure/schema-registry");
 const client = new SchemaRegistryClient("<fullyQualifiedNamespace>", new DefaultAzureCredential());
 const foundSchema = await client.getSchema("<id>");
 if (foundSchema) {
-  console.log(`Got schema definition=${foundSchema.schemaDefinition}`);
+  console.log(`Got schema definition=${foundSchema.definition}`);
 }
 ```
 
@@ -156,7 +149,7 @@ setLogLevel("info");
 ## Next steps
 
 Please take a look at the
-[samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry_1.0.0-beta.3/sdk/schemaregistry/schema-registry/samples)
+[samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry/samples)
 directory for detailed examples on how to use this library.
 
 ## Contributing
@@ -179,7 +172,7 @@ FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact
 questions or comments.
 
 If you'd like to contribute to this library, please read the [contributing
-guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/schema-registry_1.0.0-beta.3/CONTRIBUTING.md) to
+guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to
 learn more about how to build and test the code.
 
 ## Related projects
@@ -191,6 +184,6 @@ learn more about how to build and test the code.
 [azure_cli]: https://docs.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry_1.0.0-beta.3/sdk/identity/identity
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry_1.0.0-beta.3/sdk/identity/identity#defaultazurecredential
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 
