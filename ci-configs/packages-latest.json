@@ -142,7 +142,7 @@
       "name": "@azure/arm-cdn@"
     },
     {
-      "name": "@azure/arm-cognitiveservices"
+      "name": "@azure/arm-cognitiveservices@"
     },
     {
       "name": "@azure/arm-commerce"
@@ -217,7 +217,7 @@
       "name": "@azure/arm-iotcentral"
     },
     {
-      "name": "@azure/arm-iothub"
+      "name": "@azure/arm-iothub@"
     },
     {
       "name": "@azure/arm-iotspaces"
