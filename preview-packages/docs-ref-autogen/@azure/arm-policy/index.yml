@@ -13,7 +13,6 @@ enums:
   - '@azure/arm-policy.KnownPolicyType'
 classes:
   - '@azure/arm-policy.PolicyClient'
-  - '@azure/arm-policy.PolicyClientContext'
 interfaces:
   - '@azure/arm-policy.Alias'
   - '@azure/arm-policy.AliasPath'

@@ -9,6 +9,20 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: allowInsecureConnection
+    uid: >-
+      @azure/communication-chat.ChatApiClientOptionalParams.allowInsecureConnection
+    package: '@azure/communication-chat'
+    summary: Set to true if the request is sent over HTTP instead of HTTPS
+    fullName: allowInsecureConnection
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowInsecureConnection?: boolean'
+      return:
+        description: ''
+        type: boolean
   - name: apiVersion
     uid: '@azure/communication-chat.ChatApiClientOptionalParams.apiVersion'
     package: '@azure/communication-chat'
@@ -22,25 +36,37 @@ properties:
       return:
         description: ''
         type: string
-  - name: clientRequestIdHeaderName
-    uid: >-
-      @azure/communication-chat.ChatApiClientOptionalParams.clientRequestIdHeaderName
+  - name: baseUri
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.baseUri'
     package: '@azure/communication-chat'
     summary: >-
-      If specified, a GenerateRequestIdPolicy will be added to the HTTP pipeline
-      that will add a
+      If specified, this is the base URI that requests will be made against for
+      this ServiceClient.
 
-      header to all outgoing requests with this header name and a random UUID as
-      the request ID.
-    fullName: clientRequestIdHeaderName
+      If it is not specified, then all OperationSpecs must contain a baseUrl
+      property.
+    fullName: baseUri
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'clientRequestIdHeaderName?: string'
+      content: 'baseUri?: string'
       return:
         description: ''
         type: string
+  - name: credential
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.credential'
+    package: '@azure/communication-chat'
+    summary: Credential used to authenticate the request.
+    fullName: credential
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'credential?: TokenCredential'
+      return:
+        description: ''
+        type: TokenCredential
   - name: credentialScopes
     uid: '@azure/communication-chat.ChatApiClientOptionalParams.credentialScopes'
     package: '@azure/communication-chat'
@@ -54,20 +80,6 @@ properties:
       return:
         description: ''
         type: 'string | string[]'
-  - name: deserializationContentTypes
-    uid: >-
-      @azure/communication-chat.ChatApiClientOptionalParams.deserializationContentTypes
-    package: '@azure/communication-chat'
-    summary: The content-types that will be associated with JSON or XML serialization.
-    fullName: deserializationContentTypes
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'deserializationContentTypes?: DeserializationContentTypes'
-      return:
-        description: ''
-        type: DeserializationContentTypes
   - name: endpoint
     uid: '@azure/communication-chat.ChatApiClientOptionalParams.endpoint'
     package: '@azure/communication-chat'
@@ -81,22 +93,6 @@ properties:
       return:
         description: ''
         type: string
-  - name: generateClientRequestIdHeader
-    uid: >-
-      @azure/communication-chat.ChatApiClientOptionalParams.generateClientRequestIdHeader
-    package: '@azure/communication-chat'
-    summary: >-
-      Whether or not to generate a client request ID header for each HTTP
-      request.
-    fullName: generateClientRequestIdHeader
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'generateClientRequestIdHeader?: boolean'
-      return:
-        description: ''
-        type: boolean
   - name: httpClient
     uid: '@azure/communication-chat.ChatApiClientOptionalParams.httpClient'
     package: '@azure/communication-chat'
@@ -110,145 +106,84 @@ properties:
       return:
         description: ''
         type: HttpClient
-  - name: httpPipelineLogger
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.httpPipelineLogger'
+  - name: pipeline
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.pipeline'
     package: '@azure/communication-chat'
-    summary: >-
-      The HttpPipelineLogger that can be used to debug RequestPolicies within
-      the HTTP pipeline.
-    fullName: httpPipelineLogger
+    summary: 'A customized pipeline to use, otherwise a default one will be created.'
+    fullName: pipeline
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'httpPipelineLogger?: HttpPipelineLogger'
+      content: 'pipeline?: Pipeline'
       return:
         description: ''
-        type: HttpPipelineLogger
-  - name: noRetryPolicy
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.noRetryPolicy'
+        type: Pipeline
+  - name: proxyOptions
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.proxyOptions'
     package: '@azure/communication-chat'
-    summary: 'If set to true, turn off the default retry policy.'
-    fullName: noRetryPolicy
+    summary: Options to configure a proxy for outgoing requests.
+    fullName: proxyOptions
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'noRetryPolicy?: boolean'
-      return:
-        description: ''
-        type: boolean
-  - name: proxySettings
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.proxySettings'
-    package: '@azure/communication-chat'
-    summary: Proxy settings which will be used for every HTTP request (Node.js only).
-    fullName: proxySettings
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'proxySettings?: ProxySettings'
+      content: 'proxyOptions?: ProxySettings'
       return:
         description: ''
         type: ProxySettings
-  - name: requestPolicyFactories
-    uid: >-
-      @azure/communication-chat.ChatApiClientOptionalParams.requestPolicyFactories
+  - name: redirectOptions
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.redirectOptions'
     package: '@azure/communication-chat'
-    summary: >-
-      An array of factories which get called to create the RequestPolicy
-      pipeline used to send a HTTP
-
-      request on the wire, or a function that takes in the
-      defaultRequestPolicyFactories and returns
-
-      the requestPolicyFactories that will be used.
-    fullName: requestPolicyFactories
+    summary: Options for how redirect responses are handled.
+    fullName: redirectOptions
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        requestPolicyFactories?: RequestPolicyFactory[] |
-        (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
-        RequestPolicyFactory[]
+      content: 'redirectOptions?: RedirectPolicyOptions'
       return:
         description: ''
-        type: >-
-          RequestPolicyFactory[] | (defaultRequestPolicyFactories:
-          RequestPolicyFactory[]) =&gt; void | RequestPolicyFactory[]
-  - name: rpRegistrationRetryTimeout
-    uid: >-
-      @azure/communication-chat.ChatApiClientOptionalParams.rpRegistrationRetryTimeout
+        type: RedirectPolicyOptions
+  - name: requestContentType
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.requestContentType'
     package: '@azure/communication-chat'
-    summary: >-
-      Gets or sets the retry timeout in seconds for AutomaticRPRegistration.
-      Default value is 30.
-    fullName: rpRegistrationRetryTimeout
+    summary: |-
+      The default request content type for the service.
+      Used if no requestContentType is present on an OperationSpec.
+    fullName: requestContentType
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'rpRegistrationRetryTimeout?: number'
+      content: 'requestContentType?: string'
       return:
         description: ''
-        type: number
-  - name: userAgent
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.userAgent'
+        type: string
+  - name: retryOptions
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.retryOptions'
     package: '@azure/communication-chat'
-    summary: >-
-      The string to be set to the telemetry header while sending the request, or
-      a function that
-
-      takes in the default user-agent string and returns the user-agent string
-      that will be used.
-    fullName: userAgent
+    summary: Options that control how to retry failed requests.
+    fullName: retryOptions
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'userAgent?: string | (defaultUserAgent: string) => string'
+      content: 'retryOptions?: ExponentialRetryPolicyOptions'
       return:
         description: ''
-        type: 'string | (defaultUserAgent: string) =&gt; string'
-  - name: userAgentHeaderName
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.userAgentHeaderName'
+        type: ExponentialRetryPolicyOptions
+  - name: userAgentOptions
+    uid: '@azure/communication-chat.ChatApiClientOptionalParams.userAgentOptions'
     package: '@azure/communication-chat'
-    summary: >-
-      The header name to use for the telemetry header while sending the request.
-      If this is not
-
-      specified, then "User-Agent" will be used when running on Node.js and
-      "x-ms-useragent" will
-
-      be used when running in a browser.
-    fullName: userAgentHeaderName
+    summary: Options for adding user agent details to outgoing requests.
+    fullName: userAgentOptions
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: >-
-        userAgentHeaderName?: string | (defaultUserAgentHeaderName: string) =>
-        string
+      content: 'userAgentOptions?: UserAgentPolicyOptions'
       return:
         description: ''
-        type: 'string | (defaultUserAgentHeaderName: string) =&gt; string'
-  - name: withCredentials
-    uid: '@azure/communication-chat.ChatApiClientOptionalParams.withCredentials'
-    package: '@azure/communication-chat'
-    summary: >-
-      Whether to include credentials in CORS requests in the browser.
-
-      See
-      https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials
-      for more information.
-    fullName: withCredentials
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'withCredentials?: boolean'
-      return:
-        description: ''
-        type: boolean
+        type: UserAgentPolicyOptions
 extends: ServiceClientOptions

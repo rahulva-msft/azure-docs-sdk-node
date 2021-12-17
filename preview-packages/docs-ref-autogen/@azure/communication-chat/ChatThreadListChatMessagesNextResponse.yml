@@ -7,7 +7,4 @@ fullName: ChatThreadListChatMessagesNextResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ChatThreadListChatMessagesNextResponse = ChatMessagesCollection & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody:
-  ChatMessagesCollection } }
+syntax: type ChatThreadListChatMessagesNextResponse = ChatMessagesCollection

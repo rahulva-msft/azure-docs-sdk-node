@@ -157,4 +157,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-locks.ManagementLockClientContext" />
+extends: ServiceClient

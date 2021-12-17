@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: HybridConnection
+uid: '@azure/arm-relay.HybridConnection'
+package: '@azure/arm-relay'
+summary: Description of hybrid connection resource.
+fullName: HybridConnection
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type HybridConnection = Resource & { createdAt?: Date, listenerCount?:
+  undefined | number, requiresClientAuthorization?: undefined | false | true,
+  updatedAt?: Date, userMetadata?: undefined | string }

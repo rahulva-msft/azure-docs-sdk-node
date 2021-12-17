@@ -20,7 +20,6 @@ enums:
   - '@azure/arm-operationalinsights.KnownWorkspaceSkuNameEnum'
 classes:
   - '@azure/arm-operationalinsights.OperationalInsightsManagementClient'
-  - '@azure/arm-operationalinsights.OperationalInsightsManagementClientContext'
 interfaces:
   - '@azure/arm-operationalinsights.AssociatedWorkspace'
   - '@azure/arm-operationalinsights.AvailableServiceTier'
@@ -131,6 +130,12 @@ interfaces:
     @azure/arm-operationalinsights.StorageInsightConfigsListByWorkspaceOptionalParams
   - '@azure/arm-operationalinsights.StorageInsightListResult'
   - '@azure/arm-operationalinsights.StorageInsightStatus'
+  - '@azure/arm-operationalinsights.Tables'
+  - '@azure/arm-operationalinsights.TablesCreateOptionalParams'
+  - '@azure/arm-operationalinsights.TablesGetOptionalParams'
+  - '@azure/arm-operationalinsights.TablesListByWorkspaceOptionalParams'
+  - '@azure/arm-operationalinsights.TablesListResult'
+  - '@azure/arm-operationalinsights.TablesUpdateOptionalParams'
   - '@azure/arm-operationalinsights.Tag'
   - '@azure/arm-operationalinsights.UsageMetric'
   - '@azure/arm-operationalinsights.Usages'
@@ -222,6 +227,11 @@ typeAliases:
     @azure/arm-operationalinsights.StorageInsightConfigsListByWorkspaceNextResponse
   - '@azure/arm-operationalinsights.StorageInsightConfigsListByWorkspaceResponse'
   - '@azure/arm-operationalinsights.StorageInsightState'
+  - '@azure/arm-operationalinsights.Table'
+  - '@azure/arm-operationalinsights.TablesCreateResponse'
+  - '@azure/arm-operationalinsights.TablesGetResponse'
+  - '@azure/arm-operationalinsights.TablesListByWorkspaceResponse'
+  - '@azure/arm-operationalinsights.TablesUpdateResponse'
   - '@azure/arm-operationalinsights.TrackedResource'
   - '@azure/arm-operationalinsights.Type'
   - '@azure/arm-operationalinsights.UsagesListResponse'

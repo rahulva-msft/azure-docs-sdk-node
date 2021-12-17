@@ -14,6 +14,6 @@ syntax: >-
   undefined | number, lookBackPeriod?: undefined | string, meterId?: undefined |
   string, netSavings?: undefined | number, normalizedSize?: undefined | string,
   recommendedQuantity?: undefined | number, recommendedQuantityNormalized?:
-  undefined | number, resourceType?: undefined | string, scope?: undefined |
-  string, skuProperties?: SkuProperty[], term?: undefined | string,
+  undefined | number, resourceType?: undefined | string, scope: string,
+  skuProperties?: SkuProperty[], term?: undefined | string,
   totalCostWithReservedInstances?: undefined | number }

@@ -38,7 +38,6 @@ enums:
   - '@azure/arm-cosmosdb.KnownUnitType'
 classes:
   - '@azure/arm-cosmosdb.CosmosDBManagementClient'
-  - '@azure/arm-cosmosdb.CosmosDBManagementClientContext'
 interfaces:
   - '@azure/arm-cosmosdb.ARMProxyResource'
   - '@azure/arm-cosmosdb.ARMResourceProperties'

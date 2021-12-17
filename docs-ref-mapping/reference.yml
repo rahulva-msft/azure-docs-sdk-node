@@ -1018,6 +1018,15 @@
       - azure-arm-powerbiembedded
       - '@azure/arm-powerbidedicated'
       - '@azure/arm-powerbiembedded'
+  - name: Purview
+    uid: azure.nodejs.sdk.landingpage.services.purview
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.nodejs.sdk.landingPage.services.purview.Management
+      href: ~/docs-ref-services/latest/arm-purview-readme.md
+      children:
+      - '@azure/arm-purview'
   - name: Recovery Services
     uid: azure.nodejs.sdk.landingpage.services.rescoveryservices
     landingPageType: Service

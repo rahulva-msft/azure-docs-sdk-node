@@ -360,4 +360,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-postgresql.PostgreSQLManagementClientContext" />
+extends: ServiceClient

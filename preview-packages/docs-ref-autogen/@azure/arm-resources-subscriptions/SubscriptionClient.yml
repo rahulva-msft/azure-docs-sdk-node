@@ -100,7 +100,7 @@ properties:
         description: ''
         type: <xref uid="@azure/arm-resources-subscriptions.Tenants" />
 methods:
-  - name: checkResourceName(SubscriptionClientCheckResourceNameOptionalParams)
+  - name: checkResourceName(CheckResourceNameOptionalParams)
     uid: '@azure/arm-resources-subscriptions.SubscriptionClient.checkResourceName'
     package: '@azure/arm-resources-subscriptions'
     summary: >-
@@ -113,14 +113,13 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function checkResourceName(options?:
-        SubscriptionClientCheckResourceNameOptionalParams):
-        Promise<SubscriptionClientCheckResourceNameResponse>
+        function checkResourceName(options?: CheckResourceNameOptionalParams):
+        Promise<CheckResourceNameResponse>
       parameters:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-resources-subscriptions.SubscriptionClientCheckResourceNameOptionalParams"
+            uid="@azure/arm-resources-subscriptions.CheckResourceNameOptionalParams"
             />
           description: |
             The options parameters.
@@ -128,7 +127,7 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-resources-subscriptions.SubscriptionClientCheckResourceNameResponse"
+          uid="@azure/arm-resources-subscriptions.CheckResourceNameResponse"
           />&gt;
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
     uid: '@azure/arm-resources-subscriptions.SubscriptionClient.sendOperationRequest'
@@ -172,4 +171,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-resources-subscriptions.SubscriptionClientContext" />
+extends: ServiceClient

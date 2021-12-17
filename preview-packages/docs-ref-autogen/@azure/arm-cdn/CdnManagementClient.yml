@@ -516,4 +516,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;<xref uid="@azure/arm-cdn.ValidateProbeResponse" />&gt;
-extends: <xref uid="@azure/arm-cdn.CdnManagementClientContext" />
+extends: ServiceClient

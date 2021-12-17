@@ -35,6 +35,22 @@ properties:
       return:
         description: ''
         type: number
+  - name: onResponse
+    uid: '@azure/communication-chat.RestListChatThreadsOptions.onResponse'
+    package: '@azure/communication-chat'
+    summary: |-
+      A function to be called each time a response is received from the server
+      while performing the requested operation.
+      May be called multiple times.
+    fullName: onResponse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onResponse?: RawResponseCallback'
+      return:
+        description: ''
+        type: RawResponseCallback
   - name: requestOptions
     uid: '@azure/communication-chat.RestListChatThreadsOptions.requestOptions'
     package: '@azure/communication-chat'
@@ -48,6 +64,19 @@ properties:
       return:
         description: ''
         type: OperationRequestOptions
+  - name: serializerOptions
+    uid: '@azure/communication-chat.RestListChatThreadsOptions.serializerOptions'
+    package: '@azure/communication-chat'
+    summary: Options to override serialization/de-serialization behavior.
+    fullName: serializerOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'serializerOptions?: SerializerOptions'
+      return:
+        description: ''
+        type: SerializerOptions
   - name: startTime
     uid: '@azure/communication-chat.RestListChatThreadsOptions.startTime'
     package: '@azure/communication-chat'

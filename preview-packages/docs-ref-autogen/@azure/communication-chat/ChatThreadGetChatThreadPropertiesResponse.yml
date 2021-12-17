@@ -7,7 +7,4 @@ fullName: ChatThreadGetChatThreadPropertiesResponse
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type ChatThreadGetChatThreadPropertiesResponse = ChatThreadProperties & {
-  _response: HttpResponse & { bodyAsText: string, parsedBody:
-  ChatThreadProperties } }
+syntax: type ChatThreadGetChatThreadPropertiesResponse = ChatThreadProperties

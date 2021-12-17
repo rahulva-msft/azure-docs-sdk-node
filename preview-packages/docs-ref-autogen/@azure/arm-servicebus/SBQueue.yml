@@ -17,7 +17,8 @@ syntax: >-
   | false | true, enablePartitioning?: undefined | false | true,
   forwardDeadLetteredMessagesTo?: undefined | string, forwardTo?: undefined |
   string, lockDuration?: undefined | string, maxDeliveryCount?: undefined |
-  number, maxSizeInMegabytes?: undefined | number, messageCount?: undefined |
-  number, requiresDuplicateDetection?: undefined | false | true,
-  requiresSession?: undefined | false | true, sizeInBytes?: undefined | number,
-  status?: EntityStatus, updatedAt?: Date }
+  number, maxMessageSizeInKilobytes?: undefined | number, maxSizeInMegabytes?:
+  undefined | number, messageCount?: undefined | number,
+  requiresDuplicateDetection?: undefined | false | true, requiresSession?:
+  undefined | false | true, sizeInBytes?: undefined | number, status?:
+  EntityStatus, systemData?: SystemData, updatedAt?: Date }

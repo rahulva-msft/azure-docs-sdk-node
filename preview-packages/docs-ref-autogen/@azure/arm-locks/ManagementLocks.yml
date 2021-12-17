@@ -544,43 +544,6 @@ methods:
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-locks.ManagementLockObject" />&gt;
   - name: >-
-      listAtResourceGroupLevelNext(string, string,
-      ManagementLocksListAtResourceGroupLevelNextOptionalParams)
-    uid: '@azure/arm-locks.ManagementLocks.listAtResourceGroupLevelNext'
-    package: '@azure/arm-locks'
-    summary: ListAtResourceGroupLevelNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtResourceGroupLevelNext(resourceGroupName: string,
-        nextLink: string, options?:
-        ManagementLocksListAtResourceGroupLevelNextOptionalParams):
-        PagedAsyncIterableIterator<ManagementLockObject>
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: The name of the resource group containing the locks to get.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtResourceGroupLevel
-                            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-locks.ManagementLocksListAtResourceGroupLevelNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-locks.ManagementLockObject" />&gt;
-  - name: >-
       listAtResourceLevel(string, string, string, string, string,
       ManagementLocksListAtResourceLevelOptionalParams)
     uid: '@azure/arm-locks.ManagementLocks.listAtResourceLevel'
@@ -628,58 +591,6 @@ methods:
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-locks.ManagementLockObject" />&gt;
   - name: >-
-      listAtResourceLevelNext(string, string, string, string, string, string,
-      ManagementLocksListAtResourceLevelNextOptionalParams)
-    uid: '@azure/arm-locks.ManagementLocks.listAtResourceLevelNext'
-    package: '@azure/arm-locks'
-    summary: ListAtResourceLevelNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtResourceLevelNext(resourceGroupName: string,
-        resourceProviderNamespace: string, parentResourcePath: string,
-        resourceType: string, resourceName: string, nextLink: string, options?:
-        ManagementLocksListAtResourceLevelNextOptionalParams):
-        PagedAsyncIterableIterator<ManagementLockObject>
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: >-
-            The name of the resource group containing the locked resource. The
-            name is
-                                     case insensitive.
-        - id: resourceProviderNamespace
-          type: string
-          description: The namespace of the resource provider.
-        - id: parentResourcePath
-          type: string
-          description: The parent resource identity.
-        - id: resourceType
-          type: string
-          description: The resource type of the locked resource.
-        - id: resourceName
-          type: string
-          description: The name of the locked resource.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtResourceLevel method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-locks.ManagementLocksListAtResourceLevelNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-locks.ManagementLockObject" />&gt;
-  - name: >-
       listAtSubscriptionLevel(ManagementLocksListAtSubscriptionLevelOptionalParams)
     uid: '@azure/arm-locks.ManagementLocks.listAtSubscriptionLevel'
     package: '@azure/arm-locks'
@@ -697,39 +608,6 @@ methods:
           type: >-
             <xref
             uid="@azure/arm-locks.ManagementLocksListAtSubscriptionLevelOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-locks.ManagementLockObject" />&gt;
-  - name: >-
-      listAtSubscriptionLevelNext(string,
-      ManagementLocksListAtSubscriptionLevelNextOptionalParams)
-    uid: '@azure/arm-locks.ManagementLocks.listAtSubscriptionLevelNext'
-    package: '@azure/arm-locks'
-    summary: ListAtSubscriptionLevelNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtSubscriptionLevelNext(nextLink: string, options?:
-        ManagementLocksListAtSubscriptionLevelNextOptionalParams):
-        PagedAsyncIterableIterator<ManagementLockObject>
-      parameters:
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtSubscriptionLevel
-                            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-locks.ManagementLocksListAtSubscriptionLevelNextOptionalParams"
             />
           description: |
             The options parameters.
@@ -764,47 +642,6 @@ methods:
           type: >-
             <xref
             uid="@azure/arm-locks.ManagementLocksListByScopeOptionalParams" />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-locks.ManagementLockObject" />&gt;
-  - name: >-
-      listByScopeNext(string, string,
-      ManagementLocksListByScopeNextOptionalParams)
-    uid: '@azure/arm-locks.ManagementLocks.listByScopeNext'
-    package: '@azure/arm-locks'
-    summary: ListByScopeNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByScopeNext(scope: string, nextLink: string, options?:
-        ManagementLocksListByScopeNextOptionalParams):
-        PagedAsyncIterableIterator<ManagementLockObject>
-      parameters:
-        - id: scope
-          type: string
-          description: >-
-            The scope for the lock. When providing a scope for the assignment,
-            use
-                         '/subscriptions/{subscriptionId}' for subscriptions,
-                         '/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}' for resource groups, and
-                         '/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{parentResourcePathIfPresent}/{resourceType}/{resourceName}'
-                         for resources.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the ListByScope
-            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-locks.ManagementLocksListByScopeNextOptionalParams"
-            />
           description: |
             The options parameters.
       return:
