@@ -142,7 +142,7 @@
       "name": "@azure/arm-cdn@"
     },
     {
-      "name": "@azure/arm-cognitiveservices"
+      "name": "@azure/arm-cognitiveservices@"
     },
     {
       "name": "@azure/arm-commerce"
