@@ -108,6 +108,22 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.CustomDomain" />
+  - name: defaultToOAuthAuthentication
+    uid: >-
+      @azure/arm-storage.StorageAccountCreateParameters.defaultToOAuthAuthentication
+    package: '@azure/arm-storage'
+    summary: >-
+      A boolean flag which indicates whether the default authentication is OAuth
+      or not. The default interpretation is false for this property.
+    fullName: defaultToOAuthAuthentication
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultToOAuthAuthentication?: undefined | false | true'
+      return:
+        description: ''
+        type: undefined | false | true
   - name: enableHttpsTrafficOnly
     uid: '@azure/arm-storage.StorageAccountCreateParameters.enableHttpsTrafficOnly'
     package: '@azure/arm-storage'
@@ -180,6 +196,23 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.Identity" />
+  - name: immutableStorageWithVersioning
+    uid: >-
+      @azure/arm-storage.StorageAccountCreateParameters.immutableStorageWithVersioning
+    package: '@azure/arm-storage'
+    summary: >-
+      The property is immutable and can only be set to true at the account
+      creation time. When set to true, it enables object level immutability for
+      all the new containers in the account by default.
+    fullName: immutableStorageWithVersioning
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'immutableStorageWithVersioning?: ImmutableStorageAccount'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-storage.ImmutableStorageAccount" />
   - name: isHnsEnabled
     uid: '@azure/arm-storage.StorageAccountCreateParameters.isHnsEnabled'
     package: '@azure/arm-storage'
@@ -280,6 +313,21 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.NetworkRuleSet" />
+  - name: publicNetworkAccess
+    uid: '@azure/arm-storage.StorageAccountCreateParameters.publicNetworkAccess'
+    package: '@azure/arm-storage'
+    summary: >-
+      Allow or disallow public network access to Storage Account. Value is
+      optional but if passed in, must be 'Enabled' or 'Disabled'.
+    fullName: publicNetworkAccess
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'publicNetworkAccess?: PublicNetworkAccess'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-storage.PublicNetworkAccess" />
   - name: routingPreference
     uid: '@azure/arm-storage.StorageAccountCreateParameters.routingPreference'
     package: '@azure/arm-storage'

@@ -11,4 +11,4 @@ syntax: >-
   type MigrationConfigProperties = Resource & { migrationState?: undefined |
   string, pendingReplicationOperationsCount?: undefined | number,
   postMigrationName?: undefined | string, provisioningState?: undefined |
-  string, targetNamespace?: undefined | string }
+  string, systemData?: SystemData, targetNamespace?: undefined | string }

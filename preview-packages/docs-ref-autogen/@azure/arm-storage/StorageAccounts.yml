@@ -10,6 +10,87 @@ isDeprecated: false
 type: interface
 methods:
   - name: >-
+      beginAbortHierarchicalNamespaceMigration(string, string,
+      StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams)
+    uid: >-
+      @azure/arm-storage.StorageAccounts.beginAbortHierarchicalNamespaceMigration
+    package: '@azure/arm-storage'
+    summary: Abort live Migration of storage account to enable Hns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginAbortHierarchicalNamespaceMigration(resourceGroupName:
+        string, accountName: string, options?:
+        StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams):
+        Promise<PollerLike<PollOperationState<void>, void>>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
+  - name: >-
+      beginAbortHierarchicalNamespaceMigrationAndWait(string, string,
+      StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams)
+    uid: >-
+      @azure/arm-storage.StorageAccounts.beginAbortHierarchicalNamespaceMigrationAndWait
+    package: '@azure/arm-storage'
+    summary: Abort live Migration of storage account to enable Hns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function
+        beginAbortHierarchicalNamespaceMigrationAndWait(resourceGroupName:
+        string, accountName: string, options?:
+        StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams):
+        Promise<void>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsAbortHierarchicalNamespaceMigrationOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: >-
       beginCreate(string, string, StorageAccountCreateParameters,
       StorageAccountsCreateOptionalParams)
     uid: '@azure/arm-storage.StorageAccounts.beginCreate'
@@ -196,6 +277,101 @@ methods:
         - id: options
           type: >-
             <xref uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: >-
+      beginHierarchicalNamespaceMigration(string, string, string,
+      StorageAccountsHierarchicalNamespaceMigrationOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginHierarchicalNamespaceMigration'
+    package: '@azure/arm-storage'
+    summary: Live Migration of storage account to enable Hns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginHierarchicalNamespaceMigration(resourceGroupName: string,
+        accountName: string, requestType: string, options?:
+        StorageAccountsHierarchicalNamespaceMigrationOptionalParams):
+        Promise<PollerLike<PollOperationState<void>, void>>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: requestType
+          type: string
+          description: >-
+            Required. Hierarchical namespace migration type can either be a
+            hierarchical
+                               namespace validation request 'HnsOnValidationRequest' or a hydration request
+                               'HnsOnHydrationRequest'. The validation request will validate the migration whereas the hydration
+                               request will migrate the account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsHierarchicalNamespaceMigrationOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
+  - name: >-
+      beginHierarchicalNamespaceMigrationAndWait(string, string, string,
+      StorageAccountsHierarchicalNamespaceMigrationOptionalParams)
+    uid: >-
+      @azure/arm-storage.StorageAccounts.beginHierarchicalNamespaceMigrationAndWait
+    package: '@azure/arm-storage'
+    summary: Live Migration of storage account to enable Hns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginHierarchicalNamespaceMigrationAndWait(resourceGroupName:
+        string, accountName: string, requestType: string, options?:
+        StorageAccountsHierarchicalNamespaceMigrationOptionalParams):
+        Promise<void>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: requestType
+          type: string
+          description: >-
+            Required. Hierarchical namespace migration type can either be a
+            hierarchical
+                               namespace validation request 'HnsOnValidationRequest' or a hydration request
+                               'HnsOnHydrationRequest'. The validation request will validate the migration whereas the hydration
+                               request will migrate the account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsHierarchicalNamespaceMigrationOptionalParams"
             />
           description: |
             The options parameters.

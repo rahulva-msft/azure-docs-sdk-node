@@ -11,7 +11,7 @@ type: interface
 methods:
   - name: >-
       createOrUpdate(string, string, string, ObjectReplicationPolicy,
-      ObjectReplicationPoliciesOperationsCreateOrUpdateOptionalParams)
+      ObjectReplicationPoliciesCreateOrUpdateOptionalParams)
     uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations.createOrUpdate'
     package: '@azure/arm-storage'
     summary: Create or update the object replication policy of the storage account.
@@ -22,9 +22,8 @@ methods:
       content: >-
         function createOrUpdate(resourceGroupName: string, accountName: string,
         objectReplicationPolicyId: string, properties: ObjectReplicationPolicy,
-        options?:
-        ObjectReplicationPoliciesOperationsCreateOrUpdateOptionalParams):
-        Promise<ObjectReplicationPoliciesOperationsCreateOrUpdateResponse>
+        options?: ObjectReplicationPoliciesCreateOrUpdateOptionalParams):
+        Promise<ObjectReplicationPoliciesCreateOrUpdateResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -55,7 +54,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
@@ -63,11 +62,11 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateResponse"
+          uid="@azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateResponse"
           />&gt;
   - name: >-
       delete(string, string, string,
-      ObjectReplicationPoliciesOperationsDeleteOptionalParams)
+      ObjectReplicationPoliciesDeleteOptionalParams)
     uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations.delete'
     package: '@azure/arm-storage'
     summary: >-
@@ -80,7 +79,7 @@ methods:
       content: >-
         function delete(resourceGroupName: string, accountName: string,
         objectReplicationPolicyId: string, options?:
-        ObjectReplicationPoliciesOperationsDeleteOptionalParams): Promise<void>
+        ObjectReplicationPoliciesDeleteOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -105,16 +104,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsDeleteOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesDeleteOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: >-
-      get(string, string, string,
-      ObjectReplicationPoliciesOperationsGetOptionalParams)
+  - name: 'get(string, string, string, ObjectReplicationPoliciesGetOptionalParams)'
     uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations.get'
     package: '@azure/arm-storage'
     summary: Get the object replication policy of the storage account by policy ID.
@@ -125,8 +122,8 @@ methods:
       content: >-
         function get(resourceGroupName: string, accountName: string,
         objectReplicationPolicyId: string, options?:
-        ObjectReplicationPoliciesOperationsGetOptionalParams):
-        Promise<ObjectReplicationPoliciesOperationsGetResponse>
+        ObjectReplicationPoliciesGetOptionalParams):
+        Promise<ObjectReplicationPoliciesGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -151,7 +148,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesGetOptionalParams"
             />
           description: |
             The options parameters.
@@ -159,11 +156,8 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetResponse"
-          />&gt;
-  - name: >-
-      list(string, string,
-      ObjectReplicationPoliciesOperationsListOptionalParams)
+          uid="@azure/arm-storage.ObjectReplicationPoliciesGetResponse" />&gt;
+  - name: 'list(string, string, ObjectReplicationPoliciesListOptionalParams)'
     uid: '@azure/arm-storage.ObjectReplicationPoliciesOperations.list'
     package: '@azure/arm-storage'
     summary: List the object replication policies associated with the storage account.
@@ -173,7 +167,7 @@ methods:
     syntax:
       content: >-
         function list(resourceGroupName: string, accountName: string, options?:
-        ObjectReplicationPoliciesOperationsListOptionalParams):
+        ObjectReplicationPoliciesListOptionalParams):
         PagedAsyncIterableIterator<ObjectReplicationPolicy>
       parameters:
         - id: resourceGroupName
@@ -192,7 +186,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsListOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesListOptionalParams"
             />
           description: |
             The options parameters.

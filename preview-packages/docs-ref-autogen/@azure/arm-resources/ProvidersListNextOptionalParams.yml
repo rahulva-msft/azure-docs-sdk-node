@@ -81,21 +81,6 @@ properties:
       return:
         description: ''
         type: SerializerOptions
-  - name: top
-    uid: '@azure/arm-resources.ProvidersListNextOptionalParams.top'
-    package: '@azure/arm-resources'
-    summary: >-
-      The number of results to return. If null is passed returns all
-      deployments.
-    fullName: top
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'top?: undefined | number'
-      return:
-        description: ''
-        type: undefined | number
   - name: tracingOptions
     uid: '@azure/arm-resources.ProvidersListNextOptionalParams.tracingOptions'
     package: '@azure/arm-resources'

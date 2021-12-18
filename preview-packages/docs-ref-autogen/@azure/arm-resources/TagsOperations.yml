@@ -9,7 +9,7 @@ isPreview: false
 isDeprecated: false
 type: interface
 methods:
-  - name: 'createOrUpdate(string, TagsOperationsCreateOrUpdateOptionalParams)'
+  - name: 'createOrUpdate(string, TagsCreateOrUpdateOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.createOrUpdate'
     package: '@azure/arm-resources'
     summary: >-
@@ -27,27 +27,23 @@ methods:
     syntax:
       content: >-
         function createOrUpdate(tagName: string, options?:
-        TagsOperationsCreateOrUpdateOptionalParams):
-        Promise<TagsOperationsCreateOrUpdateResponse>
+        TagsCreateOrUpdateOptionalParams): Promise<TagsCreateOrUpdateResponse>
       parameters:
         - id: tagName
           type: string
           description: The name of the tag to create.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsCreateOrUpdateOptionalParams"
-            />
+          type: <xref uid="@azure/arm-resources.TagsCreateOrUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-resources.TagsOperationsCreateOrUpdateResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-resources.TagsCreateOrUpdateResponse"
+          />&gt;
   - name: >-
       createOrUpdateAtScope(string, TagsResource,
-      TagsOperationsCreateOrUpdateAtScopeOptionalParams)
+      TagsCreateOrUpdateAtScopeOptionalParams)
     uid: '@azure/arm-resources.TagsOperations.createOrUpdateAtScope'
     package: '@azure/arm-resources'
     summary: >-
@@ -61,8 +57,8 @@ methods:
     syntax:
       content: >-
         function createOrUpdateAtScope(scope: string, parameters: TagsResource,
-        options?: TagsOperationsCreateOrUpdateAtScopeOptionalParams):
-        Promise<TagsOperationsCreateOrUpdateAtScopeResponse>
+        options?: TagsCreateOrUpdateAtScopeOptionalParams):
+        Promise<TagsCreateOrUpdateAtScopeResponse>
       parameters:
         - id: scope
           type: string
@@ -73,7 +69,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-resources.TagsOperationsCreateOrUpdateAtScopeOptionalParams"
+            uid="@azure/arm-resources.TagsCreateOrUpdateAtScopeOptionalParams"
             />
           description: |
             The options parameters.
@@ -81,11 +77,8 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-resources.TagsOperationsCreateOrUpdateAtScopeResponse"
-          />&gt;
-  - name: >-
-      createOrUpdateValue(string, string,
-      TagsOperationsCreateOrUpdateValueOptionalParams)
+          uid="@azure/arm-resources.TagsCreateOrUpdateAtScopeResponse" />&gt;
+  - name: 'createOrUpdateValue(string, string, TagsCreateOrUpdateValueOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.createOrUpdateValue'
     package: '@azure/arm-resources'
     summary: >-
@@ -99,8 +92,8 @@ methods:
     syntax:
       content: >-
         function createOrUpdateValue(tagName: string, tagValue: string,
-        options?: TagsOperationsCreateOrUpdateValueOptionalParams):
-        Promise<TagsOperationsCreateOrUpdateValueResponse>
+        options?: TagsCreateOrUpdateValueOptionalParams):
+        Promise<TagsCreateOrUpdateValueResponse>
       parameters:
         - id: tagName
           type: string
@@ -111,17 +104,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-resources.TagsOperationsCreateOrUpdateValueOptionalParams"
-            />
+            uid="@azure/arm-resources.TagsCreateOrUpdateValueOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-resources.TagsOperationsCreateOrUpdateValueResponse"
-          />&gt;
-  - name: 'delete(string, TagsOperationsDeleteOptionalParams)'
+          uid="@azure/arm-resources.TagsCreateOrUpdateValueResponse" />&gt;
+  - name: 'delete(string, TagsDeleteOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.delete'
     package: '@azure/arm-resources'
     summary: >-
@@ -137,22 +128,20 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function delete(tagName: string, options?:
-        TagsOperationsDeleteOptionalParams): Promise<void>
+        function delete(tagName: string, options?: TagsDeleteOptionalParams):
+        Promise<void>
       parameters:
         - id: tagName
           type: string
           description: The name of the tag.
         - id: options
-          type: >-
-            <xref uid="@azure/arm-resources.TagsOperationsDeleteOptionalParams"
-            />
+          type: <xref uid="@azure/arm-resources.TagsDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: 'deleteAtScope(string, TagsOperationsDeleteAtScopeOptionalParams)'
+  - name: 'deleteAtScope(string, TagsDeleteAtScopeOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.deleteAtScope'
     package: '@azure/arm-resources'
     summary: Deletes the entire set of tags on a resource or subscription.
@@ -162,22 +151,19 @@ methods:
     syntax:
       content: >-
         function deleteAtScope(scope: string, options?:
-        TagsOperationsDeleteAtScopeOptionalParams): Promise<void>
+        TagsDeleteAtScopeOptionalParams): Promise<void>
       parameters:
         - id: scope
           type: string
           description: The resource scope.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsDeleteAtScopeOptionalParams"
-            />
+          type: <xref uid="@azure/arm-resources.TagsDeleteAtScopeOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: 'deleteValue(string, string, TagsOperationsDeleteValueOptionalParams)'
+  - name: 'deleteValue(string, string, TagsDeleteValueOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.deleteValue'
     package: '@azure/arm-resources'
     summary: >-
@@ -194,7 +180,7 @@ methods:
     syntax:
       content: >-
         function deleteValue(tagName: string, tagValue: string, options?:
-        TagsOperationsDeleteValueOptionalParams): Promise<void>
+        TagsDeleteValueOptionalParams): Promise<void>
       parameters:
         - id: tagName
           type: string
@@ -203,16 +189,13 @@ methods:
           type: string
           description: The value of the tag to delete.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsDeleteValueOptionalParams"
-            />
+          type: <xref uid="@azure/arm-resources.TagsDeleteValueOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: 'getAtScope(string, TagsOperationsGetAtScopeOptionalParams)'
+  - name: 'getAtScope(string, TagsGetAtScopeOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.getAtScope'
     package: '@azure/arm-resources'
     summary: Gets the entire set of tags on a resource or subscription.
@@ -222,24 +205,21 @@ methods:
     syntax:
       content: >-
         function getAtScope(scope: string, options?:
-        TagsOperationsGetAtScopeOptionalParams):
-        Promise<TagsOperationsGetAtScopeResponse>
+        TagsGetAtScopeOptionalParams): Promise<TagsGetAtScopeResponse>
       parameters:
         - id: scope
           type: string
           description: The resource scope.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsGetAtScopeOptionalParams" />
+          type: <xref uid="@azure/arm-resources.TagsGetAtScopeOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-resources.TagsOperationsGetAtScopeResponse" />&gt;
-  - name: list(TagsOperationsListOptionalParams)
+          Promise&lt;<xref uid="@azure/arm-resources.TagsGetAtScopeResponse"
+          />&gt;
+  - name: list(TagsListOptionalParams)
     uid: '@azure/arm-resources.TagsOperations.list'
     package: '@azure/arm-resources'
     summary: >-
@@ -258,11 +238,11 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function list(options?: TagsOperationsListOptionalParams):
+        function list(options?: TagsListOptionalParams):
         PagedAsyncIterableIterator<TagDetails>
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-resources.TagsOperationsListOptionalParams" />
+          type: <xref uid="@azure/arm-resources.TagsListOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -270,36 +250,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-resources.TagDetails" />&gt;
-  - name: 'listNext(string, TagsOperationsListNextOptionalParams)'
-    uid: '@azure/arm-resources.TagsOperations.listNext'
-    package: '@azure/arm-resources'
-    summary: ListNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNext(nextLink: string, options?:
-        TagsOperationsListNextOptionalParams):
-        PagedAsyncIterableIterator<TagDetails>
-      parameters:
-        - id: nextLink
-          type: string
-          description: The nextLink from the previous successful call to the List method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsListNextOptionalParams" />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.TagDetails" />&gt;
-  - name: >-
-      updateAtScope(string, TagsPatchResource,
-      TagsOperationsUpdateAtScopeOptionalParams)
+  - name: 'updateAtScope(string, TagsPatchResource, TagsUpdateAtScopeOptionalParams)'
     uid: '@azure/arm-resources.TagsOperations.updateAtScope'
     package: '@azure/arm-resources'
     summary: >-
@@ -322,8 +273,8 @@ methods:
     syntax:
       content: >-
         function updateAtScope(scope: string, parameters: TagsPatchResource,
-        options?: TagsOperationsUpdateAtScopeOptionalParams):
-        Promise<TagsOperationsUpdateAtScopeResponse>
+        options?: TagsUpdateAtScopeOptionalParams):
+        Promise<TagsUpdateAtScopeResponse>
       parameters:
         - id: scope
           type: string
@@ -332,14 +283,11 @@ methods:
           type: <xref uid="@azure/arm-resources.TagsPatchResource" />
           description: Wrapper resource for tags patch API request only.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.TagsOperationsUpdateAtScopeOptionalParams"
-            />
+          type: <xref uid="@azure/arm-resources.TagsUpdateAtScopeOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-resources.TagsOperationsUpdateAtScopeResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-resources.TagsUpdateAtScopeResponse"
+          />&gt;

@@ -25,7 +25,6 @@ enums:
   - '@azure/arm-consumption.KnownUsageDetailsKind'
 classes:
   - '@azure/arm-consumption.ConsumptionManagementClient'
-  - '@azure/arm-consumption.ConsumptionManagementClientContext'
 interfaces:
   - '@azure/arm-consumption.AggregatedCost'
   - '@azure/arm-consumption.AggregatedCostGetByManagementGroupOptionalParams'
@@ -69,6 +68,7 @@ interfaces:
   - '@azure/arm-consumption.ForecastSpend'
   - '@azure/arm-consumption.HighCasedErrorDetails'
   - '@azure/arm-consumption.HighCasedErrorResponse'
+  - '@azure/arm-consumption.LegacyReservationRecommendationProperties'
   - '@azure/arm-consumption.Lots'
   - '@azure/arm-consumption.LotsListByBillingAccountNextOptionalParams'
   - '@azure/arm-consumption.LotsListByBillingAccountOptionalParams'
@@ -181,7 +181,10 @@ typeAliases:
   - '@azure/arm-consumption.EventsListByBillingProfileResponse'
   - '@azure/arm-consumption.LegacyChargeSummary'
   - '@azure/arm-consumption.LegacyReservationRecommendation'
+  - '@azure/arm-consumption.LegacyReservationRecommendationPropertiesUnion'
   - '@azure/arm-consumption.LegacyReservationTransaction'
+  - '@azure/arm-consumption.LegacySharedScopeReservationRecommendationProperties'
+  - '@azure/arm-consumption.LegacySingleScopeReservationRecommendationProperties'
   - '@azure/arm-consumption.LegacyUsageDetail'
   - '@azure/arm-consumption.LookBackPeriod'
   - '@azure/arm-consumption.LotSource'

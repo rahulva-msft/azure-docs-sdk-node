@@ -24,11 +24,6 @@ fields:
       @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareElevatedContributor
     package: '@azure/arm-storage'
     summary: ''
-  - name: StorageFileDataSmbShareOwner
-    uid: >-
-      @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareOwner
-    package: '@azure/arm-storage'
-    summary: ''
   - name: StorageFileDataSmbShareReader
     uid: >-
       @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareReader

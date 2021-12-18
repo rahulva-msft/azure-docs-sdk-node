@@ -99,7 +99,6 @@ enums:
   - '@azure/arm-datafactory.KnownWebHookActivityMethod'
 classes:
   - '@azure/arm-datafactory.DataFactoryManagementClient'
-  - '@azure/arm-datafactory.DataFactoryManagementClientContext'
 interfaces:
   - '@azure/arm-datafactory.AccessPolicyResponse'
   - '@azure/arm-datafactory.Activity'

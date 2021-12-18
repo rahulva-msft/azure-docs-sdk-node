@@ -9,7 +9,7 @@ isPreview: false
 isDeprecated: false
 type: interface
 methods:
-  - name: 'create(string, string, string, TableOperationsCreateOptionalParams)'
+  - name: 'create(string, string, string, TableCreateOptionalParams)'
     uid: '@azure/arm-storage.TableOperations.create'
     package: '@azure/arm-storage'
     summary: >-
@@ -21,8 +21,8 @@ methods:
     syntax:
       content: >-
         function create(resourceGroupName: string, accountName: string,
-        tableName: string, options?: TableOperationsCreateOptionalParams):
-        Promise<TableOperationsCreateResponse>
+        tableName: string, options?: TableCreateOptionalParams):
+        Promise<TableCreateResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -45,17 +45,13 @@ methods:
                              characters.The name must comprise of only alphanumeric characters and it cannot begin with a numeric
                              character.
         - id: options
-          type: >-
-            <xref uid="@azure/arm-storage.TableOperationsCreateOptionalParams"
-            />
+          type: <xref uid="@azure/arm-storage.TableCreateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-storage.TableOperationsCreateResponse" />&gt;
-  - name: 'delete(string, string, string, TableOperationsDeleteOptionalParams)'
+        type: Promise&lt;<xref uid="@azure/arm-storage.TableCreateResponse" />&gt;
+  - name: 'delete(string, string, string, TableDeleteOptionalParams)'
     uid: '@azure/arm-storage.TableOperations.delete'
     package: '@azure/arm-storage'
     summary: >-
@@ -67,8 +63,7 @@ methods:
     syntax:
       content: >-
         function delete(resourceGroupName: string, accountName: string,
-        tableName: string, options?: TableOperationsDeleteOptionalParams):
-        Promise<void>
+        tableName: string, options?: TableDeleteOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -91,15 +86,13 @@ methods:
                              characters.The name must comprise of only alphanumeric characters and it cannot begin with a numeric
                              character.
         - id: options
-          type: >-
-            <xref uid="@azure/arm-storage.TableOperationsDeleteOptionalParams"
-            />
+          type: <xref uid="@azure/arm-storage.TableDeleteOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: 'get(string, string, string, TableOperationsGetOptionalParams)'
+  - name: 'get(string, string, string, TableGetOptionalParams)'
     uid: '@azure/arm-storage.TableOperations.get'
     package: '@azure/arm-storage'
     summary: >-
@@ -111,8 +104,7 @@ methods:
     syntax:
       content: >-
         function get(resourceGroupName: string, accountName: string, tableName:
-        string, options?: TableOperationsGetOptionalParams):
-        Promise<TableOperationsGetResponse>
+        string, options?: TableGetOptionalParams): Promise<TableGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -135,15 +127,13 @@ methods:
                              characters.The name must comprise of only alphanumeric characters and it cannot begin with a numeric
                              character.
         - id: options
-          type: <xref uid="@azure/arm-storage.TableOperationsGetOptionalParams" />
+          type: <xref uid="@azure/arm-storage.TableGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.TableOperationsGetResponse"
-          />&gt;
-  - name: 'list(string, string, TableOperationsListOptionalParams)'
+        type: Promise&lt;<xref uid="@azure/arm-storage.TableGetResponse" />&gt;
+  - name: 'list(string, string, TableListOptionalParams)'
     uid: '@azure/arm-storage.TableOperations.list'
     package: '@azure/arm-storage'
     summary: Gets a list of all the tables under the specified storage account
@@ -153,7 +143,7 @@ methods:
     syntax:
       content: >-
         function list(resourceGroupName: string, accountName: string, options?:
-        TableOperationsListOptionalParams): PagedAsyncIterableIterator<Table>
+        TableListOptionalParams): PagedAsyncIterableIterator<Table>
       parameters:
         - id: resourceGroupName
           type: string
@@ -169,7 +159,7 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.TableOperationsListOptionalParams" />
+          type: <xref uid="@azure/arm-storage.TableListOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -177,7 +167,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-storage.Table"
           />&gt;
-  - name: 'update(string, string, string, TableOperationsUpdateOptionalParams)'
+  - name: 'update(string, string, string, TableUpdateOptionalParams)'
     uid: '@azure/arm-storage.TableOperations.update'
     package: '@azure/arm-storage'
     summary: >-
@@ -189,8 +179,8 @@ methods:
     syntax:
       content: >-
         function update(resourceGroupName: string, accountName: string,
-        tableName: string, options?: TableOperationsUpdateOptionalParams):
-        Promise<TableOperationsUpdateResponse>
+        tableName: string, options?: TableUpdateOptionalParams):
+        Promise<TableUpdateResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -213,13 +203,9 @@ methods:
                              characters.The name must comprise of only alphanumeric characters and it cannot begin with a numeric
                              character.
         - id: options
-          type: >-
-            <xref uid="@azure/arm-storage.TableOperationsUpdateOptionalParams"
-            />
+          type: <xref uid="@azure/arm-storage.TableUpdateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-storage.TableOperationsUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/arm-storage.TableUpdateResponse" />&gt;

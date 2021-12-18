@@ -134,3 +134,16 @@ properties:
       return:
         description: ''
         type: undefined | string
+  - name: zoneMappings
+    uid: '@azure/arm-resources.ProviderResourceType.zoneMappings'
+    package: '@azure/arm-resources'
+    summary: ''
+    fullName: zoneMappings
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'zoneMappings?: ZoneMapping[]'
+      return:
+        description: ''
+        type: '<xref uid="@azure/arm-resources.ZoneMapping" />[]'

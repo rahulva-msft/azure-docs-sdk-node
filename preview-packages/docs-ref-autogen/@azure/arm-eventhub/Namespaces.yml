@@ -512,6 +512,39 @@ methods:
           Promise&lt;<xref uid="@azure/arm-eventhub.NamespacesListKeysResponse"
           />&gt;
   - name: >-
+      listNetworkRuleSet(string, string,
+      NamespacesListNetworkRuleSetOptionalParams)
+    uid: '@azure/arm-eventhub.Namespaces.listNetworkRuleSet'
+    package: '@azure/arm-eventhub'
+    summary: Gets NetworkRuleSet for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listNetworkRuleSet(resourceGroupName: string, namespaceName:
+        string, options?: NamespacesListNetworkRuleSetOptionalParams):
+        Promise<NamespacesListNetworkRuleSetResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the resource group within the azure subscription.
+        - id: namespaceName
+          type: string
+          description: The Namespace name
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.NamespacesListNetworkRuleSetOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesListNetworkRuleSetResponse" />&gt;
+  - name: >-
       regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
       NamespacesRegenerateKeysOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.regenerateKeys'

@@ -398,4 +398,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-datafactory.DataFactoryManagementClientContext" />
+extends: ServiceClient

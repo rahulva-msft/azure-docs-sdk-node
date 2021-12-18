@@ -2360,43 +2360,6 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-resources.DeploymentExtended" />&gt;
-  - name: >-
-      listAtManagementGroupScopeNext(string, string,
-      DeploymentsListAtManagementGroupScopeNextOptionalParams)
-    uid: '@azure/arm-resources.Deployments.listAtManagementGroupScopeNext'
-    package: '@azure/arm-resources'
-    summary: ListAtManagementGroupScopeNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtManagementGroupScopeNext(groupId: string, nextLink:
-        string, options?:
-        DeploymentsListAtManagementGroupScopeNextOptionalParams):
-        PagedAsyncIterableIterator<DeploymentExtended>
-      parameters:
-        - id: groupId
-          type: string
-          description: The management group ID.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtManagementGroupScope
-                            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.DeploymentsListAtManagementGroupScopeNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.DeploymentExtended" />&gt;
   - name: 'listAtScope(string, DeploymentsListAtScopeOptionalParams)'
     uid: '@azure/arm-resources.Deployments.listAtScope'
     package: '@azure/arm-resources'
@@ -2424,39 +2387,6 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-resources.DeploymentExtended" />&gt;
-  - name: 'listAtScopeNext(string, string, DeploymentsListAtScopeNextOptionalParams)'
-    uid: '@azure/arm-resources.Deployments.listAtScopeNext'
-    package: '@azure/arm-resources'
-    summary: ListAtScopeNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtScopeNext(scope: string, nextLink: string, options?:
-        DeploymentsListAtScopeNextOptionalParams):
-        PagedAsyncIterableIterator<DeploymentExtended>
-      parameters:
-        - id: scope
-          type: string
-          description: The resource scope.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the ListAtScope
-            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.DeploymentsListAtScopeNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.DeploymentExtended" />&gt;
   - name: listAtSubscriptionScope(DeploymentsListAtSubscriptionScopeOptionalParams)
     uid: '@azure/arm-resources.Deployments.listAtSubscriptionScope'
     package: '@azure/arm-resources'
@@ -2474,39 +2404,6 @@ methods:
           type: >-
             <xref
             uid="@azure/arm-resources.DeploymentsListAtSubscriptionScopeOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.DeploymentExtended" />&gt;
-  - name: >-
-      listAtSubscriptionScopeNext(string,
-      DeploymentsListAtSubscriptionScopeNextOptionalParams)
-    uid: '@azure/arm-resources.Deployments.listAtSubscriptionScopeNext'
-    package: '@azure/arm-resources'
-    summary: ListAtSubscriptionScopeNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtSubscriptionScopeNext(nextLink: string, options?:
-        DeploymentsListAtSubscriptionScopeNextOptionalParams):
-        PagedAsyncIterableIterator<DeploymentExtended>
-      parameters:
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtSubscriptionScope
-                            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.DeploymentsListAtSubscriptionScopeNextOptionalParams"
             />
           description: |
             The options parameters.
@@ -2540,38 +2437,6 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-resources.DeploymentExtended" />&gt;
-  - name: >-
-      listAtTenantScopeNext(string,
-      DeploymentsListAtTenantScopeNextOptionalParams)
-    uid: '@azure/arm-resources.Deployments.listAtTenantScopeNext'
-    package: '@azure/arm-resources'
-    summary: ListAtTenantScopeNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAtTenantScopeNext(nextLink: string, options?:
-        DeploymentsListAtTenantScopeNextOptionalParams):
-        PagedAsyncIterableIterator<DeploymentExtended>
-      parameters:
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListAtTenantScope method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.DeploymentsListAtTenantScopeNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.DeploymentExtended" />&gt;
   - name: 'listByResourceGroup(string, DeploymentsListByResourceGroupOptionalParams)'
     uid: '@azure/arm-resources.Deployments.listByResourceGroup'
     package: '@azure/arm-resources'
@@ -2595,44 +2460,6 @@ methods:
           type: >-
             <xref
             uid="@azure/arm-resources.DeploymentsListByResourceGroupOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.DeploymentExtended" />&gt;
-  - name: >-
-      listByResourceGroupNext(string, string,
-      DeploymentsListByResourceGroupNextOptionalParams)
-    uid: '@azure/arm-resources.Deployments.listByResourceGroupNext'
-    package: '@azure/arm-resources'
-    summary: ListByResourceGroupNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroupNext(resourceGroupName: string, nextLink:
-        string, options?: DeploymentsListByResourceGroupNextOptionalParams):
-        PagedAsyncIterableIterator<DeploymentExtended>
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: >-
-            The name of the resource group with the deployments to get. The name
-            is
-                                     case insensitive.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListByResourceGroup method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.DeploymentsListByResourceGroupNextOptionalParams"
             />
           description: |
             The options parameters.

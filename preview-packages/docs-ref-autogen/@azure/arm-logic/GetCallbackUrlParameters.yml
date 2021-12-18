@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'keyType?: KeyType'
+      content: 'keyType?: KeyType_2'
       return:
         description: ''
-        type: <xref uid="@azure/arm-logic.KeyType" />
+        type: <xref uid="@azure/arm-logic.KeyType_2" />
   - name: notAfter
     uid: '@azure/arm-logic.GetCallbackUrlParameters.notAfter'
     package: '@azure/arm-logic'

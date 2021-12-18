@@ -35,7 +35,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'keyType: KeyType'
+      content: 'keyType: KeyType_2'
       return:
         description: ''
-        type: <xref uid="@azure/arm-eventhub.KeyType" />
+        type: <xref uid="@azure/arm-eventhub.KeyType_2" />

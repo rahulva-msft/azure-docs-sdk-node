@@ -506,4 +506,4 @@ methods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-logic.LogicManagementClientContext" />
+extends: ServiceClient

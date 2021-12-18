@@ -14,6 +14,7 @@ enums:
   - '@azure/arm-containerservice.KnownExpander'
   - '@azure/arm-containerservice.KnownExtendedLocationTypes'
   - '@azure/arm-containerservice.KnownGPUInstanceProfile'
+  - '@azure/arm-containerservice.KnownIpFamily'
   - '@azure/arm-containerservice.KnownKubeletDiskType'
   - '@azure/arm-containerservice.KnownLicenseType'
   - '@azure/arm-containerservice.KnownLoadBalancerSku'
@@ -38,7 +39,6 @@ enums:
   - '@azure/arm-containerservice.KnownWorkloadRuntime'
 classes:
   - '@azure/arm-containerservice.ContainerServiceClient'
-  - '@azure/arm-containerservice.ContainerServiceClientContext'
 interfaces:
   - '@azure/arm-containerservice.AgentPoolAvailableVersions'
   - >-
@@ -56,6 +56,7 @@ interfaces:
   - '@azure/arm-containerservice.AgentPoolsGetUpgradeProfileOptionalParams'
   - '@azure/arm-containerservice.AgentPoolsListNextOptionalParams'
   - '@azure/arm-containerservice.AgentPoolsListOptionalParams'
+  - '@azure/arm-containerservice.AgentPoolsUpgradeNodeImageVersionHeaders'
   - '@azure/arm-containerservice.AgentPoolsUpgradeNodeImageVersionOptionalParams'
   - '@azure/arm-containerservice.CloudError'
   - '@azure/arm-containerservice.CloudErrorBody'
@@ -215,6 +216,7 @@ typeAliases:
   - '@azure/arm-containerservice.Expander'
   - '@azure/arm-containerservice.ExtendedLocationTypes'
   - '@azure/arm-containerservice.GPUInstanceProfile'
+  - '@azure/arm-containerservice.IpFamily'
   - '@azure/arm-containerservice.KubeletDiskType'
   - '@azure/arm-containerservice.LicenseType'
   - '@azure/arm-containerservice.LoadBalancerSku'

@@ -85,19 +85,6 @@ properties:
       return:
         description: ''
         type: SerializerOptions
-  - name: top
-    uid: '@azure/arm-resources.ProvidersListAtTenantScopeNextOptionalParams.top'
-    package: '@azure/arm-resources'
-    summary: The number of results to return. If null is passed returns all providers.
-    fullName: top
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'top?: undefined | number'
-      return:
-        description: ''
-        type: undefined | number
   - name: tracingOptions
     uid: >-
       @azure/arm-resources.ProvidersListAtTenantScopeNextOptionalParams.tracingOptions
