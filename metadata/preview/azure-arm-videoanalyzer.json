@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-videoanalyzer",
-  "Version": "1.0.0-beta.2",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20211220.1",
+  "DevVersion": "1.0.0-alpha.20211220.1",
   "DirectoryPath": "sdk/videoanalyzer/arm-videoanalyzer",
   "ServiceDirectory": "videoanalyzer",
   "ReadMePath": "sdk/videoanalyzer/arm-videoanalyzer/README.md",
