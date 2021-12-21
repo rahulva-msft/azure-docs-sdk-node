@@ -1,24 +1,23 @@
 ---
 title: Azure TemplateSpecs client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/arm-templatespecs, templatespecs
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 08/26/2021
+author: qiaozha
+ms.author: qiaozha
+ms.date: 12/21/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: templatespecs
 ---
-
-# Azure TemplateSpecs client library for JavaScript - Version 1.0.0-beta.1 
+# Azure TemplateSpecs client library for JavaScript - Version 2.0.1-alpha.20211221.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure TemplateSpecs client.
 
 The APIs listed in this specification can be used to manage Template Spec resources through the Azure Resource Manager.
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-templatespecs_1.0.0-beta.1/sdk/templatespecs/arm-templatespecs) |
+[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/templatespecs/arm-templatespecs) |
 [Package (NPM)](https://www.npmjs.com/package/@azure/arm-templatespecs) |
 [API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-templatespecs) |
 [Samples](https://github.com/Azure-Samples/azure-samples-js-management)
@@ -47,9 +46,9 @@ npm install @azure/arm-templatespecs
 To create a client object to access the Azure TemplateSpecs API, you will need the `endpoint` of your Azure TemplateSpecs resource and a `credential`. The Azure TemplateSpecs client can use Azure Active Directory credentials to authenticate.
 You can find the endpoint for your Azure TemplateSpecs resource in the [Azure Portal][azure_portal].
 
-#### Using an Azure Active Directory Credential
+You can authenticate with Azure Active Directory using a credential from the [@azure/identity][azure_identity] library or [an existing AAD Token](https://github.com/Azure/azure-sdk-for-js/blob/master/sdk/identity/identity/samples/AzureIdentityExamples.md#authenticating-with-a-pre-fetched-access-token).
 
-You can authenticate with Azure Active Directory using the [Azure Identity library][azure_identity]. To use the [DefaultAzureCredential][defaultazurecredential] provider shown below, or other credential providers provided with the Azure SDK, please install the `@azure/identity` package:
+To use the [DefaultAzureCredential][defaultazurecredential] provider shown below, or other credential providers provided with the Azure SDK, please install the `@azure/identity` package:
 
 ```bash
 npm install @azure/identity
@@ -67,6 +66,10 @@ const subscriptionId = "00000000-0000-0000-0000-000000000000";
 const client = new TemplateSpecsClient(new DefaultAzureCredential(), subscriptionId);
 ```
 
+
+### JavaScript Bundle
+To use this client library in the browser, first you need to use a bundler. For details on how to do this, please refer to our [bundling documentation](https://aka.ms/AzureSDKBundling).
+
 ## Key concepts
 
 ### TemplateSpecsClient
@@ -80,11 +83,11 @@ const client = new TemplateSpecsClient(new DefaultAzureCredential(), subscriptio
 Enabling logging may help uncover useful information about failures. In order to see a log of HTTP requests and responses, set the `AZURE_LOG_LEVEL` environment variable to `info`. Alternatively, logging can be enabled at runtime by calling `setLogLevel` in the `@azure/logger`:
 
 ```javascript
-import { setLogLevel } from "@azure/logger";
+const { setLogLevel } = require("@azure/logger");
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-templatespecs_1.0.0-beta.1/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/core/logger).
 
 ## Next steps
 
@@ -92,7 +95,7 @@ Please take a look at the [samples](https://github.com/Azure-Samples/azure-sampl
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/arm-templatespecs_1.0.0-beta.1/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ## Related projects
 
@@ -104,6 +107,6 @@ If you'd like to contribute to this library, please read the [contributing guide
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-templatespecs_1.0.0-beta.1/sdk/identity/identity
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/arm-templatespecs_1.0.0-beta.1/sdk/identity/identity#defaultazurecredential
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 
