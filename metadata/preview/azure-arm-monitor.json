@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/arm-monitor",
+  "Version": "7.0.0-alpha.20211221.1",
+  "DevVersion": "7.0.0-alpha.20211221.1",
+  "DirectoryPath": "sdk/monitor/arm-monitor",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/arm-monitor/README.md",
+  "ChangeLogPath": "sdk/monitor/arm-monitor/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-arm-monitor",
+  "ReleaseStatus": "2021-12-20"
+}
