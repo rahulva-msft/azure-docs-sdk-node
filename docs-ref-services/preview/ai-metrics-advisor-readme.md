@@ -1,37 +1,40 @@
 ---
 title: Azure Metrics Advisor client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure/ai-metrics-advisor, 
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 06/08/2021
+keywords: Azure, javascript, SDK, API, @azure/ai-metrics-advisor, metricsadvisor
+author: jeremymeng
+ms.author: jeremymeng
+ms.date: 12/22/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
-ms.service: 
+ms.service: metricsadvisor
 ---
+# Azure Metrics Advisor client library for JavaScript - Version 1.0.1-alpha.20211222.1 
 
-# Azure Metrics Advisor client library for JavaScript - Version 1.0.0-beta.4 
 
-
-Metrics Advisor is a part of Azure Cognitive Services that uses AI perform data monitoring and anomaly detection in time series data. The service automates the process of applying models to your data, and provides a set of APIs web-based workspace for data ingestion, anomaly detection, and diagnostics - without needing to know machine learning. Use Metrics Advisor to:
+Metrics Advisor is a part of Azure Cognitive Services that uses AI to perform data monitoring and anomaly detection in time series data. The service automates the process of applying models to your data and provides a set of web-based APIs for data ingestion, anomaly detection and diagnostics - without needing to know machine learning. Use Metrics Advisor to:
 
 - Analyze multi-dimensional data from multiple data sources
 - Identify and correlate anomalies
 - Configure and fine-tune the anomaly detection model used on your data
 - Diagnose anomalies and help with root cause analysis.
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/metricsadvisor/ai-metrics-advisor/) |
-[Package (NPM)](https://www.npmjs.com/package/@azure/ai-metrics-advisor) |
-[API reference documentation](https://docs.microsoft.com/javascript/api/@azure/ai-metrics-advisor) |
-[Product documentation](https://docs.microsoft.com/azure/cognitive-services/metrics-advisor/) |
-[Samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/metricsadvisor/ai-metrics-advisor/samples)
+Key links:
+- [Source code](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/metricsadvisor/ai-metrics-advisor/)
+- [Package (NPM)](https://www.npmjs.com/package/@azure/ai-metrics-advisor)
+- [API reference documentation](https://docs.microsoft.com/javascript/api/@azure/ai-metrics-advisor)
+- [Product documentation](https://docs.microsoft.com/azure/cognitive-services/metrics-advisor/)
+- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/metricsadvisor/ai-metrics-advisor/samples)
 
 ## Getting started
 
 ### Currently supported environments
 
-- Node.js version 8.x.x or higher
+- [LTS versions of Node.js](https://nodejs.org/about/releases/)
+- Latest versions of Safari, Chrome, Edge, and Firefox.
+
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
 
 ### Prerequisites
 
@@ -69,7 +72,7 @@ You will need two keys to authenticate the client:
 - The subscription key to your Metrics Advisor resource. You can find this in the **Keys and Endpoint** section of your resource in the [Azure Portal][azure_portal].
 - The API key for your Metrics Advisor instance. You can find this in the web portal for Metrics Advisor, in **API keys** on the left navigation menu. The url of your web portal can be found in the **Overview** section of your resource in the [Azure Portal][azure_portal].
 
-Use the [Azure Portal][azure_portal] to browse to your Metrics Advisor resource and retrieve an subscription key, or use the [Azure CLI][azure_cli] snippet below:
+Use the [Azure Portal][azure_portal] to browse to your Metrics Advisor resource and retrieve an subscription key or use the [Azure CLI][azure_cli] snippet below:
 
 ```PowerShell
 az cognitiveservices account keys list --resource-group <your-resource-group-name> --name <your-resource-name>
@@ -77,7 +80,7 @@ az cognitiveservices account keys list --resource-group <your-resource-group-nam
 
 In addition, you will also need the per-user api key from your Metrics Advisor web portal.
 
-Once you have the two keys and endpoint, you can use the `MetricsAdvisorKeyCredential` class to authenticate the clients as follows:
+Once you have the two keys and the endpoint, you can use the `MetricsAdvisorKeyCredential` class to authenticate the clients as follows:
 
 ```javascript
 const {
@@ -121,15 +124,15 @@ const adminClient = new MetricsAdvisorAdministrationClient("<endpoint>", credent
 
 ### MetricsAdvisorClient
 
-`MetricsAdvisorClient` is the primary querying interface for developers using the Metrics Advisor client library. It provides asynchronous methods to access a specific use of Metrics Advisor, such as listing incidents, retrive root causes of incidents, retrieving original time series data and time series data enriched by the service.
+`MetricsAdvisorClient` is the primary query interface for developers using the Metrics Advisor client library. It provides asynchronous methods to access a specific use of Metrics Advisor, such as listing incidents, retrive root causes of incidents, retrieving original time series data and time series data enriched by the service.
 
 ### MetricsAdvisorAdministrationClient
 
 `MetricsAdvisorAdministrationClient` is the interface responsible for managing entities in the Metrics Advisor resources, such as managing data feeds, anomaly detection configurations, anomaly alerting configurations.
 
-### DataFeed
+### Data Feed
 
-A `DataFeed` is what Metrics Advisor ingests from your data source, such as Cosmos DB or a SQL server. A data feed contains rows of:
+A data feed is what Metrics Advisor ingests from your data source, such as Cosmos DB or a SQL server. A data feed contains rows of:
 
 - timestamps
 - zero or more dimensions
@@ -137,23 +140,23 @@ A `DataFeed` is what Metrics Advisor ingests from your data source, such as Cosm
 
 ### Metric
 
-A `Metric` is a quantifiable measure that is used to monitor and assess the status of a specific business process. It can be a combination of multiple time series values divided into dimensions. For example a web health metric might contain dimensions for user count and the en-us market.
+A metric is a quantifiable measure that is used to monitor and assess the status of a specific business process. It can be a combination of multiple time series values divided into dimensions. For example a web health metric might contain dimensions for user count and the en-us locale.
 
 ### AnomalyDetectionConfiguration
 
-`AnomalyDetectionConfiguration` is required for every time series, and determines whether a point in the time series is an anomaly.
+`AnomalyDetectionConfiguration` is required for every time series and determines whether a point in the time series is an anomaly.
 
 ### Anomaly & Incident
 
-After a detection configuration is applied to metrics, `Incident`s are generated whenever any series within it has an `Anomaly`.
+After a detection configuration is applied to metrics, `AnomalyIncident`s are generated whenever any series within has an `DataPointAnomaly`.
 
 ### Alert
 
-You can configure which anomalies should trigger an `Alert`. You can set multiple alerts with different settings. For example, you could create an alert for anomalies with lower business impact, and another for more important alerts.
+You can configure which anomalies should trigger an `AnomalyAlert`. You can set multiple alerts with different settings. For example, you could create an alert for anomalies with lower business impact and another for more important alerts.
 
 ### Hook
 
-Metrics Advisor lets you create and subscribe to real-time alerts. These alerts are sent over the internet, using a `Hook`.
+Metrics Advisor lets you create and subscribe to real-time alerts. These alerts are sent over the internet, using a notification hook.
 
 Please refer to [the Metrics Advisory Glossary][metrics_advisor_glossary] documentation page for a comprehensive list of concepts.
 
@@ -202,10 +205,8 @@ async function createDataFeed(adminClient, sqlServerConnectionString, sqlServerQ
     name: "test_datafeed_" + new Date().getTime().toString(),
     source: {
       dataSourceType: "SqlServer",
-      dataSourceParameter: {
-        connectionString: sqlServerConnectionString,
-        query: sqlServerQuery
-      },
+      connectionString: sqlServerConnectionString,
+      query: sqlServerQuery,
       authenticationType: "Basic"
     },
     granularity: {
@@ -246,7 +247,7 @@ async function createDataFeed(adminClient, sqlServerConnectionString, sqlServerQ
       fillType: "SmartFilling"
     },
     accessMode: "Private",
-    adminEmails: ["xyz@example.com"]
+    admins: ["xyz@example.com"]
   };
   const result = await adminClient.createDataFeed(dataFeed);
 
@@ -476,10 +477,10 @@ async function queryAnomaliesByAlert(client, alert) {
   console.log(
     `Listing anomalies for alert configuration '${alert.alertConfigId}' and alert '${alert.id}'`
   );
-  const iterator = client.listAnomalies(alert);
+  const iterator = client.listAnomaliesForAlert(alert);
   for await (const anomaly of iterator) {
     console.log(
-      `  Anomaly ${anomaly.severity} ${anomaly.status} ${anomaly.seriesKey.dimension} ${anomaly.timestamp}`
+      `  Anomaly ${anomaly.severity} ${anomaly.status} ${anomaly.seriesKey} ${anomaly.timestamp}`
     );
   }
 }
@@ -497,17 +498,17 @@ import { setLogLevel } from "@azure/logger";
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/core/logger).
 
 ## Next steps
 
 Please take a look at the
-[samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/metricsadvisor/ai-metrics-advisor/samples)
+[samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/metricsadvisor/ai-metrics-advisor/samples)
 directory for detailed examples on how to use this library.
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-metrics-advisor_1.0.0-beta.4/CONTRIBUTING.md) to learn more about how to build and test \
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test \
 the code.
 
 ## Related projects
@@ -520,8 +521,8 @@ the code.
 [azure_sub]: https://azure.microsoft.com/free/
 [cognitive_resource]: https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/identity/identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
 [register_aad_app]: https://docs.microsoft.com/azure/cognitive-services/authentication#assign-a-role-to-a-service-principal
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-metrics-advisor_1.0.0-beta.4/sdk/identity/identity#defaultazurecredential
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 [metrics_advisor_glossary]: https://docs.microsoft.com/azure/cognitive-services/metrics-advisor/glossary
 
