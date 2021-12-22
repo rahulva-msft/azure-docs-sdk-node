@@ -53,6 +53,19 @@ properties:
       return:
         description: ''
         type: string
+  - name: apiVersion
+    uid: '@azure/arm-streamanalytics.StreamAnalyticsManagementClient.apiVersion'
+    package: '@azure/arm-streamanalytics'
+    summary: ''
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion: string'
+      return:
+        description: ''
+        type: string
   - name: clusters
     uid: '@azure/arm-streamanalytics.StreamAnalyticsManagementClient.clusters'
     package: '@azure/arm-streamanalytics'
@@ -241,6 +254,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: >-
-  <xref uid="@azure/arm-streamanalytics.StreamAnalyticsManagementClientContext"
-  />
+extends: ServiceClient

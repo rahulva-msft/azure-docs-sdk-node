@@ -1,4 +1,4 @@
-### YamlMime:TSTypeAlias
+### YamlMime:TSType
 name: AllowedPrincipals
 uid: '@azure/arm-appservice.AllowedPrincipals'
 package: '@azure/arm-appservice'
@@ -7,6 +7,31 @@ fullName: AllowedPrincipals
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type AllowedPrincipals = ProxyOnlyResource & { groups?: string[], identities?:
-  string[] }
+type: interface
+properties:
+  - name: groups
+    uid: '@azure/arm-appservice.AllowedPrincipals.groups'
+    package: '@azure/arm-appservice'
+    summary: The list of the allowed groups.
+    fullName: groups
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'groups?: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+  - name: identities
+    uid: '@azure/arm-appservice.AllowedPrincipals.identities'
+    package: '@azure/arm-appservice'
+    summary: The list of the allowed identities.
+    fullName: identities
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'identities?: string[]'
+      return:
+        description: ''
+        type: 'string[]'

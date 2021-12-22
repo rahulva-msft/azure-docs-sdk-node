@@ -11,7 +11,7 @@ type: interface
 methods:
   - name: >-
       createOrUpdate(string, string, string, string, MaintenanceWindows,
-      MaintenanceWindowsOperationsCreateOrUpdateOptionalParams)
+      MaintenanceWindowsCreateOrUpdateOptionalParams)
     uid: '@azure/arm-sql.MaintenanceWindowsOperations.createOrUpdate'
     package: '@azure/arm-sql'
     summary: Sets maintenance windows settings for a database.
@@ -23,7 +23,7 @@ methods:
         function createOrUpdate(resourceGroupName: string, serverName: string,
         databaseName: string, maintenanceWindowName: string, parameters:
         MaintenanceWindows, options?:
-        MaintenanceWindowsOperationsCreateOrUpdateOptionalParams): Promise<void>
+        MaintenanceWindowsCreateOrUpdateOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -46,16 +46,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.MaintenanceWindowsOperationsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-sql.MaintenanceWindowsCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: >-
-      get(string, string, string, string,
-      MaintenanceWindowsOperationsGetOptionalParams)
+  - name: 'get(string, string, string, string, MaintenanceWindowsGetOptionalParams)'
     uid: '@azure/arm-sql.MaintenanceWindowsOperations.get'
     package: '@azure/arm-sql'
     summary: Gets maintenance windows settings for a database.
@@ -66,8 +64,8 @@ methods:
       content: >-
         function get(resourceGroupName: string, serverName: string,
         databaseName: string, maintenanceWindowName: string, options?:
-        MaintenanceWindowsOperationsGetOptionalParams):
-        Promise<MaintenanceWindowsOperationsGetResponse>
+        MaintenanceWindowsGetOptionalParams):
+        Promise<MaintenanceWindowsGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -85,14 +83,11 @@ methods:
           type: string
           description: Maintenance window name.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-sql.MaintenanceWindowsOperationsGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-sql.MaintenanceWindowsGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-sql.MaintenanceWindowsOperationsGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-sql.MaintenanceWindowsGetResponse"
+          />&gt;

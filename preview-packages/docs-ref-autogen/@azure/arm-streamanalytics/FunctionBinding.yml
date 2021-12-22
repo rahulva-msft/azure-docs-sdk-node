@@ -24,12 +24,9 @@ properties:
     syntax:
       content: >-
         type: "Microsoft.MachineLearning/WebService" |
-        "Microsoft.StreamAnalytics/JavascriptUdf" |
-        "Microsoft.StreamAnalytics/CLRUdf" | "Microsoft.MachineLearningServices"
+        "Microsoft.StreamAnalytics/JavascriptUdf"
       return:
         description: ''
         type: >-
           "<xref uid="Microsoft.MachineLearning/WebService" />" | "<xref
-          uid="Microsoft.StreamAnalytics/JavascriptUdf" />" | "<xref
-          uid="Microsoft.StreamAnalytics/CLRUdf" />" | "<xref
-          uid="Microsoft.MachineLearningServices" />"
+          uid="Microsoft.StreamAnalytics/JavascriptUdf" />"

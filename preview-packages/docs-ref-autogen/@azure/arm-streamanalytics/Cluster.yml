@@ -8,5 +8,7 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type Cluster = TrackedResource & { etag?: undefined | string, properties?:
-  ClusterProperties, sku?: ClusterSku }
+  type Cluster = TrackedResource & { capacityAllocated?: undefined | number,
+  capacityAssigned?: undefined | number, clusterId?: undefined | string,
+  createdDate?: Date, etag?: undefined | string, provisioningState?:
+  ClusterProvisioningState, sku?: ClusterSku }

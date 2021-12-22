@@ -11,8 +11,24 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 fields:
+  - name: Accepted
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Accepted'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Canceled
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Canceled'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Created
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Created'
+    package: '@azure/arm-sql'
+    summary: ''
   - name: Creating
     uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Creating'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Deleted
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Deleted'
     package: '@azure/arm-sql'
     summary: ''
   - name: Deleting
@@ -23,12 +39,34 @@ fields:
     uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Failed'
     package: '@azure/arm-sql'
     summary: ''
+  - name: NotSpecified
+    uid: >-
+      @azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.NotSpecified
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Registering
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Registering'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Running
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Running'
+    package: '@azure/arm-sql'
+    summary: ''
   - name: Succeeded
     uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Succeeded'
     package: '@azure/arm-sql'
     summary: ''
+  - name: TimedOut
+    uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.TimedOut'
+    package: '@azure/arm-sql'
+    summary: ''
   - name: Unknown
     uid: '@azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Unknown'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Unrecognized
+    uid: >-
+      @azure/arm-sql.KnownManagedInstancePropertiesProvisioningState.Unrecognized
     package: '@azure/arm-sql'
     summary: ''
   - name: Updating

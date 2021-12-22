@@ -9,6 +9,22 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: allowProtectedAppendWritesAll
+    uid: '@azure/arm-storage.LegalHold.allowProtectedAppendWritesAll'
+    package: '@azure/arm-storage'
+    summary: >-
+      When enabled, new blocks can be written to both 'Append and Bock Blobs'
+      while maintaining legal hold protection and compliance. Only new blocks
+      can be added and any existing blocks cannot be modified or deleted.
+    fullName: allowProtectedAppendWritesAll
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowProtectedAppendWritesAll?: undefined | false | true'
+      return:
+        description: ''
+        type: undefined | false | true
   - name: hasLegalHold
     uid: '@azure/arm-storage.LegalHold.hasLegalHold'
     package: '@azure/arm-storage'

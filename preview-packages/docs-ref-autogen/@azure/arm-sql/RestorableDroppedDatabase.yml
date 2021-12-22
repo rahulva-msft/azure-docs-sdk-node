@@ -9,8 +9,7 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type RestorableDroppedDatabase = ProxyResource & { backupStorageRedundancy?:
-  RestorableDroppedDatabasePropertiesBackupStorageRedundancy, creationDate?:
-  Date, databaseName?: undefined | string, deletionDate?: Date,
-  earliestRestoreDate?: Date, elasticPoolId?: undefined | string, location?:
-  undefined | string, maxSizeBytes?: undefined | number, sku?: Sku, tags?:
-  undefined | [key: string]: string }
+  BackupStorageRedundancy, creationDate?: Date, databaseName?: undefined |
+  string, deletionDate?: Date, earliestRestoreDate?: Date, location?: undefined
+  | string, maxSizeBytes?: undefined | number, sku?: Sku, tags?: undefined |
+  [key: string]: string }

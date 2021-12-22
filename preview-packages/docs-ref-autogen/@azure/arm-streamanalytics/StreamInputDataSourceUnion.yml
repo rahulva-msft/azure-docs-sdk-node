@@ -10,5 +10,4 @@ isDeprecated: false
 syntax: >-
   type StreamInputDataSourceUnion = StreamInputDataSource |
   BlobStreamInputDataSource | EventHubStreamInputDataSource |
-  EventHubV2StreamInputDataSource | IoTHubStreamInputDataSource |
-  RawStreamInputDataSource
+  EventHubV2StreamInputDataSource | IoTHubStreamInputDataSource

@@ -22,11 +22,11 @@ properties:
     syntax:
       content: >-
         type: "Microsoft.Storage/Blob" | "Microsoft.ServiceBus/EventHub" |
-        "Microsoft.EventHub/EventHub" | "Microsoft.Devices/IotHubs" | "Raw"
+        "Microsoft.EventHub/EventHub" | "Microsoft.Devices/IotHubs"
       return:
         description: ''
         type: >-
           "<xref uid="Microsoft.Storage/Blob" />" | "<xref
           uid="Microsoft.ServiceBus/EventHub" />" | "<xref
           uid="Microsoft.EventHub/EventHub" />" | "<xref
-          uid="Microsoft.Devices/IotHubs" />" | "Raw"
+          uid="Microsoft.Devices/IotHubs" />"

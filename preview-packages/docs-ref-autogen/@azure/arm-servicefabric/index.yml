@@ -30,7 +30,6 @@ enums:
   - '@azure/arm-servicefabric.KnownVmssZonalUpgradeMode'
 classes:
   - '@azure/arm-servicefabric.ServiceFabricManagementClient'
-  - '@azure/arm-servicefabric.ServiceFabricManagementClientContext'
 interfaces:
   - '@azure/arm-servicefabric.ApplicationDeltaHealthPolicy'
   - '@azure/arm-servicefabric.ApplicationHealthPolicy'

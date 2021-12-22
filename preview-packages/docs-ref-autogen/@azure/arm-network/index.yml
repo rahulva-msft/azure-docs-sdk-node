@@ -176,7 +176,6 @@ enums:
   - '@azure/arm-network.KnownWebApplicationFirewallTransform'
 classes:
   - '@azure/arm-network.NetworkManagementClient'
-  - '@azure/arm-network.NetworkManagementClientContext'
 interfaces:
   - '@azure/arm-network.AadAuthenticationParameters'
   - '@azure/arm-network.AddressSpace'
@@ -356,6 +355,7 @@ interfaces:
   - '@azure/arm-network.BgpServiceCommunityListResult'
   - '@azure/arm-network.BgpSettings'
   - '@azure/arm-network.BreakOutCategoryPolicies'
+  - '@azure/arm-network.CheckDnsNameAvailabilityOptionalParams'
   - '@azure/arm-network.CheckPrivateLinkServiceVisibilityRequest'
   - '@azure/arm-network.CloudError'
   - '@azure/arm-network.CloudErrorBody'
@@ -431,9 +431,12 @@ interfaces:
   - '@azure/arm-network.DefaultSecurityRulesGetOptionalParams'
   - '@azure/arm-network.DefaultSecurityRulesListNextOptionalParams'
   - '@azure/arm-network.DefaultSecurityRulesListOptionalParams'
+  - '@azure/arm-network.DeleteBastionShareableLinkOptionalParams'
   - '@azure/arm-network.DeviceProperties'
   - '@azure/arm-network.DhcpOptions'
   - '@azure/arm-network.Dimension'
+  - '@azure/arm-network.DisconnectActiveSessionsNextOptionalParams'
+  - '@azure/arm-network.DisconnectActiveSessionsOptionalParams'
   - '@azure/arm-network.DnsNameAvailabilityResult'
   - '@azure/arm-network.DnsSettings'
   - '@azure/arm-network.DscpConfigurationCreateOrUpdateOptionalParams'
@@ -644,6 +647,12 @@ interfaces:
   - '@azure/arm-network.GatewayRouteListResult'
   - '@azure/arm-network.GenerateExpressRoutePortsLOARequest'
   - '@azure/arm-network.GenerateExpressRoutePortsLOAResult'
+  - >-
+    @azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams
+  - '@azure/arm-network.GetActiveSessionsNextOptionalParams'
+  - '@azure/arm-network.GetActiveSessionsOptionalParams'
+  - '@azure/arm-network.GetBastionShareableLinkNextOptionalParams'
+  - '@azure/arm-network.GetBastionShareableLinkOptionalParams'
   - '@azure/arm-network.GetVpnSitesConfigurationRequest'
   - '@azure/arm-network.HopLink'
   - '@azure/arm-network.HttpConfiguration'
@@ -867,30 +876,7 @@ interfaces:
   - >-
     @azure/arm-network.NetworkInterfacesListVirtualMachineScaleSetVMNetworkInterfacesOptionalParams
   - '@azure/arm-network.NetworkInterfacesUpdateTagsOptionalParams'
-  - >-
-    @azure/arm-network.NetworkManagementClientCheckDnsNameAvailabilityOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientDeleteBastionShareableLinkOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientDisconnectActiveSessionsNextOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientDisconnectActiveSessionsOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientGetActiveSessionsNextOptionalParams
-  - '@azure/arm-network.NetworkManagementClientGetActiveSessionsOptionalParams'
-  - >-
-    @azure/arm-network.NetworkManagementClientGetBastionShareableLinkNextOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientGetBastionShareableLinkOptionalParams
   - '@azure/arm-network.NetworkManagementClientOptionalParams'
-  - >-
-    @azure/arm-network.NetworkManagementClientPutBastionShareableLinkNextOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientPutBastionShareableLinkOptionalParams
-  - >-
-    @azure/arm-network.NetworkManagementClientSupportedSecurityProvidersOptionalParams
   - '@azure/arm-network.NetworkProfileListResult'
   - '@azure/arm-network.NetworkProfiles'
   - '@azure/arm-network.NetworkProfilesCreateOrUpdateOptionalParams'
@@ -1102,6 +1088,8 @@ interfaces:
   - '@azure/arm-network.PublicIPPrefixesListNextOptionalParams'
   - '@azure/arm-network.PublicIPPrefixesListOptionalParams'
   - '@azure/arm-network.PublicIPPrefixesUpdateTagsOptionalParams'
+  - '@azure/arm-network.PutBastionShareableLinkNextOptionalParams'
+  - '@azure/arm-network.PutBastionShareableLinkOptionalParams'
   - '@azure/arm-network.QosDefinition'
   - '@azure/arm-network.QosIpRange'
   - '@azure/arm-network.QosPortRange'
@@ -1235,6 +1223,7 @@ interfaces:
   - '@azure/arm-network.SubnetsListOptionalParams'
   - '@azure/arm-network.SubnetsPrepareNetworkPoliciesOptionalParams'
   - '@azure/arm-network.SubnetsUnprepareNetworkPoliciesOptionalParams'
+  - '@azure/arm-network.SupportedSecurityProvidersOptionalParams'
   - '@azure/arm-network.TagsObject'
   - '@azure/arm-network.Topology'
   - '@azure/arm-network.TopologyAssociation'
@@ -1669,6 +1658,7 @@ typeAliases:
   - '@azure/arm-network.BgpServiceCommunitiesListNextResponse'
   - '@azure/arm-network.BgpServiceCommunitiesListResponse'
   - '@azure/arm-network.BgpServiceCommunity'
+  - '@azure/arm-network.CheckDnsNameAvailabilityResponse'
   - '@azure/arm-network.CircuitConnectionStatus'
   - '@azure/arm-network.CommissionedState'
   - '@azure/arm-network.ConnectionMonitorEndpointFilterItemType'
@@ -1719,6 +1709,8 @@ typeAliases:
   - '@azure/arm-network.DestinationPortBehavior'
   - '@azure/arm-network.DhGroup'
   - '@azure/arm-network.Direction'
+  - '@azure/arm-network.DisconnectActiveSessionsNextResponse'
+  - '@azure/arm-network.DisconnectActiveSessionsResponse'
   - '@azure/arm-network.DscpConfiguration'
   - '@azure/arm-network.DscpConfigurationCreateOrUpdateResponse'
   - '@azure/arm-network.DscpConfigurationGetResponse'
@@ -1864,6 +1856,12 @@ typeAliases:
   - '@azure/arm-network.FrontendIPConfiguration'
   - '@azure/arm-network.GatewayLoadBalancerTunnelInterfaceType'
   - '@azure/arm-network.GatewayLoadBalancerTunnelProtocol'
+  - >-
+    @azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileResponse
+  - '@azure/arm-network.GetActiveSessionsNextResponse'
+  - '@azure/arm-network.GetActiveSessionsResponse'
+  - '@azure/arm-network.GetBastionShareableLinkNextResponse'
+  - '@azure/arm-network.GetBastionShareableLinkResponse'
   - '@azure/arm-network.HttpConfigurationMethod'
   - '@azure/arm-network.HttpMethod'
   - '@azure/arm-network.HubBgpConnectionStatus'
@@ -2018,21 +2016,6 @@ typeAliases:
   - >-
     @azure/arm-network.NetworkInterfacesListVirtualMachineScaleSetVMNetworkInterfacesResponse
   - '@azure/arm-network.NetworkInterfacesUpdateTagsResponse'
-  - '@azure/arm-network.NetworkManagementClientCheckDnsNameAvailabilityResponse'
-  - >-
-    @azure/arm-network.NetworkManagementClientDisconnectActiveSessionsNextResponse
-  - '@azure/arm-network.NetworkManagementClientDisconnectActiveSessionsResponse'
-  - >-
-    @azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse
-  - '@azure/arm-network.NetworkManagementClientGetActiveSessionsNextResponse'
-  - '@azure/arm-network.NetworkManagementClientGetActiveSessionsResponse'
-  - >-
-    @azure/arm-network.NetworkManagementClientGetBastionShareableLinkNextResponse
-  - '@azure/arm-network.NetworkManagementClientGetBastionShareableLinkResponse'
-  - >-
-    @azure/arm-network.NetworkManagementClientPutBastionShareableLinkNextResponse
-  - '@azure/arm-network.NetworkManagementClientPutBastionShareableLinkResponse'
-  - '@azure/arm-network.NetworkManagementClientSupportedSecurityProvidersResponse'
   - '@azure/arm-network.NetworkOperationStatus'
   - '@azure/arm-network.NetworkProfile'
   - '@azure/arm-network.NetworkProfilesCreateOrUpdateResponse'
@@ -2206,6 +2189,8 @@ typeAliases:
   - '@azure/arm-network.PublicIPPrefixesListNextResponse'
   - '@azure/arm-network.PublicIPPrefixesListResponse'
   - '@azure/arm-network.PublicIPPrefixesUpdateTagsResponse'
+  - '@azure/arm-network.PutBastionShareableLinkNextResponse'
+  - '@azure/arm-network.PutBastionShareableLinkResponse'
   - '@azure/arm-network.ResourceIdentityType'
   - '@azure/arm-network.ResourceNavigationLink'
   - '@azure/arm-network.ResourceNavigationLinksListResponse'
@@ -2288,6 +2273,7 @@ typeAliases:
   - '@azure/arm-network.SubnetsGetResponse'
   - '@azure/arm-network.SubnetsListNextResponse'
   - '@azure/arm-network.SubnetsListResponse'
+  - '@azure/arm-network.SupportedSecurityProvidersResponse'
   - '@azure/arm-network.SyncRemoteAddressSpace'
   - '@azure/arm-network.TransportProtocol'
   - '@azure/arm-network.TunnelConnectionStatus'

@@ -25,7 +25,7 @@ properties:
   - name: forceDeletion
     uid: '@azure/arm-compute.VirtualMachinesDeleteOptionalParams.forceDeletion'
     package: '@azure/arm-compute'
-    summary: Optional parameter to force delete virtual machines.(Feature in Preview)
+    summary: Optional parameter to force delete virtual machines.
     fullName: forceDeletion
     remarks: ''
     isPreview: false

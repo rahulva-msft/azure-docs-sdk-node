@@ -81,19 +81,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-servicebus.DisasterRecoveryConfigs" />
-  - name: eventHubs
-    uid: '@azure/arm-servicebus.ServiceBusManagementClient.eventHubs'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    fullName: eventHubs
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'eventHubs: EventHubs'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-servicebus.EventHubs" />
   - name: migrationConfigs
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.migrationConfigs'
     package: '@azure/arm-servicebus'
@@ -146,20 +133,6 @@ properties:
       return:
         description: ''
         type: Pipeline
-  - name: premiumMessagingRegionsOperations
-    uid: >-
-      @azure/arm-servicebus.ServiceBusManagementClient.premiumMessagingRegionsOperations
-    package: '@azure/arm-servicebus'
-    summary: ''
-    fullName: premiumMessagingRegionsOperations
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'premiumMessagingRegionsOperations: PremiumMessagingRegionsOperations'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations" />
   - name: privateEndpointConnections
     uid: >-
       @azure/arm-servicebus.ServiceBusManagementClient.privateEndpointConnections
@@ -200,19 +173,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-servicebus.Queues" />
-  - name: regions
-    uid: '@azure/arm-servicebus.ServiceBusManagementClient.regions'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    fullName: regions
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'regions: Regions'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-servicebus.Regions" />
   - name: rules
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.rules'
     package: '@azure/arm-servicebus'
@@ -308,4 +268,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext" />
+extends: ServiceClient

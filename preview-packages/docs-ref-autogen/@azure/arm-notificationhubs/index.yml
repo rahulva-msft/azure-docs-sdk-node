@@ -7,7 +7,6 @@ enums:
   - '@azure/arm-notificationhubs.KnownSkuName'
 classes:
   - '@azure/arm-notificationhubs.NotificationHubsManagementClient'
-  - '@azure/arm-notificationhubs.NotificationHubsManagementClientContext'
 interfaces:
   - '@azure/arm-notificationhubs.AdmCredential'
   - '@azure/arm-notificationhubs.ApnsCredential'

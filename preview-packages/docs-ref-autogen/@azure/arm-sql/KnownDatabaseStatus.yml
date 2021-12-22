@@ -90,6 +90,18 @@ fields:
     uid: '@azure/arm-sql.KnownDatabaseStatus.Standby'
     package: '@azure/arm-sql'
     summary: ''
+  - name: Starting
+    uid: '@azure/arm-sql.KnownDatabaseStatus.Starting'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Stopped
+    uid: '@azure/arm-sql.KnownDatabaseStatus.Stopped'
+    package: '@azure/arm-sql'
+    summary: ''
+  - name: Stopping
+    uid: '@azure/arm-sql.KnownDatabaseStatus.Stopping'
+    package: '@azure/arm-sql'
+    summary: ''
   - name: Suspect
     uid: '@azure/arm-sql.KnownDatabaseStatus.Suspect'
     package: '@azure/arm-sql'

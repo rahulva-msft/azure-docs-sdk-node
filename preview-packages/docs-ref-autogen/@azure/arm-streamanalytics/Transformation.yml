@@ -11,4 +11,5 @@ isPreview: false
 isDeprecated: false
 syntax: >-
   type Transformation = SubResource & { etag?: undefined | string, query?:
-  undefined | string, streamingUnits?: undefined | number }
+  undefined | string, streamingUnits?: undefined | number, validStreamingUnits?:
+  number[] }

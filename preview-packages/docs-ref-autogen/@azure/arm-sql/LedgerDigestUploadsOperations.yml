@@ -11,8 +11,7 @@ type: interface
 methods:
   - name: >-
       beginCreateOrUpdate(string, string, string, LedgerDigestUploadsName,
-      LedgerDigestUploads,
-      LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams)
+      LedgerDigestUploads, LedgerDigestUploadsCreateOrUpdateOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.beginCreateOrUpdate'
     package: '@azure/arm-sql'
     summary: >-
@@ -26,9 +25,9 @@ methods:
         function beginCreateOrUpdate(resourceGroupName: string, serverName:
         string, databaseName: string, ledgerDigestUploads:
         LedgerDigestUploadsName, parameters: LedgerDigestUploads, options?:
-        LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams):
-        Promise<PollerLike<PollOperationState<LedgerDigestUploadsOperationsCreateOrUpdateResponse>,
-        LedgerDigestUploadsOperationsCreateOrUpdateResponse>>
+        LedgerDigestUploadsCreateOrUpdateOptionalParams):
+        Promise<PollerLike<PollOperationState<LedgerDigestUploadsCreateOrUpdateResponse>,
+        LedgerDigestUploadsCreateOrUpdateResponse>>
       parameters:
         - id: resourceGroupName
           type: string
@@ -51,7 +50,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-sql.LedgerDigestUploadsCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
@@ -59,14 +58,13 @@ methods:
         description: ''
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsCreateOrUpdateResponse"
-          />&gt;, <xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsCreateOrUpdateResponse"
+          uid="@azure/arm-sql.LedgerDigestUploadsCreateOrUpdateResponse" />&gt;,
+          <xref uid="@azure/arm-sql.LedgerDigestUploadsCreateOrUpdateResponse"
           />&gt;&gt;
   - name: >-
       beginCreateOrUpdateAndWait(string, string, string,
       LedgerDigestUploadsName, LedgerDigestUploads,
-      LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams)
+      LedgerDigestUploadsCreateOrUpdateOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.beginCreateOrUpdateAndWait'
     package: '@azure/arm-sql'
     summary: >-
@@ -80,8 +78,8 @@ methods:
         function beginCreateOrUpdateAndWait(resourceGroupName: string,
         serverName: string, databaseName: string, ledgerDigestUploads:
         LedgerDigestUploadsName, parameters: LedgerDigestUploads, options?:
-        LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams):
-        Promise<LedgerDigestUploadsOperationsCreateOrUpdateResponse>
+        LedgerDigestUploadsCreateOrUpdateOptionalParams):
+        Promise<LedgerDigestUploadsCreateOrUpdateResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -104,7 +102,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-sql.LedgerDigestUploadsCreateOrUpdateOptionalParams"
             />
           description: |
             The options parameters.
@@ -112,11 +110,10 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsCreateOrUpdateResponse"
-          />&gt;
+          uid="@azure/arm-sql.LedgerDigestUploadsCreateOrUpdateResponse" />&gt;
   - name: >-
       beginDisable(string, string, string, LedgerDigestUploadsName,
-      LedgerDigestUploadsOperationsDisableOptionalParams)
+      LedgerDigestUploadsDisableOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.beginDisable'
     package: '@azure/arm-sql'
     summary: >-
@@ -131,9 +128,9 @@ methods:
       content: >-
         function beginDisable(resourceGroupName: string, serverName: string,
         databaseName: string, ledgerDigestUploads: LedgerDigestUploadsName,
-        options?: LedgerDigestUploadsOperationsDisableOptionalParams):
-        Promise<PollerLike<PollOperationState<LedgerDigestUploadsOperationsDisableResponse>,
-        LedgerDigestUploadsOperationsDisableResponse>>
+        options?: LedgerDigestUploadsDisableOptionalParams):
+        Promise<PollerLike<PollOperationState<LedgerDigestUploadsDisableResponse>,
+        LedgerDigestUploadsDisableResponse>>
       parameters:
         - id: resourceGroupName
           type: string
@@ -152,8 +149,7 @@ methods:
           description: ''
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsDisableOptionalParams"
+            <xref uid="@azure/arm-sql.LedgerDigestUploadsDisableOptionalParams"
             />
           description: |
             The options parameters.
@@ -161,13 +157,11 @@ methods:
         description: ''
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsDisableResponse"
-          />&gt;, <xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsDisableResponse"
-          />&gt;&gt;
+          uid="@azure/arm-sql.LedgerDigestUploadsDisableResponse" />&gt;, <xref
+          uid="@azure/arm-sql.LedgerDigestUploadsDisableResponse" />&gt;&gt;
   - name: >-
       beginDisableAndWait(string, string, string, LedgerDigestUploadsName,
-      LedgerDigestUploadsOperationsDisableOptionalParams)
+      LedgerDigestUploadsDisableOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.beginDisableAndWait'
     package: '@azure/arm-sql'
     summary: >-
@@ -183,8 +177,8 @@ methods:
         function beginDisableAndWait(resourceGroupName: string, serverName:
         string, databaseName: string, ledgerDigestUploads:
         LedgerDigestUploadsName, options?:
-        LedgerDigestUploadsOperationsDisableOptionalParams):
-        Promise<LedgerDigestUploadsOperationsDisableResponse>
+        LedgerDigestUploadsDisableOptionalParams):
+        Promise<LedgerDigestUploadsDisableResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -203,8 +197,7 @@ methods:
           description: ''
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsDisableOptionalParams"
+            <xref uid="@azure/arm-sql.LedgerDigestUploadsDisableOptionalParams"
             />
           description: |
             The options parameters.
@@ -212,11 +205,10 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsDisableResponse"
-          />&gt;
+          uid="@azure/arm-sql.LedgerDigestUploadsDisableResponse" />&gt;
   - name: >-
       get(string, string, string, LedgerDigestUploadsName,
-      LedgerDigestUploadsOperationsGetOptionalParams)
+      LedgerDigestUploadsGetOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.get'
     package: '@azure/arm-sql'
     summary: Gets the current ledger digest upload configuration for a database.
@@ -227,8 +219,8 @@ methods:
       content: >-
         function get(resourceGroupName: string, serverName: string,
         databaseName: string, ledgerDigestUploads: LedgerDigestUploadsName,
-        options?: LedgerDigestUploadsOperationsGetOptionalParams):
-        Promise<LedgerDigestUploadsOperationsGetResponse>
+        options?: LedgerDigestUploadsGetOptionalParams):
+        Promise<LedgerDigestUploadsGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -246,20 +238,17 @@ methods:
           type: <xref uid="@azure/arm-sql.LedgerDigestUploadsName" />
           description: ''
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsGetOptionalParams"
-            />
+          type: <xref uid="@azure/arm-sql.LedgerDigestUploadsGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-sql.LedgerDigestUploadsOperationsGetResponse" />&gt;
+          Promise&lt;<xref uid="@azure/arm-sql.LedgerDigestUploadsGetResponse"
+          />&gt;
   - name: >-
       listByDatabase(string, string, string,
-      LedgerDigestUploadsOperationsListByDatabaseOptionalParams)
+      LedgerDigestUploadsListByDatabaseOptionalParams)
     uid: '@azure/arm-sql.LedgerDigestUploadsOperations.listByDatabase'
     package: '@azure/arm-sql'
     summary: Gets all ledger digest upload settings on a database.
@@ -270,7 +259,7 @@ methods:
       content: >-
         function listByDatabase(resourceGroupName: string, serverName: string,
         databaseName: string, options?:
-        LedgerDigestUploadsOperationsListByDatabaseOptionalParams):
+        LedgerDigestUploadsListByDatabaseOptionalParams):
         PagedAsyncIterableIterator<LedgerDigestUploads>
       parameters:
         - id: resourceGroupName
@@ -288,7 +277,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.LedgerDigestUploadsOperationsListByDatabaseOptionalParams"
+            uid="@azure/arm-sql.LedgerDigestUploadsListByDatabaseOptionalParams"
             />
           description: |
             The options parameters.

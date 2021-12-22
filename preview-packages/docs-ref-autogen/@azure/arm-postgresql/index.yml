@@ -23,7 +23,6 @@ enums:
   - '@azure/arm-postgresql.KnownVirtualNetworkRuleState'
 classes:
   - '@azure/arm-postgresql.PostgreSQLManagementClient'
-  - '@azure/arm-postgresql.PostgreSQLManagementClientContext'
 interfaces:
   - '@azure/arm-postgresql.CheckNameAvailability'
   - '@azure/arm-postgresql.CheckNameAvailabilityExecuteOptionalParams'

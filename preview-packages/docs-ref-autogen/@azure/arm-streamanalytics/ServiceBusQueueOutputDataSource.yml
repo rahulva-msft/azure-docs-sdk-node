@@ -12,5 +12,5 @@ syntax: >-
   authenticationMode?: AuthenticationMode, propertyColumns?: string[],
   queueName?: undefined | string, serviceBusNamespace?: undefined | string,
   sharedAccessPolicyKey?: undefined | string, sharedAccessPolicyName?: undefined
-  | string, systemPropertyColumns?: undefined | [key: string]: string, type:
+  | string, systemPropertyColumns?: Record<string, unknown>, type:
   "Microsoft.ServiceBus/Queue" }

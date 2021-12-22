@@ -25,13 +25,9 @@ properties:
     syntax:
       content: >-
         bindingType: "Microsoft.MachineLearning/WebService" |
-        "Microsoft.MachineLearningServices" |
-        "Microsoft.StreamAnalytics/JavascriptUdf" |
-        "Microsoft.StreamAnalytics/CLRUdf"
+        "Microsoft.StreamAnalytics/JavascriptUdf"
       return:
         description: ''
         type: >-
           "<xref uid="Microsoft.MachineLearning/WebService" />" | "<xref
-          uid="Microsoft.MachineLearningServices" />" | "<xref
-          uid="Microsoft.StreamAnalytics/JavascriptUdf" />" | "<xref
-          uid="Microsoft.StreamAnalytics/CLRUdf" />"
+          uid="Microsoft.StreamAnalytics/JavascriptUdf" />"

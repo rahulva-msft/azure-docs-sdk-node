@@ -12,7 +12,8 @@ isDeprecated: false
 syntax: >-
   type BlobContainer = AzureEntityResource & { defaultEncryptionScope?:
   undefined | string, deleted?: undefined | false | true, deletedTime?: Date,
-  denyEncryptionScopeOverride?: undefined | false | true,
+  denyEncryptionScopeOverride?: undefined | false | true, enableNfsV3AllSquash?:
+  undefined | false | true, enableNfsV3RootSquash?: undefined | false | true,
   hasImmutabilityPolicy?: undefined | false | true, hasLegalHold?: undefined |
   false | true, immutabilityPolicy?: ImmutabilityPolicyProperties,
   immutableStorageWithVersioning?: ImmutableStorageWithVersioning,

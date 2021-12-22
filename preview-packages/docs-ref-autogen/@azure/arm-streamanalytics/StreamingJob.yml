@@ -15,10 +15,10 @@ syntax: >-
   ContentStoragePolicy, createdDate?: Date, dataLocale?: undefined | string,
   etag?: undefined | string, eventsLateArrivalMaxDelayInSeconds?: undefined |
   number, eventsOutOfOrderMaxDelayInSeconds?: undefined | number,
-  eventsOutOfOrderPolicy?: EventsOutOfOrderPolicy, externals?: External_2,
-  functions?: FunctionModel[], identity?: Identity, inputs?: Input[], jobId?:
-  undefined | string, jobState?: undefined | string, jobStorageAccount?:
-  JobStorageAccount, jobType?: JobType, lastOutputEventTime?: Date,
-  outputErrorPolicy?: OutputErrorPolicy, outputStartMode?: OutputStartMode,
-  outputStartTime?: Date, outputs?: Output[], provisioningState?: undefined |
-  string, sku?: StreamingJobSku, transformation?: Transformation }
+  eventsOutOfOrderPolicy?: EventsOutOfOrderPolicy, functions?: FunctionModel[],
+  identity?: Identity, inputs?: Input[], jobId?: undefined | string, jobState?:
+  undefined | string, jobStorageAccount?: JobStorageAccount, jobType?: JobType,
+  lastOutputEventTime?: Date, outputErrorPolicy?: OutputErrorPolicy,
+  outputStartMode?: OutputStartMode, outputStartTime?: Date, outputs?: Output[],
+  provisioningState?: undefined | string, sku?: Sku, transformation?:
+  Transformation }

@@ -1603,19 +1603,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-sql.TimeZones" />
-  - name: transparentDataEncryptionActivities
-    uid: '@azure/arm-sql.SqlManagementClient.transparentDataEncryptionActivities'
-    package: '@azure/arm-sql'
-    summary: ''
-    fullName: transparentDataEncryptionActivities
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'transparentDataEncryptionActivities: TransparentDataEncryptionActivities'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-sql.TransparentDataEncryptionActivities" />
   - name: transparentDataEncryptions
     uid: '@azure/arm-sql.SqlManagementClient.transparentDataEncryptions'
     package: '@azure/arm-sql'
@@ -1737,4 +1724,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-sql.SqlManagementClientContext" />
+extends: ServiceClient

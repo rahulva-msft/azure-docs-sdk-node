@@ -253,33 +253,6 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-resources.ResourceGroup" />&gt;
-  - name: 'listNext(string, ResourceGroupsListNextOptionalParams)'
-    uid: '@azure/arm-resources.ResourceGroups.listNext'
-    package: '@azure/arm-resources'
-    summary: ListNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNext(nextLink: string, options?:
-        ResourceGroupsListNextOptionalParams):
-        PagedAsyncIterableIterator<ResourceGroup>
-      parameters:
-        - id: nextLink
-          type: string
-          description: The nextLink from the previous successful call to the List method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-resources.ResourceGroupsListNextOptionalParams" />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-resources.ResourceGroup" />&gt;
   - name: 'update(string, ResourceGroupPatchable, ResourceGroupsUpdateOptionalParams)'
     uid: '@azure/arm-resources.ResourceGroups.update'
     package: '@azure/arm-resources'

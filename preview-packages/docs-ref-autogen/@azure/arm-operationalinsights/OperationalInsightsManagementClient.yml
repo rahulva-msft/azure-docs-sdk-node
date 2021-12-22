@@ -307,6 +307,19 @@ properties:
       return:
         description: ''
         type: string
+  - name: tables
+    uid: '@azure/arm-operationalinsights.OperationalInsightsManagementClient.tables'
+    package: '@azure/arm-operationalinsights'
+    summary: ''
+    fullName: tables
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tables: Tables'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-operationalinsights.Tables" />
   - name: usages
     uid: '@azure/arm-operationalinsights.OperationalInsightsManagementClient.usages'
     package: '@azure/arm-operationalinsights'
@@ -393,7 +406,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: >-
-  <xref
-  uid="@azure/arm-operationalinsights.OperationalInsightsManagementClientContext"
-  />
+extends: ServiceClient

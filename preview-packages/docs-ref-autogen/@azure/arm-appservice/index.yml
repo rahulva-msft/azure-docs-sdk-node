@@ -35,17 +35,18 @@ enums:
   - '@azure/arm-appservice.KnownValidateResourceTypes'
 classes:
   - '@azure/arm-appservice.WebSiteManagementClient'
-  - '@azure/arm-appservice.WebSiteManagementClientContext'
 interfaces:
   - '@azure/arm-appservice.AbnormalTimePeriod'
   - '@azure/arm-appservice.Address'
   - '@azure/arm-appservice.AllowedAudiencesValidation'
+  - '@azure/arm-appservice.AllowedPrincipals'
   - '@azure/arm-appservice.AnalysisData'
   - '@azure/arm-appservice.ApiDefinitionInfo'
   - '@azure/arm-appservice.ApiKVReferenceCollection'
   - '@azure/arm-appservice.ApiManagementConfig'
   - '@azure/arm-appservice.AppInsightsWebAppStackSettings'
   - '@azure/arm-appservice.AppLogsConfiguration'
+  - '@azure/arm-appservice.AppRegistration'
   - '@azure/arm-appservice.AppServiceCertificate'
   - '@azure/arm-appservice.AppServiceCertificateCollection'
   - '@azure/arm-appservice.AppServiceCertificateOrderCollection'
@@ -230,6 +231,7 @@ interfaces:
   - '@azure/arm-appservice.AppServicePlansUpdateOptionalParams'
   - '@azure/arm-appservice.AppServicePlansUpdateVnetGatewayOptionalParams'
   - '@azure/arm-appservice.AppServicePlansUpdateVnetRouteOptionalParams'
+  - '@azure/arm-appservice.Apple'
   - '@azure/arm-appservice.AppleRegistration'
   - '@azure/arm-appservice.ApplicationLogsConfig'
   - '@azure/arm-appservice.ApplicationStack'
@@ -245,14 +247,19 @@ interfaces:
   - '@azure/arm-appservice.AutoHealRules'
   - '@azure/arm-appservice.AutoHealTriggers'
   - '@azure/arm-appservice.AzureActiveDirectory'
+  - '@azure/arm-appservice.AzureActiveDirectoryLogin'
+  - '@azure/arm-appservice.AzureActiveDirectoryRegistration'
+  - '@azure/arm-appservice.AzureActiveDirectoryValidation'
   - '@azure/arm-appservice.AzureBlobStorageApplicationLogsConfig'
   - '@azure/arm-appservice.AzureBlobStorageHttpLogsConfig'
+  - '@azure/arm-appservice.AzureStaticWebApps'
   - '@azure/arm-appservice.AzureStaticWebAppsRegistration'
   - '@azure/arm-appservice.AzureStorageInfoValue'
   - '@azure/arm-appservice.AzureTableStorageApplicationLogsConfig'
   - '@azure/arm-appservice.BackupItemCollection'
   - '@azure/arm-appservice.BackupSchedule'
   - '@azure/arm-appservice.BillingMeterCollection'
+  - '@azure/arm-appservice.BlobStorageTokenStore'
   - '@azure/arm-appservice.Capability'
   - '@azure/arm-appservice.CertificateCollection'
   - '@azure/arm-appservice.CertificateDetails'
@@ -278,6 +285,7 @@ interfaces:
   - '@azure/arm-appservice.CertificatesListNextOptionalParams'
   - '@azure/arm-appservice.CertificatesListOptionalParams'
   - '@azure/arm-appservice.CertificatesUpdateOptionalParams'
+  - '@azure/arm-appservice.CheckNameAvailabilityOptionalParams'
   - '@azure/arm-appservice.ClientRegistration'
   - '@azure/arm-appservice.CloningInfo'
   - '@azure/arm-appservice.ConnStringInfo'
@@ -301,6 +309,7 @@ interfaces:
   - '@azure/arm-appservice.CsmSlotEntity'
   - '@azure/arm-appservice.CsmUsageQuota'
   - '@azure/arm-appservice.CsmUsageQuotaCollection'
+  - '@azure/arm-appservice.CustomOpenIdConnectProvider'
   - '@azure/arm-appservice.DataProviderMetadata'
   - '@azure/arm-appservice.DataSource'
   - '@azure/arm-appservice.DataTableResponseColumn'
@@ -419,6 +428,10 @@ interfaces:
   - '@azure/arm-appservice.FunctionEnvelopeCollection'
   - '@azure/arm-appservice.FunctionSecrets'
   - '@azure/arm-appservice.GeoRegionCollection'
+  - '@azure/arm-appservice.GetPublishingUserOptionalParams'
+  - '@azure/arm-appservice.GetSourceControlOptionalParams'
+  - '@azure/arm-appservice.GetSubscriptionDeploymentLocationsOptionalParams'
+  - '@azure/arm-appservice.GitHub'
   - '@azure/arm-appservice.GitHubActionCodeConfiguration'
   - '@azure/arm-appservice.GitHubActionConfiguration'
   - '@azure/arm-appservice.GitHubActionContainerConfiguration'
@@ -430,6 +443,7 @@ interfaces:
   - >-
     @azure/arm-appservice.GlobalGetSubscriptionOperationWithAsyncResponseOptionalParams
   - '@azure/arm-appservice.GlobalValidation'
+  - '@azure/arm-appservice.Google'
   - '@azure/arm-appservice.HandlerMapping'
   - '@azure/arm-appservice.HostKeys'
   - '@azure/arm-appservice.HostName'
@@ -461,7 +475,20 @@ interfaces:
   - '@azure/arm-appservice.KubeEnvironmentsListBySubscriptionNextOptionalParams'
   - '@azure/arm-appservice.KubeEnvironmentsListBySubscriptionOptionalParams'
   - '@azure/arm-appservice.KubeEnvironmentsUpdateOptionalParams'
+  - '@azure/arm-appservice.LegacyMicrosoftAccount'
   - '@azure/arm-appservice.LinuxJavaContainerSettings'
+  - '@azure/arm-appservice.ListBillingMetersNextOptionalParams'
+  - '@azure/arm-appservice.ListBillingMetersOptionalParams'
+  - '@azure/arm-appservice.ListGeoRegionsNextOptionalParams'
+  - '@azure/arm-appservice.ListGeoRegionsOptionalParams'
+  - '@azure/arm-appservice.ListPremierAddOnOffersNextOptionalParams'
+  - '@azure/arm-appservice.ListPremierAddOnOffersOptionalParams'
+  - >-
+    @azure/arm-appservice.ListSiteIdentifiersAssignedToHostNameNextOptionalParams
+  - '@azure/arm-appservice.ListSiteIdentifiersAssignedToHostNameOptionalParams'
+  - '@azure/arm-appservice.ListSkusOptionalParams'
+  - '@azure/arm-appservice.ListSourceControlsNextOptionalParams'
+  - '@azure/arm-appservice.ListSourceControlsOptionalParams'
   - '@azure/arm-appservice.LocalizableString'
   - '@azure/arm-appservice.LogAnalyticsConfiguration'
   - '@azure/arm-appservice.LogSpecification'
@@ -472,6 +499,7 @@ interfaces:
   - '@azure/arm-appservice.ManagedServiceIdentity'
   - '@azure/arm-appservice.MetricAvailability'
   - '@azure/arm-appservice.MetricSpecification'
+  - '@azure/arm-appservice.MoveOptionalParams'
   - '@azure/arm-appservice.NameIdentifier'
   - '@azure/arm-appservice.NameIdentifierCollection'
   - '@azure/arm-appservice.NameValuePair'
@@ -560,25 +588,19 @@ interfaces:
   - '@azure/arm-appservice.Resource'
   - '@azure/arm-appservice.ResourceCollection'
   - '@azure/arm-appservice.ResourceHealthMetadataCollection'
+  - '@azure/arm-appservice.ResourceHealthMetadataGetBySiteOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataGetBySiteSlotOptionalParams'
+  - >-
+    @azure/arm-appservice.ResourceHealthMetadataListByResourceGroupNextOptionalParams
+  - >-
+    @azure/arm-appservice.ResourceHealthMetadataListByResourceGroupOptionalParams
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteNextOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteSlotNextOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteSlotOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataListNextOptionalParams'
+  - '@azure/arm-appservice.ResourceHealthMetadataListOptionalParams'
   - '@azure/arm-appservice.ResourceHealthMetadataOperations'
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteSlotOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListByResourceGroupNextOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListByResourceGroupOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteNextOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteSlotNextOptionalParams
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteSlotOptionalParams
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListNextOptionalParams'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListOptionalParams'
   - '@azure/arm-appservice.ResourceMetricAvailability'
   - '@azure/arm-appservice.ResourceMetricDefinitionCollection'
   - '@azure/arm-appservice.ResourceNameAvailability'
@@ -727,12 +749,18 @@ interfaces:
   - '@azure/arm-appservice.TriggeredJobHistoryCollection'
   - '@azure/arm-appservice.TriggeredJobRun'
   - '@azure/arm-appservice.TriggeredWebJobCollection'
+  - '@azure/arm-appservice.Twitter'
   - '@azure/arm-appservice.TwitterRegistration'
+  - '@azure/arm-appservice.UpdatePublishingUserOptionalParams'
+  - '@azure/arm-appservice.UpdateSourceControlOptionalParams'
   - '@azure/arm-appservice.UsageCollection'
   - '@azure/arm-appservice.UserAssignedIdentity'
+  - '@azure/arm-appservice.ValidateMoveOptionalParams'
+  - '@azure/arm-appservice.ValidateOptionalParams'
   - '@azure/arm-appservice.ValidateRequest'
   - '@azure/arm-appservice.ValidateResponse'
   - '@azure/arm-appservice.ValidateResponseError'
+  - '@azure/arm-appservice.VerifyHostingEnvironmentVnetOptionalParams'
   - '@azure/arm-appservice.VirtualApplication'
   - '@azure/arm-appservice.VirtualDirectory'
   - '@azure/arm-appservice.VirtualIPMapping'
@@ -1252,51 +1280,13 @@ interfaces:
   - '@azure/arm-appservice.WebAppsUpdateVnetConnectionOptionalParams'
   - '@azure/arm-appservice.WebAppsUpdateVnetConnectionSlotOptionalParams'
   - '@azure/arm-appservice.WebJobCollection'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientCheckNameAvailabilityOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientGetPublishingUserOptionalParams'
-  - '@azure/arm-appservice.WebSiteManagementClientGetSourceControlOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientGetSubscriptionDeploymentLocationsOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListBillingMetersNextOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientListBillingMetersOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListGeoRegionsNextOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientListGeoRegionsOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListPremierAddOnOffersNextOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListPremierAddOnOffersOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSiteIdentifiersAssignedToHostNameNextOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSiteIdentifiersAssignedToHostNameOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientListSkusOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSourceControlsNextOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSourceControlsOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientMoveOptionalParams'
   - '@azure/arm-appservice.WebSiteManagementClientOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientUpdatePublishingUserOptionalParams
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientUpdateSourceControlOptionalParams
-  - '@azure/arm-appservice.WebSiteManagementClientValidateMoveOptionalParams'
-  - '@azure/arm-appservice.WebSiteManagementClientValidateOptionalParams'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientVerifyHostingEnvironmentVnetOptionalParams
   - '@azure/arm-appservice.WindowsJavaContainerSettings'
   - '@azure/arm-appservice.WorkerPoolCollection'
 typeAliases:
   - '@azure/arm-appservice.AddressResponse'
-  - '@azure/arm-appservice.AllowedPrincipals'
   - '@azure/arm-appservice.AnalysisDefinition'
   - '@azure/arm-appservice.ApiKVReference'
-  - '@azure/arm-appservice.AppRegistration'
   - '@azure/arm-appservice.AppServiceCertificateOrder'
   - '@azure/arm-appservice.AppServiceCertificateOrderPatchResource'
   - >-
@@ -1443,15 +1433,10 @@ typeAliases:
   - '@azure/arm-appservice.AppServicePlansUpdateResponse'
   - '@azure/arm-appservice.AppServicePlansUpdateVnetGatewayResponse'
   - '@azure/arm-appservice.AppServicePlansUpdateVnetRouteResponse'
-  - '@azure/arm-appservice.Apple'
   - '@azure/arm-appservice.ApplicationStackResource'
   - '@azure/arm-appservice.AseV3NetworkingConfiguration'
   - '@azure/arm-appservice.AutoHealActionType'
-  - '@azure/arm-appservice.AzureActiveDirectoryLogin'
-  - '@azure/arm-appservice.AzureActiveDirectoryRegistration'
-  - '@azure/arm-appservice.AzureActiveDirectoryValidation'
   - '@azure/arm-appservice.AzureResourceType'
-  - '@azure/arm-appservice.AzureStaticWebApps'
   - '@azure/arm-appservice.AzureStoragePropertyDictionaryResource'
   - '@azure/arm-appservice.AzureStorageState'
   - '@azure/arm-appservice.AzureStorageType'
@@ -1460,7 +1445,6 @@ typeAliases:
   - '@azure/arm-appservice.BackupRequest'
   - '@azure/arm-appservice.BackupRestoreOperationType'
   - '@azure/arm-appservice.BillingMeter'
-  - '@azure/arm-appservice.BlobStorageTokenStore'
   - '@azure/arm-appservice.BuildStatus'
   - '@azure/arm-appservice.BuiltInAuthenticationProvider'
   - '@azure/arm-appservice.Certificate'
@@ -1487,6 +1471,7 @@ typeAliases:
   - '@azure/arm-appservice.CertificatesListResponse'
   - '@azure/arm-appservice.CertificatesUpdateResponse'
   - '@azure/arm-appservice.Channels'
+  - '@azure/arm-appservice.CheckNameAvailabilityResponse'
   - '@azure/arm-appservice.CheckNameResourceTypes'
   - '@azure/arm-appservice.ClientCertMode'
   - '@azure/arm-appservice.CloneAbilityResult'
@@ -1500,7 +1485,6 @@ typeAliases:
   - '@azure/arm-appservice.CustomDomainStatus'
   - '@azure/arm-appservice.CustomHostNameDnsRecordType'
   - '@azure/arm-appservice.CustomHostnameAnalysisResult'
-  - '@azure/arm-appservice.CustomOpenIdConnectProvider'
   - '@azure/arm-appservice.DatabaseType'
   - '@azure/arm-appservice.DeletedAppRestoreRequest'
   - '@azure/arm-appservice.DeletedSite'
@@ -1592,10 +1576,11 @@ typeAliases:
   - '@azure/arm-appservice.FunctionAppStack'
   - '@azure/arm-appservice.FunctionEnvelope'
   - '@azure/arm-appservice.GeoRegion'
-  - '@azure/arm-appservice.GitHub'
+  - '@azure/arm-appservice.GetPublishingUserResponse'
+  - '@azure/arm-appservice.GetSourceControlResponse'
+  - '@azure/arm-appservice.GetSubscriptionDeploymentLocationsResponse'
   - '@azure/arm-appservice.GlobalGetDeletedWebAppResponse'
   - '@azure/arm-appservice.GlobalGetDeletedWebAppSnapshotsResponse'
-  - '@azure/arm-appservice.Google'
   - '@azure/arm-appservice.HostNameBinding'
   - '@azure/arm-appservice.HostNameType'
   - '@azure/arm-appservice.HostType'
@@ -1619,7 +1604,17 @@ typeAliases:
   - '@azure/arm-appservice.KubeEnvironmentsListBySubscriptionNextResponse'
   - '@azure/arm-appservice.KubeEnvironmentsListBySubscriptionResponse'
   - '@azure/arm-appservice.KubeEnvironmentsUpdateResponse'
-  - '@azure/arm-appservice.LegacyMicrosoftAccount'
+  - '@azure/arm-appservice.ListBillingMetersNextResponse'
+  - '@azure/arm-appservice.ListBillingMetersResponse'
+  - '@azure/arm-appservice.ListGeoRegionsNextResponse'
+  - '@azure/arm-appservice.ListGeoRegionsResponse'
+  - '@azure/arm-appservice.ListPremierAddOnOffersNextResponse'
+  - '@azure/arm-appservice.ListPremierAddOnOffersResponse'
+  - '@azure/arm-appservice.ListSiteIdentifiersAssignedToHostNameNextResponse'
+  - '@azure/arm-appservice.ListSiteIdentifiersAssignedToHostNameResponse'
+  - '@azure/arm-appservice.ListSkusResponse'
+  - '@azure/arm-appservice.ListSourceControlsNextResponse'
+  - '@azure/arm-appservice.ListSourceControlsResponse'
   - '@azure/arm-appservice.LoadBalancingMode'
   - '@azure/arm-appservice.LogLevel'
   - '@azure/arm-appservice.MSDeploy'
@@ -1691,19 +1686,16 @@ typeAliases:
   - '@azure/arm-appservice.RenewCertificateOrderRequest'
   - '@azure/arm-appservice.ResolveStatus'
   - '@azure/arm-appservice.ResourceHealthMetadata'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteResponse'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsGetBySiteSlotResponse'
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListByResourceGroupNextResponse
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListByResourceGroupResponse
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteNextResponse'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteResponse'
-  - >-
-    @azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteSlotNextResponse
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListBySiteSlotResponse'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListNextResponse'
-  - '@azure/arm-appservice.ResourceHealthMetadataOperationsListResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataGetBySiteResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataGetBySiteSlotResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListByResourceGroupNextResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListByResourceGroupResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteNextResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteSlotNextResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListBySiteSlotResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListNextResponse'
+  - '@azure/arm-appservice.ResourceHealthMetadataListResponse'
   - '@azure/arm-appservice.ResourceMetricDefinition'
   - '@azure/arm-appservice.ResourceScopeType'
   - '@azure/arm-appservice.RestoreRequest'
@@ -1828,13 +1820,16 @@ typeAliases:
   - '@azure/arm-appservice.TriggeredJobHistory'
   - '@azure/arm-appservice.TriggeredWebJob'
   - '@azure/arm-appservice.TriggeredWebJobStatus'
-  - '@azure/arm-appservice.Twitter'
   - '@azure/arm-appservice.UnauthenticatedClientAction'
   - '@azure/arm-appservice.UnauthenticatedClientActionV2'
+  - '@azure/arm-appservice.UpdatePublishingUserResponse'
+  - '@azure/arm-appservice.UpdateSourceControlResponse'
   - '@azure/arm-appservice.Usage'
   - '@azure/arm-appservice.UsageState'
   - '@azure/arm-appservice.User'
+  - '@azure/arm-appservice.ValidateOperationResponse'
   - '@azure/arm-appservice.ValidateResourceTypes'
+  - '@azure/arm-appservice.VerifyHostingEnvironmentVnetResponse'
   - '@azure/arm-appservice.VnetGateway'
   - '@azure/arm-appservice.VnetInfoResource'
   - '@azure/arm-appservice.VnetParameters'
@@ -2234,31 +2229,5 @@ typeAliases:
   - '@azure/arm-appservice.WebJob'
   - '@azure/arm-appservice.WebJobType'
   - '@azure/arm-appservice.WebSiteInstanceStatus'
-  - '@azure/arm-appservice.WebSiteManagementClientCheckNameAvailabilityResponse'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncResponse
-  - '@azure/arm-appservice.WebSiteManagementClientGetPublishingUserResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientGetSourceControlResponse'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientGetSubscriptionDeploymentLocationsResponse
-  - '@azure/arm-appservice.WebSiteManagementClientListBillingMetersNextResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientListBillingMetersResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientListGeoRegionsNextResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientListGeoRegionsResponse'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListPremierAddOnOffersNextResponse
-  - '@azure/arm-appservice.WebSiteManagementClientListPremierAddOnOffersResponse'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSiteIdentifiersAssignedToHostNameNextResponse
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientListSiteIdentifiersAssignedToHostNameResponse
-  - '@azure/arm-appservice.WebSiteManagementClientListSkusResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientListSourceControlsNextResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientListSourceControlsResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientUpdatePublishingUserResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientUpdateSourceControlResponse'
-  - '@azure/arm-appservice.WebSiteManagementClientValidateResponse'
-  - >-
-    @azure/arm-appservice.WebSiteManagementClientVerifyHostingEnvironmentVnetResponse
   - '@azure/arm-appservice.WorkerPoolResource'
   - '@azure/arm-appservice.WorkerSizeOptions'

@@ -84,7 +84,6 @@ enums:
   - '@azure/arm-compute.KnownWindowsVMGuestPatchMode'
 classes:
   - '@azure/arm-compute.ComputeManagementClient'
-  - '@azure/arm-compute.ComputeManagementClientContext'
 interfaces:
   - '@azure/arm-compute.AccessUri'
   - '@azure/arm-compute.AdditionalCapabilities'
@@ -478,7 +477,6 @@ interfaces:
   - '@azure/arm-compute.RestorePointCollectionsListNextOptionalParams'
   - '@azure/arm-compute.RestorePointCollectionsListOptionalParams'
   - '@azure/arm-compute.RestorePointCollectionsUpdateOptionalParams'
-  - '@azure/arm-compute.RestorePointProvisioningDetails'
   - '@azure/arm-compute.RestorePointSourceMetadata'
   - '@azure/arm-compute.RestorePointSourceVMDataDisk'
   - '@azure/arm-compute.RestorePointSourceVMStorageProfile'
@@ -1006,11 +1004,11 @@ typeAliases:
   - '@azure/arm-compute.HyperVGenerationTypes'
   - '@azure/arm-compute.IPVersion'
   - '@azure/arm-compute.IPVersions'
-  - '@azure/arm-compute.Image'
   - '@azure/arm-compute.ImageDataDisk'
   - '@azure/arm-compute.ImageOSDisk'
   - '@azure/arm-compute.ImageReference'
   - '@azure/arm-compute.ImageUpdate'
+  - '@azure/arm-compute.Image_2'
   - '@azure/arm-compute.ImagesCreateOrUpdateResponse'
   - '@azure/arm-compute.ImagesGetResponse'
   - '@azure/arm-compute.ImagesListByResourceGroupNextResponse'

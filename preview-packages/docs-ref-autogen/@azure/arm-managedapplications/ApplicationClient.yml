@@ -161,7 +161,7 @@ inheritedMethods:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
 methods:
-  - name: listOperations(ApplicationClientListOperationsOptionalParams)
+  - name: listOperations(ListOperationsOptionalParams)
     uid: '@azure/arm-managedapplications.ApplicationClient.listOperations'
     package: '@azure/arm-managedapplications'
     summary: Lists all of the available Microsoft.Solutions REST API operations.
@@ -170,15 +170,13 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listOperations(options?:
-        ApplicationClientListOperationsOptionalParams):
+        function listOperations(options?: ListOperationsOptionalParams):
         PagedAsyncIterableIterator<Operation>
       parameters:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-managedapplications.ApplicationClientListOperationsOptionalParams"
-            />
+            uid="@azure/arm-managedapplications.ListOperationsOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -186,36 +184,4 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-managedapplications.Operation" />&gt;
-  - name: >-
-      listOperationsNext(string,
-      ApplicationClientListOperationsNextOptionalParams)
-    uid: '@azure/arm-managedapplications.ApplicationClient.listOperationsNext'
-    package: '@azure/arm-managedapplications'
-    summary: ListOperationsNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listOperationsNext(nextLink: string, options?:
-        ApplicationClientListOperationsNextOptionalParams):
-        PagedAsyncIterableIterator<Operation>
-      parameters:
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the ListOperations
-            method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-managedapplications.ApplicationClientListOperationsNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-managedapplications.Operation" />&gt;
-extends: <xref uid="@azure/arm-managedapplications.ApplicationClientContext" />
+extends: ServiceClient

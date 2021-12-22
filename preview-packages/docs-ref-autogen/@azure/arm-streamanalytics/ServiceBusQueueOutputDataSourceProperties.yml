@@ -10,5 +10,4 @@ isDeprecated: false
 syntax: >-
   type ServiceBusQueueOutputDataSourceProperties =
   ServiceBusDataSourceProperties & { propertyColumns?: string[], queueName?:
-  undefined | string, systemPropertyColumns?: undefined | [key: string]: string
-  }
+  undefined | string, systemPropertyColumns?: Record<string, unknown> }

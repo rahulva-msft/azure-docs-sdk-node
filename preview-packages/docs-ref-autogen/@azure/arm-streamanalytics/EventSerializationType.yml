@@ -16,8 +16,6 @@ summary: >-
 
   **Json** \
 
-  **CustomClr** \
-
   **Parquet**
 fullName: EventSerializationType
 remarks: ''

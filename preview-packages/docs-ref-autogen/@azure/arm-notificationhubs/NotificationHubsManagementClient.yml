@@ -180,6 +180,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: >-
-  <xref
-  uid="@azure/arm-notificationhubs.NotificationHubsManagementClientContext" />
+extends: ServiceClient

@@ -18,10 +18,6 @@ fields:
     uid: '@azure/arm-streamanalytics.KnownEventSerializationType.Csv'
     package: '@azure/arm-streamanalytics'
     summary: ''
-  - name: CustomClr
-    uid: '@azure/arm-streamanalytics.KnownEventSerializationType.CustomClr'
-    package: '@azure/arm-streamanalytics'
-    summary: ''
   - name: Json
     uid: '@azure/arm-streamanalytics.KnownEventSerializationType.Json'
     package: '@azure/arm-streamanalytics'

@@ -10,5 +10,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type PngImage = Image & { layers?: PngLayer[], odataType:
+  type PngImage = Image_2 & { layers?: PngLayer[], odataType:
   "#Microsoft.Media.PngImage" }

@@ -1200,4 +1200,4 @@ methods:
           Promise&lt;<xref
           uid="@azure/arm-apimanagement.PerformConnectivityCheckAsyncResponse"
           />&gt;
-extends: <xref uid="@azure/arm-apimanagement.ApiManagementClientContext" />
+extends: ServiceClient

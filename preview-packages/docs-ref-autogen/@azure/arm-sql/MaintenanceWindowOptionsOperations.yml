@@ -11,7 +11,7 @@ type: interface
 methods:
   - name: >-
       get(string, string, string, string,
-      MaintenanceWindowOptionsOperationsGetOptionalParams)
+      MaintenanceWindowOptionsGetOptionalParams)
     uid: '@azure/arm-sql.MaintenanceWindowOptionsOperations.get'
     package: '@azure/arm-sql'
     summary: Gets a list of available maintenance windows.
@@ -22,8 +22,8 @@ methods:
       content: >-
         function get(resourceGroupName: string, serverName: string,
         databaseName: string, maintenanceWindowOptionsName: string, options?:
-        MaintenanceWindowOptionsOperationsGetOptionalParams):
-        Promise<MaintenanceWindowOptionsOperationsGetResponse>
+        MaintenanceWindowOptionsGetOptionalParams):
+        Promise<MaintenanceWindowOptionsGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -42,8 +42,7 @@ methods:
           description: Maintenance window options name.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-sql.MaintenanceWindowOptionsOperationsGetOptionalParams"
+            <xref uid="@azure/arm-sql.MaintenanceWindowOptionsGetOptionalParams"
             />
           description: |
             The options parameters.
@@ -51,5 +50,4 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-sql.MaintenanceWindowOptionsOperationsGetResponse"
-          />&gt;
+          uid="@azure/arm-sql.MaintenanceWindowOptionsGetResponse" />&gt;

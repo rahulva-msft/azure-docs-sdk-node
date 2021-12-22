@@ -3,20 +3,15 @@ uid: '@azure/arm-features'
 name: '@azure/arm-features'
 summary: ''
 type: package
-classes:
-  - '@azure/arm-features.FeatureClient'
-  - '@azure/arm-features.FeatureClientContext'
-  - '@azure/arm-features.FeaturesImpl'
-  - '@azure/arm-features.SubscriptionFeatureRegistrationsImpl'
 enums:
   - '@azure/arm-features.KnownSubscriptionFeatureRegistrationApprovalType'
   - '@azure/arm-features.KnownSubscriptionFeatureRegistrationState'
+classes:
+  - '@azure/arm-features.FeatureClient'
 interfaces:
   - '@azure/arm-features.AuthorizationProfile'
   - '@azure/arm-features.ErrorDefinition'
   - '@azure/arm-features.ErrorResponse'
-  - '@azure/arm-features.FeatureClientListOperationsNextOptionalParams'
-  - '@azure/arm-features.FeatureClientListOperationsOptionalParams'
   - '@azure/arm-features.FeatureClientOptionalParams'
   - '@azure/arm-features.FeatureOperationsListResult'
   - '@azure/arm-features.FeatureProperties'
@@ -29,6 +24,8 @@ interfaces:
   - '@azure/arm-features.FeaturesListOptionalParams'
   - '@azure/arm-features.FeaturesRegisterOptionalParams'
   - '@azure/arm-features.FeaturesUnregisterOptionalParams'
+  - '@azure/arm-features.ListOperationsNextOptionalParams'
+  - '@azure/arm-features.ListOperationsOptionalParams'
   - '@azure/arm-features.Operation'
   - '@azure/arm-features.OperationDisplay'
   - '@azure/arm-features.OperationListResult'
@@ -49,8 +46,6 @@ interfaces:
   - >-
     @azure/arm-features.SubscriptionFeatureRegistrationsListBySubscriptionOptionalParams
 typeAliases:
-  - '@azure/arm-features.FeatureClientListOperationsNextResponse'
-  - '@azure/arm-features.FeatureClientListOperationsResponse'
   - '@azure/arm-features.FeaturesGetResponse'
   - '@azure/arm-features.FeaturesListAllNextResponse'
   - '@azure/arm-features.FeaturesListAllResponse'
@@ -58,6 +53,8 @@ typeAliases:
   - '@azure/arm-features.FeaturesListResponse'
   - '@azure/arm-features.FeaturesRegisterResponse'
   - '@azure/arm-features.FeaturesUnregisterResponse'
+  - '@azure/arm-features.ListOperationsNextResponse'
+  - '@azure/arm-features.ListOperationsResponse'
   - '@azure/arm-features.SubscriptionFeatureRegistration'
   - '@azure/arm-features.SubscriptionFeatureRegistrationApprovalType'
   - '@azure/arm-features.SubscriptionFeatureRegistrationState'

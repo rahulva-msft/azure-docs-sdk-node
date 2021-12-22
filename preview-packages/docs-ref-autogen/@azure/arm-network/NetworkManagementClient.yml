@@ -1621,8 +1621,7 @@ inheritedMethods:
 methods:
   - name: >-
       beginDeleteBastionShareableLink(string, string,
-      BastionShareableLinkListRequest,
-      NetworkManagementClientDeleteBastionShareableLinkOptionalParams)
+      BastionShareableLinkListRequest, DeleteBastionShareableLinkOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.beginDeleteBastionShareableLink'
     package: '@azure/arm-network'
     summary: >-
@@ -1635,8 +1634,7 @@ methods:
       content: >-
         function beginDeleteBastionShareableLink(resourceGroupName: string,
         bastionHostName: string, bslRequest: BastionShareableLinkListRequest,
-        options?:
-        NetworkManagementClientDeleteBastionShareableLinkOptionalParams):
+        options?: DeleteBastionShareableLinkOptionalParams):
         Promise<PollerLike<PollOperationState<void>, void>>
       parameters:
         - id: resourceGroupName
@@ -1651,8 +1649,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientDeleteBastionShareableLinkOptionalParams"
-            />
+            uid="@azure/arm-network.DeleteBastionShareableLinkOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -1660,8 +1657,7 @@ methods:
         type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
   - name: >-
       beginDeleteBastionShareableLinkAndWait(string, string,
-      BastionShareableLinkListRequest,
-      NetworkManagementClientDeleteBastionShareableLinkOptionalParams)
+      BastionShareableLinkListRequest, DeleteBastionShareableLinkOptionalParams)
     uid: >-
       @azure/arm-network.NetworkManagementClient.beginDeleteBastionShareableLinkAndWait
     package: '@azure/arm-network'
@@ -1676,8 +1672,7 @@ methods:
         function beginDeleteBastionShareableLinkAndWait(resourceGroupName:
         string, bastionHostName: string, bslRequest:
         BastionShareableLinkListRequest, options?:
-        NetworkManagementClientDeleteBastionShareableLinkOptionalParams):
-        Promise<void>
+        DeleteBastionShareableLinkOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -1691,8 +1686,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientDeleteBastionShareableLinkOptionalParams"
-            />
+            uid="@azure/arm-network.DeleteBastionShareableLinkOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -1701,7 +1695,7 @@ methods:
   - name: >-
       beginGeneratevirtualwanvpnserverconfigurationvpnprofile(string, string,
       VirtualWanVpnProfileParameters,
-      NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams)
+      GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams)
     uid: >-
       @azure/arm-network.NetworkManagementClient.beginGeneratevirtualwanvpnserverconfigurationvpnprofile
     package: '@azure/arm-network'
@@ -1719,9 +1713,9 @@ methods:
         beginGeneratevirtualwanvpnserverconfigurationvpnprofile(resourceGroupName:
         string, virtualWANName: string, vpnClientParams:
         VirtualWanVpnProfileParameters, options?:
-        NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams):
-        Promise<PollerLike<PollOperationState<NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse>,
-        NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse>>
+        GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams):
+        Promise<PollerLike<PollOperationState<GeneratevirtualwanvpnserverconfigurationvpnprofileResponse>,
+        GeneratevirtualwanvpnserverconfigurationvpnprofileResponse>>
       parameters:
         - id: resourceGroupName
           type: string
@@ -1740,7 +1734,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams"
+            uid="@azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams"
             />
           description: |
             The options parameters.
@@ -1748,14 +1742,14 @@ methods:
         description: ''
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
+          uid="@azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
           />&gt;, <xref
-          uid="@azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
+          uid="@azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
           />&gt;&gt;
   - name: >-
       beginGeneratevirtualwanvpnserverconfigurationvpnprofileAndWait(string,
       string, VirtualWanVpnProfileParameters,
-      NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams)
+      GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams)
     uid: >-
       @azure/arm-network.NetworkManagementClient.beginGeneratevirtualwanvpnserverconfigurationvpnprofileAndWait
     package: '@azure/arm-network'
@@ -1773,8 +1767,8 @@ methods:
         beginGeneratevirtualwanvpnserverconfigurationvpnprofileAndWait(resourceGroupName:
         string, virtualWANName: string, vpnClientParams:
         VirtualWanVpnProfileParameters, options?:
-        NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams):
-        Promise<NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse>
+        GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams):
+        Promise<GeneratevirtualwanvpnserverconfigurationvpnprofileResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -1793,7 +1787,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams"
+            uid="@azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileOptionalParams"
             />
           description: |
             The options parameters.
@@ -1801,11 +1795,11 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-network.NetworkManagementClientGeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
+          uid="@azure/arm-network.GeneratevirtualwanvpnserverconfigurationvpnprofileResponse"
           />&gt;
   - name: >-
       beginListActiveSessionsAndWait(string, string,
-      NetworkManagementClientGetActiveSessionsOptionalParams)
+      GetActiveSessionsOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.beginListActiveSessionsAndWait'
     package: '@azure/arm-network'
     summary: Returns the list of currently active sessions on the Bastion.
@@ -1815,8 +1809,7 @@ methods:
     syntax:
       content: >-
         function beginListActiveSessionsAndWait(resourceGroupName: string,
-        bastionHostName: string, options?:
-        NetworkManagementClientGetActiveSessionsOptionalParams):
+        bastionHostName: string, options?: GetActiveSessionsOptionalParams):
         PagedAsyncIterableIterator<BastionActiveSession>
       parameters:
         - id: resourceGroupName
@@ -1826,10 +1819,7 @@ methods:
           type: string
           description: The name of the Bastion Host.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-network.NetworkManagementClientGetActiveSessionsOptionalParams"
-            />
+          type: <xref uid="@azure/arm-network.GetActiveSessionsOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -1839,8 +1829,7 @@ methods:
           uid="@azure/arm-network.BastionActiveSession" />&gt;
   - name: >-
       beginListPutBastionShareableLinkAndWait(string, string,
-      BastionShareableLinkListRequest,
-      NetworkManagementClientPutBastionShareableLinkOptionalParams)
+      BastionShareableLinkListRequest, PutBastionShareableLinkOptionalParams)
     uid: >-
       @azure/arm-network.NetworkManagementClient.beginListPutBastionShareableLinkAndWait
     package: '@azure/arm-network'
@@ -1855,7 +1844,7 @@ methods:
         function beginListPutBastionShareableLinkAndWait(resourceGroupName:
         string, bastionHostName: string, bslRequest:
         BastionShareableLinkListRequest, options?:
-        NetworkManagementClientPutBastionShareableLinkOptionalParams):
+        PutBastionShareableLinkOptionalParams):
         PagedAsyncIterableIterator<BastionShareableLink>
       parameters:
         - id: resourceGroupName
@@ -1869,8 +1858,7 @@ methods:
           description: Post request for all the Bastion Shareable Link endpoints.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-network.NetworkManagementClientPutBastionShareableLinkOptionalParams"
+            <xref uid="@azure/arm-network.PutBastionShareableLinkOptionalParams"
             />
           description: |
             The options parameters.
@@ -1881,7 +1869,7 @@ methods:
           uid="@azure/arm-network.BastionShareableLink" />&gt;
   - name: >-
       checkDnsNameAvailability(string, string,
-      NetworkManagementClientCheckDnsNameAvailabilityOptionalParams)
+      CheckDnsNameAvailabilityOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.checkDnsNameAvailability'
     package: '@azure/arm-network'
     summary: >-
@@ -1893,9 +1881,8 @@ methods:
     syntax:
       content: >-
         function checkDnsNameAvailability(location: string, domainNameLabel:
-        string, options?:
-        NetworkManagementClientCheckDnsNameAvailabilityOptionalParams):
-        Promise<NetworkManagementClientCheckDnsNameAvailabilityResponse>
+        string, options?: CheckDnsNameAvailabilityOptionalParams):
+        Promise<CheckDnsNameAvailabilityResponse>
       parameters:
         - id: location
           type: string
@@ -1909,19 +1896,17 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientCheckDnsNameAvailabilityOptionalParams"
-            />
+            uid="@azure/arm-network.CheckDnsNameAvailabilityOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-network.NetworkManagementClientCheckDnsNameAvailabilityResponse"
-          />&gt;
+          uid="@azure/arm-network.CheckDnsNameAvailabilityResponse" />&gt;
   - name: >-
       listBastionShareableLink(string, string, BastionShareableLinkListRequest,
-      NetworkManagementClientGetBastionShareableLinkOptionalParams)
+      GetBastionShareableLinkOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.listBastionShareableLink'
     package: '@azure/arm-network'
     summary: >-
@@ -1934,7 +1919,7 @@ methods:
       content: >-
         function listBastionShareableLink(resourceGroupName: string,
         bastionHostName: string, bslRequest: BastionShareableLinkListRequest,
-        options?: NetworkManagementClientGetBastionShareableLinkOptionalParams):
+        options?: GetBastionShareableLinkOptionalParams):
         PagedAsyncIterableIterator<BastionShareableLink>
       parameters:
         - id: resourceGroupName
@@ -1948,8 +1933,7 @@ methods:
           description: Post request for all the Bastion Shareable Link endpoints.
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-network.NetworkManagementClientGetBastionShareableLinkOptionalParams"
+            <xref uid="@azure/arm-network.GetBastionShareableLinkOptionalParams"
             />
           description: |
             The options parameters.
@@ -1960,7 +1944,7 @@ methods:
           uid="@azure/arm-network.BastionShareableLink" />&gt;
   - name: >-
       listDisconnectActiveSessions(string, string, SessionIds,
-      NetworkManagementClientDisconnectActiveSessionsOptionalParams)
+      DisconnectActiveSessionsOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.listDisconnectActiveSessions'
     package: '@azure/arm-network'
     summary: Returns the list of currently active sessions on the Bastion.
@@ -1971,7 +1955,7 @@ methods:
       content: >-
         function listDisconnectActiveSessions(resourceGroupName: string,
         bastionHostName: string, sessionIds: SessionIds, options?:
-        NetworkManagementClientDisconnectActiveSessionsOptionalParams):
+        DisconnectActiveSessionsOptionalParams):
         PagedAsyncIterableIterator<BastionSessionState>
       parameters:
         - id: resourceGroupName
@@ -1986,8 +1970,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientDisconnectActiveSessionsOptionalParams"
-            />
+            uid="@azure/arm-network.DisconnectActiveSessionsOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -1997,7 +1980,7 @@ methods:
           uid="@azure/arm-network.BastionSessionState" />&gt;
   - name: >-
       supportedSecurityProviders(string, string,
-      NetworkManagementClientSupportedSecurityProvidersOptionalParams)
+      SupportedSecurityProvidersOptionalParams)
     uid: '@azure/arm-network.NetworkManagementClient.supportedSecurityProviders'
     package: '@azure/arm-network'
     summary: Gives the supported security providers for the virtual wan.
@@ -2008,8 +1991,8 @@ methods:
       content: >-
         function supportedSecurityProviders(resourceGroupName: string,
         virtualWANName: string, options?:
-        NetworkManagementClientSupportedSecurityProvidersOptionalParams):
-        Promise<NetworkManagementClientSupportedSecurityProvidersResponse>
+        SupportedSecurityProvidersOptionalParams):
+        Promise<SupportedSecurityProvidersResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -2022,14 +2005,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-network.NetworkManagementClientSupportedSecurityProvidersOptionalParams"
-            />
+            uid="@azure/arm-network.SupportedSecurityProvidersOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-network.NetworkManagementClientSupportedSecurityProvidersResponse"
-          />&gt;
-extends: <xref uid="@azure/arm-network.NetworkManagementClientContext" />
+          uid="@azure/arm-network.SupportedSecurityProvidersResponse" />&gt;
+extends: ServiceClient

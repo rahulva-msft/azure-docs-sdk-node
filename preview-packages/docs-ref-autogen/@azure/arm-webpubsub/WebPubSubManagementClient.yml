@@ -134,6 +134,19 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-webpubsub.WebPubSub" />
+  - name: webPubSubHubs
+    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.webPubSubHubs'
+    package: '@azure/arm-webpubsub'
+    summary: ''
+    fullName: webPubSubHubs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'webPubSubHubs: WebPubSubHubs'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-webpubsub.WebPubSubHubs" />
   - name: webPubSubPrivateEndpointConnections
     uid: >-
       @azure/arm-webpubsub.WebPubSubManagementClient.webPubSubPrivateEndpointConnections
@@ -223,4 +236,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-webpubsub.WebPubSubManagementClientContext" />
+extends: ServiceClient

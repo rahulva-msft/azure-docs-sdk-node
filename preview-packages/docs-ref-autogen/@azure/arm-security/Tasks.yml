@@ -1,0 +1,235 @@
+### YamlMime:TSType
+name: Tasks
+uid: '@azure/arm-security.Tasks'
+package: '@azure/arm-security'
+summary: Interface representing a Tasks.
+fullName: Tasks
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: >-
+      getResourceGroupLevelTask(string, string,
+      TasksGetResourceGroupLevelTaskOptionalParams)
+    uid: '@azure/arm-security.Tasks.getResourceGroupLevelTask'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getResourceGroupLevelTask(resourceGroupName: string, taskName:
+        string, options?: TasksGetResourceGroupLevelTaskOptionalParams):
+        Promise<TasksGetResourceGroupLevelTaskResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: taskName
+          type: string
+          description: 'Name of the task object, will be a GUID'
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-security.TasksGetResourceGroupLevelTaskOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-security.TasksGetResourceGroupLevelTaskResponse"
+          />&gt;
+  - name: >-
+      getSubscriptionLevelTask(string,
+      TasksGetSubscriptionLevelTaskOptionalParams)
+    uid: '@azure/arm-security.Tasks.getSubscriptionLevelTask'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getSubscriptionLevelTask(taskName: string, options?:
+        TasksGetSubscriptionLevelTaskOptionalParams):
+        Promise<TasksGetSubscriptionLevelTaskResponse>
+      parameters:
+        - id: taskName
+          type: string
+          description: 'Name of the task object, will be a GUID'
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-security.TasksGetSubscriptionLevelTaskOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-security.TasksGetSubscriptionLevelTaskResponse" />&gt;
+  - name: list(TasksListOptionalParams)
+    uid: '@azure/arm-security.Tasks.list'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function list(options?: TasksListOptionalParams):
+        PagedAsyncIterableIterator<SecurityTask>
+      parameters:
+        - id: options
+          type: <xref uid="@azure/arm-security.TasksListOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-security.SecurityTask" />&gt;
+  - name: listByHomeRegion(TasksListByHomeRegionOptionalParams)
+    uid: '@azure/arm-security.Tasks.listByHomeRegion'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByHomeRegion(options?:
+        TasksListByHomeRegionOptionalParams):
+        PagedAsyncIterableIterator<SecurityTask>
+      parameters:
+        - id: options
+          type: >-
+            <xref uid="@azure/arm-security.TasksListByHomeRegionOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-security.SecurityTask" />&gt;
+  - name: 'listByResourceGroup(string, TasksListByResourceGroupOptionalParams)'
+    uid: '@azure/arm-security.Tasks.listByResourceGroup'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByResourceGroup(resourceGroupName: string, options?:
+        TasksListByResourceGroupOptionalParams):
+        PagedAsyncIterableIterator<SecurityTask>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-security.TasksListByResourceGroupOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-security.SecurityTask" />&gt;
+  - name: >-
+      updateResourceGroupLevelTaskState(string, string, Enum15,
+      TasksUpdateResourceGroupLevelTaskStateOptionalParams)
+    uid: '@azure/arm-security.Tasks.updateResourceGroupLevelTaskState'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateResourceGroupLevelTaskState(resourceGroupName: string,
+        taskName: string, taskUpdateActionType: Enum15, options?:
+        TasksUpdateResourceGroupLevelTaskStateOptionalParams): Promise<void>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: taskName
+          type: string
+          description: 'Name of the task object, will be a GUID'
+        - id: taskUpdateActionType
+          type: <xref uid="@azure/arm-security.Enum15" />
+          description: Type of the action to do on the task
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-security.TasksUpdateResourceGroupLevelTaskStateOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: >-
+      updateSubscriptionLevelTaskState(string, Enum15,
+      TasksUpdateSubscriptionLevelTaskStateOptionalParams)
+    uid: '@azure/arm-security.Tasks.updateSubscriptionLevelTaskState'
+    package: '@azure/arm-security'
+    summary: >-
+      Recommended tasks that will help improve the security of the subscription
+      proactively
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateSubscriptionLevelTaskState(taskName: string,
+        taskUpdateActionType: Enum15, options?:
+        TasksUpdateSubscriptionLevelTaskStateOptionalParams): Promise<void>
+      parameters:
+        - id: taskName
+          type: string
+          description: 'Name of the task object, will be a GUID'
+        - id: taskUpdateActionType
+          type: <xref uid="@azure/arm-security.Enum15" />
+          description: Type of the action to do on the task
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-security.TasksUpdateSubscriptionLevelTaskStateOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;

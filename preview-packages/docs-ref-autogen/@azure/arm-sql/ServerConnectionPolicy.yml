@@ -2,7 +2,7 @@
 name: ServerConnectionPolicy
 uid: '@azure/arm-sql.ServerConnectionPolicy'
 package: '@azure/arm-sql'
-summary: A server secure connection policy.
+summary: A server connection policy
 fullName: ServerConnectionPolicy
 remarks: ''
 isPreview: false

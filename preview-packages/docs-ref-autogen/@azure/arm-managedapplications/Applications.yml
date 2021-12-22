@@ -375,41 +375,6 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-managedapplications.Application" />&gt;
-  - name: >-
-      listByResourceGroupNext(string, string,
-      ApplicationsListByResourceGroupNextOptionalParams)
-    uid: '@azure/arm-managedapplications.Applications.listByResourceGroupNext'
-    package: '@azure/arm-managedapplications'
-    summary: ListByResourceGroupNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroupNext(resourceGroupName: string, nextLink:
-        string, options?: ApplicationsListByResourceGroupNextOptionalParams):
-        PagedAsyncIterableIterator<Application>
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: The name of the resource group. The name is case insensitive.
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListByResourceGroup method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-managedapplications.ApplicationsListByResourceGroupNextOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-managedapplications.Application" />&gt;
   - name: listBySubscription(ApplicationsListBySubscriptionOptionalParams)
     uid: '@azure/arm-managedapplications.Applications.listBySubscription'
     package: '@azure/arm-managedapplications'
@@ -427,38 +392,6 @@ methods:
           type: >-
             <xref
             uid="@azure/arm-managedapplications.ApplicationsListBySubscriptionOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-managedapplications.Application" />&gt;
-  - name: >-
-      listBySubscriptionNext(string,
-      ApplicationsListBySubscriptionNextOptionalParams)
-    uid: '@azure/arm-managedapplications.Applications.listBySubscriptionNext'
-    package: '@azure/arm-managedapplications'
-    summary: ListBySubscriptionNext
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listBySubscriptionNext(nextLink: string, options?:
-        ApplicationsListBySubscriptionNextOptionalParams):
-        PagedAsyncIterableIterator<Application>
-      parameters:
-        - id: nextLink
-          type: string
-          description: >-
-            The nextLink from the previous successful call to the
-            ListBySubscription method.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-managedapplications.ApplicationsListBySubscriptionNextOptionalParams"
             />
           description: |
             The options parameters.

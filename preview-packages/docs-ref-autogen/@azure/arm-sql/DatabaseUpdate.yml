@@ -134,10 +134,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'currentBackupStorageRedundancy?: CurrentBackupStorageRedundancy'
+      content: 'currentBackupStorageRedundancy?: BackupStorageRedundancy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-sql.CurrentBackupStorageRedundancy" />
+        type: <xref uid="@azure/arm-sql.BackupStorageRedundancy" />
   - name: currentServiceObjectiveName
     uid: '@azure/arm-sql.DatabaseUpdate.currentServiceObjectiveName'
     package: '@azure/arm-sql'
@@ -254,6 +254,19 @@ properties:
       return:
         description: ''
         type: undefined | string
+  - name: federatedClientId
+    uid: '@azure/arm-sql.DatabaseUpdate.federatedClientId'
+    package: '@azure/arm-sql'
+    summary: The Client id used for cross tenant per database CMK scenario
+    fullName: federatedClientId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'federatedClientId?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
   - name: highAvailabilityReplicaCount
     uid: '@azure/arm-sql.DatabaseUpdate.highAvailabilityReplicaCount'
     package: '@azure/arm-sql'
@@ -269,6 +282,19 @@ properties:
       return:
         description: ''
         type: undefined | number
+  - name: identity
+    uid: '@azure/arm-sql.DatabaseUpdate.identity'
+    package: '@azure/arm-sql'
+    summary: Database identity
+    fullName: identity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'identity?: DatabaseIdentity'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-sql.DatabaseIdentity" />
   - name: isInfraEncryptionEnabled
     uid: '@azure/arm-sql.DatabaseUpdate.isInfraEncryptionEnabled'
     package: '@azure/arm-sql'
@@ -409,6 +435,21 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-sql.KnownColumnDataType.Date" />
+  - name: primaryDelegatedIdentityClientId
+    uid: '@azure/arm-sql.DatabaseUpdate.primaryDelegatedIdentityClientId'
+    package: '@azure/arm-sql'
+    summary: >-
+      The Primary Delegated Identity Client id used for per database CMK - for
+      internal use only
+    fullName: primaryDelegatedIdentityClientId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'primaryDelegatedIdentityClientId?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
   - name: readScale
     uid: '@azure/arm-sql.DatabaseUpdate.readScale'
     package: '@azure/arm-sql'
@@ -464,10 +505,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'requestedBackupStorageRedundancy?: RequestedBackupStorageRedundancy'
+      content: 'requestedBackupStorageRedundancy?: BackupStorageRedundancy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-sql.RequestedBackupStorageRedundancy" />
+        type: <xref uid="@azure/arm-sql.BackupStorageRedundancy" />
   - name: requestedServiceObjectiveName
     uid: '@azure/arm-sql.DatabaseUpdate.requestedServiceObjectiveName'
     package: '@azure/arm-sql'

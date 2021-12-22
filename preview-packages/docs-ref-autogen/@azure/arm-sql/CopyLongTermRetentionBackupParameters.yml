@@ -21,10 +21,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'targetBackupStorageRedundancy?: TargetBackupStorageRedundancy'
+      content: 'targetBackupStorageRedundancy?: BackupStorageRedundancy'
       return:
         description: ''
-        type: <xref uid="@azure/arm-sql.TargetBackupStorageRedundancy" />
+        type: <xref uid="@azure/arm-sql.BackupStorageRedundancy" />
   - name: targetDatabaseName
     uid: '@azure/arm-sql.CopyLongTermRetentionBackupParameters.targetDatabaseName'
     package: '@azure/arm-sql'

@@ -8,7 +8,6 @@ enums:
   - '@azure/arm-templatespecs.KnownTemplateSpecExpandKind'
 classes:
   - '@azure/arm-templatespecs.TemplateSpecsClient'
-  - '@azure/arm-templatespecs.TemplateSpecsClientContext'
 interfaces:
   - '@azure/arm-templatespecs.AzureResourceBase'
   - '@azure/arm-templatespecs.ErrorAdditionalInfo'

@@ -37,6 +37,20 @@ properties:
       return:
         description: ''
         type: undefined | false | true
+  - name: apiVersion
+    uid: >-
+      @azure/arm-streamanalytics.StreamAnalyticsManagementClientOptionalParams.apiVersion
+    package: '@azure/arm-streamanalytics'
+    summary: Api Version
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
   - name: baseUri
     uid: >-
       @azure/arm-streamanalytics.StreamAnalyticsManagementClientOptionalParams.baseUri

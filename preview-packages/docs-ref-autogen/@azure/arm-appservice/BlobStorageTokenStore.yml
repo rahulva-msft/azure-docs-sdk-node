@@ -1,4 +1,4 @@
-### YamlMime:TSTypeAlias
+### YamlMime:TSType
 name: BlobStorageTokenStore
 uid: '@azure/arm-appservice.BlobStorageTokenStore'
 package: '@azure/arm-appservice'
@@ -9,6 +9,20 @@ fullName: BlobStorageTokenStore
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: >-
-  type BlobStorageTokenStore = ProxyOnlyResource & { sasUrlSettingName?:
-  undefined | string }
+type: interface
+properties:
+  - name: sasUrlSettingName
+    uid: '@azure/arm-appservice.BlobStorageTokenStore.sasUrlSettingName'
+    package: '@azure/arm-appservice'
+    summary: >-
+      The name of the app setting containing the SAS URL of the blob storage
+      containing the tokens.
+    fullName: sasUrlSettingName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sasUrlSettingName?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string

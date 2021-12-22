@@ -487,7 +487,7 @@ methods:
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-sql.SyncFullSchemaProperties" />&gt;
   - name: >-
-      listLogs(string, string, string, string, string, string, Enum76,
+      listLogs(string, string, string, string, string, string, Enum60,
       SyncGroupsListLogsOptionalParams)
     uid: '@azure/arm-sql.SyncGroups.listLogs'
     package: '@azure/arm-sql'
@@ -499,7 +499,7 @@ methods:
       content: >-
         function listLogs(resourceGroupName: string, serverName: string,
         databaseName: string, syncGroupName: string, startTime: string, endTime:
-        string, typeParam: Enum76, options?: SyncGroupsListLogsOptionalParams):
+        string, typeParam: Enum60, options?: SyncGroupsListLogsOptionalParams):
         PagedAsyncIterableIterator<SyncGroupLogProperties>
       parameters:
         - id: resourceGroupName
@@ -524,7 +524,7 @@ methods:
           type: string
           description: Get logs generated before this time.
         - id: typeParam
-          type: <xref uid="@azure/arm-sql.Enum76" />
+          type: <xref uid="@azure/arm-sql.Enum60" />
           description: The types of logs to retrieve.
         - id: options
           type: <xref uid="@azure/arm-sql.SyncGroupsListLogsOptionalParams" />

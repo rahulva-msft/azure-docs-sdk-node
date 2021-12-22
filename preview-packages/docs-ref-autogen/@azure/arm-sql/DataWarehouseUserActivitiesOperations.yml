@@ -11,7 +11,7 @@ type: interface
 methods:
   - name: >-
       get(string, string, string, DataWarehouseUserActivityName,
-      DataWarehouseUserActivitiesOperationsGetOptionalParams)
+      DataWarehouseUserActivitiesGetOptionalParams)
     uid: '@azure/arm-sql.DataWarehouseUserActivitiesOperations.get'
     package: '@azure/arm-sql'
     summary: >-
@@ -25,8 +25,8 @@ methods:
         function get(resourceGroupName: string, serverName: string,
         databaseName: string, dataWarehouseUserActivityName:
         DataWarehouseUserActivityName, options?:
-        DataWarehouseUserActivitiesOperationsGetOptionalParams):
-        Promise<DataWarehouseUserActivitiesOperationsGetResponse>
+        DataWarehouseUserActivitiesGetOptionalParams):
+        Promise<DataWarehouseUserActivitiesGetResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -46,19 +46,17 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.DataWarehouseUserActivitiesOperationsGetOptionalParams"
-            />
+            uid="@azure/arm-sql.DataWarehouseUserActivitiesGetOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-sql.DataWarehouseUserActivitiesOperationsGetResponse"
-          />&gt;
+          uid="@azure/arm-sql.DataWarehouseUserActivitiesGetResponse" />&gt;
   - name: >-
       listByDatabase(string, string, string,
-      DataWarehouseUserActivitiesOperationsListByDatabaseOptionalParams)
+      DataWarehouseUserActivitiesListByDatabaseOptionalParams)
     uid: '@azure/arm-sql.DataWarehouseUserActivitiesOperations.listByDatabase'
     package: '@azure/arm-sql'
     summary: >-
@@ -71,7 +69,7 @@ methods:
       content: >-
         function listByDatabase(resourceGroupName: string, serverName: string,
         databaseName: string, options?:
-        DataWarehouseUserActivitiesOperationsListByDatabaseOptionalParams):
+        DataWarehouseUserActivitiesListByDatabaseOptionalParams):
         PagedAsyncIterableIterator<DataWarehouseUserActivities>
       parameters:
         - id: resourceGroupName
@@ -89,7 +87,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-sql.DataWarehouseUserActivitiesOperationsListByDatabaseOptionalParams"
+            uid="@azure/arm-sql.DataWarehouseUserActivitiesListByDatabaseOptionalParams"
             />
           description: |
             The options parameters.
