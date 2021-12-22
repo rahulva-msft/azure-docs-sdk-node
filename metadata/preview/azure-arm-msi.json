@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/arm-msi",
+  "Version": "2.0.1-alpha.20211221.1",
+  "DevVersion": "2.0.1-alpha.20211221.1",
+  "DirectoryPath": "sdk/msi/arm-msi",
+  "ServiceDirectory": "msi",
+  "ReadMePath": "sdk/msi/arm-msi/README.md",
+  "ChangeLogPath": "sdk/msi/arm-msi/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-arm-msi",
+  "ReleaseStatus": "Unreleased"
+}
