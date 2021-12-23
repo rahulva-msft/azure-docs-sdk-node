@@ -5,10 +5,8 @@ summary: ''
 type: package
 enums:
   - '@azure/identity.AzureAuthorityHosts'
-  - '@azure/identity.RegionalAuthority'
 classes:
   - '@azure/identity.AggregateAuthenticationError'
-  - '@azure/identity.ApplicationCredential'
   - '@azure/identity.AuthenticationError'
   - '@azure/identity.AuthenticationRequiredError'
   - '@azure/identity.AuthorizationCodeCredential'
@@ -27,8 +25,8 @@ classes:
   - '@azure/identity.UsernamePasswordCredential'
   - '@azure/identity.VisualStudioCodeCredential'
 interfaces:
-  - '@azure/identity.ApplicationCredentialOptions'
   - '@azure/identity.AuthenticationRecord'
+  - '@azure/identity.AuthenticationRequiredErrorOptions'
   - '@azure/identity.AzureCliCredentialOptions'
   - '@azure/identity.AzurePowerShellCredentialOptions'
   - '@azure/identity.ClientCertificateCredentialOptions'
@@ -39,20 +37,21 @@ interfaces:
   - '@azure/identity.DeviceCodeInfo'
   - '@azure/identity.EnvironmentCredentialOptions'
   - '@azure/identity.ErrorResponse'
-  - '@azure/identity.InteractiveBrowserCredentialBrowserOptions'
-  - '@azure/identity.InteractiveBrowserCredentialOptions'
+  - '@azure/identity.InteractiveBrowserCredentialInBrowserOptions'
+  - '@azure/identity.InteractiveBrowserCredentialNodeOptions'
   - '@azure/identity.InteractiveCredentialOptions'
-  - '@azure/identity.OnBehalfOfCredentialCertificateConfiguration'
-  - '@azure/identity.OnBehalfOfCredentialOptions'
-  - '@azure/identity.OnBehalfOfCredentialSecretConfiguration'
+  - '@azure/identity.OnBehalfOfCredentialCertificateOptions'
+  - '@azure/identity.OnBehalfOfCredentialSecretOptions'
   - '@azure/identity.TokenCachePersistenceOptions'
   - '@azure/identity.TokenCredentialOptions'
   - '@azure/identity.UsernamePasswordCredentialOptions'
   - '@azure/identity.VisualStudioCodeCredentialOptions'
 typeAliases:
   - '@azure/identity.BrowserLoginStyle'
+  - '@azure/identity.ClientCertificateCredentialPEMConfiguration'
   - '@azure/identity.DeviceCodePromptCallback'
   - '@azure/identity.IdentityPlugin'
+  - '@azure/identity.OnBehalfOfCredentialOptions'
 functions:
   - name: deserializeAuthenticationRecord(string)
     uid: '@azure/identity.deserializeAuthenticationRecord'

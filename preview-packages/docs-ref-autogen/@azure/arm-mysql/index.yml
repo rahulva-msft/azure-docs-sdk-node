@@ -24,7 +24,6 @@ enums:
   - '@azure/arm-mysql.KnownVirtualNetworkRuleState'
 classes:
   - '@azure/arm-mysql.MySQLManagementClient'
-  - '@azure/arm-mysql.MySQLManagementClientContext'
 interfaces:
   - '@azure/arm-mysql.Advisors'
   - '@azure/arm-mysql.AdvisorsGetOptionalParams'

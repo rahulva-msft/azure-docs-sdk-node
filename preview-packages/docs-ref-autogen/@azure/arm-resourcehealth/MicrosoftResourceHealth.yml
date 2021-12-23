@@ -203,4 +203,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-resourcehealth.MicrosoftResourceHealthContext" />
+extends: ServiceClient

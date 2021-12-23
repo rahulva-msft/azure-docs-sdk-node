@@ -565,4 +565,4 @@ methods:
         type: >-
           Promise&lt;<xref
           uid="@azure/arm-mysql.ResetQueryPerformanceInsightDataResponse" />&gt;
-extends: <xref uid="@azure/arm-mysql.MySQLManagementClientContext" />
+extends: ServiceClient

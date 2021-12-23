@@ -8,7 +8,6 @@ enums:
   - '@azure/arm-resourcehealth.KnownStageValues'
 classes:
   - '@azure/arm-resourcehealth.MicrosoftResourceHealth'
-  - '@azure/arm-resourcehealth.MicrosoftResourceHealthContext'
 interfaces:
   - '@azure/arm-resourcehealth.AvailabilityStatus'
   - '@azure/arm-resourcehealth.AvailabilityStatusListResult'
