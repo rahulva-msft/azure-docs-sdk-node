@@ -18,9 +18,6 @@
       "name": "@azure-rest/purview-scanning@1.0.0-beta.2"
     },
     {
-      "name": "@azure/container-registry@1.0.0-beta.6"
-    },
-    {
       "name": "@azure/core-tracing@1.0.0-preview.13"
     },
     {
@@ -42,9 +39,6 @@
       "name": "@azure/monitor-opentelemetry-exporter@1.0.0-beta.5"
     },
     {
-      "name": "@azure/storage-blob-changefeed@12.0.0-preview.2"
-    },
-    {
       "name": "@azure/synapse-access-control@1.0.0-beta.3"
     },
     {
@@ -58,12 +52,6 @@
     },
     {
       "name": "@azure/synapse-spark@1.0.0-beta.4"
-    },
-    {
-      "name": "@azure/web-pubsub@1.0.0-beta.4"
-    },
-    {
-      "name": "@azure/web-pubsub-express@1.0.0-beta.4"
     },
     {
       "name": "@azure/amqp-common@next"
@@ -81,9 +69,6 @@
       "name": "@azure/quantum-jobs@next"
     },
     {
-      "name": "@azure/video-analyzer-edge@1.0.0-beta.3"
-    },
-    {
       "name": "@azure-rest/core-client@1.0.0-beta.8"
     },
     {
@@ -96,61 +81,22 @@
       "name": "@azure/monitor-query@1.0.0-beta.5"
     },
     {
-      "name": "@azure/search-documents@11.3.0-beta.5"
-    },
-    {
       "name": "@azure/keyvault-admin@4.2.0-beta.2"
     },
     {
       "name": "@azure/keyvault-keys@4.4.0-beta.3"
     },
     {
-      "name": "@azure/arm-links@2.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-features@3.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-locks@2.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-storage@17.0.0-beta.1"
     },
     {
       "name": "@azure/template@1.0.12-beta.1241072"
     },
     {
-      "name": "@azure/arm-policy@5.0.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-managedapplications@2.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-resources@5.0.0-beta.1"
-    },
-    {
       "name": "@azure/communication-network-traversal@1.0.0-beta.3"
     },
     {
-      "name": "@azure/storage-blob@12.9.0-beta.2"
-    },
-    {
-      "name": "@azure/storage-file-datalake@12.8.0-beta.1"
-    },
-    {
-      "name": "@azure/storage-file-share@12.9.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-compute@17.0.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-network@26.0.0-beta.2"
-    },
-    {
       "name": "@azure/ai-text-analytics@5.2.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-webpubsub@1.0.0-beta.1"
     },
     {
       "name": "@azure/communication-chat@1.1.0-beta.2"
@@ -189,9 +135,6 @@
       "name": "@azure/mixed-reality-remote-rendering@1.0.0-beta.1"
     },
     {
-      "name": "@azure/mixed-reality-authentication@1.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-keyvault@2.0.0-beta.1"
     },
     {
@@ -205,9 +148,6 @@
     },
     {
       "name": "@azure/service-bus@7.4.0-beta.1"
-    },
-    {
-      "name": "@azure/ai-form-recognizer@4.0.0-beta.2"
     },
     {
       "name": "@azure/arm-extendedlocation@1.0.0-beta.1"
@@ -228,9 +168,6 @@
       "name": "@azure/arm-postgresql@6.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-containerregistry@10.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-eventgrid@13.0.0-beta.1"
     },
     {
@@ -246,34 +183,13 @@
       "name": "@azure/arm-containerservice@15.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-operations@4.0.0-beta.2"
-    },
-    {
       "name": "@azure/communication-identity@1.1.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-mediaservices@10.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-databricks@3.0.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-notificationhubs@2.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-videoanalyzer@1.0.0-beta.2"
-    },
-    {
-      "name": "@azure/arm-streamanalytics@3.0.0-beta.1"
     },
     {
       "name": "@azure/arm-servicefabric@2.0.0-beta.1"
     },
     {
       "name": "@azure-tools/communication-short-codes@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/storage-queue@12.8.0-beta.1"
     },
     {
       "name": "@azure/arm-mysql@5.0.0-beta.1"
@@ -300,34 +216,16 @@
       "name": "@azure/arm-datalake-analytics@2.0.0-beta.2"
     },
     {
-      "name": "@azure/arm-batch@7.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-managementgroups@2.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-orbital@1.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-resourcehealth@3.0.0-beta.1"
     },
     {
       "name": "@azure/arm-botservice@4.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-search@3.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-analysisservices@4.0.0-beta.1"
     },
     {
       "name": "@azure/arm-portal@1.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-sqlvirtualmachine@5.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-devtestlabs@4.0.0-beta.1"
     },
     {
       "name": "@azure/arm-loadtestservice@1.0.0-beta.1"
