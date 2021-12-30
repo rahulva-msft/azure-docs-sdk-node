@@ -66,48 +66,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-containerregistry.AgentPools" />
-  - name: connectedRegistries
-    uid: >-
-      @azure/arm-containerregistry.ContainerRegistryManagementClient.connectedRegistries
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: connectedRegistries
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'connectedRegistries: ConnectedRegistries'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.ConnectedRegistries" />
-  - name: exportPipelines
-    uid: >-
-      @azure/arm-containerregistry.ContainerRegistryManagementClient.exportPipelines
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: exportPipelines
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'exportPipelines: ExportPipelines'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.ExportPipelines" />
-  - name: importPipelines
-    uid: >-
-      @azure/arm-containerregistry.ContainerRegistryManagementClient.importPipelines
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: importPipelines
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'importPipelines: ImportPipelines'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.ImportPipelines" />
   - name: operations
     uid: '@azure/arm-containerregistry.ContainerRegistryManagementClient.operations'
     package: '@azure/arm-containerregistry'
@@ -134,20 +92,6 @@ properties:
       return:
         description: ''
         type: Pipeline
-  - name: pipelineRuns
-    uid: >-
-      @azure/arm-containerregistry.ContainerRegistryManagementClient.pipelineRuns
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: pipelineRuns
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'pipelineRuns: PipelineRuns'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.PipelineRuns" />
   - name: privateEndpointConnections
     uid: >-
       @azure/arm-containerregistry.ContainerRegistryManagementClient.privateEndpointConnections
@@ -202,19 +146,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-containerregistry.Runs" />
-  - name: scopeMaps
-    uid: '@azure/arm-containerregistry.ContainerRegistryManagementClient.scopeMaps'
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: scopeMaps
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'scopeMaps: ScopeMaps'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.ScopeMaps" />
   - name: subscriptionId
     uid: >-
       @azure/arm-containerregistry.ContainerRegistryManagementClient.subscriptionId
@@ -255,19 +186,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-containerregistry.Tasks" />
-  - name: tokens
-    uid: '@azure/arm-containerregistry.ContainerRegistryManagementClient.tokens'
-    package: '@azure/arm-containerregistry'
-    summary: ''
-    fullName: tokens
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'tokens: Tokens'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-containerregistry.Tokens" />
   - name: webhooks
     uid: '@azure/arm-containerregistry.ContainerRegistryManagementClient.webhooks'
     package: '@azure/arm-containerregistry'
@@ -325,6 +243,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: >-
-  <xref
-  uid="@azure/arm-containerregistry.ContainerRegistryManagementClientContext" />
+extends: ServiceClient
