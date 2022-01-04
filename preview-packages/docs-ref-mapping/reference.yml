@@ -3,16 +3,6 @@
   landingPageType: Root
   expanded: false
   items:
-  - name: Analysis Services
-    uid: azure.nodejs.sdk.landingpage.services.analysisservices.pre
-    href: ~/docs-ref-services/preview/analysis-services.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.AnalysisServices.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-analysisservices
-      - '@azure/arm-analysisservices*'
   - name: API Management
     uid: azure.nodejs.sdk.landingpage.services.apimanagement.pre
     landingPageType: Service
@@ -152,18 +142,6 @@
       children:
       - azure-arm-containerservice
       - '@azure/arm-containerservice*'
-  - name: Cosmos DB
-    uid: azure.nodejs.sdk.landingpage.services.cosmosdb.pre
-    href: ~/docs-ref-services/preview/cosmos-db.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.cosmosdb.Management.pre
-      href: ~/docs-ref-services/preview/arm-cosmosdb-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-documentdb
-      - azure-arm-cosmosdb
-      - '@azure/arm-cosmosdb*'
   - name: Data Bricks
     uid: azure.nodejs.sdk.landingPage.services.DataBricks.pre
     href: ~/docs-ref-services/preview/arm-databricks-readme.md
@@ -337,17 +315,6 @@
     landingPageType: Service
     children:
     - '@azure/arm-locks'
-  - name: Logic Apps
-    uid: azure.nodejs.sdk.landingpage.services.logicapps.pre
-    href: ~/docs-ref-services/preview/logic-apps.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.logicapps.Management.pre
-      href: ~/docs-ref-services/preview/arm-logic-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/arm-logic'
-      - azure-arm-logic
   - name: Managed Applications
     uid: azure.nodejs.sdk.landingpage.services.managedapplications.pre
     href: ~/docs-ref-services/preview/arm-managedapplications-readme.md
@@ -485,19 +452,6 @@
       href: ~/docs-ref-services/preview/arm-quota-readme.md
       children:
       - '@azure/arm-quota'
-  - name: Recovery Services
-    uid: azure.nodejs.sdk.landingpage.services.rescoveryservices.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.rescoveryservices.Management.pre
-      href: ~/docs-ref-services/preview/arm-recoveryservices-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-recoveryservices
-      - '@azure/arm-recoveryservices'
-      - '@azure/arm-recoveryservices-siterecovery'
-      - '@azure/arm-recoveryservicesbackup'
   - name: Redis Cache
     uid: azure.nodejs.sdk.landingpage.services.rediscache.pre
     href: ~/docs-ref-services/preview/redis-cache.md
@@ -548,20 +502,6 @@
     landingPageType: Service
     children:
     - '@azure/arm-security'
-  - name: Schema Registry
-    uid: azure.nodejs.sdk.landingpage.services.schemaregistry.pre
-    landingPageType: Service
-    items:
-    - name: Client
-      uid: azure.nodejs.sdk.landingPage.services.schemaregistry.Client.pre
-      href: ~/docs-ref-services/preview/schema-registry-readme.md
-      children:
-      - '@azure/schema-registry'
-    - name: Avro
-      uid: azure.nodejs.sdk.landingPage.services.schemaregistry.avro.pre
-      href: ~/docs-ref-services/preview/schema-registry-avro-readme.md
-      children:
-      - '@azure/schema-registry-avro'
   - name: Search
     uid: azure.nodejs.sdk.landingpage.services.search.pre
     href: ~/docs-ref-services/preview/search.md
@@ -675,6 +615,11 @@
       children:
       - azure-arm-streamanalytics
       - '@azure/arm-streamanalytics'
+  - name: Tables
+    uid: azure.nodejs.sdk.landingPage.services.Tables.pre
+    href: ~/docs-ref-services/preview/data-tables-readme.md
+    children:
+    - '@azure/data-tables'
   - name: Template Specs
     uid: azure.nodejs.sdk.landingpage.services.templatespecs.pre
     items:
@@ -683,11 +628,6 @@
       landingPageType: Service
       children:
       - '@azure/arm-templatespecs'
-  - name: Text Analytics
-    uid: azure.nodejs.sdk.landingpage.services.textanalytics.pre
-    href: ~/docs-ref-services/preview/ai-text-analytics-readme.md
-    children:
-    - '@azure/ai-text-analytics'
   - name: Virtual Machines
     uid: azure.nodejs.sdk.landingpage.services.vms.pre
     href: ~/docs-ref-services/preview/virtualmachines.md
