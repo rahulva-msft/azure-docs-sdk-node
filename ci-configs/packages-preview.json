@@ -27,12 +27,6 @@
       "name": "@azure/core-util@1.0.0-beta.1"
     },
     {
-      "name": "@azure/schema-registry@1.0.0-beta.3"
-    },
-    {
-      "name": "@azure/schema-registry-avro@1.0.0-beta.5"
-    },
-    {
       "name": "@azure/identity@2.0.0-beta.6"
     },
     {
@@ -76,9 +70,6 @@
     },
     {
       "name": "@azure/core-https"
-    },
-    {
-      "name": "@azure/quantum-jobs@next"
     },
     {
       "name": "@azure/video-analyzer-edge@1.0.0-beta.3"
@@ -145,9 +136,6 @@
     },
     {
       "name": "@azure/arm-network@26.0.0-beta.2"
-    },
-    {
-      "name": "@azure/ai-text-analytics@5.2.0-beta.2"
     },
     {
       "name": "@azure/arm-webpubsub@1.0.0-beta.1"
@@ -234,12 +222,6 @@
       "name": "@azure/arm-eventgrid@13.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-logic@8.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-recoveryservices@5.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-appplatform@2.0.0-beta.2"
     },
     {
@@ -291,9 +273,6 @@
       "name": "@azure/event-hubs@5.7.0-beta.1"
     },
     {
-      "name": "@azure/arm-cosmosdb@15.0.0-beta.1"
-    },
-    {
       "name": "@azure/arm-consumption@9.0.0-beta.1"
     },
     {
@@ -318,12 +297,6 @@
       "name": "@azure/arm-search@3.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-analysisservices@4.0.0-beta.1"
-    },
-    {
-      "name": "@azure/arm-portal@1.0.0-beta.2"
-    },
-    {
       "name": "@azure/arm-sqlvirtualmachine@5.0.0-beta.2"
     },
     {
@@ -334,6 +307,9 @@
     },
     {
       "name": "@azure/arm-azurestack@3.0.0-beta.1"
+    },
+    {
+      "name": "@azure/data-tables@13.0.1-alpha.20220103.2"
     }
   ],
   "source_repos": []
