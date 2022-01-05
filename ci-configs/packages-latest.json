@@ -136,7 +136,7 @@
       "name": "@azure/arm-batchai"
     },
     {
-      "name": "@azure/arm-billing"
+      "name": "@azure/arm-billing@4.0.0"
     },
     {
       "name": "@azure/arm-cdn@"
@@ -154,7 +154,7 @@
       "name": "@azure/arm-consumption@"
     },
     {
-      "name": "@azure/arm-containerinstance"
+      "name": "@azure/arm-containerinstance@"
     },
     {
       "name": "@azure/arm-containerregistry@10.0.0"
