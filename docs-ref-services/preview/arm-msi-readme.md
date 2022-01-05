@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: managedserviceidentity
 ---
-# Azure ManagedServiceIdentity client library for JavaScript - Version 2.0.1-alpha.20220104.1 
+# Azure ManagedServiceIdentity client library for JavaScript - Version 2.0.1-alpha.20220105.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure ManagedServiceIdentity client.
