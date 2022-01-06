@@ -31,37 +31,6 @@ constructors:
           description: |
             Options for the LogsClient.
 methods:
-  - name: 'query(string, string, TimeInterval, LogsQueryOptions)'
-    uid: '@azure/monitor-query.LogsQueryClient.query'
-    package: '@azure/monitor-query'
-    summary: Queries logs in a Log Analytics Workspace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function query(workspaceId: string, query: string, timespan:
-        TimeInterval, options?: LogsQueryOptions): Promise<LogsQueryResult>
-      parameters:
-        - id: workspaceId
-          type: string
-          description: The 'Workspace Id' for the Log Analytics Workspace
-        - id: query
-          type: string
-          description: A Kusto query.
-        - id: timespan
-          type: <xref uid="@azure/monitor-query.TimeInterval" />
-          description: >-
-            The timespan over which to query data. This is an ISO8601 time
-            period value. This timespan is applied in addition to any that are
-            specified in the query expression.
-             Some common durations can be found in the `Durations` object.
-        - id: options
-          type: <xref uid="@azure/monitor-query.LogsQueryOptions" />
-          description: Options to adjust various aspects of the request.
-      return:
-        description: The result of the query.
-        type: Promise&lt;<xref uid="@azure/monitor-query.LogsQueryResult" />&gt;
   - name: 'queryBatch(QueryBatch[], LogsQueryBatchOptions)'
     uid: '@azure/monitor-query.LogsQueryClient.queryBatch'
     package: '@azure/monitor-query'
@@ -87,3 +56,34 @@ methods:
         type: >-
           Promise&lt;<xref uid="@azure/monitor-query.LogsQueryBatchResult"
           />&gt;
+  - name: 'queryWorkspace(string, string, QueryTimeInterval, LogsQueryOptions)'
+    uid: '@azure/monitor-query.LogsQueryClient.queryWorkspace'
+    package: '@azure/monitor-query'
+    summary: Queries logs in a Log Analytics Workspace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function queryWorkspace(workspaceId: string, query: string, timespan:
+        QueryTimeInterval, options?: LogsQueryOptions): Promise<LogsQueryResult>
+      parameters:
+        - id: workspaceId
+          type: string
+          description: The 'Workspace Id' for the Log Analytics Workspace
+        - id: query
+          type: string
+          description: A Kusto query.
+        - id: timespan
+          type: <xref uid="@azure/monitor-query.QueryTimeInterval" />
+          description: >-
+            The timespan over which to query data. This is an ISO8601 time
+            period value. This timespan is applied in addition to any that are
+            specified in the query expression.
+             Some common durations can be found in the `Durations` object.
+        - id: options
+          type: <xref uid="@azure/monitor-query.LogsQueryOptions" />
+          description: Options to adjust various aspects of the request.
+      return:
+        description: The result of the query.
+        type: Promise&lt;<xref uid="@azure/monitor-query.LogsQueryResult" />&gt;

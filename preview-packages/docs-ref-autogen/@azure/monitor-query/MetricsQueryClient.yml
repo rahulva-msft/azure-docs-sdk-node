@@ -147,7 +147,7 @@ methods:
       content: >-
         function listMetricNamespaces(resourceUri: string, options?:
         ListMetricNamespacesOptions):
-        PagedAsyncIterableIterator<MetricNamespace_2>
+        PagedAsyncIterableIterator<MetricNamespace>
       parameters:
         - id: resourceUri
           type: string
@@ -159,9 +159,9 @@ methods:
         description: Metric namespaces for a given resource URI.
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/monitor-query.MetricNamespace_2" />&gt;
-  - name: 'query(string, string[], MetricsQueryOptions)'
-    uid: '@azure/monitor-query.MetricsQueryClient.query'
+          uid="@azure/monitor-query.MetricNamespace" />&gt;
+  - name: 'queryResource(string, string[], MetricsQueryOptions)'
+    uid: '@azure/monitor-query.MetricsQueryClient.queryResource'
     package: '@azure/monitor-query'
     summary: 'Query metrics, given a resource URI'
     remarks: ''
@@ -169,8 +169,8 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function query(resourceUri: string, metricNames: string[], options?:
-        MetricsQueryOptions): Promise<MetricsQueryResult>
+        function queryResource(resourceUri: string, metricNames: string[],
+        options?: MetricsQueryOptions): Promise<MetricsQueryResult>
       parameters:
         - id: resourceUri
           type: string
