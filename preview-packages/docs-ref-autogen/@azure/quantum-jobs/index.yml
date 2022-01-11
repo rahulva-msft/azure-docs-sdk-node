@@ -15,7 +15,7 @@ classes:
   - '@azure/quantum-jobs.QuantumJobClient'
   - '@azure/quantum-jobs.QuantumJobClientContext'
   - '@azure/quantum-jobs.Quotas'
-  - '@azure/quantum-jobs.Storage'
+  - '@azure/quantum-jobs.Storage_2'
 interfaces:
   - '@azure/quantum-jobs.BlobDetails'
   - '@azure/quantum-jobs.ErrorData'
