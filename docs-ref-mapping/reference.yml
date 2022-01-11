@@ -5,7 +5,7 @@
   items:
   - name: Active Directory
     uid: azure.nodejs.sdk.landingpage.services.activedirectory
-    href: ~/docs-ref-services/latest/activedirectory.md
+    href: ~/docs-ref-services/latest/active-directory.md
     items:
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.ActiveDirectory.Client
@@ -83,7 +83,7 @@
       - '@azure/arm-appconfiguration'
   - name: App Service
     uid: azure.nodejs.sdk.landingpage.services.appservice
-    href: ~/docs-ref-services/latest/appservice.md
+    href: ~/docs-ref-services/latest/app-service.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.appservice.Management
@@ -156,7 +156,7 @@
       - '@azure/arm-batch*'
   - name: Batch AI
     uid: azure.nodejs.sdk.landingpage.services.batchai
-    href: ~/docs-ref-services/latest/batchai.md
+    href: ~/docs-ref-services/latest/batch-ai.md
     landingPageType: Service
     items:
     - name: Client
@@ -167,7 +167,7 @@
       - '@azure/arm-batchai*'
   - name: Billing
     uid: azure.nodejs.sdk.landingpage.services.billing
-    href: ~/docs-ref-services/latest/billing.md
+    href: ~/docs-ref-services/latest/cost-management-+-billing.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.Billing.Management
@@ -185,7 +185,7 @@
       - '@azure/arm-botservice'
   - name: CDN
     uid: azure.nodejs.sdk.landingpage.services.cdn
-    href: ~/docs-ref-services/latest/cdn.md
+    href: ~/docs-ref-services/latest/content-delivery-network.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.CDN.Management
@@ -238,6 +238,7 @@
     - name: Bing Web Search
       uid: azure.nodejs.sdk.landingPage.services.Cognitive.Services.Bing.Web.Search
       landingPageType: Service
+      href: ~/docs-ref-services/latest/cognitive-services/bing-web-search-api-readme.md
       children:
       - azure-cognitiveservices-websearch
       - '@azure/cognitiveservices-websearch'
@@ -513,7 +514,7 @@
       - '@azure/arm-datafactory'
   - name: Data Lake Analytics
     uid: azure.nodejs.sdk.landingpage.services.datalakeanalytics
-    href: ~/docs-ref-services/latest/data-lake-analytics.md
+    href: ~/docs-ref-services/latest/datalake-analytics.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.datalakeanalytics.Management
@@ -529,7 +530,6 @@
       uid: azure.nodejs.sdk.landingpage.services.DeploymentManager.management
       children:
       - '@azure/arm-deploymentmanager'
-      landingPageType: Service
   - name: Dev Spaces
     uid: azure.nodejs.sdk.landingPage.services.DevSpaces
     landingPageType: Service
@@ -585,7 +585,7 @@
       - durable-functions
   - name: Event Hubs
     uid: azure.nodejs.sdk.landingpage.services.eventhub
-    href: ~/docs-ref-services/latest/event-hub.md
+    href: ~/docs-ref-services/latest/event-hubs.md
     items:
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.eventhub.Client
@@ -607,7 +607,7 @@
       - '@azure/arm-eventhub'
   - name: Event Grid
     uid: azure.nodejs.sdk.landingpage.services.eventgrid
-    href: ~/docs-ref-services/latest/eventgrid.md
+    href: ~/docs-ref-services/latest/event-grid.md
     items:
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.eventgrid.Client
@@ -735,7 +735,7 @@
       - azure-iot-provisioning-device-http
   - name: Key Vault
     uid: azure.nodejs.sdk.landingpage.services.keyvault
-    href: ~/docs-ref-services/latest/key-vault-index.md
+    href: ~/docs-ref-services/latest/key-vault.md
     items:
     - name: Keys
       uid: azure.nodejs.sdk.landingPage.services.keyvault.Keys
@@ -942,7 +942,7 @@
     - '@azure/arm-msi'
   - name: MySQL
     uid: azure.nodejs.sdk.landingpage.services.mysql
-    href: ~/docs-ref-services/latest/mysql.md
+    href: ~/docs-ref-services/latest/database-for-mysql.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.mysql.Management
@@ -973,7 +973,7 @@
       - '@azure/arm-notificationhubs'
   - name: Operational Insights
     uid: azure.nodejs.sdk.landingpage.services.operationalinsights
-    href: ~/docs-ref-services/latest/operational-insights.md
+    href: ~/docs-ref-services/latest/monitor.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.operationalinsights.Management
@@ -1007,7 +1007,7 @@
       - '@azure/arm-policyinsights'
   - name: PostgreSQL
     uid: azure.nodejs.sdk.landingpage.services.postgresql
-    href: ~/docs-ref-services/latest/postgresql.md
+    href: ~/docs-ref-services/latest/database-for-postgresql.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.postgresql.Management
@@ -1018,7 +1018,7 @@
       - '@azure/arm-postgresql'
   - name: PowerBI Embedded
     uid: azure.nodejs.sdk.landingpage.services.powerbiembedded
-    href: ~/docs-ref-services/latest/powerbi-embedded.md
+    href: ~/docs-ref-services/latest/power-bi.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.powerbiembedded.Management
@@ -1104,6 +1104,7 @@
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.resourcehealth.Management
+      href: ~/docs-ref-services/latest/arm-resourcehealth-readme.md
       landingPageType: Service
       children:
       - azure-arm-resourcehealth
@@ -1222,7 +1223,7 @@
     - '@azure/arm-sqlvirtualmachine'
   - name: Storage
     uid: azure.nodejs.sdk.landingpage.services.storage
-    href: ~/docs-ref-services/latest/storage-overview.md
+    href: ~/docs-ref-services/latest/storage.md
     items:
     - name: Storage Blob
       uid: azure.nodejs.sdk.landingPage.services.storageblob.detail
@@ -1334,7 +1335,7 @@
       - '@azure/arm-trafficmanager'
   - name: Virtual Machines
     uid: azure.nodejs.sdk.landingpage.services.vms
-    href: ~/docs-ref-services/latest/virtualmachines.md
+    href: ~/docs-ref-services/latest/compute.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.vms.Management
@@ -1443,22 +1444,18 @@
       uid: azure.nodejs.sdk.landingPage.services.other.msrestazureenv
       children:
       - '@azure/ms-rest-azure-env'
-      landingPageType: Service
     - name: MS Rest Browser Auth
       uid: azure.nodejs.sdk.landingPage.services.other.msrestbrowserauth
       children:
       - '@azure/ms-rest-browserauth'
-      landingPageType: Service
     - name: MS Rest JS
       uid: azure.nodejs.sdk.landingPage.services.other.msrestjs
       children:
       - '@azure/ms-rest-js'
-      landingPageType: Service
     - name: MS Rest Node Auth
       uid: azure.nodejs.sdk.landingPage.services.other.msrestnodeauth
       children:
       - '@azure/ms-rest-nodeauth'
-      landingPageType: Service
     - name: Uncategorized Packages
       uid: azure.nodejs.sdk.landingPage.services.other.uncatpackages
       landingPageType: service

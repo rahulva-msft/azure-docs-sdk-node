@@ -26,7 +26,7 @@
       - '@azure/arm-apimanagement*'
   - name: App Service
     uid: azure.nodejs.sdk.landingpage.services.appservice.pre
-    href: ~/docs-ref-services/preview/appservice.md
+    href: ~/docs-ref-services/preview/app-service.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.appservice.Management.pre
@@ -89,7 +89,7 @@
       - '@azure/arm-botservice'
   - name: CDN
     uid: azure.nodejs.sdk.landingpage.services.cdn.pre
-    href: ~/docs-ref-services/preview/cdn.md
+    href: ~/docs-ref-services/preview/content-delivery-network.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.CDN.Management.pre
@@ -183,7 +183,7 @@
       - '@azure/arm-datafactory'
   - name: Data Lake Analytics
     uid: azure.nodejs.sdk.landingpage.services.datalakeanalytics.pre
-    href: ~/docs-ref-services/preview/data-lake-analytics.md
+    href: ~/docs-ref-services/preview/datalake-analytics.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.datalakeanalytics.Management.pre
@@ -224,7 +224,7 @@
       - '@azure/digital-twins-core'
   - name: Event Hubs
     uid: azure.nodejs.sdk.landingpage.services.eventhub.pre
-    href: ~/docs-ref-services/preview/event-hub.md
+    href: ~/docs-ref-services/preview/event-hubs.md
     items:
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.eventhub.Client.pre
@@ -241,7 +241,7 @@
       - '@azure/arm-eventhub'
   - name: Event Grid
     uid: azure.nodejs.sdk.landingpage.services.eventgrid.pre
-    href: ~/docs-ref-services/preview/eventgrid.md
+    href: ~/docs-ref-services/preview/event-grid.md
     items:
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.eventgrid.Client.pre
@@ -285,7 +285,7 @@
       landingPageType: Service
   - name: Key Vault
     uid: azure.nodejs.sdk.landingpage.services.keyvault.pre
-    href: ~/docs-ref-services/preview/key-vault-index.md
+    href: ~/docs-ref-services/preview/key-vault.md
     items:
     - name: Keys
       uid: azure.nodejs.sdk.landingPage.services.keyvault.Keys.pre
@@ -386,7 +386,7 @@
       - '@azure/monitor-query'
   - name: MySQL
     uid: azure.nodejs.sdk.landingpage.services.mysql.pre
-    href: ~/docs-ref-services/preview/mysql.md
+    href: ~/docs-ref-services/preview/database-for-mysql.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.mysql.Management.pre
@@ -417,7 +417,7 @@
       - '@azure/arm-notificationhubs'
   - name: Operational Insights
     uid: azure.nodejs.sdk.landingpage.services.operationalinsights.pre
-    href: ~/docs-ref-services/preview/operational-insights.md
+    href: ~/docs-ref-services/preview/monitor.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.operationalinsights.Management.pre
@@ -438,7 +438,7 @@
       - '@azure/arm-policy'
   - name: PostgreSQL
     uid: azure.nodejs.sdk.landingpage.services.postgresql.pre
-    href: ~/docs-ref-services/preview/postgresql.md
+    href: ~/docs-ref-services/preview/database-for-postgresql.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.postgresql.Management.pre
@@ -468,9 +468,9 @@
       - '@azure-rest/purview-catalog'
     - name: Client
       uid: azure.nodejs.sdk.landingPage.services.purviewadministration.Client.pre
+      href: ~/docs-ref-services/preview/purview-administration-rest-readme.md
       children:
       - '@azure-rest/purview-administration'
-      landingPageType: Service
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.purview.Management.pre
       href: ~/docs-ref-services/preview/arm-purview-readme.md
@@ -528,6 +528,7 @@
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.resourcehealth.Management.pre
+      href: ~/docs-ref-services/preview/arm-resourcehealth-readme.md
       landingPageType: Service
       children:
       - azure-arm-resourcehealth
@@ -625,7 +626,7 @@
     - '@azure/arm-sqlvirtualmachine'
   - name: Storage
     uid: azure.nodejs.sdk.landingpage.services.storage.pre
-    href: ~/docs-ref-services/preview/storage-overview.md
+    href: ~/docs-ref-services/preview/storage.md
     items:
     - name: Storage Blob
       uid: azure.nodejs.sdk.landingPage.services.storageblob.detail.pre
@@ -690,7 +691,7 @@
     - '@azure/ai-text-analytics'
   - name: Virtual Machines
     uid: azure.nodejs.sdk.landingpage.services.vms.pre
-    href: ~/docs-ref-services/preview/virtualmachines.md
+    href: ~/docs-ref-services/preview/compute.md
     items:
     - name: Management
       uid: azure.nodejs.sdk.landingPage.services.vms.Management.pre
